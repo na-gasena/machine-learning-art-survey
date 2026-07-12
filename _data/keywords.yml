@@ -38,3 +38,39 @@
   label: "Provenance"
   label_ja: "来歴"
   notes: "Technical and institutional ways to record origin and editing history of media."
+- id: evolutionary-art
+  label: "Evolutionary art"
+  label_ja: "進化芸術"
+  notes: "Generative systems using mutation, selection, genetic algorithms, or artificial-life principles."
+- id: queer-ai
+  label: "Queer AI"
+  label_ja: "クィアAI"
+  notes: "Practices that challenge normative datasets, identity categories, and representational assumptions in AI systems."
+- id: small-data
+  label: "Small data"
+  label_ja: "小さなデータ"
+  notes: "Community, family, or artist-controlled datasets used against the assumption that bigger datasets are always better."
+- id: creative-tools
+  label: "Creative AI tools"
+  label_ja: "創作AIツール"
+  notes: "Software platforms and libraries that let artists use or train ML systems in creative workflows."
+- id: generative-video
+  label: "Generative video"
+  label_ja: "生成動画"
+  notes: "Video generation and transformation systems used in film, performance, installation, and commercial production."
+- id: global-south
+  label: "Global South"
+  label_ja: "グローバルサウス"
+  notes: "Used cautiously for practices that explicitly address uneven data representation, colonial archives, local datasets, and cultural power."
+- id: speculative-biology
+  label: "Speculative biology"
+  label_ja: "思弁的生物学"
+  notes: "Generative imagery that invents organisms, ecologies, natural histories, or classification systems."
+- id: public-ai-art
+  label: "Public AI art"
+  label_ja: "公共空間のAIアート"
+  notes: "AI-mediated artworks installed in public urban, architectural, or media-facade contexts."
+- id: restitution
+  label: "Restitution"
+  label_ja: "返還・修復的正義"
+  notes: "Museum and cultural-heritage debates around looted objects, colonial archives, ownership, and reparative practice."

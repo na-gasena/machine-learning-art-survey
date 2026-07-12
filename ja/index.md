@@ -16,20 +16,22 @@ permalink: /ja/
 
 ## 分野地図
 
-全体像は [分野地図](survey-map.md) にまとめています。主要な分類は、歴史・記号的AI、ニューラル画像生成、音楽とパフォーマンス、人間・機械協働、データセットと機械知覚、批評・権利・来歴です。
+全体像は [分野地図]({{ '/ja/survey-map/' | relative_url }}) にまとめています。主要な分類は、歴史・記号的AI、ニューラル画像生成、音楽とパフォーマンス、人間・機械協働、データセットと機械知覚、批評・権利・来歴です。
 
 ## 主要トピック
 
-- [歴史、記号的AI、コンピュータアート](topics/history-symbolic-computer-art.md)
-- [ニューラル画像生成](topics/neural-image-generation.md)
-- [音楽、パフォーマンス、インタラクティブ機械学習](topics/music-performance-interactive-ml.md)
-- [人間・機械協働と身体的実践](topics/human-machine-collaboration.md)
-- [データセット、美術史、機械知覚](topics/datasets-art-history-machine-vision.md)
-- [批評、権利、来歴、制度](topics/critique-rights-provenance.md)
+- [歴史、記号的AI、コンピュータアート]({{ '/ja/topics/history-symbolic-computer-art/' | relative_url }})
+- [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }})
+- [音楽、パフォーマンス、インタラクティブ機械学習]({{ '/ja/topics/music-performance-interactive-ml/' | relative_url }})
+- [人間・機械協働と身体的実践]({{ '/ja/topics/human-machine-collaboration/' | relative_url }})
+- [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }})
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }})
+- [制作ツール、教育、プラットフォーム]({{ '/ja/topics/creative-tools-platforms/' | relative_url }})
+- [非英語圏・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
 
 ## 主要項目
 
-代表的な item には、AARON、DeepDream、ニューラルスタイル変換、GAN、CAN、Stable Diffusion、DALL-E、Wekinator、Magenta、NSynth、Learning to See、Mosaic Virus、Drawing Operations、Holly+、ImageNet Roulette、Glaze、C2PAなどがあります。全項目は [_data/items.yml](../_data/items.yml) に記録しています。
+代表的な item には、AARON、Galápagos、DeepDream、ニューラルスタイル変換、GAN、CAN、Stable Diffusion、DALL-E、Wekinator、Magenta、NSynth、Learning to See、Mosaic Virus、Drawing Operations、Holly+、Not the Only One、LAUREN、ImageNet Roulette、Glaze、C2PA、Sofia CrespoのNeural Zoo / Artificial Natural History、Minne AtairuのBenin Bronzes関連実践、Linda Dounia Rebeiz、Niceaunties、The Eye of Mexicoなどがあります。全項目は [GitHub上の `_data/items.yml`](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/items.yml) に記録しています。
 
 ## 年表
 
@@ -45,16 +47,16 @@ permalink: /ja/
 
 ## 人物・組織
 
-人物は [_data/people.yml](../_data/people.yml)、組織は [_data/organizations.yml](../_data/organizations.yml) に整理しています。現時点では欧米圏の英語資料に偏りが残るため、今後は日本語圏、韓国、中国、ラテンアメリカ、アフリカ、中東、南アジアの事例追加が必要です。
+人物は [people.yml](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/people.yml)、組織は [organizations.yml](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/organizations.yml) に整理しています。今回の増補で日本・中国・韓国・トルコ・アルゼンチン・セネガル・ナイジェリア・シンガポール・メキシコ・アフリカ系ディアスポラ・クィアAI実践を追加しました。中東、南アジア、東南アジアの制度的アーカイブ、ラテンアメリカのスペイン語圏資料、アフリカ大陸内のローカル展示記録は継続調査対象です。
 
 ## データセット・ツール・資料
 
-詳しくは [データセット・ツール・資料](resources/datasets-and-resources.md) を参照してください。主要データセットには ImageNet、WikiArt、LAION-5B、NSynth、ArtEmis があります。
+詳しくは [データセット・ツール・資料]({{ '/ja/resources/datasets-and-resources/' | relative_url }}) と [作品アーカイブとメディアリンク]({{ '/ja/resources/works-archive/' | relative_url }}) を参照してください。主要データセットには ImageNet、WikiArt、LAION-5B、NSynth、ArtEmis、ArtBench、BAM があります。
 
 ## 未解決問題
 
-未解決問題は [未解決問題](open-questions.md) にまとめています。中心的な論点は、同意、補償、作家のスタイル保護、来歴表示、評価、環境負荷、文化的偏り、展示制度です。
+未解決問題は [未解決問題]({{ '/ja/open-questions/' | relative_url }}) にまとめています。中心的な論点は、同意、補償、作家のスタイル保護、来歴表示、評価、環境負荷、文化的偏り、展示制度です。
 
 ## 詳細ページへのリンク
 
-調査の分類と境界領域を読むには、まず [分野地図](survey-map.md) から始めてください。
+調査の分類と境界領域を読むには、まず [分野地図]({{ '/ja/survey-map/' | relative_url }}) から始めてください。

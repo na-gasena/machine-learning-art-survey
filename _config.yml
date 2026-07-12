@@ -3,8 +3,8 @@ description: "A structured survey on machine-learning-related art, performance, 
 theme: minima
 markdown: kramdown
 lang: ja
-url: ""
-baseurl: ""
+url: "https://na-gasena.github.io"
+baseurl: "/machine-learning-art-survey"
 header_pages:
   - ja/index.md
   - en/index.md

@@ -16,20 +16,22 @@ The survey includes papers, books, artworks, exhibitions, datasets, software, pr
 
 ## Field Map
 
-The overall map is in [Survey Map](survey-map.md). The major categories are history and symbolic AI, neural image generation, music and performance, human-machine collaboration, datasets and machine vision, and critique, rights, and provenance.
+The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The major categories are history and symbolic AI, neural image generation, music and performance, human-machine collaboration, datasets and machine vision, and critique, rights, and provenance.
 
 ## Key Topics
 
-- [History, Symbolic AI, and Computer Art](topics/history-symbolic-computer-art.md)
-- [Neural Image Generation](topics/neural-image-generation.md)
-- [Music, Performance, and Interactive ML](topics/music-performance-interactive-ml.md)
-- [Human-Machine Collaboration](topics/human-machine-collaboration.md)
-- [Datasets, Art History, and Machine Vision](topics/datasets-art-history-machine-vision.md)
-- [Critique, Rights, and Provenance](topics/critique-rights-provenance.md)
+- [History, Symbolic AI, and Computer Art]({{ '/en/topics/history-symbolic-computer-art/' | relative_url }})
+- [Neural Image Generation]({{ '/en/topics/neural-image-generation/' | relative_url }})
+- [Music, Performance, and Interactive ML]({{ '/en/topics/music-performance-interactive-ml/' | relative_url }})
+- [Human-Machine Collaboration]({{ '/en/topics/human-machine-collaboration/' | relative_url }})
+- [Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }})
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }})
+- [Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }})
+- [Global and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})
 
 ## Key Items
 
-Key items include AARON, DeepDream, neural style transfer, GANs, CAN, Stable Diffusion, DALL-E, Wekinator, Magenta, NSynth, Learning to See, Mosaic Virus, Drawing Operations, Holly+, ImageNet Roulette, Glaze, and C2PA. The full item list is recorded in [_data/items.yml](../_data/items.yml).
+Key items include AARON, Galápagos, DeepDream, neural style transfer, GANs, CAN, Stable Diffusion, DALL-E, Wekinator, Magenta, NSynth, Learning to See, Mosaic Virus, Drawing Operations, Holly+, Not the Only One, LAUREN, ImageNet Roulette, Glaze, C2PA, Sofia Crespo's Neural Zoo / Artificial Natural History, Minne Atairu's Benin Bronzes practice, Linda Dounia Rebeiz, Niceaunties, and The Eye of Mexico. The full item list is recorded in [`_data/items.yml` on GitHub](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/items.yml).
 
 ## Timeline
 
@@ -45,16 +47,16 @@ Key items include AARON, DeepDream, neural style transfer, GANs, CAN, Stable Dif
 
 ## People and Organizations
 
-People are listed in [_data/people.yml](../_data/people.yml), and organizations in [_data/organizations.yml](../_data/organizations.yml). The current survey remains biased toward English-language and Euro-American sources; Japanese, Korean, Chinese, Latin American, African, Middle Eastern, and South Asian examples should be expanded.
+People are listed in [people.yml](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/people.yml), and organizations in [organizations.yml](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/organizations.yml). This revision adds Japanese, Chinese, Korean, Turkish, Argentine, Senegalese, Nigerian, Singaporean, Mexican, African-diasporic, and queer AI practices. Middle Eastern, South Asian, Southeast Asian institutional archives, Spanish-language Latin American sources, and local African exhibition records remain follow-up areas.
 
 ## Datasets, Tools, and Resources
 
-See [Datasets, Tools, and Resources](resources/datasets-and-resources.md). Key datasets include ImageNet, WikiArt, LAION-5B, NSynth, and ArtEmis.
+See [Datasets, Tools, and Resources]({{ '/en/resources/datasets-and-resources/' | relative_url }}) and [Works Archive and Media Links]({{ '/en/resources/works-archive/' | relative_url }}). Key datasets include ImageNet, WikiArt, LAION-5B, NSynth, ArtEmis, ArtBench, and BAM.
 
 ## Open Questions
 
-Open questions are summarized in [Open Questions](open-questions.md). Central issues include consent, compensation, artist style protection, provenance, evaluation, environmental cost, cultural bias, and exhibition institutions.
+Open questions are summarized in [Open Questions]({{ '/en/open-questions/' | relative_url }}). Central issues include consent, compensation, artist style protection, provenance, evaluation, environmental cost, cultural bias, and exhibition institutions.
 
 ## Links to Detailed Pages
 
-Begin with the [Survey Map](survey-map.md) to understand categories and boundary areas.
+Begin with the [Survey Map]({{ '/en/survey-map/' | relative_url }}) to understand categories and boundary areas.

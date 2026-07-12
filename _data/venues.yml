@@ -33,3 +33,28 @@
   venue_type: "exhibition"
   url: "https://www.barbican.org.uk/whats-on/2019/event/ai-more-than-human"
   relevance: "Public exhibition connecting AI history, art, and culture."
+- id: dataland
+  name: "DATALAND"
+  venue_type: "museum"
+  url: "https://dataland.art/"
+  relevance: "AI arts museum/digital ecosystem in Los Angeles; inaugural exhibition Machine Dreams: Rainforest in 2026."
+- id: serpentine-echoes-earth
+  name: "Refik Anadol: Echoes of the Earth: Living Archive"
+  venue_type: "exhibition"
+  url: "https://www.serpentinegalleries.org/whats-on/refik-anadol-echoes-of-the-earth-living-archive/"
+  relevance: "Institutional exhibition of Large Nature Model-related works."
+- id: ntt-icc
+  name: "NTT InterCommunication Center"
+  venue_type: "media art institution"
+  url: "https://www.ntticc.or.jp/"
+  relevance: "Japanese media art institution and host of Karl Sims' Galápagos."
+- id: ycam
+  name: "Yamaguchi Center for Arts and Media"
+  venue_type: "media art institution"
+  url: "https://www.ycam.jp/"
+  relevance: "Japanese art-and-media institution for future expansion of regional AI/media art research."
+- id: zkm
+  name: "ZKM | Center for Art and Media Karlsruhe"
+  venue_type: "museum / research institution"
+  url: "https://zkm.de/"
+  relevance: "Major media art institution relevant to AI, digital art, and archive-based practice."

@@ -14,10 +14,11 @@ permalink: /
 
 このサーベイでは、事実と解釈を分け、確認が弱い情報は断定しない方針を採っています。個別項目の根拠URLは `_data/items.yml` と `_data/sources.yml` に記録しています。
 
-- [日本語版トップへ](ja/)
-- [分野地図](ja/survey-map.md)
-- [データセット・ツール・資料](ja/resources/datasets-and-resources.md)
-- [未解決問題](ja/open-questions.md)
+- [日本語版トップへ]({{ '/ja/' | relative_url }})
+- [分野地図]({{ '/ja/survey-map/' | relative_url }})
+- [データセット・ツール・資料]({{ '/ja/resources/datasets-and-resources/' | relative_url }})
+- [作品アーカイブとメディアリンク]({{ '/ja/resources/works-archive/' | relative_url }})
+- [未解決問題]({{ '/ja/open-questions/' | relative_url }})
 
 ## English Overview
 
@@ -27,22 +28,27 @@ The research shows that the field is broader than "AI-generated pictures." It co
 
 The survey separates facts from interpretation and avoids treating weakly verified information as settled. Source URLs are preserved in `_data/items.yml` and `_data/sources.yml`.
 
-- [English home](en/)
-- [Survey map](en/survey-map.md)
-- [Datasets, tools, and resources](en/resources/datasets-and-resources.md)
-- [Open questions](en/open-questions.md)
+- [English home]({{ '/en/' | relative_url }})
+- [Survey map]({{ '/en/survey-map/' | relative_url }})
+- [Datasets, tools, and resources]({{ '/en/resources/datasets-and-resources/' | relative_url }})
+- [Works archive and media links]({{ '/en/resources/works-archive/' | relative_url }})
+- [Open questions]({{ '/en/open-questions/' | relative_url }})
 
 ## Topic Entrances
 
-- [日本語: 歴史、記号的AI、コンピュータアート](ja/topics/history-symbolic-computer-art.md)
-- [English: History, Symbolic AI, and Computer Art](en/topics/history-symbolic-computer-art.md)
-- [日本語: ニューラル画像生成](ja/topics/neural-image-generation.md)
-- [English: Neural Image Generation](en/topics/neural-image-generation.md)
-- [日本語: 音楽、パフォーマンス、インタラクティブ機械学習](ja/topics/music-performance-interactive-ml.md)
-- [English: Music, Performance, and Interactive ML](en/topics/music-performance-interactive-ml.md)
-- [日本語: 人間・機械協働と身体的実践](ja/topics/human-machine-collaboration.md)
-- [English: Human-Machine Collaboration](en/topics/human-machine-collaboration.md)
-- [日本語: データセット、美術史、機械知覚](ja/topics/datasets-art-history-machine-vision.md)
-- [English: Datasets, Art History, and Machine Vision](en/topics/datasets-art-history-machine-vision.md)
-- [日本語: 批評、権利、来歴、制度](ja/topics/critique-rights-provenance.md)
-- [English: Critique, Rights, Provenance](en/topics/critique-rights-provenance.md)
+- [日本語: 歴史、記号的AI、コンピュータアート]({{ '/ja/topics/history-symbolic-computer-art/' | relative_url }})
+- [English: History, Symbolic AI, and Computer Art]({{ '/en/topics/history-symbolic-computer-art/' | relative_url }})
+- [日本語: ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }})
+- [English: Neural Image Generation]({{ '/en/topics/neural-image-generation/' | relative_url }})
+- [日本語: 音楽、パフォーマンス、インタラクティブ機械学習]({{ '/ja/topics/music-performance-interactive-ml/' | relative_url }})
+- [English: Music, Performance, and Interactive ML]({{ '/en/topics/music-performance-interactive-ml/' | relative_url }})
+- [日本語: 人間・機械協働と身体的実践]({{ '/ja/topics/human-machine-collaboration/' | relative_url }})
+- [English: Human-Machine Collaboration]({{ '/en/topics/human-machine-collaboration/' | relative_url }})
+- [日本語: データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }})
+- [English: Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }})
+- [日本語: 批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }})
+- [English: Critique, Rights, Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }})
+- [日本語: 制作ツール、教育、プラットフォーム]({{ '/ja/topics/creative-tools-platforms/' | relative_url }})
+- [English: Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }})
+- [日本語: 非英語圏・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
+- [English: Global and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})

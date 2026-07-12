@@ -68,3 +68,73 @@
   organization_type: "government office"
   url: "https://www.copyright.gov/"
   notes: "Publishes U.S. policy reports on AI and copyright."
+- id: dataland
+  name: "DATALAND"
+  organization_type: "museum / digital ecosystem"
+  url: "https://dataland.art/"
+  notes: "Los Angeles museum of AI arts opened in 2026 with Machine Dreams: Rainforest."
+- id: ntt-icc
+  name: "NTT InterCommunication Center"
+  organization_type: "media art institution"
+  url: "https://www.ntticc.or.jp/"
+  notes: "Tokyo media art institution; hosted Karl Sims' Galápagos."
+- id: sfmoma
+  name: "San Francisco Museum of Modern Art"
+  organization_type: "museum"
+  url: "https://www.sfmoma.org/"
+  notes: "Institutional context for Lynn Hershman Leeson's Agent Ruby archive."
+- id: zkm
+  name: "ZKM | Center for Art and Media Karlsruhe"
+  organization_type: "museum / research institution"
+  url: "https://zkm.de/"
+  notes: "Major media art institution with AI and digital art exhibitions."
+- id: nyu-itp
+  name: "NYU ITP/IMA"
+  organization_type: "education / research program"
+  url: "https://tisch.nyu.edu/itp"
+  notes: "Creative technology program connected to ml5.js and Runway founders."
+- id: nyu-shanghai-ima
+  name: "NYU Shanghai IMA"
+  organization_type: "education program"
+  url: "https://ima.shanghai.nyu.edu/"
+  notes: "Co-maintainer context for ml5.js."
+- id: runway
+  name: "Runway AI, Inc."
+  organization_type: "AI company"
+  url: "https://runwayml.com/"
+  notes: "Generative video and creative AI platform/company."
+- id: qosmo
+  name: "Qosmo"
+  organization_type: "creative studio / research lab"
+  url: "https://qosmo.jp/"
+  notes: "Tokyo-based creative studio founded by Nao Tokui; works on AI and creativity."
+- id: kyoto-university
+  name: "Kyoto University"
+  organization_type: "university"
+  url: "https://www.kyoto-u.ac.jp/"
+  notes: "Institutional context for Naoko Tosa and AI/art-style research."
+- id: victoria-and-albert-museum
+  name: "Victoria and Albert Museum"
+  organization_type: "museum"
+  url: "https://www.vam.ac.uk/"
+  notes: "Exhibition context for digital and AI-related art including The Zizi Show."
+- id: entangled-others
+  name: "Entangled Others"
+  organization_type: "artist duo / studio"
+  url: "https://entangledothers.studio/"
+  notes: "Artist duo associated with Sofia Crespo and Feileacan Kirkbride McCormick, working on more-than-human and ecological generative imagery."
+- id: feral-file
+  name: "Feral File"
+  organization_type: "digital art platform"
+  url: "https://feralfile.com/"
+  notes: "Online exhibition platform; context for curated AI art exhibitions including Global South and Black artist practices."
+- id: ouchhh-studio
+  name: "Ouchhh Studio"
+  organization_type: "new media studio"
+  url: "https://ouchhh.tv/"
+  notes: "Data-driven media art studio associated with public AI installations including The Eye of Mexico."
+- id: massivart
+  name: "MASSIVart"
+  organization_type: "public art / creative placemaking agency"
+  url: "https://massivart.com/"
+  notes: "Creative placemaking agency connected to The Eye of Mexico public AI artwork."

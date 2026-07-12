@@ -796,3 +796,549 @@
   importance: Important
   confidence: High
   notes: ""
+- id: galapagos
+  title: "Galápagos"
+  title_ja: "Galápagos"
+  item_type: artwork
+  authors_or_creators: ["Karl Sims"]
+  year: "1997"
+  venue_or_context: "Interactive evolutionary media installation; ICC Tokyo 1997-2000"
+  url: "https://www.karlsims.com/galapagos/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.karlsims.com/galapagos/"
+  related_people: ["karl-sims"]
+  related_organizations: ["ntt-icc"]
+  keywords: ["evolutionary-art", "interactive-art", "artificial-life", "human-selection"]
+  discovered_from: "Expanded search for pre-deep-learning computational art and artificial life"
+  evidence: "Karl Sims' official page describes visitors selecting virtual organisms through step sensors; selected organisms survive, mate, mutate, and reproduce."
+  summary_ja: "Galápagosは、美的選択を観客が担い、遺伝的表現・成長・行動をコンピュータが扱うインタラクティブ進化芸術である。深層学習ではないが、人間の選好をフィットネスとして使う創作システムの重要な前史である。"
+  summary_en: "Galápagos is an interactive evolutionary artwork in which visitors select virtual organisms while computers handle genetic codes, growth, behavior, mutation, and reproduction."
+  importance: Foundational
+  confidence: High
+  notes: "Included as artificial-life/evolutionary art rather than statistical machine learning."
+- id: electric-sheep
+  title: "Electric Sheep"
+  title_ja: "Electric Sheep"
+  item_type: software
+  authors_or_creators: ["Scott Draves"]
+  year: "1999-"
+  venue_or_context: "Distributed evolutionary screensaver and generative art project"
+  url: "https://electricsheep.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://electricsheep.org/"
+  related_people: ["scott-draves"]
+  related_organizations: []
+  keywords: ["evolutionary-art", "distributed-computing", "crowd-selection", "generative-art"]
+  discovered_from: "Expanded search for evolutionary and artificial-life art"
+  evidence: "Project documentation describes a distributed screensaver where user votes guide the evolution of fractal flame animations."
+  summary_ja: "Electric Sheepは、分散コンピューティングとユーザー投票を組み合わせ、フラクタル炎の映像を進化させる生成芸術プロジェクトである。"
+  summary_en: "Electric Sheep combines distributed computing with user voting to evolve fractal-flame animations as a long-running generative artwork."
+  importance: Important
+  confidence: Medium
+  notes: "Primary site availability varies; project history is supported by publications and archives."
+- id: very-nervous-system
+  title: "Very Nervous System"
+  title_ja: "Very Nervous System"
+  item_type: artwork
+  authors_or_creators: ["David Rokeby"]
+  year: "1982-1991"
+  venue_or_context: "Interactive movement-to-sound installation/performance system"
+  url: "http://www.davidrokeby.com/vns.html"
+  doi: ""
+  arxiv_id: ""
+  source_url: "http://www.davidrokeby.com/vns.html"
+  related_people: ["david-rokeby"]
+  related_organizations: []
+  keywords: ["interactive-art", "performance", "gesture", "sound", "pre-ml"]
+  discovered_from: "Expanded search for embodied interactive art prehistories"
+  evidence: "Rokeby's documentation and historical coverage describe a system translating movement into sound in real time."
+  summary_ja: "Very Nervous Systemは、身体の動きをリアルタイムに音へ変換するインタラクティブ作品で、後の機械学習パフォーマンスにおける身体・写像・応答性の前史として重要である。"
+  summary_en: "Very Nervous System translates bodily movement into sound in real time, forming an important prehistory for later ML-mediated performance interfaces."
+  importance: Foundational
+  confidence: Medium
+  notes: "Not machine learning; included for performance-interface lineage."
+- id: agent-ruby
+  title: "Agent Ruby"
+  title_ja: "Agent Ruby"
+  item_type: artwork
+  authors_or_creators: ["Lynn Hershman Leeson"]
+  year: "1998-2002"
+  venue_or_context: "Interactive AI agent and archive; SFMOMA/ZKM contexts"
+  url: "https://agentruby.sfmoma.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://agentruby.sfmoma.org/"
+  related_people: ["lynn-hershman-leeson"]
+  related_organizations: ["sfmoma", "zkm"]
+  keywords: ["agent", "chatbot", "identity", "archive", "interactive-art"]
+  discovered_from: "Expanded search for AI agents and media art"
+  evidence: "Museum and artist archives describe Agent Ruby as an interactive AI/web agent connected to Hershman Leeson's Teknolust universe."
+  summary_ja: "Agent Rubyは、オンラインで対話し記憶を蓄積するエージェントとして、AIを人格・ジェンダー・アーカイブ・観客参加の問題に接続した。"
+  summary_en: "Agent Ruby connected AI agents to questions of persona, gender, archive, and audience participation."
+  importance: Important
+  confidence: Medium
+  notes: "The historical web archive may be intermittently accessible."
+- id: not-the-only-one
+  title: "Not the Only One"
+  title_ja: "Not the Only One"
+  item_type: artwork
+  authors_or_creators: ["Stephanie Dinkins"]
+  year: "2018-"
+  venue_or_context: "Voice-interactive AI memoir and community archive"
+  url: "https://www.stephaniedinkins.com/ntoo.html"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.stephaniedinkins.com/ntoo.html"
+  related_people: ["stephanie-dinkins"]
+  related_organizations: ["eyebeam", "creative-capital"]
+  keywords: ["community-ai", "oral-history", "black-ai", "data-sovereignty", "chatbot"]
+  discovered_from: "Expanded search for race, gender, and community-centered AI art"
+  evidence: "Dinkins' official page describes N'TOO as a deep-learning AI memoir trained on oral histories from three generations of women in the artist's family."
+  summary_ja: "Not the Only Oneは、黒人アメリカ人家族の複数世代の記憶を、音声対話AIのかたちで語る試みである。小さなデータ、共同体、データ主権、AIの不完全性を作品の中心に置く。"
+  summary_en: "Not the Only One is a voice-interactive AI memoir grounded in oral histories from a Black American family, foregrounding small data, community, sovereignty, and AI's limits."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: conversations-bina48
+  title: "Conversations with Bina48"
+  title_ja: "Conversations with Bina48"
+  item_type: artwork
+  authors_or_creators: ["Stephanie Dinkins"]
+  year: "2014-"
+  venue_or_context: "Video/dialogue project with humanoid robot Bina48"
+  url: "https://www.stephaniedinkins.com/conversations-with-bina48.html"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.stephaniedinkins.com/conversations-with-bina48.html"
+  related_people: ["stephanie-dinkins"]
+  related_organizations: ["terasem", "whitney"]
+  keywords: ["robot", "race", "gender", "conversation", "human-robot-interaction"]
+  discovered_from: "Expanded search for social robots and AI art"
+  evidence: "Dinkins' official page describes the work as ongoing since 2014 and as a project about technology, race, gender, and social equity."
+  summary_ja: "Conversations with Bina48は、人型ロボットとの対話を通じて、AI、記憶、黒人女性表象、トランスヒューマニズム、ロボットの権利を問い直す作品である。"
+  summary_en: "Conversations with Bina48 uses ongoing dialogue with a humanoid robot to probe AI, memory, Black female representation, transhumanism, and robot rights."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: lauren
+  title: "LAUREN"
+  title_ja: "LAUREN"
+  item_type: artwork
+  authors_or_creators: ["Lauren Lee McCarthy"]
+  year: "2017-"
+  venue_or_context: "Performance/smart-home AI assistant critique"
+  url: "https://get-lauren.net/LAUREN"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://get-lauren.net/LAUREN"
+  related_people: ["lauren-lee-mccarthy"]
+  related_organizations: ["ucla"]
+  keywords: ["performance", "smart-home", "ai-assistant", "privacy", "hidden-labor"]
+  discovered_from: "Expanded search for AI performance and domestic surveillance"
+  evidence: "McCarthy's page describes becoming a human Alexa installed in people's homes through custom cameras, microphones, locks, and appliances."
+  summary_ja: "LAURENは、作家自身がAIアシスタントを演じることで、スマートホームの親密性、監視、利便性、隠れた人間労働を露出させるパフォーマンスである。"
+  summary_en: "LAUREN is a performance in which McCarthy becomes a human Alexa, exposing intimacy, surveillance, convenience, and hidden human labor in automated homes."
+  importance: Important
+  confidence: High
+  notes: "The work critiques AI systems partly by substituting human performance for automation."
+- id: zizi-project
+  title: "The Zizi Project"
+  title_ja: "The Zizi Project"
+  item_type: artwork
+  authors_or_creators: ["Jake Elwes"]
+  year: "2019-"
+  venue_or_context: "Deepfake drag, queer AI, dataset intervention"
+  url: "https://www.jakeelwes.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://ars.electronica.art/prix/en/winners/jake-elwes/"
+  related_people: ["jake-elwes"]
+  related_organizations: ["ars-electronica", "victoria-and-albert-museum"]
+  keywords: ["queer-ai", "deepfake", "dataset-intervention", "drag", "bias"]
+  discovered_from: "Expanded search for queer AI art and dataset critique"
+  evidence: "Ars Electronica and V&A/artist materials describe The Zizi Project as a deepfake drag project exploring bias and queer data intervention."
+  summary_ja: "The Zizi Projectは、ドラァグ・パフォーマンスとディープフェイクを結びつけ、顔認識やデータセットの規範性をクィアにずらす実践である。"
+  summary_en: "The Zizi Project links drag performance and deepfakes to queer the normative assumptions of face datasets and AI image systems."
+  importance: Important
+  confidence: Medium
+  notes: "Artist site structure changes; source_url uses Ars Electronica winner page when available."
+- id: miao-surplus-intelligence
+  title: "Pilgrimage into Walden XII, Chapter II: Surplus Intelligence"
+  title_ja: "Pilgrimage into Walden XII, Chapter II: Surplus Intelligence"
+  item_type: artwork
+  authors_or_creators: ["Miao Ying"]
+  year: "2021-2022"
+  venue_or_context: "AI-written film/game-engine simulation"
+  url: "https://www.miaoyingstudio.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.miaoyingstudio.com/"
+  related_people: ["miao-ying"]
+  related_organizations: []
+  keywords: ["china", "gpt-3", "game-engine", "internet-culture", "behavioral-scoring"]
+  discovered_from: "Expanded search for Chinese AI/media art"
+  evidence: "Miao Ying's site lists Surplus Intelligence as a GPT-3-written film simulated on a game engine."
+  summary_ja: "Miao YingのSurplus Intelligenceは、GPT-3で書かれた物語をゲームエンジン上で展開し、中国インターネット文化、行動スコア、ユートピア/ディストピアを風刺する。"
+  summary_en: "Miao Ying's Surplus Intelligence uses GPT-3 writing and game-engine simulation to satirize internet culture, behavioral scoring, and algorithmic governance."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: naoko-tosa-ai-style
+  title: "Learning of Art Style Using AI and Its Evaluation Based on Psychological Experiments"
+  title_ja: "AIによる美術様式学習と心理実験による評価"
+  item_type: paper
+  authors_or_creators: ["Mai Cong Hung", "Ryohei Nakatsu", "Naoko Tosa", "Takashi Kusumi", "Koji Koyamada"]
+  year: "2020"
+  venue_or_context: "arXiv paper; Japanese media art / art-style learning"
+  url: "https://arxiv.org/abs/2005.02220"
+  doi: ""
+  arxiv_id: "2005.02220"
+  source_url: "https://arxiv.org/abs/2005.02220"
+  related_people: ["naoko-tosa", "ryohei-nakatsu"]
+  related_organizations: ["kyoto-university"]
+  keywords: ["japan", "gan", "art-style", "psychological-experiment", "evaluation"]
+  discovered_from: "Japanese AI art and art-style learning search"
+  evidence: "The paper uses GAN transformations among flower photos and several art sets, including abstract images by Naoko Tosa, and evaluates outputs with psychological experiments."
+  summary_ja: "日本のメディアアート文脈から、GANによる様式変換と心理実験評価を結びつけた研究。AIを創作と鑑賞評価の両方に接続している。"
+  summary_en: "This Japanese media-art-linked study connects GAN-based style transformation with psychological evaluation of art perception."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: nao-tokui-rhythm-generator
+  title: "VAE-based Rhythm Generator as a DAW Plugin"
+  title_ja: "VAEベースのリズム生成DAWプラグイン"
+  item_type: software
+  authors_or_creators: ["Nao Tokui"]
+  year: "2020"
+  venue_or_context: "AI music production tool / arXiv paper"
+  url: "https://arxiv.org/abs/2004.01525"
+  doi: ""
+  arxiv_id: "2004.01525"
+  source_url: "https://arxiv.org/abs/2004.01525"
+  related_people: ["nao-tokui"]
+  related_organizations: ["qosmo"]
+  keywords: ["japan", "music", "vae", "daw", "creative-tool"]
+  discovered_from: "Japanese creative machine learning and AI music search"
+  evidence: "The paper describes a VAE-based rhythm generation system implemented as a Max for Live device for Ableton Live."
+  summary_ja: "徳井直生によるVAEベースのリズム生成システムは、研究モデルをDAWプラグインとして音楽制作の実務に持ち込む事例である。"
+  summary_en: "Nao Tokui's VAE-based rhythm generator brings a research model into practical music production as a DAW plugin."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: ml5js
+  title: "ml5.js"
+  title_ja: "ml5.js"
+  item_type: software
+  authors_or_creators: ["NYU ITP/IMA", "NYU Shanghai IMA", "ml5.js community"]
+  year: "2018-"
+  venue_or_context: "Friendly machine learning library for creative coding on the web"
+  url: "https://ml5js.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://ml5js.org/"
+  related_people: []
+  related_organizations: ["nyu-itp", "nyu-shanghai-ima"]
+  keywords: ["creative-coding", "education", "browser", "tensorflow-js", "tool"]
+  discovered_from: "Creative ML tools search"
+  evidence: "The official site states that ml5.js aims to make ML approachable for artists, creative coders, and students."
+  summary_ja: "ml5.jsは、ブラウザ上で機械学習を扱うための教育・制作向けライブラリで、クリエイティブコーディングとAIリテラシーをつなぐ。"
+  summary_en: "ml5.js is a browser-based creative coding library that makes machine learning more approachable for artists, students, and creative coders."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: teachable-machine
+  title: "Teachable Machine"
+  title_ja: "Teachable Machine"
+  item_type: software
+  authors_or_creators: ["Google"]
+  year: "2017-"
+  venue_or_context: "No-code machine learning teaching/prototyping tool"
+  url: "https://teachablemachine.withgoogle.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://teachablemachine.withgoogle.com/"
+  related_people: []
+  related_organizations: ["google"]
+  keywords: ["education", "no-code", "interactive-machine-learning", "prototype"]
+  discovered_from: "Creative ML tools search"
+  evidence: "The public tool lets users train image, audio, and pose classifiers without coding."
+  summary_ja: "Teachable Machineは、画像・音声・ポーズ分類器をコードなしで作れる教育/プロトタイピング環境で、アーティストや教育現場で機械学習を扱いやすくした。"
+  summary_en: "Teachable Machine is a no-code environment for training image, audio, and pose classifiers, making ML accessible in art and education contexts."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: ml4a
+  title: "Machine Learning for Artists"
+  title_ja: "Machine Learning for Artists"
+  item_type: project
+  authors_or_creators: ["Gene Kogan", "ml4a contributors"]
+  year: "2016-"
+  venue_or_context: "Educational resource collection"
+  url: "https://ml4a.github.io/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://ml4a.github.io/"
+  related_people: ["gene-kogan"]
+  related_organizations: []
+  keywords: ["education", "creative-coding", "tutorials", "artist-tools"]
+  discovered_from: "Creative ML tools search"
+  evidence: "The archived site describes ml4a as free educational resources devoted to machine learning for artists."
+  summary_ja: "ml4aは、アーティスト向け機械学習教育の草分け的リソース集で、コード例、講義、デモを通じて制作コミュニティの入口を作った。"
+  summary_en: "ml4a is an early educational resource collection that helped artists enter machine learning through examples, lectures, demos, and guides."
+  importance: Important
+  confidence: High
+  notes: "Original GitHub Pages site is archived; new home may change."
+- id: runway
+  title: "Runway"
+  title_ja: "Runway"
+  item_type: software
+  authors_or_creators: ["Runway AI, Inc."]
+  year: "2018-"
+  venue_or_context: "Generative video and creative AI platform"
+  url: "https://runwayml.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://runwayml.com/"
+  related_people: ["cristobal-valenzuela", "anastasis-germanidis", "alejandro-matamala"]
+  related_organizations: ["runway"]
+  keywords: ["video-generation", "creative-tools", "film", "world-models", "platform"]
+  discovered_from: "Creative AI tool and video generation search"
+  evidence: "Runway's official site presents generative video/world-model tools and creative industry partnerships."
+  summary_ja: "Runwayは、生成動画、映像制作、ポストプロダクション、広告、映画制作に機械学習を組み込む商用プラットフォームとして、AIアートを産業制作へ接続する事例である。"
+  summary_en: "Runway connects generative video models and creative production workflows across film, advertising, post-production, and media."
+  importance: Important
+  confidence: High
+  notes: "Product names and capabilities change quickly; current claims should be date-stamped."
+- id: artbench
+  title: "ArtBench-10"
+  title_ja: "ArtBench-10"
+  item_type: dataset
+  authors_or_creators: ["Peiyuan Liao", "Xiuyu Li", "Xihui Liu", "Kurt Keutzer"]
+  year: "2022"
+  venue_or_context: "Benchmark dataset for artwork generation"
+  url: "https://arxiv.org/abs/2206.11404"
+  doi: ""
+  arxiv_id: "2206.11404"
+  source_url: "https://github.com/liaopeiyuan/artbench"
+  related_people: []
+  related_organizations: []
+  keywords: ["dataset", "benchmark", "artwork-generation", "style"]
+  discovered_from: "Art dataset search"
+  evidence: "The paper describes ArtBench-10 as a class-balanced, standardized artwork-generation benchmark with 60,000 images in 10 styles."
+  summary_ja: "ArtBench-10は、美術画像生成モデルの比較評価を目的にした、スタイル別に均衡化されたベンチマークデータセットである。"
+  summary_en: "ArtBench-10 is a balanced artwork-generation benchmark designed to compare generative models across 10 artistic styles."
+  importance: Contextual
+  confidence: High
+  notes: "Dataset rights are described as Fair Use by authors; downstream reuse requires care."
+- id: bam-dataset
+  title: "BAM! The Behance Artistic Media Dataset"
+  title_ja: "BAM! The Behance Artistic Media Dataset"
+  item_type: dataset
+  authors_or_creators: ["Michael J. Wilber", "Chen Fang", "Hailin Jin", "Aaron Hertzmann", "John Collomosse", "Serge Belongie"]
+  year: "2017"
+  venue_or_context: "Recognition beyond photography dataset"
+  url: "https://arxiv.org/abs/1704.08614"
+  doi: ""
+  arxiv_id: "1704.08614"
+  source_url: "https://arxiv.org/abs/1704.08614"
+  related_people: ["aaron-hertzmann"]
+  related_organizations: []
+  keywords: ["dataset", "behance", "artistic-media", "classification", "domain-adaptation"]
+  discovered_from: "Art dataset search"
+  evidence: "The paper introduces a large-scale Behance dataset with content, emotion, and artistic-media labels."
+  summary_ja: "BAMは、写真中心のコンピュータビジョンを超えて、現代的なポートフォリオ画像の媒体、内容、感情を分類するための大規模データセットである。"
+  summary_en: "BAM is a large-scale dataset for recognizing artistic media, content, and emotions beyond ordinary photography."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: understanding-creating-art-ai
+  title: "Understanding and Creating Art with AI: Review and Outlook"
+  title_ja: "Understanding and Creating Art with AI: Review and Outlook"
+  item_type: paper
+  authors_or_creators: ["Eva Cetinic", "James She"]
+  year: "2021"
+  venue_or_context: "AI and art review"
+  url: "https://arxiv.org/abs/2102.09109"
+  doi: ""
+  arxiv_id: "2102.09109"
+  source_url: "https://arxiv.org/abs/2102.09109"
+  related_people: []
+  related_organizations: []
+  keywords: ["survey", "art-analysis", "ai-art", "datasets", "generation"]
+  discovered_from: "Expanded research survey search"
+  evidence: "The paper reviews both AI for art analysis and AI for creating novel artworks."
+  summary_ja: "美術作品分析とAIによる創作の両面を扱う包括的レビューで、データセット、分類、検索、生成、評価を接続する。"
+  summary_en: "A review connecting AI-based art analysis, datasets, classification, retrieval, generation, and evaluation."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: art-science-generative-ai
+  title: "Art and the science of generative AI: A deeper dive"
+  title_ja: "Art and the science of generative AI: A deeper dive"
+  item_type: paper
+  authors_or_creators: ["Ziv Epstein", "Aaron Hertzmann", "Laura Herman", "Robert Mahari", "Morgan R. Frank", "Matthew Groh", "Hope Schroeder", "Amy Smith", "Memo Akten", "Jessica Fjeld", "Hany Farid", "Neil Leach", "Alex Pentland", "Olga Russakovsky"]
+  year: "2023"
+  venue_or_context: "Science perspective / arXiv version"
+  url: "https://arxiv.org/abs/2306.04141"
+  doi: ""
+  arxiv_id: "2306.04141"
+  source_url: "https://arxiv.org/abs/2306.04141"
+  related_people: ["memo-akten", "aaron-hertzmann"]
+  related_organizations: []
+  keywords: ["generative-ai", "policy", "creative-labor", "aesthetics", "law"]
+  discovered_from: "Expanded research survey search"
+  evidence: "The article frames generative AI as a new medium and identifies research questions across aesthetics, law, labor, and media ecosystems."
+  summary_ja: "生成AIを新しい媒体として捉え、美学、所有・クレジット、創作労働、メディアエコシステムの研究課題を整理する論考。"
+  summary_en: "A cross-disciplinary paper framing generative AI as a new medium and mapping questions around aesthetics, ownership, labor, and media ecosystems."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: can-computers-create-art
+  title: "Can Computers Create Art?"
+  title_ja: "Can Computers Create Art?"
+  item_type: paper
+  authors_or_creators: ["Aaron Hertzmann"]
+  year: "2018"
+  venue_or_context: "Authorship and AI art essay"
+  url: "https://arxiv.org/abs/1801.04486"
+  doi: ""
+  arxiv_id: "1801.04486"
+  source_url: "https://arxiv.org/abs/1801.04486"
+  related_people: ["aaron-hertzmann"]
+  related_organizations: []
+  keywords: ["authorship", "creativity", "art-theory", "ai-art"]
+  discovered_from: "Expanded theoretical search"
+  evidence: "The essay surveys automation in art and argues about social agency and authorship."
+  summary_ja: "コンピュータは芸術を作れるのかという問いを、写真・アニメーションなどの技術史と比較しながら、作者性と社会的エージェントの観点から論じる。"
+  summary_en: "This essay compares AI art with earlier art-automation technologies and analyzes authorship through social agency."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: machine-dreams-rainforest
+  title: "Machine Dreams: Rainforest"
+  title_ja: "Machine Dreams: Rainforest"
+  item_type: exhibition
+  authors_or_creators: ["DATALAND", "Refik Anadol Studio"]
+  year: "2026"
+  venue_or_context: "DATALAND inaugural exhibition in Los Angeles"
+  url: "https://dataland.art/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://dataland.art/"
+  related_people: ["refik-anadol", "efsun-erkilic"]
+  related_organizations: ["dataland", "refik-anadol-studio"]
+  keywords: ["ai-museum", "large-nature-model", "immersive-installation", "nature-data", "biometric-interaction"]
+  discovered_from: "Current 2026 DATALAND verification"
+  evidence: "DATALAND's official site states it is now open in downtown Los Angeles and introduces Machine Dreams: Rainforest as its inaugural exhibition powered by the Large Nature Model."
+  summary_ja: "Machine Dreams: Rainforestは、2026年に開館したDATALANDの初回展で、自然データ、AI、感覚的展示、観客の相互作用を結びつける。"
+  summary_en: "Machine Dreams: Rainforest is DATALAND's inaugural exhibition, connecting nature datasets, AI, multisensory installation, and audience interaction."
+  importance: Emerging
+  confidence: High
+  notes: "Verified from official DATALAND page on 2026-07-12."
+- id: sofia-crespo-neural-zoo
+  title: "Neural Zoo / Artificial Natural History"
+  title_ja: "Neural Zoo / Artificial Natural History"
+  item_type: artwork
+  authors_or_creators: ["Sofia Crespo"]
+  year: "2018-2025"
+  venue_or_context: "Artist projects on speculative biology and generative images"
+  url: "https://sofiacrespo.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://sofiacrespo.com/"
+  related_people: ["sofia-crespo"]
+  related_organizations: ["entangled-others"]
+  keywords: ["latin-america", "speculative-biology", "generative-image", "artificial-life", "non-anglophone"]
+  discovered_from: "Expanded non-Anglophone and Global South survey"
+  evidence: "The artist site lists Neural Zoo, Artificial Natural History, Critically Extant, Structures of Being, and related works with images."
+  summary_ja: "アルゼンチン出身のSofia Crespoは、生成モデルを通じて架空の生物、自然史、分類、進化のイメージを扱う。AI画像を単なるスタイル生成ではなく、生物学的想像力とアーカイブの問題として提示する。"
+  summary_en: "Argentina-born artist Sofia Crespo uses generative models to explore speculative organisms, natural history, classification, and evolution, treating AI imagery as a biological and archival imagination rather than only a style tool."
+  importance: Important
+  confidence: High
+  notes: "The artist site is the primary source; individual project dates vary across series."
+- id: minne-atairu-benin-bronzes
+  title: "Reimagining Benin Bronzes using generative adversarial networks"
+  title_ja: "Reimagining Benin Bronzes using generative adversarial networks"
+  item_type: paper
+  authors_or_creators: ["Minne Atairu"]
+  year: "2024"
+  venue_or_context: "AI & Society, 39(1), 91-102"
+  url: "https://minneatairu.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://minneatairu.com/"
+  related_people: ["minne-atairu"]
+  related_organizations: []
+  keywords: ["benin-bronzes", "restitution", "gan", "black-archives", "global-south", "museum-studies"]
+  discovered_from: "Expanded African and restitution-focused survey"
+  evidence: "Atairu's official site lists the 2024 AI & Society publication and multiple AI-mediated projects concerning Black historical archives and Benin material culture."
+  summary_ja: "Minne Atairuは、ベニン・ブロンズと植民地的収奪の記憶を、GANや生成AI、3D制作、ミュージアム教育の文脈で再考する。ここではAIは欠損したアーカイブを埋める魔法ではなく、欠損、返還、所有、想像的再構成を問う方法になる。"
+  summary_en: "Minne Atairu rethinks Benin Bronzes and the memory of colonial extraction through GANs, generative AI, 3D production, and museum education. AI is framed less as a magical archive repair tool than as a method for asking about absence, restitution, ownership, and speculative reconstruction."
+  importance: Important
+  confidence: High
+  notes: "Exact DOI not recorded in this pass; add from publisher metadata in a later audit."
+- id: linda-dounia-once-upon-a-flower
+  title: "Once Upon a Flower"
+  title_ja: "Once Upon a Flower"
+  item_type: artwork
+  authors_or_creators: ["Linda Dounia Rebeiz"]
+  year: "Unknown"
+  venue_or_context: "Senegalese artist practice using curated local datasets and GANs"
+  url: "https://qa.time.com/6309451/linda-dounia-rebeiz/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://qa.time.com/6309451/linda-dounia-rebeiz/"
+  related_people: ["linda-dounia-rebeiz"]
+  related_organizations: ["feral-file"]
+  keywords: ["senegal", "global-south", "small-data", "gan", "dataset-bias", "climate"]
+  discovered_from: "Expanded Global South and dataset-bias survey"
+  evidence: "TIME reports that Rebeiz trains GANs on self-curated datasets of Senegalese flowers and historical buildings and created Once Upon a Flower."
+  summary_ja: "Linda Dounia Rebeizは、大規模生成モデルがグローバルサウスをステレオタイプ化する問題に対して、自ら収集したセネガルの花や建築のデータセットを用いる。Once Upon a Flowerは、地域的データ、気候危機、AI表象の偏りを結びつける事例として重要である。"
+  summary_en: "Linda Dounia Rebeiz responds to the tendency of large generative models to stereotype the Global South by working with self-curated datasets of Senegalese flowers and architecture. Once Upon a Flower matters as a case linking local data, climate crisis, and representational bias in AI."
+  importance: Emerging
+  confidence: Medium
+  notes: "Primary artist-page verification should be added if a stable project URL is found."
+- id: niceaunties-auntieverse
+  title: "Auntieverse / Niceaunties"
+  title_ja: "Auntieverse / Niceaunties"
+  item_type: project
+  authors_or_creators: ["Niceaunties"]
+  year: "2023-"
+  venue_or_context: "Singaporean AI image/video project circulated online and in exhibitions"
+  url: "https://www.instagram.com/niceaunties/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.theguardian.com/world/article/2024/jul/19/auntieverse-art-niceaunties-surreal-fantasy-older-women"
+  related_people: ["niceaunties"]
+  related_organizations: []
+  keywords: ["southeast-asia", "gender", "aging", "generative-image", "auntieverse", "online-culture"]
+  discovered_from: "Expanded Southeast Asian survey"
+  evidence: "The Guardian profile describes Auntieverse as a Singaporean AI-art project about auntie culture across Southeast and East Asia, with online circulation and exhibition contexts."
+  summary_ja: "Niceauntiesは、東南アジア・東アジアの「auntie」文化、老い、家事労働、ケア、孤独、環境問題を、生成AIによる奇妙でユーモラスな映像世界として展開する。英語圏中心のAIアート史では見落とされやすい、地域的な親族呼称とジェンダー規範を扱う実践である。"
+  summary_en: "Niceaunties develops a strange and humorous generative-AI world around Southeast and East Asian auntie culture, aging, domestic labor, care, loneliness, and environmental issues. The work is important because it centers regional kinship language and gender norms that are easy to miss in Anglophone AI-art histories."
+  importance: Emerging
+  confidence: Medium
+  notes: "Official public archive is mainly social media; stable institutional archive links should be added."
+- id: eye-of-mexico
+  title: "The Eye of Mexico / El Ojo de México"
+  title_ja: "The Eye of Mexico / El Ojo de México"
+  item_type: artwork
+  authors_or_creators: ["Ferdi Alici", "Ouchhh Studio"]
+  year: "2022"
+  venue_or_context: "Public AI sculpture, Mexico City"
+  url: "https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/"
+  related_people: ["ferdi-alici"]
+  related_organizations: ["ouchhh-studio", "massivart"]
+  keywords: ["latin-america", "public-art", "urban-data", "media-architecture", "ai-sculpture"]
+  discovered_from: "Expanded Latin American and public-art survey"
+  evidence: "MASSIVart's project URL and secondary references identify the work as a Mexico City public AI artwork transforming urban/environmental data into visual media."
+  summary_ja: "The Eye of Mexicoは、メキシコシティの都市・環境データをAI処理し、公共空間の大型メディア彫刻として提示する事例である。生成画像だけでなく、都市データ、パブリックアート、メディア建築としてAIアートを考える入口になる。"
+  summary_en: "The Eye of Mexico is a Mexico City public media sculpture that uses AI processes and urban/environmental data. It is useful for reading AI art not only as generated imagery but also as public art, urban data visualization, and media architecture."
+  importance: Contextual
+  confidence: Medium
+  notes: "Official URL should be rechecked manually because the page may move; title/year are also supported by secondary references."

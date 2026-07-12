@@ -40,3 +40,21 @@
   domain: "human-centric art/natural images"
   relevance: "Bridges natural and artificial scenes for human detection/pose/generation tasks."
   rights_or_ethics_notes: "Contains human-centric imagery; dataset terms should be checked."
+- id: artbench
+  name: "ArtBench-10"
+  url: "https://github.com/liaopeiyuan/artbench"
+  domain: "artwork generation benchmark"
+  relevance: "Balanced benchmark for comparing generative models on artwork styles."
+  rights_or_ethics_notes: "Authors describe Fair Use; downstream reuse requires independent rights review."
+- id: bam
+  name: "BAM! Behance Artistic Media Dataset"
+  url: "https://arxiv.org/abs/1704.08614"
+  domain: "artistic media recognition"
+  relevance: "Large-scale dataset for artistic media, content, and emotion labels beyond photography."
+  rights_or_ethics_notes: "Derived from Behance portfolios; check dataset terms and creator rights."
+- id: ffhq
+  name: "Flickr-Faces-HQ"
+  url: "https://github.com/NVlabs/ffhq-dataset"
+  domain: "face image dataset"
+  relevance: "Important in GAN/deepfake face-generation history and queer dataset interventions such as The Zizi Project."
+  rights_or_ethics_notes: "Face datasets raise consent, biometric, and reuse concerns."

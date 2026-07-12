@@ -73,3 +73,88 @@
   roles: ["computer scientist"]
   url: "https://people.cs.uchicago.edu/~ravenben/"
   notes: "Co-author on Glaze and Nightshade-related artist-protection research."
+- id: karl-sims
+  name: "Karl Sims"
+  roles: ["digital media artist", "computer graphics researcher"]
+  url: "https://www.karlsims.com/"
+  notes: "Known for Galápagos, Genetic Images, and evolutionary computer graphics."
+- id: scott-draves
+  name: "Scott Draves"
+  roles: ["software artist"]
+  url: "https://electricsheep.org/"
+  notes: "Creator of Electric Sheep and fractal flame work."
+- id: david-rokeby
+  name: "David Rokeby"
+  roles: ["interactive media artist"]
+  url: "http://www.davidrokeby.com/"
+  notes: "Creator of Very Nervous System and other interactive works."
+- id: lynn-hershman-leeson
+  name: "Lynn Hershman Leeson"
+  roles: ["artist", "filmmaker"]
+  url: "https://www.lynnhershman.com/"
+  notes: "Known for Agent Ruby and long-running media-art work on identity and technology."
+- id: stephanie-dinkins
+  name: "Stephanie Dinkins"
+  roles: ["artist", "AI critic", "educator"]
+  url: "https://www.stephaniedinkins.com/"
+  notes: "Known for Not the Only One and Conversations with Bina48."
+- id: lauren-lee-mccarthy
+  name: "Lauren Lee McCarthy"
+  roles: ["artist", "programmer", "educator"]
+  url: "https://get-lauren.net/"
+  notes: "Known for LAUREN and p5.js."
+- id: jake-elwes
+  name: "Jake Elwes"
+  roles: ["artist"]
+  url: "https://www.jakeelwes.com/"
+  notes: "Known for queer AI/deepfake projects including The Zizi Project."
+- id: miao-ying
+  name: "Miao Ying"
+  roles: ["artist"]
+  url: "https://www.miaoyingstudio.com/"
+  notes: "Known for works on Chinese internet culture and AI such as Surplus Intelligence."
+- id: naoko-tosa
+  name: "Naoko Tosa"
+  roles: ["media artist", "researcher"]
+  url: "https://tosa.dpri.kyoto-u.ac.jp/"
+  notes: "Japanese media artist whose work intersects art, culture, computing, and AI research."
+- id: nao-tokui
+  name: "Nao Tokui"
+  roles: ["artist", "researcher", "DJ", "tool creator"]
+  url: "https://qosmo.jp/"
+  notes: "Founder of Qosmo; works on AI music, creative tools, and human-AI creativity."
+- id: gene-kogan
+  name: "Gene Kogan"
+  roles: ["artist", "educator", "programmer"]
+  url: "https://genekogan.com/"
+  notes: "Creator of ml4a educational resources."
+- id: aaron-hertzmann
+  name: "Aaron Hertzmann"
+  roles: ["researcher"]
+  url: "https://aaronhertzmann.com/"
+  notes: "Researcher and writer on computer graphics, AI, creativity, and art."
+- id: sofia-crespo
+  name: "Sofia Crespo"
+  roles: ["artist"]
+  url: "https://sofiacrespo.com/"
+  notes: "Argentina-born artist working with speculative biology, artificial natural history, and generative image systems."
+- id: minne-atairu
+  name: "Minne Atairu"
+  roles: ["artist", "researcher", "educator"]
+  url: "https://minneatairu.com/"
+  notes: "Nigerian interdisciplinary artist and researcher working on generative AI, Black historical archives, Benin material culture, and art education."
+- id: linda-dounia-rebeiz
+  name: "Linda Dounia Rebeiz"
+  roles: ["artist", "curator"]
+  url: "https://qa.time.com/6309451/linda-dounia-rebeiz/"
+  notes: "Senegalese artist using self-curated datasets and GANs to challenge representational bias in large generative models."
+- id: niceaunties
+  name: "Niceaunties"
+  roles: ["artist"]
+  url: "https://www.instagram.com/niceaunties/"
+  notes: "Singapore-based AI artist whose Auntieverse project centers auntie culture, aging, care, and gender norms in Southeast and East Asian contexts."
+- id: ferdi-alici
+  name: "Ferdi Alici"
+  roles: ["artist", "director"]
+  url: "https://ouchhh.tv/"
+  notes: "Founder/director associated with Ouchhh Studio and data-driven public AI media works."

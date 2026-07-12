@@ -14,6 +14,9 @@ permalink: /en/resources/datasets-and-resources/
 - NSynth: Annotated musical-note dataset. https://magenta.tensorflow.org/datasets/nsynth
 - ArtEmis: Dataset connecting artworks to emotion labels and language explanations. https://www.artemisdataset.org/
 - People-Art / Human-Art: Datasets for people detection and pose tasks in artworks and artificial scenes. https://arxiv.org/abs/1610.08871 / https://arxiv.org/abs/2303.02760
+- ArtBench-10: Artwork generation benchmark. https://github.com/liaopeiyuan/artbench
+- BAM! Behance Artistic Media Dataset: Artistic media recognition beyond photography. https://arxiv.org/abs/1704.08614
+- FFHQ: Face dataset important to GAN/deepfake history and dataset interventions such as The Zizi Project. https://github.com/NVlabs/ffhq-dataset
 
 ## Tools
 
@@ -22,6 +25,10 @@ permalink: /en/resources/datasets-and-resources/
 - Stable Diffusion: Open-weight text-to-image ecosystem. https://github.com/CompVis/stable-diffusion
 - Glaze: Artist protection against style mimicry. https://glaze.cs.uchicago.edu/
 - C2PA tools/specifications: Provenance standard for generated and edited media. https://c2pa.org/
+- ml5.js: Creative machine learning library for the browser. https://ml5js.org/
+- Teachable Machine: No-code training/prototyping environment. https://teachablemachine.withgoogle.com/
+- ml4a: Machine learning education resources for artists. https://ml4a.github.io/
+- Runway: Generative video and production platform. https://runwayml.com/
 
 ## Key Resources
 
@@ -29,6 +36,11 @@ permalink: /en/resources/datasets-and-resources/
 - The Machine Learning Algorithm as Creative Musical Tool: https://arxiv.org/abs/1611.00379
 - Foregrounding Artist Opinions: https://arxiv.org/abs/2401.15497
 - U.S. Copyright Office AI reports: https://www.copyright.gov/ai/
+- Understanding and Creating Art with AI: https://arxiv.org/abs/2102.09109
+- Art and the science of generative AI: https://arxiv.org/abs/2306.04141
+- Can Computers Create Art?: https://arxiv.org/abs/1801.04486
+- EU AI Act overview: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+- Works archive and media links: {{ '/en/resources/works-archive/' | relative_url }}
 
 ## Usage Notes
 

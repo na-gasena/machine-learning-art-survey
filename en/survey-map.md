@@ -40,7 +40,7 @@ Representative items: Learning to See, Drawing Operations, Holly+, PROTO/Spawn, 
 
 Datasets such as ImageNet, WikiArt, LAION-5B, ArtEmis, and NSynth are not neutral raw material. They are institutions of classification, collection, rights, and cultural bias. Computational art history and generative artworks meet here.
 
-Representative items: ImageNet, WikiArt, LAION-5B, ArtEmis, NSynth.
+Representative items: ImageNet, WikiArt, LAION-5B, ArtEmis, NSynth, ArtBench, BAM.
 
 ### 6. Critique, Rights, Provenance, and Institutions
 
@@ -48,10 +48,22 @@ This category includes ImageNet Roulette, Glaze, C2PA, the U.S. Copyright Office
 
 Representative items: ImageNet Roulette, Foregrounding Artist Opinions, Glaze, C2PA, Copyright and AI.
 
+### 7. Creative Tools, Education, and Platforms
+
+This category includes Wekinator, ml5.js, Teachable Machine, ml4a, Magenta, and Runway. These systems turn research into tools, workshops, classrooms, commercial production, and film/advertising/game workflows.
+
+Representative items: Wekinator, ml5.js, Teachable Machine, ml4a, Magenta, Runway.
+
+### 8. Global and Critical Practices
+
+This category covers practices easily missed by an Anglophone image-generation history. Stephanie Dinkins, Miao Ying, Naoko Tosa, Nao Tokui, Jake Elwes, Lauren Lee McCarthy, Sofia Crespo, Minne Atairu, Linda Dounia Rebeiz, Niceaunties, and Ouchhh Studio treat AI as a question of community, language, gender, family history, platform culture, public space, colonial archives, and performance.
+
+Representative items: Not the Only One, Conversations with Bina48, LAUREN, The Zizi Project, Surplus Intelligence, Naoko Tosa AI style study, Nao Tokui rhythm generator, Neural Zoo / Artificial Natural History, Reimagining Benin Bronzes, Once Upon a Flower, Auntieverse, The Eye of Mexico.
+
 ## Relations Between Categories
 
-Historical AI art is a prehistory of the current question of whether machines create. Neural image generation expands artistic production, but it depends on datasets and compute. Music and performance practices often treat models as live interfaces rather than output engines. Critique, rights, and provenance cut across every category as conditions of practice.
+Historical AI art is a prehistory of the current question of whether machines create. Neural image generation expands artistic production, but it depends on datasets and compute. Music and performance practices often treat models as live interfaces rather than output engines. Creative tools turn research into environments that artists and students can use. Global and critical practices challenge universalist stories of AI by foregrounding region, language, community, and bodies. Critique, rights, and provenance cut across every category as conditions of practice.
 
 ## Boundary Areas
 
-Commercial production, advertising, and game asset generation sit between creative practice and industrial application. Immersive AI museum installations can blur artwork, research demo, and branded experience. Datasets can be research resources, artistic material, critical objects, and legal risk. Authorship in AI-assisted works depends on jurisdiction and the degree of human creative contribution.
+Commercial production, advertising, and game asset generation sit between creative practice and industrial application. Immersive AI museum installations can blur artwork, research demo, and branded experience. Datasets can be research resources, artistic material, critical objects, and legal risk. Authorship in AI-assisted works depends on jurisdiction and the degree of human creative contribution. Educational tools can democratize access while also hiding model limitations and dataset bias.
