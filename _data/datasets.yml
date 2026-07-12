@@ -1,0 +1,42 @@
+- id: imagenet
+  name: "ImageNet"
+  url: "https://www.image-net.org/"
+  domain: "computer vision"
+  relevance: "Foundational visual recognition dataset and later object of critical dataset art."
+  rights_or_ethics_notes: "Dataset categories, image sourcing, and people-subtree issues require historical context."
+- id: wikiart
+  name: "WikiArt"
+  url: "https://www.wikiart.org/"
+  domain: "art images and metadata"
+  relevance: "Common source for art style classification and generative art research."
+  rights_or_ethics_notes: "Licensing varies by artwork and source."
+- id: laion-5b
+  name: "LAION-5B"
+  url: "https://laion.ai/blog/laion-5b/"
+  domain: "image-text"
+  relevance: "Large-scale dataset relevant to open text-to-image model training and controversies."
+  rights_or_ethics_notes: "Consent, privacy, copyright, and harmful-content concerns are central."
+- id: nsynth
+  name: "NSynth"
+  url: "https://magenta.tensorflow.org/datasets/nsynth"
+  domain: "audio/music"
+  relevance: "Annotated musical note dataset for neural audio synthesis."
+  rights_or_ethics_notes: "Built from commercial sample libraries; check dataset license before reuse."
+- id: artemis
+  name: "ArtEmis"
+  url: "https://www.artemisdataset.org/"
+  domain: "art emotion and language"
+  relevance: "Affective labels and explanations for artworks."
+  rights_or_ethics_notes: "Human annotation and artwork rights should be considered."
+- id: people-art
+  name: "People-Art"
+  url: "https://arxiv.org/abs/1610.08871"
+  domain: "object detection in artworks"
+  relevance: "Benchmark for detecting people in artworks across styles."
+  rights_or_ethics_notes: "Artwork image sources require checking for downstream reuse."
+- id: human-art
+  name: "Human-Art"
+  url: "https://arxiv.org/abs/2303.02760"
+  domain: "human-centric art/natural images"
+  relevance: "Bridges natural and artificial scenes for human detection/pose/generation tasks."
+  rights_or_ethics_notes: "Contains human-centric imagery; dataset terms should be checked."

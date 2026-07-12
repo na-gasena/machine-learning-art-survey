@@ -1,0 +1,120 @@
+- id: arxiv-creativity-ml-survey
+  title: "Creativity and Machine Learning: A Survey"
+  url: "https://arxiv.org/abs/2104.02726"
+  source_type: paper
+  reliability: High
+  notes: "Research survey."
+- id: arxiv-neural-style
+  title: "A Neural Algorithm of Artistic Style"
+  url: "https://arxiv.org/abs/1508.06576"
+  source_type: paper
+  reliability: High
+  notes: "Primary research preprint."
+- id: google-deepdream
+  title: "Inceptionism: Going Deeper into Neural Networks"
+  url: "https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html"
+  source_type: official-blog
+  reliability: High
+  notes: "Google Research source."
+- id: arxiv-gan
+  title: "Generative Adversarial Networks"
+  url: "https://arxiv.org/abs/1406.2661"
+  source_type: paper
+  reliability: High
+  notes: "Primary GAN paper."
+- id: arxiv-can
+  title: "CAN: Creative Adversarial Networks"
+  url: "https://arxiv.org/abs/1706.07068"
+  source_type: paper
+  reliability: High
+  notes: "Primary CAN paper."
+- id: arxiv-ldm
+  title: "High-Resolution Image Synthesis with Latent Diffusion Models"
+  url: "https://arxiv.org/abs/2112.10752"
+  source_type: paper
+  reliability: High
+  notes: "Primary latent diffusion paper."
+- id: openai-dalle
+  title: "DALL-E: Creating images from text"
+  url: "https://openai.com/index/dall-e/"
+  source_type: official-blog
+  reliability: High
+  notes: "Official OpenAI source."
+- id: magenta-home
+  title: "Magenta"
+  url: "https://magenta.tensorflow.org/"
+  source_type: official-project
+  reliability: High
+  notes: "Official project page."
+- id: magenta-nsynth
+  title: "NSynth"
+  url: "https://magenta.tensorflow.org/nsynth"
+  source_type: official-project
+  reliability: High
+  notes: "Official NSynth page."
+- id: wekinator
+  title: "Wekinator"
+  url: "https://doc.gold.ac.uk/~mas01rf/Wekinator/"
+  source_type: official-project
+  reliability: High
+  notes: "Official project page by Rebecca Fiebrink."
+- id: anna-ridler-mosaic
+  title: "Mosaic Virus 2019"
+  url: "https://annaridler.com/works/mosaic-2019"
+  source_type: artist-page
+  reliability: High
+  notes: "Artist's own work page."
+- id: sougwen-drawing
+  title: "Drawing Operations awarded the Lumen's Art and Technology Prize"
+  url: "https://sougwen.com/2019/drawing-operations-awarded-the-lumens-art-and-technology-prize"
+  source_type: artist-page
+  reliability: High
+  notes: "Artist's own page; technical details supplemented by other sources."
+- id: arxiv-learning-to-see
+  title: "Learning to See: You Are What You See"
+  url: "https://arxiv.org/abs/2003.00902"
+  source_type: paper
+  reliability: High
+  notes: "Paper by artwork creator and collaborators."
+- id: arxiv-laion
+  title: "LAION-5B"
+  url: "https://arxiv.org/abs/2210.08402"
+  source_type: paper
+  reliability: High
+  notes: "Dataset paper."
+- id: artemis
+  title: "ArtEmis"
+  url: "https://www.artemisdataset.org/"
+  source_type: dataset
+  reliability: High
+  notes: "Dataset page."
+- id: arxiv-artist-opinions
+  title: "Foregrounding Artist Opinions"
+  url: "https://arxiv.org/abs/2401.15497"
+  source_type: paper
+  reliability: High
+  notes: "Survey of artists."
+- id: arxiv-glaze
+  title: "Glaze"
+  url: "https://arxiv.org/abs/2302.04222"
+  source_type: paper
+  reliability: High
+  notes: "Artist-protection paper."
+- id: c2pa
+  title: "C2PA Specifications"
+  url: "https://c2pa.org/specifications/specifications/2.2/index.html"
+  source_type: standard
+  reliability: High
+  notes: "Standard specification."
+- id: us-copyright-ai
+  title: "U.S. Copyright Office AI reports"
+  url: "https://www.copyright.gov/ai/"
+  source_type: policy
+  reliability: High
+  notes: "Jurisdiction-specific policy source."
+- id: ars-prix
+  title: "Prix Ars Electronica categories"
+  url: "https://ars.electronica.art/prix/en/categories/"
+  source_type: venue
+  reliability: High
+  notes: "Official venue/award source."

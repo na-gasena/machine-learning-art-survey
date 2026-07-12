@@ -1,0 +1,35 @@
+- id: siggraph
+  name: "ACM SIGGRAPH"
+  venue_type: "conference/community"
+  url: "https://www.siggraph.org/"
+  relevance: "Computer graphics, interactive techniques, digital art, and technical foundations for AI-enabled media."
+- id: nime
+  name: "NIME"
+  venue_type: "conference"
+  url: "https://www.nime.org/"
+  relevance: "Machine learning as musical interface, gesture, performance, and instrument design."
+- id: iccc
+  name: "International Conference on Computational Creativity"
+  venue_type: "conference"
+  url: "https://computationalcreativity.net/iccc/"
+  relevance: "Computational creativity theory, evaluation, and systems."
+- id: ars-electronica
+  name: "Ars Electronica"
+  venue_type: "festival/award"
+  url: "https://ars.electronica.art/"
+  relevance: "Media art, AI & Life Art, hybrid art, and public art-technology discourse."
+- id: neurips-creative-ai
+  name: "NeurIPS workshops and creative AI events"
+  venue_type: "research venue"
+  url: "https://neurips.cc/"
+  relevance: "Technical ML research, datasets, generative modeling, and occasional art/creativity workshops."
+- id: isea
+  name: "ISEA"
+  venue_type: "symposium"
+  url: "https://isea-international.org/"
+  relevance: "Electronic art, media art, and art-science-technology practice."
+- id: barbican-ai-more-than-human
+  name: "AI: More than Human"
+  venue_type: "exhibition"
+  url: "https://www.barbican.org.uk/whats-on/2019/event/ai-more-than-human"
+  relevance: "Public exhibition connecting AI history, art, and culture."

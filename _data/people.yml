@@ -1,0 +1,75 @@
+- id: harold-cohen
+  name: "Harold Cohen"
+  roles: ["artist", "AI art pioneer"]
+  url: "http://aaronshome.com/"
+  notes: "Creator of AARON."
+- id: simon-colton
+  name: "Simon Colton"
+  roles: ["computational creativity researcher"]
+  url: "https://www.thepaintingfool.com/"
+  notes: "Creator of The Painting Fool."
+- id: rebecca-fiebrink
+  name: "Rebecca Fiebrink"
+  roles: ["researcher", "tool creator"]
+  url: "https://www.doc.gold.ac.uk/~mas01rf/"
+  notes: "Creator of Wekinator; key figure in interactive machine learning for creative practice."
+- id: memo-akten
+  name: "Memo Akten"
+  roles: ["artist", "researcher"]
+  url: "https://www.memo.tv/"
+  notes: "Works with deep visual instruments, perception, ecology, and AI."
+- id: anna-ridler
+  name: "Anna Ridler"
+  roles: ["artist"]
+  url: "https://annaridler.com/"
+  notes: "Known for handmade datasets and machine learning works such as Mosaic Virus."
+- id: sougwen-chung
+  name: "Sougwen Chung"
+  roles: ["artist"]
+  url: "https://sougwen.com/"
+  notes: "Known for human-robot drawing collaborations."
+- id: holly-herndon
+  name: "Holly Herndon"
+  roles: ["musician", "artist"]
+  url: "https://www.hollyherndon.com/"
+  notes: "Known for PROTO, Spawn, Holly+, and AI voice/identity work."
+- id: mat-dryhurst
+  name: "Mat Dryhurst"
+  roles: ["artist", "researcher", "organizer"]
+  url: "https://matdryhurst.com/"
+  notes: "Collaborates with Holly Herndon; co-founder of Spawning."
+- id: refik-anadol
+  name: "Refik Anadol"
+  roles: ["media artist"]
+  url: "https://refikanadol.com/"
+  notes: "Known for AI/data sculptures and immersive installations."
+- id: kate-crawford
+  name: "Kate Crawford"
+  roles: ["researcher", "artist", "critic"]
+  url: "https://katecrawford.net/"
+  notes: "Co-created ImageNet Roulette and Excavating AI with Trevor Paglen."
+- id: trevor-paglen
+  name: "Trevor Paglen"
+  roles: ["artist", "geographer"]
+  url: "https://paglen.studio/"
+  notes: "Works on surveillance, machine vision, and AI politics."
+- id: mario-klingemann
+  name: "Mario Klingemann"
+  roles: ["artist"]
+  url: "https://underdestruction.com/"
+  notes: "Known for GAN-based generative portrait systems."
+- id: ahmed-elgammal
+  name: "Ahmed Elgammal"
+  roles: ["researcher"]
+  url: "https://sites.rutgers.edu/art-ai-lab/"
+  notes: "Founder of Rutgers Art and AI Lab; co-author of CAN."
+- id: ian-goodfellow
+  name: "Ian Goodfellow"
+  roles: ["researcher"]
+  url: "https://www.iangoodfellow.com/"
+  notes: "Lead author of the GAN paper."
+- id: ben-zhao
+  name: "Ben Y. Zhao"
+  roles: ["computer scientist"]
+  url: "https://people.cs.uchicago.edu/~ravenben/"
+  notes: "Co-author on Glaze and Nightshade-related artist-protection research."

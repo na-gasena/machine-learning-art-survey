@@ -1,0 +1,15 @@
+title: "機械学習に関連したアート・パフォーマンス・創作活動など Survey"
+description: "A structured survey on machine-learning-related art, performance, and creative practice"
+theme: minima
+markdown: kramdown
+lang: ja
+url: ""
+baseurl: ""
+header_pages:
+  - ja/index.md
+  - en/index.md
+  - ja/survey-map.md
+  - en/survey-map.md
+exclude:
+  - Gemfile
+  - Gemfile.lock

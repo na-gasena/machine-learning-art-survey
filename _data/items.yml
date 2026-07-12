@@ -1,0 +1,798 @@
+- id: aaron
+  title: AARON
+  title_ja: AARON
+  item_type: artwork
+  authors_or_creators: ["Harold Cohen"]
+  year: "1968-2016"
+  venue_or_context: "Rule-based AI drawing and painting system; exhibited internationally; Whitney Museum retrospective context in 2024"
+  url: "http://aaronshome.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://whitney.org/exhibitions/harold-cohen-aaron"
+  related_people: ["harold-cohen"]
+  related_organizations: ["ucsd", "whitney"]
+  keywords: ["symbolic-ai", "computer-art", "autonomy", "drawing"]
+  discovered_from: "Broad AI art history search; Whitney and AARON references"
+  evidence: "Cohen's long-running system is repeatedly cited as an early autonomous AI art program; the Whitney presented a focused exhibition in 2024."
+  summary_ja: "AARONは、画家Harold Cohenが1960年代末から開発した自律的な描画・絵画生成システムである。深層学習以前の記号的AIに基づき、機械が画像を作る条件を作品として問うた。"
+  summary_en: "AARON was Harold Cohen's long-running autonomous drawing and painting system. It used symbolic AI rather than machine learning, but it forms a key baseline for later debates about machine autonomy, authorship, and art."
+  importance: Foundational
+  confidence: High
+  notes: "Not machine learning in the modern statistical sense; included as a historical anchor for AI art."
+- id: painting-fool
+  title: The Painting Fool
+  title_ja: The Painting Fool
+  item_type: software
+  authors_or_creators: ["Simon Colton"]
+  year: "2001-"
+  venue_or_context: "Computational creativity research system"
+  url: "https://www.thepaintingfool.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.thepaintingfool.com/"
+  related_people: ["simon-colton"]
+  related_organizations: ["goldsmiths", "qmul"]
+  keywords: ["computational-creativity", "creative-agency", "evaluation"]
+  discovered_from: "Computational creativity search"
+  evidence: "The system is a canonical computational creativity project and is discussed in literature and media on artificial artists."
+  summary_ja: "The Painting Foolは、単なる画像加工ツールではなく、創造的主体として評価されうるソフトウェアを目指した研究プロジェクトである。"
+  summary_en: "The Painting Fool is a computational creativity project that frames software as a potential creative agent rather than only a production tool."
+  importance: Important
+  confidence: Medium
+  notes: "The project predates current generative models and mixes symbolic, affective, and procedural strategies."
+- id: computational-creativity-survey-2021
+  title: "Creativity and Machine Learning: A Survey"
+  title_ja: "Creativity and Machine Learning: A Survey"
+  item_type: paper
+  authors_or_creators: ["Giorgio Franceschelli", "Mirco Musolesi"]
+  year: "2021"
+  venue_or_context: "arXiv survey"
+  url: "https://arxiv.org/abs/2104.02726"
+  doi: ""
+  arxiv_id: "2104.02726"
+  source_url: "https://arxiv.org/abs/2104.02726"
+  related_people: []
+  related_organizations: []
+  keywords: ["computational-creativity", "survey", "evaluation"]
+  discovered_from: "Broad search for creativity and machine learning survey"
+  evidence: "The abstract explicitly surveys computational creativity theories, machine learning techniques, and evaluation methods."
+  summary_ja: "機械学習と創造性に関する理論、生成モデル、評価課題をまとめたサーベイで、本調査の研究側の入口として有用である。"
+  summary_en: "A survey of machine learning and creativity that connects computational creativity theory, generative deep learning, and evaluation challenges."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: neural-style-transfer
+  title: "A Neural Algorithm of Artistic Style"
+  title_ja: "A Neural Algorithm of Artistic Style"
+  item_type: paper
+  authors_or_creators: ["Leon A. Gatys", "Alexander S. Ecker", "Matthias Bethge"]
+  year: "2015"
+  venue_or_context: "arXiv; later CVPR-related style transfer literature"
+  url: "https://arxiv.org/abs/1508.06576"
+  doi: ""
+  arxiv_id: "1508.06576"
+  source_url: "https://arxiv.org/abs/1508.06576"
+  related_people: []
+  related_organizations: []
+  keywords: ["neural-style-transfer", "cnn", "visual-art", "image-generation"]
+  discovered_from: "Search for neural style transfer"
+  evidence: "The paper introduced a deep neural method for recombining content and style representations."
+  summary_ja: "CNNの中間表現を用いて画像の内容と様式を分離・再結合する方法を示し、一般ユーザー向けアプリから研究まで広い影響を与えた。"
+  summary_en: "This work used deep convolutional representations to separate and recombine image content and style, making neural style transfer a widely visible AI-art technique."
+  importance: Foundational
+  confidence: High
+  notes: ""
+- id: deepdream
+  title: "DeepDream / Inceptionism"
+  title_ja: "DeepDream / Inceptionism"
+  item_type: software
+  authors_or_creators: ["Alexander Mordvintsev", "Christopher Olah", "Mike Tyka", "Google Research"]
+  year: "2015"
+  venue_or_context: "Google Research blog and released code example"
+  url: "https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html"
+  related_people: ["alexander-mordvintsev", "christopher-olah", "mike-tyka"]
+  related_organizations: ["google-research"]
+  keywords: ["feature-visualization", "cnn", "hallucination", "deep-learning"]
+  discovered_from: "Search for DeepDream and Google Inceptionism"
+  evidence: "The Google Research post introduced the visualizations and code example for neural network feature amplification."
+  summary_ja: "画像認識ネットワークの内部表現を増幅する可視化実験が、2015年に独特の幻視的イメージとして広く流通した。"
+  summary_en: "DeepDream amplified neural network features in images, turning a visualization method into a highly visible aesthetic of machine perception."
+  importance: Foundational
+  confidence: High
+  notes: "Primarily interpretability/visualization research, but culturally important for AI art."
+- id: gan-paper
+  title: "Generative Adversarial Networks"
+  title_ja: "Generative Adversarial Networks"
+  item_type: paper
+  authors_or_creators: ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"]
+  year: "2014"
+  venue_or_context: "NeurIPS 2014"
+  url: "https://arxiv.org/abs/1406.2661"
+  doi: ""
+  arxiv_id: "1406.2661"
+  source_url: "https://arxiv.org/abs/1406.2661"
+  related_people: ["ian-goodfellow"]
+  related_organizations: []
+  keywords: ["gan", "generative-model", "deep-learning"]
+  discovered_from: "Search for GAN art and generative models"
+  evidence: "The paper proposed the adversarial generator/discriminator framework later used in many AI art projects."
+  summary_ja: "GANは生成器と識別器の競合として生成モデルを訓練する枠組みで、2010年代後半のAIアート、とくに画像生成作品の中心的技術となった。"
+  summary_en: "GANs introduced adversarial training between generator and discriminator, later becoming central to many 2010s AI art practices."
+  importance: Foundational
+  confidence: High
+  notes: ""
+- id: creative-adversarial-network
+  title: "CAN: Creative Adversarial Networks"
+  title_ja: "CAN: Creative Adversarial Networks"
+  item_type: paper
+  authors_or_creators: ["Ahmed Elgammal", "Bingchen Liu", "Mohamed Elhoseiny", "Marian Mazzone"]
+  year: "2017"
+  venue_or_context: "arXiv"
+  url: "https://arxiv.org/abs/1706.07068"
+  doi: ""
+  arxiv_id: "1706.07068"
+  source_url: "https://arxiv.org/abs/1706.07068"
+  related_people: ["ahmed-elgammal"]
+  related_organizations: ["rutgers-art-ai-lab"]
+  keywords: ["gan", "creative-adversarial-network", "computational-creativity", "wikiart"]
+  discovered_from: "GAN art search"
+  evidence: "The abstract states the system learns art styles and deviates from style norms."
+  summary_ja: "既存様式からの逸脱を目的関数に組み込むことで、GANを『創造性』の議論に接続した代表的研究である。"
+  summary_en: "CAN connected GAN image generation to computational creativity by encouraging outputs that fit art distributions while deviating from established style categories."
+  importance: Important
+  confidence: High
+  notes: "Human-subject evaluation claims should be treated cautiously."
+- id: artgan
+  title: "ArtGAN: Artwork Synthesis with Conditional Categorical GANs"
+  title_ja: "ArtGAN"
+  item_type: paper
+  authors_or_creators: ["Wei Ren Tan", "Chee Seng Chan", "Hernan Aguirre", "Kiyoshi Tanaka"]
+  year: "2017"
+  venue_or_context: "arXiv / artwork synthesis research"
+  url: "https://arxiv.org/abs/1702.03410"
+  doi: ""
+  arxiv_id: "1702.03410"
+  source_url: "https://arxiv.org/abs/1702.03410"
+  related_people: []
+  related_organizations: []
+  keywords: ["gan", "artwork-synthesis", "wikiart"]
+  discovered_from: "Artwork synthesis search"
+  evidence: "The paper proposes a GAN variant for artwork synthesis."
+  summary_ja: "写真ではなく絵画・芸術画像の生成を対象にしたGAN研究で、WikiArt系データと生成モデルの結びつきを示す。"
+  summary_en: "ArtGAN is an early GAN-based artwork synthesis study focused on the distinctive difficulty of generating artwork rather than natural photographs."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: latent-diffusion
+  title: "High-Resolution Image Synthesis with Latent Diffusion Models"
+  title_ja: "Latent Diffusion Models"
+  item_type: paper
+  authors_or_creators: ["Robin Rombach", "Andreas Blattmann", "Dominik Lorenz", "Patrick Esser", "Bjorn Ommer"]
+  year: "2022"
+  venue_or_context: "CVPR 2022"
+  url: "https://arxiv.org/abs/2112.10752"
+  doi: ""
+  arxiv_id: "2112.10752"
+  source_url: "https://arxiv.org/abs/2112.10752"
+  related_people: []
+  related_organizations: ["compvis", "lmu-munich"]
+  keywords: ["diffusion", "latent-space", "text-to-image", "stable-diffusion"]
+  discovered_from: "Stable Diffusion and latent diffusion search"
+  evidence: "The paper introduced latent diffusion, the architecture underlying early Stable Diffusion releases."
+  summary_ja: "拡散過程を画素空間ではなく潜在空間で扱うことで、高解像度生成の計算効率を改善し、Stable Diffusion系の技術基盤となった。"
+  summary_en: "Latent diffusion moved diffusion modeling into compressed latent space, enabling efficient high-resolution text-to-image generation and influencing Stable Diffusion."
+  importance: Foundational
+  confidence: High
+  notes: ""
+- id: stable-diffusion
+  title: "Stable Diffusion"
+  title_ja: "Stable Diffusion"
+  item_type: software
+  authors_or_creators: ["Stability AI", "CompVis", "Runway"]
+  year: "2022"
+  venue_or_context: "Open-weight text-to-image model ecosystem"
+  url: "https://stability.ai/stable-image"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://github.com/CompVis/stable-diffusion"
+  related_people: []
+  related_organizations: ["stability-ai", "compvis", "runway"]
+  keywords: ["diffusion", "text-to-image", "open-weights", "creative-tools"]
+  discovered_from: "Text-to-image and Stable Diffusion search"
+  evidence: "Stable Diffusion made high-quality text-to-image generation widely accessible through released weights and community tools."
+  summary_ja: "Stable Diffusionは、画像生成AIを研究室・企業内から広い創作コミュニティへ拡散させた代表的モデルである。同時に、訓練データ、著作権、労働、スタイル模倣の問題を可視化した。"
+  summary_en: "Stable Diffusion made text-to-image generation widely accessible and accelerated both creative experimentation and controversies over datasets, copyright, labor, and style mimicry."
+  importance: Foundational
+  confidence: High
+  notes: "Licensing and model versions changed over time; verify version-specific claims."
+- id: dalle
+  title: "DALL-E"
+  title_ja: "DALL-E"
+  item_type: software
+  authors_or_creators: ["OpenAI"]
+  year: "2021"
+  venue_or_context: "Text-to-image model"
+  url: "https://openai.com/index/dall-e/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://openai.com/index/dall-e/"
+  related_people: []
+  related_organizations: ["openai"]
+  keywords: ["text-to-image", "transformer", "prompting"]
+  discovered_from: "Text-to-image model search"
+  evidence: "OpenAI's announcement describes a neural network that creates images from text captions."
+  summary_ja: "自然言語から画像を作る能力を一般に強く印象づけたモデル群で、プロンプトを創作インターフェースにする流れを広げた。"
+  summary_en: "DALL-E made text prompts a prominent creative interface for image generation and helped establish text-to-image models as a public AI-art medium."
+  importance: Foundational
+  confidence: High
+  notes: "DALL-E 2, DALL-E 3, and later image generation systems differ technically."
+- id: imagenet
+  title: "ImageNet"
+  title_ja: "ImageNet"
+  item_type: dataset
+  authors_or_creators: ["Jia Deng", "Wei Dong", "Richard Socher", "Li-Jia Li", "Kai Li", "Li Fei-Fei"]
+  year: "2009"
+  venue_or_context: "Large-scale visual recognition dataset"
+  url: "https://www.image-net.org/"
+  doi: "10.1109/CVPR.2009.5206848"
+  arxiv_id: ""
+  source_url: "https://image-net.org/"
+  related_people: ["fei-fei-li"]
+  related_organizations: ["stanford"]
+  keywords: ["dataset", "computer-vision", "classification", "dataset-politics"]
+  discovered_from: "Dataset politics and ImageNet Roulette search"
+  evidence: "ImageNet is foundational for large-scale visual recognition and later critical art projects about classification."
+  summary_ja: "ImageNetは視覚認識研究を加速した大規模データセットである一方、分類語彙や人物カテゴリをめぐる批判的アートの重要な対象にもなった。"
+  summary_en: "ImageNet accelerated computer vision research and later became a central object of artistic critique around classification, bias, and dataset politics."
+  importance: Foundational
+  confidence: High
+  notes: "People-subtree issues and subsequent filtering should be treated with historical specificity."
+- id: wikiart
+  title: "WikiArt"
+  title_ja: "WikiArt"
+  item_type: dataset
+  authors_or_creators: ["WikiArt community"]
+  year: "2010-"
+  venue_or_context: "Online visual art encyclopedia used in ML research"
+  url: "https://www.wikiart.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.wikiart.org/"
+  related_people: []
+  related_organizations: []
+  keywords: ["dataset", "art-history", "style-classification", "gan"]
+  discovered_from: "GAN art, ArtGAN, CAN, Edmond de Belamy search"
+  evidence: "Multiple art-classification and generation papers use WikiArt-derived image sets."
+  summary_ja: "WikiArtは美術作品画像とメタデータの実質的な研究基盤として使われ、様式分類、CAN、ArtGAN、GAN作品の学習データとして重要になった。"
+  summary_en: "WikiArt has become a practical source for art-image datasets in style classification and generative art research."
+  importance: Important
+  confidence: High
+  notes: "Licensing and image-rights status vary by artwork/source; dataset reuse requires care."
+- id: laion-5b
+  title: "LAION-5B"
+  title_ja: "LAION-5B"
+  item_type: dataset
+  authors_or_creators: ["LAION"]
+  year: "2022"
+  venue_or_context: "Large-scale image-text dataset"
+  url: "https://laion.ai/blog/laion-5b/"
+  doi: ""
+  arxiv_id: "2210.08402"
+  source_url: "https://arxiv.org/abs/2210.08402"
+  related_people: []
+  related_organizations: ["laion"]
+  keywords: ["dataset", "image-text", "web-scraping", "training-data", "ethics"]
+  discovered_from: "Dataset and Stable Diffusion search"
+  evidence: "The paper describes 5.85 billion CLIP-filtered image-text pairs and notes its role for large-scale multimodal research."
+  summary_ja: "LAION-5Bは大規模画像テキストモデルの研究を開いた一方、ウェブスクレイピング、同意、プライバシー、有害コンテンツの問題をめぐる中心的事例になった。"
+  summary_en: "LAION-5B enabled open large-scale multimodal research while becoming a central case in disputes over scraping, consent, privacy, and harmful content."
+  importance: Foundational
+  confidence: High
+  notes: "Dataset availability and safety remediation have changed; verify current status before use."
+- id: artemis
+  title: "ArtEmis: Affective Language for Visual Art"
+  title_ja: "ArtEmis"
+  item_type: dataset
+  authors_or_creators: ["Panos Achlioptas", "Maks Ovsjanikov", "Kilichbek Haydarov", "Mohamed Elhoseiny", "Leonidas Guibas"]
+  year: "2021"
+  venue_or_context: "Dataset and paper for emotion explanations of art"
+  url: "https://www.artemisdataset.org/"
+  doi: ""
+  arxiv_id: "2101.07396"
+  source_url: "https://arxiv.org/abs/2101.07396"
+  related_people: []
+  related_organizations: ["stanford"]
+  keywords: ["dataset", "affect", "art-perception", "language"]
+  discovered_from: "Art datasets search"
+  evidence: "The dataset links artworks to affective annotations and textual explanations."
+  summary_ja: "美術作品に対する感情反応と言語説明を結びつけ、鑑賞・感性・生成説明の研究に使われる。"
+  summary_en: "ArtEmis connects artworks with affective labels and language explanations, supporting research on art perception and affective generation."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: nsynth
+  title: "NSynth"
+  title_ja: "NSynth"
+  item_type: dataset
+  authors_or_creators: ["Google Magenta", "Google Brain", "DeepMind"]
+  year: "2017"
+  venue_or_context: "Neural audio synthesis model and dataset"
+  url: "https://magenta.tensorflow.org/nsynth"
+  doi: ""
+  arxiv_id: "1704.01279"
+  source_url: "https://magenta.tensorflow.org/datasets/nsynth"
+  related_people: ["jesse-engel", "douglas-eck"]
+  related_organizations: ["google-magenta", "google-brain", "deepmind"]
+  keywords: ["music", "audio", "dataset", "neural-synthesis", "timbre"]
+  discovered_from: "Machine learning music search"
+  evidence: "Magenta describes NSynth as a neural synthesizer and a dataset of 305,979 annotated musical notes."
+  summary_ja: "NSynthは、単音サンプルの大規模データセットとWaveNet系オートエンコーダを組み合わせ、音色を潜在空間で探索する創作ツールの基盤になった。"
+  summary_en: "NSynth combined a large annotated note dataset with a WaveNet-style autoencoder, enabling musicians to explore timbre in learned latent space."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: magenta
+  title: "Magenta"
+  title_ja: "Magenta"
+  item_type: project
+  authors_or_creators: ["Google Magenta"]
+  year: "2016-"
+  venue_or_context: "Open-source research project for music, art, and machine learning"
+  url: "https://magenta.tensorflow.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://magenta.tensorflow.org/"
+  related_people: ["douglas-eck", "jesse-engel"]
+  related_organizations: ["google-magenta"]
+  keywords: ["music", "creative-tools", "open-source", "machine-learning"]
+  discovered_from: "Machine learning music and art tools search"
+  evidence: "The Magenta site describes the project as open-source research exploring machine learning as a tool in the creative process."
+  summary_ja: "Magentaは音楽・アート制作における機械学習ツールの研究・公開を進めるプロジェクトで、NSynthやMagenta Studioなどを通じて制作コミュニティに影響した。"
+  summary_en: "Magenta is an open-source research project exploring machine learning as a creative tool for music and art."
+  importance: Important
+  confidence: High
+  notes: "The project evolved through multiple tools and models; current pages include real-time music models."
+- id: wekinator
+  title: "Wekinator"
+  title_ja: "Wekinator"
+  item_type: software
+  authors_or_creators: ["Rebecca Fiebrink"]
+  year: "2009"
+  venue_or_context: "Interactive machine learning software for artists and musicians"
+  url: "https://wekinator.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://doc.gold.ac.uk/~mas01rf/Wekinator/"
+  related_people: ["rebecca-fiebrink"]
+  related_organizations: ["goldsmiths"]
+  keywords: ["interactive-machine-learning", "performance", "music", "gesture"]
+  discovered_from: "Interactive machine learning and music search"
+  evidence: "The Wekinator site describes free open-source software for real-time interactive machine learning and creative coding connections."
+  summary_ja: "Wekinatorは、アーティストや音楽家が実演によって入力と出力の関係を学習させるためのツールで、機械学習を身体的・即興的なインターフェースとして扱う。"
+  summary_en: "Wekinator lets artists and musicians train interactive systems by demonstration, making machine learning an embodied interface for performance and creative coding."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: creative-musical-tool
+  title: "The Machine Learning Algorithm as Creative Musical Tool"
+  title_ja: "The Machine Learning Algorithm as Creative Musical Tool"
+  item_type: paper
+  authors_or_creators: ["Rebecca Fiebrink", "Baptiste Caramiaux"]
+  year: "2016"
+  venue_or_context: "Book chapter / arXiv"
+  url: "https://arxiv.org/abs/1611.00379"
+  doi: ""
+  arxiv_id: "1611.00379"
+  source_url: "https://arxiv.org/abs/1611.00379"
+  related_people: ["rebecca-fiebrink", "baptiste-caramiaux"]
+  related_organizations: []
+  keywords: ["music", "interactive-machine-learning", "hci", "creative-tool"]
+  discovered_from: "Machine learning music search"
+  evidence: "The abstract frames learning algorithms as human-computer interfaces for music and sonic arts."
+  summary_ja: "学習アルゴリズムを単なる自動化ではなく、音楽制作におけるインターフェースとして理解する枠組みを提示した。"
+  summary_en: "This chapter reframes machine learning algorithms as human-computer interfaces for music and sonic arts."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: learning-to-see
+  title: "Learning to See"
+  title_ja: "Learning to See"
+  item_type: artwork
+  authors_or_creators: ["Memo Akten"]
+  year: "2017"
+  venue_or_context: "Interactive neural-network artwork; paper with Rebecca Fiebrink and Mick Grierson in 2020"
+  url: "https://www.memo.tv/works/learning-to-see/"
+  doi: ""
+  arxiv_id: "2003.00902"
+  source_url: "https://arxiv.org/abs/2003.00902"
+  related_people: ["memo-akten", "rebecca-fiebrink", "mick-grierson"]
+  related_organizations: []
+  keywords: ["interactive-machine-learning", "bias", "visual-instrument", "perception"]
+  discovered_from: "Memo Akten and interactive ML art search"
+  evidence: "The paper presents the visual instrument as part of the artwork and frames it around bias and representation."
+  summary_ja: "リアルタイムに物体や手元の映像をニューラルネットワークの視覚世界へ変換する作品で、AIの知覚が訓練データに依存することを体験化する。"
+  summary_en: "Learning to See is an interactive visual instrument that makes the dependence of machine perception on training data tangible."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: mosaic-virus
+  title: "Mosaic Virus"
+  title_ja: "Mosaic Virus"
+  item_type: artwork
+  authors_or_creators: ["Anna Ridler"]
+  year: "2018/2019"
+  venue_or_context: "GAN-generated video installation"
+  url: "https://annaridler.com/works/mosaic-2019"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://annaridler.com/works/mosaic-2019"
+  related_people: ["anna-ridler"]
+  related_organizations: []
+  keywords: ["gan", "handmade-dataset", "tulipmania", "speculation", "crypto"]
+  discovered_from: "Artist and artwork search"
+  evidence: "Ridler's page states year, medium, bitcoin price control, tulip mania context, and GAN process notes."
+  summary_ja: "手作業で撮影・分類したチューリップのデータセットからGAN映像を生成し、ビットコイン価格変動で花弁の縞を変える作品。データ労働、投機、AIブームを重ねる。"
+  summary_en: "Mosaic Virus uses a handmade tulip dataset and GAN-generated video controlled by Bitcoin prices, linking data labor, speculation, and AI hype."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: drawing-operations
+  title: "Drawing Operations / D.O.U.G."
+  title_ja: "Drawing Operations / D.O.U.G."
+  item_type: artwork
+  authors_or_creators: ["Sougwen Chung"]
+  year: "2015-"
+  venue_or_context: "Human-robot drawing performance and installation series"
+  url: "https://sougwen.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://sougwen.com/2019/drawing-operations-awarded-the-lumens-art-and-technology-prize"
+  related_people: ["sougwen-chung"]
+  related_organizations: ["new-inc", "bell-labs", "lumen-prize"]
+  keywords: ["robotics", "performance", "human-machine-collaboration", "drawing", "rnn"]
+  discovered_from: "Human-machine collaboration artist search"
+  evidence: "Chung's site and secondary profiles describe a project begun in 2015 exploring human and machine collaboration."
+  summary_ja: "ChungのD.O.U.G.シリーズは、作家の描線データや身体・生体信号を機械の描画行為へ接続し、共同制作としてのAIを舞台化する。"
+  summary_en: "Chung's D.O.U.G. series stages AI and robotics as embodied collaborators in drawing, using the artist's mark-making data and later biofeedback."
+  importance: Important
+  confidence: High
+  notes: "Specific technical details vary by generation and should be checked per work."
+- id: holly-plus
+  title: "Holly+"
+  title_ja: "Holly+"
+  item_type: project
+  authors_or_creators: ["Holly Herndon", "Mat Dryhurst"]
+  year: "2021"
+  venue_or_context: "AI voice model / identity and governance project"
+  url: "https://holly.plus/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://ars.electronica.art/starts-prize/en/holly/"
+  related_people: ["holly-herndon", "mat-dryhurst"]
+  related_organizations: ["spawning", "ars-electronica"]
+  keywords: ["voice", "music", "identity", "deepfake", "governance"]
+  discovered_from: "AI music and voice search"
+  evidence: "Ars Electronica and press sources identify Holly+ as an AI voice/identity project and STARTS Prize winner."
+  summary_ja: "Holly+はHerndonの声をAIモデル化し、声・人格・許諾・共同統治を作品化するプロジェクトである。"
+  summary_en: "Holly+ models Holly Herndon's voice while treating voice, identity, consent, and collective governance as the artistic material."
+  importance: Important
+  confidence: High
+  notes: "The official site is highly interactive and not fully text-extractable here."
+- id: proto-spawn
+  title: "PROTO / Spawn"
+  title_ja: "PROTO / Spawn"
+  item_type: artwork
+  authors_or_creators: ["Holly Herndon", "Mat Dryhurst", "Jules LaPlace"]
+  year: "2019"
+  venue_or_context: "Album and performance practice involving an AI voice system"
+  url: "https://www.hollyherndon.com/proto"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.4ad.com/releases/878"
+  related_people: ["holly-herndon", "mat-dryhurst"]
+  related_organizations: ["4ad"]
+  keywords: ["music", "voice", "choir", "human-ai-collaboration"]
+  discovered_from: "Holly Herndon AI music search"
+  evidence: "Album and press sources describe Spawn as an AI system trained through vocal sessions/ceremonies."
+  summary_ja: "PROTOはAI音声システムSpawnと人間の合唱・儀式的訓練を組み合わせ、AIを単なる後処理ではなくアンサンブルの一員として扱った。"
+  summary_en: "PROTO integrated the AI voice system Spawn with human ensemble singing, treating AI as an ensemble participant rather than only a post-production effect."
+  importance: Important
+  confidence: Medium
+  notes: "Detailed technical implementation is less openly documented than the artistic process."
+- id: image-net-roulette
+  title: "ImageNet Roulette"
+  title_ja: "ImageNet Roulette"
+  item_type: artwork
+  authors_or_creators: ["Trevor Paglen", "Kate Crawford"]
+  year: "2019"
+  venue_or_context: "Interactive critical dataset artwork; Training Humans exhibition context"
+  url: "https://imagenet-roulette.paglen.com/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://excavating.ai/"
+  related_people: ["trevor-paglen", "kate-crawford"]
+  related_organizations: ["ai-now-institute", "fondazione-prada"]
+  keywords: ["dataset-politics", "classification", "bias", "critical-ai"]
+  discovered_from: "Dataset politics and AI art search"
+  evidence: "Crawford and Paglen's Excavating AI essay and coverage describe the project as critique of image training sets."
+  summary_ja: "人物画像をImageNet由来の分類語でラベル付けすることで、データセットの語彙、権力、偏りを可視化した批評的作品。"
+  summary_en: "ImageNet Roulette exposed the politics of classification by applying ImageNet-derived person labels to uploaded images."
+  importance: Important
+  confidence: Medium
+  notes: "The project and essay have been criticized by Michael J. Lyons regarding dataset consent and factual framing; include controversy."
+- id: edmond-de-belamy
+  title: "Portrait of Edmond de Belamy"
+  title_ja: "Portrait of Edmond de Belamy"
+  item_type: artwork
+  authors_or_creators: ["Obvious"]
+  year: "2018"
+  venue_or_context: "GAN portrait sold at Christie's"
+  url: "https://www.christies.com/en/lot/lot-6166184"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.christies.com/en/lot/lot-6166184"
+  related_people: ["obvious", "robbie-barrat"]
+  related_organizations: ["christies"]
+  keywords: ["gan", "auction", "authorship", "market"]
+  discovered_from: "AI art auction search"
+  evidence: "Christie's lot page documents the sale; reporting links the work to GAN code and subsequent authorship controversy."
+  summary_ja: "GANで生成された肖像画が高額落札された事例として有名だが、オープンソースコードのクレジットや市場によるAIアートの物語化をめぐる論争も重要である。"
+  summary_en: "The sale became a market landmark for AI art, while also intensifying debates about code credit, authorship, and the art market's framing of AI."
+  importance: Important
+  confidence: High
+  notes: "The cultural importance is high; artistic/technical originality is contested."
+- id: memories-passersby
+  title: "Memories of Passersby I"
+  title_ja: "Memories of Passersby I"
+  item_type: artwork
+  authors_or_creators: ["Mario Klingemann"]
+  year: "2018"
+  venue_or_context: "Autonomous AI portrait installation; Sotheby's auction in 2019"
+  url: "https://underdestruction.com/2018/12/29/memories-of-passersby-i/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://underdestruction.com/2018/12/29/memories-of-passersby-i/"
+  related_people: ["mario-klingemann"]
+  related_organizations: ["sothebys"]
+  keywords: ["gan", "portrait", "autonomous-installation", "market"]
+  discovered_from: "Mario Klingemann AI art search"
+  evidence: "Klingemann's site documents the work; auction context is widely cited."
+  summary_ja: "リアルタイムに肖像イメージを生成し続ける装置として、AI画像生成を静止したプリントではなく自律的な展示システムとして提示した。"
+  summary_en: "Memories of Passersby I presented AI image generation as an autonomous portrait-generating installation rather than a single static output."
+  importance: Contextual
+  confidence: Medium
+  notes: "Primary page is sparse; details often rely on auction/press descriptions."
+- id: machine-hallucinations
+  title: "Machine Hallucinations"
+  title_ja: "Machine Hallucinations"
+  item_type: artwork
+  authors_or_creators: ["Refik Anadol Studio"]
+  year: "2019-"
+  venue_or_context: "AI/data sculpture and immersive installation series"
+  url: "https://refikanadol.com/works/machine-hallucinations/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://refikanadol.com/"
+  related_people: ["refik-anadol"]
+  related_organizations: ["refik-anadol-studio"]
+  keywords: ["immersive-installation", "data-sculpture", "urban-data", "ai-art"]
+  discovered_from: "Refik Anadol AI art search"
+  evidence: "Artist and museum pages describe AI-driven data sculptures and installations using large datasets."
+  summary_ja: "都市、自然、宇宙、建築などの大規模データをAIで変換し、没入型のデータ彫刻として提示するシリーズ。"
+  summary_en: "Machine Hallucinations turns large datasets of cities, nature, space, or architecture into immersive AI-driven data sculptures."
+  importance: Important
+  confidence: High
+  notes: "Dataset scale claims vary by project and should be cited per installation."
+- id: unsupervised-moma
+  title: "Unsupervised"
+  title_ja: "Unsupervised"
+  item_type: artwork
+  authors_or_creators: ["Refik Anadol Studio"]
+  year: "2022"
+  venue_or_context: "MoMA installation using the museum collection dataset"
+  url: "https://www.moma.org/calendar/exhibitions/5535"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.moma.org/calendar/exhibitions/5535"
+  related_people: ["refik-anadol"]
+  related_organizations: ["moma", "refik-anadol-studio"]
+  keywords: ["museum-collection", "ai-art", "data-sculpture", "institutional-collection"]
+  discovered_from: "Refik Anadol and MoMA search"
+  evidence: "MoMA exhibition page frames the work as AI trained/interpreting MoMA's collection data."
+  summary_ja: "MoMAのコレクションデータをもとに機械が美術館の記憶を再構成する作品として、美術館制度とAI生成の関係を象徴した。"
+  summary_en: "Unsupervised used MoMA's collection data to stage a machine interpretation of institutional art memory."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: large-nature-model
+  title: "Large Nature Model / Dataland"
+  title_ja: "Large Nature Model / Dataland"
+  item_type: project
+  authors_or_creators: ["Refik Anadol Studio", "Dataland"]
+  year: "2024-2026"
+  venue_or_context: "Nature-focused generative AI model and AI arts museum context"
+  url: "https://dataland.art/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.serpentinegalleries.org/whats-on/refik-anadol-echoes-of-the-earth-living-archive/"
+  related_people: ["refik-anadol", "efsun-erkilic"]
+  related_organizations: ["dataland", "serpentine", "smithsonian"]
+  keywords: ["nature-data", "immersive-installation", "ai-museum", "generative-model"]
+  discovered_from: "Latest AI art museum and Refik Anadol search"
+  evidence: "Serpentine and recent coverage describe nature-focused AI works and Dataland's 2026 opening context."
+  summary_ja: "自然データに特化した生成モデルとAIアート専門施設をめぐる事例で、環境データ、没入体験、企業・文化機関連携が交差する。"
+  summary_en: "Large Nature Model and Dataland link nature-data-driven generation, immersive exhibition, and institutional claims around AI arts."
+  importance: Emerging
+  confidence: Medium
+  notes: "Some 2026 claims are recent press reports and should be rechecked over time."
+- id: artists-opinions-survey
+  title: "Foregrounding Artist Opinions"
+  title_ja: "Foregrounding Artist Opinions"
+  item_type: paper
+  authors_or_creators: ["Juniper Lovato", "Julia Zimmerman", "Isabelle Smith", "Peter Dodds", "Jennifer Karson"]
+  year: "2024"
+  venue_or_context: "Survey study of artists and generative AI"
+  url: "https://arxiv.org/abs/2401.15497"
+  doi: ""
+  arxiv_id: "2401.15497"
+  source_url: "https://arxiv.org/abs/2401.15497"
+  related_people: []
+  related_organizations: []
+  keywords: ["artist-opinions", "ownership", "fairness", "transparency", "labor"]
+  discovered_from: "AI generative art artist opinion search"
+  evidence: "The abstract reports a survey of 459 artists on utility, harms, disclosure, ownership, and compensation."
+  summary_ja: "生成AIをめぐる作家の意見を、透明性、所有、補償、労働影響の観点から調査した研究。"
+  summary_en: "A survey study foregrounding artists' views on generative AI, including disclosure, ownership, compensation, and labor impacts."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: glaze
+  title: "Glaze"
+  title_ja: "Glaze"
+  item_type: software
+  authors_or_creators: ["Shawn Shan", "Jenna Cryan", "Emily Wenger", "Haitao Zheng", "Rana Hanocka", "Ben Y. Zhao"]
+  year: "2023"
+  venue_or_context: "Artist protection tool against style mimicry"
+  url: "https://glaze.cs.uchicago.edu/"
+  doi: ""
+  arxiv_id: "2302.04222"
+  source_url: "https://arxiv.org/abs/2302.04222"
+  related_people: ["ben-zhao"]
+  related_organizations: ["university-of-chicago"]
+  keywords: ["style-mimicry", "artist-protection", "adversarial-perturbation", "rights"]
+  discovered_from: "Artist protection and AI training search"
+  evidence: "The paper describes style cloaks to protect artists from text-to-image style mimicry."
+  summary_ja: "オンライン公開作品に微小な変化を加え、モデルによるスタイル模倣を妨げることを目指す作家支援ツール。"
+  summary_en: "Glaze applies subtle perturbations to artworks to disrupt style mimicry by text-to-image models."
+  importance: Emerging
+  confidence: High
+  notes: "Robustness is an active adversarial area."
+- id: c2pa
+  title: "C2PA / Content Credentials"
+  title_ja: "C2PA / Content Credentials"
+  item_type: standard
+  authors_or_creators: ["Coalition for Content Provenance and Authenticity"]
+  year: "2021-"
+  venue_or_context: "Digital media provenance standard"
+  url: "https://c2pa.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://c2pa.org/specifications/specifications/2.2/index.html"
+  related_people: []
+  related_organizations: ["c2pa", "content-authenticity-initiative"]
+  keywords: ["provenance", "authenticity", "metadata", "ai-labeling"]
+  discovered_from: "AI provenance and content credentials search"
+  evidence: "C2PA publishes specifications for content provenance and authenticity metadata."
+  summary_ja: "生成物の来歴や編集履歴を暗号署名付きメタデータとして扱う標準。AI生成作品の表示、真正性、流通に関わる。"
+  summary_en: "C2PA provides a provenance metadata standard relevant to AI-generated media labeling, authenticity, and circulation."
+  importance: Emerging
+  confidence: High
+  notes: "Security and adoption limitations remain contested."
+- id: copyright-office-ai-part2
+  title: "Copyright and Artificial Intelligence, Part 2: Copyrightability"
+  title_ja: "Copyright and Artificial Intelligence, Part 2: Copyrightability"
+  item_type: standard
+  authors_or_creators: ["U.S. Copyright Office"]
+  year: "2025"
+  venue_or_context: "Policy report"
+  url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.copyright.gov/ai/"
+  related_people: []
+  related_organizations: ["us-copyright-office"]
+  keywords: ["copyright", "human-authorship", "policy", "generative-ai"]
+  discovered_from: "AI copyright report search"
+  evidence: "The U.S. Copyright Office report addresses copyrightability of AI-assisted works."
+  summary_ja: "AI支援作品の著作権保護には人間の創作的寄与が重要であるという政策整理。創作実務と法制度の境界を理解する資料。"
+  summary_en: "A policy report clarifying that copyrightability of AI-assisted works depends on sufficient human creative contribution."
+  importance: Important
+  confidence: High
+  notes: "Jurisdiction-specific; not a global rule."
+- id: ai-more-than-human
+  title: "AI: More than Human"
+  title_ja: "AI: More than Human"
+  item_type: exhibition
+  authors_or_creators: ["Barbican Centre"]
+  year: "2019"
+  venue_or_context: "Exhibition on AI, art, history, and culture"
+  url: "https://www.barbican.org.uk/whats-on/2019/event/ai-more-than-human"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.barbican.org.uk/whats-on/2019/event/ai-more-than-human"
+  related_people: []
+  related_organizations: ["barbican"]
+  keywords: ["exhibition", "ai-culture", "public-understanding", "media-art"]
+  discovered_from: "AI exhibition search and artist pages"
+  evidence: "The Barbican exhibition gathered art, research, and cultural history around AI."
+  summary_ja: "AIを技術史・文化史・芸術表現として広く見せた展覧会で、一般向けAIアート受容の節目の一つ。"
+  summary_en: "A major public exhibition framing AI across technology history, culture, and artistic practice."
+  importance: Contextual
+  confidence: High
+  notes: ""
+- id: ars-electronica-ai-life-art
+  title: "Prix Ars Electronica: Artificial Intelligence & Life Art"
+  title_ja: "Prix Ars Electronica: Artificial Intelligence & Life Art"
+  item_type: venue
+  authors_or_creators: ["Ars Electronica"]
+  year: "2019-"
+  venue_or_context: "Award category for AI and life-art practices"
+  url: "https://ars.electronica.art/prix/en/categories/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://ars.electronica.art/prix/en/categories/"
+  related_people: []
+  related_organizations: ["ars-electronica"]
+  keywords: ["festival", "award", "media-art", "ai-art", "bio-art"]
+  discovered_from: "Ars Electronica AI art search"
+  evidence: "Ars Electronica lists Artificial Intelligence & Life Art as a Prix category."
+  summary_ja: "メディアアートの長い制度史の中で、AIと生命芸術を対象にしたカテゴリが設けられ、研究・制作コミュニティの接点になっている。"
+  summary_en: "This category situates AI art within Ars Electronica's broader media-art and art-technology ecosystem."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: siggraph
+  title: "ACM SIGGRAPH"
+  title_ja: "ACM SIGGRAPH"
+  item_type: venue
+  authors_or_creators: ["ACM SIGGRAPH"]
+  year: "1969-"
+  venue_or_context: "Computer graphics and interactive techniques conference/community"
+  url: "https://www.siggraph.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.siggraph.org/"
+  related_people: []
+  related_organizations: ["acm-siggraph"]
+  keywords: ["computer-graphics", "interactive-techniques", "digital-art", "conference"]
+  discovered_from: "Computer art and ACM SIGGRAPH search"
+  evidence: "SIGGRAPH is a central venue for computer graphics, interactive techniques, and digital art awards."
+  summary_ja: "コンピュータグラフィックスとインタラクティブ技術の主要コミュニティで、AIアート以前から計算機芸術と技術研究を結びつけてきた。"
+  summary_en: "SIGGRAPH is a central community linking computer graphics, interactive techniques, digital art, and later AI-enabled creative systems."
+  importance: Important
+  confidence: High
+  notes: ""
+- id: nime
+  title: "NIME"
+  title_ja: "NIME"
+  item_type: venue
+  authors_or_creators: ["NIME community"]
+  year: "2001-"
+  venue_or_context: "International Conference on New Interfaces for Musical Expression"
+  url: "https://www.nime.org/"
+  doi: ""
+  arxiv_id: ""
+  source_url: "https://www.nime.org/"
+  related_people: []
+  related_organizations: ["nime"]
+  keywords: ["music", "performance", "interfaces", "conference", "interactive-machine-learning"]
+  discovered_from: "Music performance and ML search"
+  evidence: "NIME is a key venue for musical interfaces, including ML-mediated instruments and performance systems."
+  summary_ja: "新しい音楽インターフェースの国際会議で、インタラクティブ機械学習、ジェスチャ、身体、演奏システムの議論と接続する。"
+  summary_en: "NIME is a key venue for new musical interfaces, including ML-mediated instruments, gesture, embodiment, and performance systems."
+  importance: Important
+  confidence: High
+  notes: ""

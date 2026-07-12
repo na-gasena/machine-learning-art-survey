@@ -1,0 +1,30 @@
+body {
+  line-height: 1.7;
+}
+
+.site-title,
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  letter-spacing: 0;
+}
+
+.page-content {
+  max-width: 980px;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+blockquote {
+  color: #4b5563;
+  border-left: 4px solid #94a3b8;
+  padding-left: 1rem;
+}
+
+code {
+  white-space: pre-wrap;
+}

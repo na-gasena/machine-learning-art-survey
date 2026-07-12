@@ -1,0 +1,40 @@
+- id: ai-art
+  label: "AI art"
+  label_ja: "AIアート"
+  notes: "Broad term; often includes non-ML AI, generative AI, and AI-assisted workflows."
+- id: computational-creativity
+  label: "Computational creativity"
+  label_ja: "計算論的創造性"
+  notes: "Research field studying systems that model, support, or exhibit creative behavior."
+- id: generative-art
+  label: "Generative art"
+  label_ja: "生成芸術"
+  notes: "Older and broader than machine learning; includes rule-based, procedural, evolutionary, and ML systems."
+- id: neural-style-transfer
+  label: "Neural style transfer"
+  label_ja: "ニューラルスタイル変換"
+  notes: "Recombination of image content and style using neural representations."
+- id: gan
+  label: "GAN"
+  label_ja: "GAN"
+  notes: "Adversarial generative modeling; central to many 2010s AI artworks."
+- id: diffusion
+  label: "Diffusion model"
+  label_ja: "拡散モデル"
+  notes: "Dominant image generation family in the 2020s."
+- id: prompt
+  label: "Prompting"
+  label_ja: "プロンプト"
+  notes: "Natural-language or multimodal steering interface for generative models."
+- id: interactive-machine-learning
+  label: "Interactive machine learning"
+  label_ja: "インタラクティブ機械学習"
+  notes: "Human-in-the-loop learning for creative interfaces and performance."
+- id: dataset-politics
+  label: "Dataset politics"
+  label_ja: "データセットの政治性"
+  notes: "Questions of classification, consent, labor, bias, and power in training data."
+- id: provenance
+  label: "Provenance"
+  label_ja: "来歴"
+  notes: "Technical and institutional ways to record origin and editing history of media."

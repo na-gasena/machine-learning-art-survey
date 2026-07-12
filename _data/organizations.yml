@@ -1,0 +1,70 @@
+- id: google-magenta
+  name: "Google Magenta"
+  organization_type: "research project"
+  url: "https://magenta.tensorflow.org/"
+  notes: "Creative machine learning tools and research for music and art."
+- id: google-research
+  name: "Google Research"
+  organization_type: "research lab"
+  url: "https://research.google/"
+  notes: "Published DeepDream/Inceptionism material."
+- id: openai
+  name: "OpenAI"
+  organization_type: "AI lab/company"
+  url: "https://openai.com/"
+  notes: "DALL-E and later image generation systems."
+- id: stability-ai
+  name: "Stability AI"
+  organization_type: "AI company"
+  url: "https://stability.ai/"
+  notes: "Released Stable Diffusion model family with partners."
+- id: compvis
+  name: "CompVis"
+  organization_type: "research group"
+  url: "https://ommer-lab.com/"
+  notes: "Latent diffusion and early Stable Diffusion research context."
+- id: ars-electronica
+  name: "Ars Electronica"
+  organization_type: "festival, museum, award"
+  url: "https://ars.electronica.art/"
+  notes: "Major art-technology institution."
+- id: siggraph
+  name: "ACM SIGGRAPH"
+  organization_type: "conference/community"
+  url: "https://www.siggraph.org/"
+  notes: "Computer graphics and interactive techniques community."
+- id: nime
+  name: "NIME"
+  organization_type: "conference/community"
+  url: "https://www.nime.org/"
+  notes: "New Interfaces for Musical Expression."
+- id: rutgers-art-ai-lab
+  name: "Rutgers Art and AI Lab"
+  organization_type: "research lab"
+  url: "https://sites.rutgers.edu/art-ai-lab/"
+  notes: "Art analysis and generation research."
+- id: barbican
+  name: "Barbican Centre"
+  organization_type: "arts institution"
+  url: "https://www.barbican.org.uk/"
+  notes: "Presented AI: More than Human."
+- id: moma
+  name: "Museum of Modern Art"
+  organization_type: "museum"
+  url: "https://www.moma.org/"
+  notes: "Presented/acquired AI-related generative works including Unsupervised."
+- id: whitney
+  name: "Whitney Museum of American Art"
+  organization_type: "museum"
+  url: "https://whitney.org/"
+  notes: "Presented Harold Cohen: AARON."
+- id: c2pa
+  name: "Coalition for Content Provenance and Authenticity"
+  organization_type: "standards coalition"
+  url: "https://c2pa.org/"
+  notes: "Develops provenance specifications."
+- id: us-copyright-office
+  name: "U.S. Copyright Office"
+  organization_type: "government office"
+  url: "https://www.copyright.gov/"
+  notes: "Publishes U.S. policy reports on AI and copyright."
