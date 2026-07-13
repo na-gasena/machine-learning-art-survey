@@ -153,7 +153,9 @@ permalink: /audit-report/
 - トピック本文固有URL: 差分28件を検査し、23件到達、3件bot対策、2件タイムアウト。Goldsmithsはブラウザ取得で確認し、到達しないThe Painting Fool公式サイトはICCCの機関保存論文へ置換した。
 - 埋め込み外部画像: 8件すべてHTTP 200を確認した。
 - 初回本番DOM監査で、Kramdownが作品・資料ページの裸URLを自動リンク化していないことを検出。日英4ページの348行を明示的なMarkdown自動リンクへ変換し、長いURLへ `overflow-wrap: anywhere` を適用した。既存閲覧者へ更新済みCSSを確実に配信するため、スタイルシートURLへ版クエリも追加した。
-- YAML/Jekyll実ビルド: ローカルにRuby/Jekyllがないため、GitHub Pages Actionsで最終検証する。
+- YAML/Jekyll実ビルド: GitHub Pages Actions run `29267179058` でJekyll buildとdeployが成功。
+- 公開permalink: 33ページを本番URLで順次取得し、33/33がHTTP 200。
+- 公開DOM: 日本語トップに11トピックリンクを確認。作品アーカイブは78項目、外部リンク131本、画像8/8表示、横スクロールなしを確認。
 
 ### 15項目監査
 
