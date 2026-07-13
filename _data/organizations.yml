@@ -138,3 +138,358 @@
   organization_type: "public art / creative placemaking agency"
   url: "https://massivart.com/"
   notes: "Creative placemaking agency connected to The Eye of Mexico public AI artwork."
+- id: bodleian-libraries
+  name: "Bodleian Libraries"
+  organization_type: "library / archive"
+  url: "https://www.bodleian.ox.ac.uk/"
+  notes: "Preserves Christopher Strachey's papers and generated love letters."
+- id: institute-of-contemporary-arts
+  name: "Institute of Contemporary Arts"
+  organization_type: "art institution"
+  url: "https://www.ica.art/"
+  notes: "Hosted Cybernetic Serendipity in 1968 and maintains an online archive."
+- id: goldsmiths-university-of-london
+  name: "Goldsmiths, University of London"
+  organization_type: "university"
+  url: "https://www.gold.ac.uk/"
+  notes: "Institutional context for William Latham, Mutator VR, Rebecca Fiebrink, and creative computing."
+- id: nvidia
+  name: "NVIDIA"
+  organization_type: "technology company / research lab"
+  url: "https://research.nvidia.com/"
+  notes: "Research context for StyleGAN, GauGAN, and generative graphics."
+- id: sony-computer-science-laboratories-paris
+  name: "Sony Computer Science Laboratories Paris"
+  organization_type: "research lab"
+  url: "https://www.sonycsl.co.jp/paris/"
+  notes: "Research context for Continuator, DeepBach, and Flow Machines."
+- id: georgia-tech-center-for-music-technology
+  name: "Georgia Tech Center for Music Technology"
+  organization_type: "university research center"
+  url: "https://gtcmt.gatech.edu/"
+  notes: "Develops Shimon and other robotic/interactive music systems."
+- id: flucoma
+  name: "Fluid Corpus Manipulation"
+  organization_type: "research project / open-source community"
+  url: "https://www.flucoma.org/"
+  notes: "Artist-facing machine listening and corpus toolkits."
+- id: studio-wayne-mcgregor
+  name: "Studio Wayne McGregor"
+  organization_type: "dance company / research studio"
+  url: "https://waynemcgregor.com/"
+  notes: "Created Living Archive with Google Arts & Culture."
+- id: rhizomatiks
+  name: "Rhizomatiks"
+  organization_type: "creative studio"
+  url: "https://rhizomatiks.com/"
+  notes: "Tokyo-based collective working across dance, media performance, sensing, and machine learning."
+- id: elevenplay
+  name: "ELEVENPLAY"
+  organization_type: "dance company"
+  url: "https://elevenplay.net/"
+  notes: "Dance company involved in discrete figures."
+- id: improbotics
+  name: "Improbotics"
+  organization_type: "theatre ensemble / research project"
+  url: "https://improbotics.org/"
+  notes: "Performs improvised theatre with machine-generated dialogue."
+- id: svanda-theatre
+  name: "Svanda Theatre"
+  organization_type: "theatre"
+  url: "https://www.svandovodivadlo.cz/"
+  notes: "Prague theatre that staged AI: When a Robot Writes a Play."
+- id: serpentine-galleries
+  name: "Serpentine Galleries"
+  organization_type: "art institution"
+  url: "https://www.serpentinegalleries.org/"
+  notes: "Exhibition context for BOB, UUmwelt, and arts-technologies programs."
+- id: portland-art-museum
+  name: "Portland Art Museum"
+  organization_type: "museum"
+  url: "https://portlandartmuseum.org/"
+  notes: "Exhibited Hito Steyerl's This is the Future."
+- id: salt-research
+  name: "SALT Research"
+  organization_type: "archive / cultural institution"
+  url: "https://archives.saltresearch.org/"
+  notes: "Archive used in Refik Anadol's Archive Dreaming."
+- id: university-of-amsterdam
+  name: "University of Amsterdam"
+  organization_type: "university"
+  url: "https://www.uva.nl/"
+  notes: "Institutional context for OmniArt research."
+- id: aston-university
+  name: "Aston University"
+  organization_type: "university"
+  url: "https://www.aston.ac.uk/"
+  notes: "Hosts the SemArt dataset repository record."
+- id: spawning
+  name: "Spawning"
+  organization_type: "creator-rights technology organization"
+  url: "https://spawning.ai/"
+  notes: "Develops Have I Been Trained? and creator preference infrastructure."
+- id: data-provenance-initiative
+  name: "Data Provenance Initiative"
+  organization_type: "research initiative"
+  url: "https://www.dataprovenance.org/"
+  notes: "Audits source and licensing provenance of AI datasets."
+- id: european-commission
+  name: "European Commission"
+  organization_type: "government institution"
+  url: "https://commission.europa.eu/"
+  notes: "Publishes EU AI Act implementation guidance and transparency templates."
+- id: barbican-centre
+  name: "Barbican Centre"
+  organization_type: "arts centre"
+  url: "https://www.barbican.org.uk/"
+  notes: "Originated AI: More than Human in 2019."
+- id: centre-pompidou
+  name: "Centre Pompidou"
+  organization_type: "museum"
+  url: "https://www.centrepompidou.fr/"
+  notes: "Hosted Neurones, les intelligences simulees and preserves video documentation."
+- id: blanton-museum-of-art
+  name: "Blanton Museum of Art"
+  organization_type: "museum"
+  url: "https://blantonmuseum.org/"
+  notes: "Organized Run the Code around software-based art."
+- id: guggenheim-museum
+  name: "Solomon R. Guggenheim Museum"
+  organization_type: "museum"
+  url: "https://www.guggenheim.org/"
+  notes: "Runs the Conserving Computer-Based Art Initiative."
+- id: 4ad
+  name: "4AD"
+  organization_type: "record label"
+  url: "https://4ad.com/"
+  notes: "Release context for Holly Herndon's PROTO."
+- id: africa-museum
+  name: "AfricaMuseum"
+  organization_type: "museum / research institution"
+  url: "https://www.africamuseum.be/"
+  notes: "Institutional context for Afropean Intelligence and STARTS-related programming."
+- id: ai-now-institute
+  name: "AI Now Institute"
+  organization_type: "research institute"
+  url: "https://ainowinstitute.org/"
+  notes: "Researches social and institutional consequences of AI."
+- id: artbreeder
+  name: "Artbreeder"
+  organization_type: "creative platform"
+  url: "https://www.artbreeder.com/about"
+  notes: "Web platform for generative image mixing and derivative lineages."
+- id: bell-labs
+  name: "Bell Laboratories"
+  organization_type: "research laboratory"
+  url: "https://www.bell-labs.com/"
+  notes: "Historical institutional context for early computer art and animation."
+- id: christies
+  name: "Christie's"
+  organization_type: "auction house"
+  url: "https://www.christies.com/"
+  notes: "Auctioned Portrait of Edmond de Belamy in 2018."
+- id: content-authenticity-initiative
+  name: "Content Authenticity Initiative"
+  organization_type: "provenance initiative"
+  url: "https://contentauthenticity.org/"
+  notes: "Develops and promotes content provenance tools and adoption."
+- id: creative-capital
+  name: "Creative Capital"
+  organization_type: "arts funding organization"
+  url: "https://creative-capital.org/"
+  notes: "Funding and presentation context for technology-based artists."
+- id: dadabots
+  name: "Dadabots"
+  organization_type: "artist duo / music project"
+  url: "https://dadabots.com/"
+  notes: "Neural-audio art and continuous generated-music streams."
+- id: deepmind
+  name: "Google DeepMind"
+  organization_type: "AI research laboratory"
+  url: "https://deepmind.google/"
+  notes: "Research context for generative audio, agents, and machine-learning systems."
+- id: de-young-museum
+  name: "de Young Museum"
+  organization_type: "museum"
+  url: "https://www.famsf.org/visit/de-young"
+  notes: "Hosted Uncanny Valley: Being Human in the Age of AI."
+- id: eyebeam
+  name: "Eyebeam"
+  organization_type: "art and technology center"
+  url: "https://www.eyebeam.org/"
+  notes: "Supports artists working critically with emerging technology."
+- id: fondazione-prada
+  name: "Fondazione Prada"
+  organization_type: "art foundation"
+  url: "https://www.fondazioneprada.org/"
+  notes: "Exhibition and commission context for AI-related art."
+- id: future-university-hakodate
+  name: "Future University Hakodate"
+  organization_type: "university"
+  url: "https://www.fun.ac.jp/"
+  notes: "Institutional context for The Day a Computer Writes a Novel."
+- id: google-arts-and-culture
+  name: "Google Arts & Culture"
+  organization_type: "cultural technology program"
+  url: "https://artsandculture.google.com/"
+  notes: "Partner and archive for Living Archive and Please Feed the Lions."
+- id: google-brain
+  name: "Google Brain"
+  organization_type: "historical AI research group"
+  url: "https://research.google/"
+  notes: "Historical research context for Magenta and neural generative systems; later integrated into Google DeepMind."
+- id: hyundai-motor
+  name: "Hyundai Motor Company"
+  organization_type: "company / arts commissioner"
+  url: "https://www.hyundai.com/worldwide/en/brand-journal/art"
+  notes: "Commissioning partner for Tate Modern's Hyundai Commission."
+- id: ibm
+  name: "IBM"
+  organization_type: "technology company / research organization"
+  url: "https://research.ibm.com/"
+  notes: "Historical research context for William Latham's evolutionary art."
+- id: indigenous-ai
+  name: "Indigenous AI"
+  organization_type: "research and community network"
+  url: "https://www.indigenous-ai.net/"
+  notes: "Network for Indigenous knowledge, sovereignty, and AI practice."
+- id: jean-boite-editions
+  name: "Jean Boite Editions"
+  organization_type: "publisher"
+  url: "https://www.jbe-books.com/"
+  notes: "Publisher of 1 the Road."
+- id: jewish-museum-sao-paulo
+  name: "Museu Judaico de Sao Paulo"
+  organization_type: "museum"
+  url: "https://museujudaicosp.org.br/"
+  notes: "Exhibition context for Botannica Tirannica."
+- id: laion
+  name: "LAION"
+  organization_type: "nonprofit research organization"
+  url: "https://laion.ai/"
+  notes: "Publishes large-scale image-text datasets including LAION-5B."
+- id: lmu-munich
+  name: "LMU Munich"
+  organization_type: "university"
+  url: "https://www.lmu.de/"
+  notes: "Research context for neural style transfer."
+- id: lumen-prize
+  name: "Lumen Prize"
+  organization_type: "art and technology award"
+  url: "https://lumenprize.org/"
+  notes: "Award and archive context for digital and AI-related art."
+- id: metropolitan-museum-of-art
+  name: "The Metropolitan Museum of Art"
+  organization_type: "museum"
+  url: "https://www.metmuseum.org/"
+  notes: "Publishes the Collection API and public-domain image records."
+- id: national-gallery-of-art
+  name: "National Gallery of Art"
+  organization_type: "museum"
+  url: "https://www.nga.gov/"
+  notes: "Publishes official collection open data."
+- id: new-inc
+  name: "NEW INC"
+  organization_type: "art, design, and technology incubator"
+  url: "https://www.newinc.org/"
+  notes: "Institutional context for artists and creative technology projects."
+- id: obvious
+  name: "Obvious"
+  organization_type: "artist collective"
+  url: "https://obvious-art.com/"
+  notes: "Collective behind Portrait of Edmond de Belamy."
+- id: qmul
+  name: "Queen Mary University of London"
+  organization_type: "university"
+  url: "https://www.qmul.ac.uk/"
+  notes: "Institutional context for research on interactive machine learning and creative systems."
+- id: refik-anadol-studio
+  name: "Refik Anadol Studio"
+  organization_type: "art studio"
+  url: "https://refikanadol.com/"
+  notes: "Produces data-driven and machine-learning installations."
+- id: rijksmuseum
+  name: "Rijksmuseum"
+  organization_type: "museum"
+  url: "https://www.rijksmuseum.nl/"
+  notes: "Publishes APIs, Linked Open Data, downloads, and IIIF services."
+- id: smithsonian
+  name: "Smithsonian Institution"
+  organization_type: "museum and research institution"
+  url: "https://www.si.edu/"
+  notes: "Publishes Smithsonian Open Access data and media."
+- id: sothebys
+  name: "Sotheby's"
+  organization_type: "auction house"
+  url: "https://www.sothebys.com/"
+  notes: "Market context for algorithmic and AI-related art."
+- id: stanford
+  name: "Stanford University"
+  organization_type: "university"
+  url: "https://www.stanford.edu/"
+  notes: "Institutional context for ImageNet and computer-vision research."
+- id: starts-prize-africa
+  name: "STARTS Prize Africa"
+  organization_type: "art, science, and technology award"
+  url: "https://starts.eu/"
+  notes: "Award and network context for African art, science, and technology projects."
+- id: tate-modern
+  name: "Tate Modern"
+  organization_type: "museum"
+  url: "https://www.tate.org.uk/visit/tate-modern"
+  notes: "Hosted Anicka Yi's In Love With the World in the Turbine Hall."
+- id: terasem
+  name: "Terasem Movement Foundation"
+  organization_type: "research foundation"
+  url: "https://terasemmovementfoundation.com/"
+  notes: "Institutional context for BINA48."
+- id: theaitre
+  name: "THEaiTRE"
+  organization_type: "computational theatre research project"
+  url: "https://arxiv.org/abs/2102.08892"
+  notes: "Research and production project for machine-generated theatre."
+- id: uc-berkeley
+  name: "University of California, Berkeley"
+  organization_type: "university"
+  url: "https://www.berkeley.edu/"
+  notes: "Research context for image-to-image translation and diffusion models."
+- id: ucla
+  name: "University of California, Los Angeles"
+  organization_type: "university"
+  url: "https://www.ucla.edu/"
+  notes: "Institutional context for Harold Cohen and AARON."
+- id: ucsd
+  name: "University of California San Diego"
+  organization_type: "university"
+  url: "https://ucsd.edu/"
+  notes: "Institutional context for Harold Cohen's later work with AARON."
+- id: university-of-chicago
+  name: "University of Chicago"
+  organization_type: "university"
+  url: "https://www.uchicago.edu/"
+  notes: "Institutional context for Glaze and Nightshade."
+- id: university-of-chicago-sand-lab
+  name: "SAND Lab, University of Chicago"
+  organization_type: "research laboratory"
+  url: "https://sandlab.cs.uchicago.edu/"
+  notes: "Research group behind Glaze and Nightshade."
+- id: university-of-illinois
+  name: "University of Illinois Urbana-Champaign"
+  organization_type: "university"
+  url: "https://illinois.edu/"
+  notes: "Institutional context for the Illiac Suite and early computer music."
+- id: university-of-manchester
+  name: "University of Manchester"
+  organization_type: "university"
+  url: "https://www.manchester.ac.uk/"
+  notes: "Historical context for the Manchester Mark 1 and Strachey's Love Letters."
+- id: university-of-tokyo
+  name: "University of Tokyo"
+  organization_type: "university"
+  url: "https://www.u-tokyo.ac.jp/"
+  notes: "Institutional context for Alter3 and artificial-life research."
+- id: zenodo
+  name: "Zenodo"
+  organization_type: "research data repository"
+  url: "https://zenodo.org/"
+  notes: "Versioned repository and DOI host for ArtGraph and other research outputs."

@@ -93,6 +93,24 @@ Creative tools are not valuable only when they maximize accuracy. Artists also n
 
 **Related:** Wekinator, Magenta, NIME
 
+## Additional Survey: Composition, Improvisation, Timbre, and Bodies
+
+François Pachet's Continuator (2002) learned a performer's style online and returned musical continuations, placing turn-taking and control before autonomous finished composition. [Paper](https://www.francoispachet.fr/wp-content/uploads/2021/01/pachet-02-icmai-final.pdf)
+
+DeepBach generated Bach-style chorales while allowing users to constrain notes, rhythms, and cadences. [Paper](https://arxiv.org/abs/1612.01010)
+
+Sony CSL's Flow Machines developed from research into FM Pro and an app that proposes melodies, chords, and basslines inside production workflows. Public discussion of *Daddy's Car* should retain the human roles in arrangement, lyrics, performance, and production. [Sony](https://www.sony.com/en/SonyInfo/design/stories/flow-machines/)
+
+Georgia Tech's Shimon connects music generation to a marimba-playing robot, where reach, timing, and visible interaction constrain composition. [Official project](https://gtcmt.gatech.edu/shimon)
+
+Dadabots used neural audio generation for metal and experimental music, presenting *Relentless Doppelganger* as an ongoing stream rather than a bounded album. [Project archive](https://dadabots.com/music)
+
+FluCoMa provides analysis, reduction, clustering, and classification tools for Max, Pure Data, and SuperCollider. It supports artist-owned small corpora and live workflows. [Official site](https://www.flucoma.org/about)
+
+Dance and theatre extend the field: [Living Archive](https://waynemcgregor.com/productions/living-archive/) turns a choreographic video archive into movement suggestions; [discrete figures](https://research.rhizomatiks.com/s/works/discrete_figures) combines machine perception and virtual dancers; [Improbotics](https://improbotics.org/) sends generated dialogue to human improvisers.
+
+Research communities include [NIME](https://www.nime.org/), [AIMC](https://aimusiccreativity.org/), and [ISMIR](https://ismir.net/).
+
 ## Questions Across the Topic
 
 - Does a performer understand a model by knowing its internals, or by being able to play it bodily?

@@ -111,6 +111,27 @@ LAION-5B supports large-scale learning of image-text relations. ArtEmis instead 
 
 **Related:** WikiArt, Foregrounding Artist Opinions, ArtBench
 
+## Additional Dataset Comparison
+
+| Resource | Content | Uses | Current caution |
+|---|---|---|---|
+| OmniArt | Aggregated collections with rich attributes | Multi-task analysis | Official page says distribution ended in 2025 |
+| SemArt | 21,384 paintings with text and attributes | Text-image retrieval | European painting focus; non-commercial research terms |
+| ArtGraph | WikiArt and DBpedia knowledge graph | Contextual classification | Inherits source categories and omissions |
+| The Met Open Access | Metadata and public-domain images | API research and reuse | Check image and rights status per object |
+| Rijksmuseum Data Services | 800k+ object metadata and extensive images | Linked Open Data and APIs | APIs and identifiers evolve |
+| Smithsonian Open Access | 5m+ 2D and 3D items | Research, reuse, education | Strong variation among institutions and object types |
+
+OmniArt aggregated more than fifteen online collections with extensive metadata, but its official page states in a 2025 update that the dataset is no longer available. Citation and present accessibility must be recorded separately. [Official page](https://isis-data.science.uva.nl/strezoski/) · [Paper](https://arxiv.org/abs/1708.00684)
+
+SemArt links 21,384 European paintings to authorship, genre, school, period, and interpretive text. It supports semantic retrieval but does not represent art globally. [Dataset](https://researchdata.aston.ac.uk/id/eprint/380/) · [Paper](https://arxiv.org/abs/1810.09617)
+
+ArtGraph represents artworks, artists, styles, media, and periods as relationships derived from WikiArt and DBpedia. It adds context while inheriting their visibility and category biases. [Zenodo](https://zenodo.org/records/6337958)
+
+Museum open access is not automatically identical to unrestricted consent for every ML use. Check rights, photography, personal data, culturally sensitive material, and terms. Major resources include [The Met API](https://metmuseum.github.io/), [Rijksmuseum Data Services](https://data.rijksmuseum.nl/), [Smithsonian Open Access](https://www.si.edu/OpenAccess), [MoMA metadata](https://github.com/MuseumofModernArt/collection), and [National Gallery of Art Open Data](https://github.com/NationalGalleryOfArt/opendata).
+
+Dataset records should include last verification, access method, size, license, terms, withdrawal, and update history. An expired URL cited by a paper must not be described as currently downloadable.
+
 ## Questions Across the Topic
 
 - How can missing regions, periods, media, and communities be described as outcomes of collecting history rather than as simple absences?

@@ -109,6 +109,18 @@ DALL-E and Stable Diffusion made text prompting a common entry point. Their use 
 
 **Related:** LAION-5B, Glaze, C2PA, Foregrounding Artist Opinions
 
+## A More Detailed Technical Lineage
+
+pix2pix learned paired image-to-image mappings, while CycleGAN used cycle consistency to connect unpaired domains. Artistic use should distinguish useful transformation from reducing cultural difference to surface texture. [pix2pix](https://arxiv.org/abs/1611.07004) · [CycleGAN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf)
+
+BigGAN connected large-scale computation with class-conditional ImageNet generation. StyleGAN made high-quality restricted domains, especially faces, easier to navigate and edit. Artbreeder translated latent-space mixing into a shared public interface. [BigGAN](https://openreview.net/forum?id=B1xsqj09Fm) · [StyleGAN](https://arxiv.org/abs/1812.04948) · [Artbreeder](https://www.artbreeder.com/about)
+
+CLIP aligned image and language representations. The 2021 VQGAN+CLIP workflow became an important community practice built from notebooks, tutorials, and recombined pretrained models. [CLIP](https://openai.com/index/clip/) · [VQGAN](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html)
+
+DDPM established high-quality iterative denoising, while latent diffusion reduced cost and supported flexible conditioning. Stable Diffusion should be read as an ecosystem of research, LAION-derived data, released weights, interfaces, and extensions. [DDPM](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [Latent diffusion](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
+
+GauGAN and Artbreeder show how interfaces define aesthetic action: semantic painting, text guidance, mixing, and public derivation are creative constraints, not neutral wrappers. [GauGAN2](https://blogs.nvidia.com/blog/gaugan2-ai-art-demo/)
+
 ## Questions Across the Topic
 
 - What art-historical context is lost when style becomes a feature representation or prompt?

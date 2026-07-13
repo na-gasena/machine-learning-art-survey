@@ -6,7 +6,7 @@
 - id: simon-colton
   name: "Simon Colton"
   roles: ["computational creativity researcher"]
-  url: "https://www.thepaintingfool.com/"
+  url: "https://www.iggi-phd.org/people/prof-simon-colton"
   notes: "Creator of The Painting Fool."
 - id: rebecca-fiebrink
   name: "Rebecca Fiebrink"
@@ -146,7 +146,7 @@
 - id: linda-dounia-rebeiz
   name: "Linda Dounia Rebeiz"
   roles: ["artist", "curator"]
-  url: "https://qa.time.com/6309451/linda-dounia-rebeiz/"
+  url: "https://time.com/collection_hub_item/linda-dounia-rebeiz/"
   notes: "Senegalese artist using self-curated datasets and GANs to challenge representational bias in large generative models."
 - id: niceaunties
   name: "Niceaunties"
@@ -158,3 +158,333 @@
   roles: ["artist", "director"]
   url: "https://ouchhh.tv/"
   notes: "Founder/director associated with Ouchhh Studio and data-driven public AI media works."
+- id: christopher-strachey
+  name: "Christopher Strachey"
+  roles: ["computer scientist", "computational literature pioneer"]
+  url: "https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/28661"
+  notes: "Created the 1952 Manchester Mark 1 love-letter program."
+- id: lejaren-hiller
+  name: "Lejaren Hiller"
+  roles: ["composer", "computer-music pioneer"]
+  url: "https://computermusic.web.illinois.edu/Notes/CaC2.html"
+  notes: "Co-created the Illiac Suite."
+- id: jasia-reichardt
+  name: "Jasia Reichardt"
+  roles: ["curator", "writer"]
+  url: "https://archive.ica.art/whats-on/cybernetic-serendipity-documentation/"
+  notes: "Curator of Cybernetic Serendipity."
+- id: william-latham
+  name: "William Latham"
+  roles: ["artist", "researcher"]
+  url: "https://www.gold.ac.uk/computing/people/w-latham/"
+  notes: "Pioneer of evolutionary art and the Mutator lineage."
+- id: christa-sommerer
+  name: "Christa Sommerer"
+  roles: ["artist", "researcher"]
+  url: "https://interface.ufg.ac.at/christa-laurent/"
+  notes: "Co-creator of interactive artificial-life artworks."
+- id: laurent-mignonneau
+  name: "Laurent Mignonneau"
+  roles: ["artist", "researcher"]
+  url: "https://interface.ufg.ac.at/christa-laurent/"
+  notes: "Co-creator of interactive artificial-life artworks."
+- id: jun-yan-zhu
+  name: "Jun-Yan Zhu"
+  roles: ["machine-learning researcher"]
+  url: "https://www.cs.cmu.edu/~junyanz/"
+  notes: "Lead author of CycleGAN and co-author of pix2pix."
+- id: tero-karras
+  name: "Tero Karras"
+  roles: ["machine-learning researcher"]
+  url: "https://research.nvidia.com/person/tero-karras"
+  notes: "Lead researcher on the StyleGAN family."
+- id: robin-rombach
+  name: "Robin Rombach"
+  roles: ["machine-learning researcher"]
+  url: "https://arxiv.org/abs/2112.10752"
+  notes: "Lead author of latent diffusion research."
+- id: francois-pachet
+  name: "Francois Pachet"
+  roles: ["AI and music researcher", "tool creator"]
+  url: "https://www.francoispachet.fr/"
+  notes: "Created the Continuator and led Flow Machines research."
+- id: gil-weinberg
+  name: "Gil Weinberg"
+  roles: ["musician", "robotics researcher"]
+  url: "https://gtcmt.gatech.edu/shimon"
+  notes: "Leads the Shimon robotic musician project."
+- id: wayne-mcgregor
+  name: "Wayne McGregor"
+  roles: ["choreographer", "director"]
+  url: "https://waynemcgregor.com/"
+  notes: "Choreographer behind the Living Archive project."
+- id: daito-manabe
+  name: "Daito Manabe"
+  roles: ["artist", "programmer", "director"]
+  url: "https://daito.ws/"
+  notes: "Rhizomatiks co-founder and collaborator on discrete figures."
+- id: kyle-mcdonald
+  name: "Kyle McDonald"
+  roles: ["artist", "researcher", "creative coder"]
+  url: "https://kylemcdonald.net/"
+  notes: "Works with computer vision and collaborated on discrete figures."
+- id: piotr-mirowski
+  name: "Piotr Mirowski"
+  roles: ["AI researcher", "improviser"]
+  url: "https://improbotics.org/"
+  notes: "Co-founder and performer-researcher in Improbotics."
+- id: takashi-ikegami
+  name: "Takashi Ikegami"
+  roles: ["artificial-life researcher", "artist"]
+  url: "https://sacral.c.u-tokyo.ac.jp/"
+  notes: "Leads research around Alter androids and artificial life."
+- id: ross-goodwin
+  name: "Ross Goodwin"
+  roles: ["artist", "writer", "creative technologist"]
+  url: "https://rossgoodwin.com/"
+  notes: "Created Word.Camera and 1 the Road; collaborated on Sunspring and Please Feed the Lions."
+- id: ian-cheng
+  name: "Ian Cheng"
+  roles: ["artist"]
+  url: "https://bobs.ai/"
+  notes: "Creator of live simulations including BOB."
+- id: pierre-huyghe
+  name: "Pierre Huyghe"
+  roles: ["artist"]
+  url: "https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/"
+  notes: "Creator of UUmwelt and other responsive ecosystems."
+- id: lawrence-lek
+  name: "Lawrence Lek"
+  roles: ["artist", "filmmaker", "musician"]
+  url: "https://www.lawrencelek.com/"
+  notes: "Works across CGI film, games, music, and Sinofuturism."
+- id: hito-steyerl
+  name: "Hito Steyerl"
+  roles: ["artist", "filmmaker", "writer"]
+  url: "https://www.artic.edu/artists/159621/hito-steyerl"
+  notes: "Critically addresses prediction, images, power, and digital circulation."
+- id: anicka-yi
+  name: "Anicka Yi"
+  roles: ["artist"]
+  url: "https://www.anickayistudio.biz/"
+  notes: "Works with biology, scent, robotics, and nonhuman intelligence."
+- id: rafael-lozano-hemmer
+  name: "Rafael Lozano-Hemmer"
+  roles: ["media artist"]
+  url: "https://www.lozano-hemmer.com/"
+  notes: "Creates large-scale interactive works using sensing, surveillance, and participation."
+- id: giselle-beiguelman
+  name: "Giselle Beiguelman"
+  roles: ["artist", "researcher", "curator"]
+  url: "https://www.desvirtual.com/"
+  notes: "Brazilian artist behind Botannica Tirannica and critical digital-culture projects."
+- id: harshit-agrawal
+  name: "Harshit Agrawal"
+  roles: ["artist", "researcher"]
+  url: "https://harshitagrawal.com/"
+  notes: "India-based artist working with machine learning, bodies, and material processes."
+- id: suzanne-kite
+  name: "Suzanne Kite"
+  roles: ["artist", "composer", "researcher"]
+  url: "https://www.kitekitekitekite.com/"
+  notes: "Oglala Lakota artist and scholar working on Indigenous AI and kinship."
+- id: alec-radford
+  name: "Alec Radford"
+  roles: ["machine-learning researcher"]
+  url: "https://arxiv.org/abs/2103.00020"
+  notes: "Lead author of the CLIP paper."
+- id: alejandro-matamala
+  name: "Alejandro Matamala"
+  roles: ["creative technologist", "company co-founder"]
+  url: "https://runwayml.com/"
+  notes: "Co-founder of Runway."
+- id: alexander-mordvintsev
+  name: "Alexander Mordvintsev"
+  roles: ["machine-learning researcher", "artist"]
+  url: "https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html"
+  notes: "Co-developed and publicized DeepDream at Google."
+- id: anastasis-germanidis
+  name: "Anastasis Germanidis"
+  roles: ["creative technologist", "company co-founder"]
+  url: "https://runwayml.com/"
+  notes: "Co-founder of Runway."
+- id: baptiste-caramiaux
+  name: "Baptiste Caramiaux"
+  roles: ["human-computer interaction researcher"]
+  url: "https://baptistecaramiaux.com/"
+  notes: "Researches interactive machine learning and creative tools."
+- id: christopher-olah
+  name: "Christopher Olah"
+  roles: ["machine-learning researcher"]
+  url: "https://colah.github.io/"
+  notes: "Contributed to DeepDream-era neural-network visualization."
+- id: cj-carr
+  name: "CJ Carr"
+  roles: ["artist", "machine-learning researcher", "musician"]
+  url: "https://dadabots.com/"
+  notes: "Co-founder of Dadabots."
+- id: cristobal-valenzuela
+  name: "Cristobal Valenzuela"
+  roles: ["creative technologist", "company co-founder"]
+  url: "https://runwayml.com/"
+  notes: "Co-founder and CEO of Runway."
+- id: david-kostak
+  name: "David Kostak"
+  roles: ["playwright", "theatre practitioner"]
+  url: "https://www.svandovodivadlo.cz/inscenace/673/ai-kdyz-robot-pise-hru"
+  notes: "Collaborator in the THEaiTRE production."
+- id: douglas-eck
+  name: "Douglas Eck"
+  roles: ["machine-learning and music researcher"]
+  url: "https://research.google/people/douglaseck/"
+  notes: "Founding lead of Google Magenta."
+- id: efsun-erkilic
+  name: "Efsun Erkılıç"
+  roles: ["arts executive", "institution co-founder"]
+  url: "https://dataland.art/"
+  notes: "Co-founder and executive context for DATALAND and Refik Anadol Studio."
+- id: es-devlin
+  name: "Es Devlin"
+  roles: ["artist", "stage designer"]
+  url: "https://esdevlin.com/"
+  notes: "Created Please Feed the Lions with Ross Goodwin and Google Arts & Culture."
+- id: fei-fei-li
+  name: "Fei-Fei Li"
+  roles: ["computer-vision researcher"]
+  url: "https://profiles.stanford.edu/fei-fei-li"
+  notes: "A principal figure in the creation and research history of ImageNet."
+- id: frank-nielsen
+  name: "Frank Nielsen"
+  roles: ["computer scientist"]
+  url: "https://franknielsen.github.io/"
+  notes: "Co-author of the DeepBach paper."
+- id: gaetan-hadjeres
+  name: "Gaetan Hadjeres"
+  roles: ["machine-learning and music researcher"]
+  url: "https://arxiv.org/abs/1612.01010"
+  notes: "Lead author of DeepBach."
+- id: gjorgji-strezoski
+  name: "Gjorgji Strezoski"
+  roles: ["computer-vision researcher"]
+  url: "https://isis-data.science.uva.nl/strezoski/"
+  notes: "Co-creator of OmniArt."
+- id: hitoshi-matsubara
+  name: "Hitoshi Matsubara"
+  roles: ["artificial-intelligence researcher"]
+  url: "https://www.fun.ac.jp/"
+  notes: "Led research associated with The Day a Computer Writes a Novel."
+- id: jesse-engel
+  name: "Jesse Engel"
+  roles: ["machine-learning and music researcher"]
+  url: "https://magenta.tensorflow.org/nsynth"
+  notes: "Contributed to NSynth and Magenta research."
+- id: joel-simon
+  name: "Joel Simon"
+  roles: ["artist", "tool creator"]
+  url: "https://joelsimon.net/"
+  notes: "Creator of Artbreeder and related generative interfaces."
+- id: jonathan-ho
+  name: "Jonathan Ho"
+  roles: ["machine-learning researcher"]
+  url: "https://arxiv.org/abs/2006.11239"
+  notes: "Lead author of Denoising Diffusion Probabilistic Models."
+- id: kory-mathewson
+  name: "Kory Mathewson"
+  roles: ["AI researcher", "improviser"]
+  url: "https://improbotics.org/"
+  notes: "Co-founder and performer-researcher in Improbotics."
+- id: krzysztof-wodiczko
+  name: "Krzysztof Wodiczko"
+  roles: ["artist"]
+  url: "https://www.lozano-hemmer.com/artworks/zoom_pavilion.php"
+  notes: "Co-creator of Zoom Pavilion."
+- id: leonard-isaacson
+  name: "Leonard Isaacson"
+  roles: ["chemist", "computer-music collaborator"]
+  url: "https://computermusic.web.illinois.edu/Notes/CaC2.html"
+  notes: "Co-created the Illiac Suite with Lejaren Hiller."
+- id: marcel-worring
+  name: "Marcel Worring"
+  roles: ["multimedia and computer-vision researcher"]
+  url: "https://staff.fnwi.uva.nl/m.worring/"
+  notes: "Co-author of OmniArt research."
+- id: mick-grierson
+  name: "Mick Grierson"
+  roles: ["researcher", "artist"]
+  url: "https://www.gold.ac.uk/computing/people/grierson/"
+  notes: "Co-author of Learning to See research."
+- id: mike-tyka
+  name: "Mike Tyka"
+  roles: ["artist", "machine-learning researcher"]
+  url: "https://miketyka.com/"
+  notes: "Creates neural-network and generative artworks."
+- id: nanne-van-noord
+  name: "Nanne van Noord"
+  roles: ["computer-vision and computational art-history researcher"]
+  url: "https://researchdata.aston.ac.uk/id/eprint/380/"
+  notes: "Researcher associated with SemArt."
+- id: oscar-sharp
+  name: "Oscar Sharp"
+  roles: ["film director"]
+  url: "https://rossgoodwin.com/"
+  notes: "Directed Sunspring from a machine-generated screenplay."
+- id: patrick-esser
+  name: "Patrick Esser"
+  roles: ["machine-learning researcher"]
+  url: "https://github.com/CompVis/taming-transformers"
+  notes: "Lead author of Taming Transformers and co-author of latent diffusion research."
+- id: phillip-isola
+  name: "Phillip Isola"
+  roles: ["machine-learning researcher"]
+  url: "https://web.mit.edu/phillipi/"
+  notes: "Lead author of pix2pix and co-author of CycleGAN."
+- id: robbie-barrat
+  name: "Robbie Barrat"
+  roles: ["artist", "programmer"]
+  url: "https://robbiebarrat.github.io/"
+  notes: "Created GAN code later connected to debates around the Obvious collective and Edmond de Belamy."
+- id: rudolf-rosa
+  name: "Rudolf Rosa"
+  roles: ["natural-language processing researcher"]
+  url: "https://arxiv.org/abs/2102.08892"
+  notes: "Research lead in the THEaiTRE project."
+- id: ryohei-nakatsu
+  name: "Ryohei Nakatsu"
+  roles: ["researcher", "media-arts scholar"]
+  url: "https://arxiv.org/abs/2005.02220"
+  notes: "Co-author of AI art-style learning and evaluation research with Naoko Tosa."
+- id: satoshi-sato
+  name: "Satoshi Sato"
+  roles: ["natural-language processing researcher"]
+  url: "https://shinsho-plus.shueisha.co.jp/interview/%E4%BD%90%E8%97%A4%E7%90%86%E5%8F%B2%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC/2134"
+  notes: "Researcher associated with Japanese computational novel generation."
+- id: shawn-shan
+  name: "Shawn Shan"
+  roles: ["computer-security and machine-learning researcher"]
+  url: "https://nightshade.cs.uchicago.edu/aboutus.html"
+  notes: "Lead researcher on Glaze and Nightshade."
+- id: stephen-todd
+  name: "Stephen Todd"
+  roles: ["computer scientist", "evolutionary-art collaborator"]
+  url: "https://www.gold.ac.uk/research/case-studies/mutator-vr/"
+  notes: "Long-term collaborator with William Latham on evolutionary art systems."
+- id: taesung-park
+  name: "Taesung Park"
+  roles: ["machine-learning researcher"]
+  url: "https://taesung.me/"
+  notes: "Co-author of CycleGAN and image-synthesis research."
+- id: thomas-etter
+  name: "Thomas Etter"
+  roles: ["programmer", "computational-writing collaborator"]
+  url: "https://electronicbookreview.com/publications/constructing-the-other-half-of-the-policemans-beard/"
+  notes: "Associated with the Racter program and its contested publication history."
+- id: william-chamberlain
+  name: "William Chamberlain"
+  roles: ["writer", "programmer"]
+  url: "https://search.worldcat.org/title/311319022"
+  notes: "Associated with Racter and The Policeman's Beard Is Half Constructed."
+- id: zack-zukowski
+  name: "Zack Zukowski"
+  roles: ["musician", "machine-learning artist"]
+  url: "https://dadabots.com/"
+  notes: "Co-founder of Dadabots."

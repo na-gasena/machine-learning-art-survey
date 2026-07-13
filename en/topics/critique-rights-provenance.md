@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Critique, Rights, Provenance, and Institutions
+title: Critique, Rights, and Provenance
 permalink: /en/topics/critique-rights-provenance/
 lang: en
 ---
 
 [← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Open Questions]({{ '/en/open-questions/' | relative_url }})
 
-# Critique, Rights, Provenance, and Institutions
+# Critique, Rights, and Provenance
 
 <div class="topic-lead" markdown="1">
 ## Conclusion
@@ -107,9 +107,32 @@ Glaze aims to resist style learning; C2PA records media history; copyright evalu
 
 **Caution.** C2PA depends on retained metadata and widespread verification. Copyright outcomes vary by jurisdiction and facts, and require current checking.
 
-**Sources:** [C2PA](https://c2pa.org/) · [U.S. Copyright Office: Copyright and Artificial Intelligence](https://www.copyright.gov/ai/)
+**Sources:** [C2PA](https://c2pa.org/) · [U.S. Copyright Office: Copyright and Artificial Intelligence](https://www.copyright.gov/policy/artificial-intelligence/)
 
 **Related:** DALL-E, Stable Diffusion, Glaze, Foregrounding Artist Opinions
+
+## Rights and Transparency Infrastructure, 2023-2026
+
+The University of Chicago Glaze Project's Nightshade uses prompt-specific poisoning to raise the cost of non-consensual training. It requires affected images to enter training, does not retroactively change existing models, and is not effective for every model type. [Official explanation](https://nightshade.cs.uchicago.edu/whatis.html) · [Research record](https://nightshade.cs.uchicago.edu/aboutus.html)
+
+Spawning's Have I Been Trained? supports searching selected public training data and recording Do Not Train preferences. It cannot search every private dataset, and compliance depends on developers and legal frameworks. [Service](https://haveibeentrained.com/) · [Spawning](https://spawning.ai/)
+
+The [Data Provenance Initiative](https://www.dataprovenance.org/) audits origins, licenses, creators, languages, geographies, and derivation chains. It is infrastructure for supply-chain analysis, not automatic proof of consent for each work.
+
+The U.S. Copyright Office released reports on digital replicas, copyrightability, and generative-AI training. Part 2 recognizes protection where humans determine sufficient expressive elements while treating prompts alone as generally insufficient. Part 3 analyzes training, fair use, market effects, and licensing. These are U.S. administrative reports, not case-specific judgments or global law. [Official study](https://www.copyright.gov/policy/artificial-intelligence/)
+
+The EU AI Act requires general-purpose AI providers to implement copyright policies and publish training-content summaries. The Commission's mandatory template applied from 2 August 2025 and requests information across public datasets, scraping, private data, user data, and synthetic data. It is a transparency baseline rather than a complete item list. [Commission FAQ](https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content)
+
+C2PA 2.2 carries signed creation and editing provenance. It does not determine truth, aesthetic value, or copyright, and absence of a manifest is not proof of falsity. [Specification](https://spec.c2pa.org/specifications/specifications/2.2/index.html)
+
+| Mechanism | Main purpose | Does not solve |
+|---|---|---|
+| Glaze | Defense against style mimicry | Legal consent or universal protection |
+| Nightshade | Technical deterrence to training | Deletion from existing models |
+| Opt-out registry | Expressing preferences | Universal compliance |
+| Data provenance | Supply-chain audit | Complete rights clearance |
+| C2PA | Signed edit history | Truth or copyright judgment |
+| Law and regulation | Rights, duties, remedies | Automatic technical tracing |
 
 ## Questions Across the Topic
 

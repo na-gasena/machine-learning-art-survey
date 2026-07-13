@@ -73,7 +73,7 @@ The Painting Foolに代表される計算論的創造性研究は、画像の見
 
 **注意。** 現代の大規模生成モデルとの比較では、視覚的性能より概念的・評価論的な意義を中心に読む必要があります。
 
-**資料:** [The Painting Fool公式サイト](https://www.thepaintingfool.com/)
+**資料:** [ICCC 2015論文（作品画像・実践記録を含む）](https://computationalcreativity.net/iccc2015/proceedings/8_2Colton.pdf)
 
 **関連:** AARON、ICCC、計算論的創造性
 
@@ -93,6 +93,39 @@ The Painting Foolに代表される計算論的創造性研究は、画像の見
 
 **関連:** The Painting Fool、Foregrounding Artist Opinions
 
+## 追加調査: 見落とせない系譜
+
+### Love LettersとILLIAC Suite
+
+1952年のChristopher StracheyによるLove Lettersは、語彙表と定型文の組合せから親密な言語を生成しました。1956-1957年のLejaren HillerとLeonard Isaacsonによる*ILLIAC Suite*は、規則と確率的選択を作曲へ使った初期例です。どちらも現在の機械学習ではありませんが、規則、選択、出力、人間による作品化を分解して考える基準になります。
+
+- Love Letters: [Bodleian Archives](https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/28661)
+- ILLIAC Suite: [University of Illinois Computer Music](https://computermusic.web.illinois.edu/Notes/CaC2.html)
+
+### Cybernetic Serendipity
+
+Jasia ReichardtがICA Londonで企画した1968年の展覧会は、コンピュータ生成図像、音楽、詩、機械、サイバネティクスを同じ場へ置きました。130組以上が参加し、約6万人が来場したとICAは記録しています。ここでは「AIアート」という後代の名称を遡及的に当てるより、芸術家、技術者、数学者、作曲家の活動がどのように同じ展覧会へ編成されたかを読むべきです。[ICAの文書・写真・映像アーカイブ](https://archive.ica.art/whats-on/cybernetic-serendipity-documentation/)
+
+### Mutatorと進化的美学
+
+William LathamとStephen Toddは1980年代末から、形態を突然変異させ、人間が美的選択を繰り返すMutator系の制作を展開しました。進化計算は「最良の画像」を自動決定するのではなく、探索空間と選択者の関係を作品化します。1992年の書籍*Evolutionary Art and Computers*は、この系譜の技術と制作思想をまとめた重要資料です。
+
+- [Goldsmithsの作家・文献記録](https://www.gold.ac.uk/computing/people/w-latham/)
+- [Mutator 1 + 2解説](https://www.gold.ac.uk/news/w-latham---mutator-1-and-2/)
+- [Mutator VR](https://www.gold.ac.uk/research/case-studies/mutator-vr/)
+
+### Interactive Plant GrowingとA-Volve
+
+Christa SommererとLaurent Mignonneauは、*Interactive Plant Growing*（1992）で実在植物への接触を仮想植物の成長へ接続し、*A-Volve*では観客が描いた形から人工生命を生み出しました。学習モデル以前の作品ですが、身体入力、予測不能性、人工生命、生態系的展示という、後のAIインスタレーションに続く問題を明確にしています。
+
+- [NTT ICC: Interactive Plant Growing](https://www.ntticc.or.jp/en/exhibitions/1994/interactive-plant-growing-christa-sommerer-laurent-mignonneau/)
+- [作家公式アーカイブ](https://interface.ufg.ac.at/christa-laurent/)
+- [Archive of Digital Art](https://www.archive-digitalart.eu/database/general/work/interactive-plant-growing.html)
+
+### Karl Sims: 形態だけでなく運動を進化させる
+
+既収録の*Galápagos*に加え、Simsの*Evolved Virtual Creatures*（1994）は、仮想生物の身体構造と制御を進化させました。進化芸術を「奇妙な形の生成」に限定せず、環境における行動、適応、観察者が評価するスペクタクルまで含めて理解できます。[Karl Sims公式アーカイブ](https://www.karlsims.com/)
+
 ## 横断して考える問い
 
 - 明示的な規則と、データから獲得された統計的パターンは、作者の責任をどう変えるか。
@@ -103,4 +136,4 @@ The Painting Foolに代表される計算論的創造性研究は、画像の見
 
 - [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }}) - 規則中心の生成から学習中心の生成への変化
 - [人間・機械協働と身体的実践]({{ '/ja/topics/human-machine-collaboration/' | relative_url }}) - 自律した作者ではなく共演者としての機械
-- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 作者性を法・労働・流通から捉え直す
+- [批評、権利、来歴]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 作者性を法・労働・流通から捉え直す

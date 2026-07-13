@@ -58,3 +58,43 @@
   venue_type: "museum / research institution"
   url: "https://zkm.de/"
   relevance: "Major media art institution relevant to AI, digital art, and archive-based practice."
+- id: aimc
+  name: "AI Music Creativity Conference"
+  venue_type: "conference"
+  url: "https://aimusiccreativity.org/"
+  relevance: "Research and practice around AI-assisted composition, performance, production, and musical creativity."
+- id: ismir
+  name: "International Society for Music Information Retrieval Conference"
+  venue_type: "conference/community"
+  url: "https://ismir.net/"
+  relevance: "Machine listening, music datasets, retrieval, generation, evaluation, and related cultural questions."
+- id: aiide
+  name: "AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment"
+  venue_type: "conference"
+  url: "https://sites.google.com/view/aiideconference/"
+  relevance: "Games, interactive narrative, theatre agents, virtual characters, and AI-based entertainment."
+- id: center-pompidou-neurones
+  name: "Neurones, les intelligences simulees"
+  venue_type: "exhibition"
+  url: "https://www.centrepompidou.fr/en/ressources/media/r4Ep77X"
+  relevance: "French-language museum framing of historical and contemporary simulated intelligence."
+- id: de-young-uncanny-valley
+  name: "Uncanny Valley: Being Human in the Age of AI"
+  venue_type: "exhibition"
+  url: "https://www.globenewswire.com/news-release/2020/01/16/1971563/0/en/announcing-uncanny-valley-being-human-in-the-age-of-ai-at-the-de-young-museum.html"
+  relevance: "Critical exhibition on surveillance, automation, classification, labor, and human identity."
+- id: blanton-run-the-code
+  name: "Run the Code"
+  venue_type: "exhibition"
+  url: "https://blantonmuseum.org/exhibition/run-the-code/"
+  relevance: "Museum collection and display of software-based and generative artworks."
+- id: christies
+  name: "Christie's"
+  venue_type: "auction house"
+  url: "https://www.christies.com/"
+  relevance: "Market history including the 2018 auction of Portrait of Edmond de Belamy."
+- id: feral-file
+  name: "Feral File"
+  venue_type: "online exhibition platform"
+  url: "https://feralfile.com/learn/about"
+  relevance: "Curated born-digital exhibitions, editioning, distribution, and preservation experiments."

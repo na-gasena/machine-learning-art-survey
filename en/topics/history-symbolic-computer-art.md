@@ -73,7 +73,7 @@ Large models reduce the need to hand-code rules, but do not settle authorship or
 
 **Caution.** Its main relevance beside contemporary large models is conceptual and evaluative rather than visual performance.
 
-**Source:** [The Painting Fool](https://www.thepaintingfool.com/)
+**Source:** [ICCC 2015 paper with work images and practice documentation](https://computationalcreativity.net/iccc2015/proceedings/8_2Colton.pdf)
 
 **Related:** AARON, ICCC, computational creativity
 
@@ -92,6 +92,18 @@ Large models reduce the need to hand-code rules, but do not settle authorship or
 **Source:** [arXiv](https://arxiv.org/abs/2104.02726)
 
 **Related:** The Painting Fool, Foregrounding Artist Opinions
+
+## Additional Lineages
+
+Christopher Strachey's 1952 Love Letters and Hiller and Isaacson's 1956-1957 *ILLIAC Suite* provide early cases of rule-based language and music generation. They are not modern machine learning, but clarify the roles of rules, selection, output, and human framing. [Bodleian archive](https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/28661) · [Illinois Computer Music](https://computermusic.web.illinois.edu/Notes/CaC2.html)
+
+Jasia Reichardt's 1968 [Cybernetic Serendipity](https://archive.ica.art/whats-on/cybernetic-serendipity-documentation/) brought computer images, music, poetry, machines, and cybernetics together. Its institutional assembly matters as much as any individual technique.
+
+William Latham and Stephen Todd's Mutator work used mutation and repeated human aesthetic selection to explore form. Their 1992 book *Evolutionary Art and Computers* remains an important record. [Goldsmiths](https://www.gold.ac.uk/computing/people/w-latham/) · [Mutator history](https://www.gold.ac.uk/news/w-latham---mutator-1-and-2/)
+
+Christa Sommerer and Laurent Mignonneau's *Interactive Plant Growing* (1992) and *A-Volve* connected bodily input, artificial life, and ecological display. [NTT ICC archive](https://www.ntticc.or.jp/en/exhibitions/1994/interactive-plant-growing-christa-sommerer-laurent-mignonneau/) · [Artist archive](https://interface.ufg.ac.at/christa-laurent/)
+
+Karl Sims's *Evolved Virtual Creatures* (1994) extended evolutionary art from morphology to behavior and adaptation. [Artist archive](https://www.karlsims.com/)
 
 ## Questions Across the Topic
 

@@ -78,7 +78,7 @@ AIアートを英語圏のモデル開発史や生成画像の様式史だけで
 
 **注意。** 個別作品とプロジェクト全体の技術構成を区別し、公式ページと美術館・フェスティバルの記録を併読する必要があります。
 
-**資料:** [Jake Elwes公式サイト](https://www.jakeelwes.com/) ・ [Ars Electronica](https://ars.electronica.art/prix/en/winners/jake-elwes/)
+**資料:** [Jake Elwes公式サイト](https://www.jakeelwes.com/) ・ [Ars Electronica](https://calls.ars.electronica.art/2022/prix/winners/9213/)
 
 **関連:** ImageNet Roulette、FFHQ、Glaze
 
@@ -170,7 +170,7 @@ AIアートを英語圏のモデル開発史や生成画像の様式史だけで
 
 **注意。** 現時点で安定した一次作品ページを確認できていないため、年をUnknownとし、作家本人や展示主催者の記録を追加確認する必要があります。
 
-**資料:** [TIMEによる作家紹介](https://qa.time.com/6309451/linda-dounia-rebeiz/)
+**資料:** [TIMEによる作家紹介](https://time.com/collection_hub_item/linda-dounia-rebeiz/)
 
 **関連:** ImageNet、LAION-5B、Not the Only One、ArtEmis
 
@@ -194,6 +194,44 @@ AIアートを英語圏のモデル開発史や生成画像の様式史だけで
 
 このページは「欧米以外の作家」を一つの箱へ集めるためのものではありません。Stephanie DinkinsやLauren Lee McCarthyの実践は英語圏でも展開され、Sofia Crespoの活動も国境を越えています。ここでの地域は本質的属性ではなく、データ、言語、制度、記憶、展示環境を読むための文脈です。今後、資料が増えた段階で「地域・文化」を独立カテゴリではなく各技術・媒体ページへ横断的に組み込む再分類も必要です。
 
+## 追加調査: 地域ではなく関係を読む
+
+### Kite / Making Kin with Machines
+
+Lakotaの作家・研究者Kite（Suzanne Kite）は、機械学習を組み込んだ髪の編み込みインターフェース、音、映像、パフォーマンスを通じて、Lakotaの存在論と非人間的関係を研究します。AIを人間に似せるのではなく、機械とどのような親族関係、責任、相互性を結べるかを問います。[作家公式](https://www.kitekitekitekite.com/)
+
+### Harshit Agrawal
+
+インドの作家Harshit Agrawalは、2010年代からAIと創造表現を扱い、*Emergent Patterns*では花の絵画を切り出して独自データセットを作り、*Latent Landscapes*ではWikiArt由来の風景画を学習した像へ動きを加えます。データ収集、展示、インドでのAIアート制度形成を同時に追える事例です。
+
+- [作家公式・作品一覧](https://harshitagrawal.com/)
+- [Emergent Patterns](https://harshitagrawal.com/emergent-patterns/)
+- [Latent Landscapes](https://harshitagrawal.com/latent-landscapes/?media_link=1)
+
+### Giselle Beiguelman / Botannica Tirannica
+
+ブラジルのGiselle Beiguelmanは、差別的な名称を与えられた植物種をAIで交配し、古典植物学、植民地主義的想像力、自然の分類を批評します。生成画像を「新種の発明」として祝うのではなく、学名と視覚分類に埋め込まれた暴力の系譜へ戻します。[作家公式プロジェクト](https://www.desvirtual.com/project/botannica-tirannica/) ・ [ポルトガル語展覧会資料](https://museujudaicosp.org.br/wp-content/uploads/2024/01/Release-Bottanica-Tirannica.pdf)
+
+### Rafael Lozano-Hemmer / Zoom Pavilion
+
+メキシコ生まれのRafael Lozano-HemmerとKrzysztof Wodiczkoによる*Zoom Pavilion*（2015）は、顔認識とロボットカメラで観客の空間関係を追跡・拡大します。ラテンアメリカの公共空間実践、監視技術、参加型メディア建築を結ぶ作品として読めます。[公式ページ、画像・映像・技術仕様](https://www.lozano-hemmer.com/artworks/zoom_pavilion.php)
+
+### Lawrence Lek / SinofuturismとAIDOL
+
+Lawrence Lekは中国とディアスポラをAI、労働、製造、ゲーム、企業統治と重ねるSinofuturismを展開します。*AIDOL*（2019）はAI作曲家を主人公にした長編CGIミュージカルで、東アジアを「未来的な見た目」として消費するのではなく、地政学と技術の語り方そのものを批評します。[作家公式](https://www.lawrencelek.com/) ・ [AIDOL](https://www.lawrencelek.com/works/aidol)
+
+### Afropean Intelligence
+
+S+T+ARTS Afropean Intelligenceは、アフリカと欧州の11文化組織、アフリカ5か国のレジデンスを通じ、AIの社会的影響を芸術・科学・技術から検討します。Chinedum Muottoの*Mobility as Memory*は、Kinshasaの植民地道路の下にある移動記憶を、物語、歌、音から学習する「living map」として構想します。進行中プロジェクトは完成作と区別して記録します。[AfricaMuseum公式](https://www.africamuseum.be/en/get_involved/artists/STARTS2025)
+
+## 地域横断調査で残すべき情報
+
+- 作家の出生地ではなく、制作地、協働者、資金、展示地、使用言語。
+- データが収集された地域と、モデル・計算資源を提供した組織。
+- 植民地的収集、返還、翻訳、検閲、通信環境など作品固有の制度条件。
+- 英語の紹介記事と、作家・地域機関が公開する一次言語資料の差。
+- 国籍や文化を固定した「スタイル」としてモデル化していないか。
+
 ## 横断して考える問い
 
 - 大規模モデルに欠ける表象を、追加データだけで補えるのか。それとも収集・所有の仕組み自体を変える必要があるか。
@@ -203,5 +241,5 @@ AIアートを英語圏のモデル開発史や生成画像の様式史だけで
 ## 次に読む
 
 - [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }}) - 何がデータに含まれ、欠けるのか
-- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 同意、労働、返還、来歴の制度
+- [批評、権利、来歴]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 同意、労働、返還、来歴の制度
 - [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }}) - オンラインで確認できる作品画像と記録

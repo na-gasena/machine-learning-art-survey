@@ -93,6 +93,20 @@ Spawn, *PROTO*, and Holly+ do not reduce AI voice to imitation. Choral training,
 
 **Related:** Magenta, NSynth, Spawning, Foregrounding Artist Opinions
 
+## Five Modes of Collaboration
+
+Wayne McGregor's [Living Archive](https://waynemcgregor.com/productions/living-archive/) proposed movement continuations from a choreographic archive. Dancers interpreted rather than copied them, making collaboration a cycle of proposal, rejection, and embodied translation.
+
+[discrete figures](https://research.rhizomatiks.com/s/works/discrete_figures) placed machine learning, OpenPose, virtual dancers, and live performers on one stage. The body appears both as a machine-readable skeleton and as weight, fatigue, and imperfect synchronization.
+
+[Improbotics](https://improbotics.org/) sends generated dialogue to actors through earpieces. Human voice, attention, and physical action repair context, exposing labor that claims of machine autonomy often hide.
+
+[Alter3](https://arxiv.org/abs/2312.06571) grounds language-model outputs in android motion. Keiichiro Shibuya's [Android Opera](https://atak.jp/works/android-opera-scary-beauty/) places related android bodies alongside human musicians in singing, conducting, and responsive performance.
+
+Anicka Yi's [In Love With the World](https://www.hyundai.com/worldwide/en/newsroom/detail/0000000456) presents floating machines as sensory, collective species. Collaboration becomes environmental coexistence among people, machines, scent, air, and architecture.
+
+Documentation should record who proposes, selects, rejects, repairs errors, and supplies data. In live work, rehearsal, operators, fail-safes, safety, and audience consent are part of authorship.
+
 ## Questions Across the Topic
 
 - Is unpredictability enough for collaboration, or does collaboration require reciprocal adjustment?

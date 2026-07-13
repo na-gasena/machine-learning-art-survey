@@ -108,7 +108,7 @@
   notes: "Standard specification."
 - id: us-copyright-ai
   title: "U.S. Copyright Office AI reports"
-  url: "https://www.copyright.gov/ai/"
+  url: "https://www.copyright.gov/policy/artificial-intelligence/"
   source_type: policy
   reliability: High
   notes: "Jurisdiction-specific policy source."
@@ -234,7 +234,7 @@
   notes: "Artist's official site with biography, publications, project descriptions, and image links."
 - id: time-linda-dounia
   title: "Linda Dounia Rebeiz profile"
-  url: "https://qa.time.com/6309451/linda-dounia-rebeiz/"
+  url: "https://time.com/collection_hub_item/linda-dounia-rebeiz/"
   source_type: press
   reliability: Medium
   notes: "Press profile used where a stable primary project page was not confirmed."
@@ -250,3 +250,237 @@
   source_type: official-project
   reliability: Medium
   notes: "Official project URL; retained with Medium reliability because the page should be rechecked for long-term availability."
+- id: bodleian-strachey-love-letters
+  title: "Christopher Strachey papers: computer-generated love letters"
+  url: "https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/28661"
+  source_type: archive
+  reliability: High
+  notes: "Bodleian Libraries catalogue record for the 1952 material."
+- id: ica-cybernetic-serendipity
+  title: "Cybernetic Serendipity documentation"
+  url: "https://archive.ica.art/whats-on/cybernetic-serendipity-documentation/"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Official ICA archive."
+- id: goldsmiths-mutator-vr
+  title: "Mutator VR"
+  url: "https://www.gold.ac.uk/research/case-studies/mutator-vr/"
+  source_type: institutional-project
+  reliability: High
+  notes: "Goldsmiths research case study."
+- id: icc-interactive-plant-growing
+  title: "Interactive Plant Growing"
+  url: "https://www.ntticc.or.jp/en/exhibitions/1994/interactive-plant-growing-christa-sommerer-laurent-mignonneau/"
+  source_type: institutional-archive
+  reliability: High
+  notes: "NTT ICC exhibition archive."
+- id: karl-sims-evolved-creatures
+  title: "Evolved Virtual Creatures"
+  url: "https://www.karlsims.com/evolved-virtual-creatures.html"
+  source_type: artist-researcher-archive
+  reliability: High
+  notes: "Official page with paper, images, and videos."
+- id: arxiv-pix2pix
+  title: "Image-to-Image Translation with Conditional Adversarial Networks"
+  url: "https://arxiv.org/abs/1611.07004"
+  source_type: paper
+  reliability: High
+  notes: "Primary paper."
+- id: cvf-cyclegan
+  title: "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"
+  url: "https://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf"
+  source_type: paper
+  reliability: High
+  notes: "Official open-access ICCV paper."
+- id: arxiv-stylegan
+  title: "A Style-Based Generator Architecture for Generative Adversarial Networks"
+  url: "https://arxiv.org/abs/1812.04948"
+  source_type: paper
+  reliability: High
+  notes: "Primary StyleGAN paper."
+- id: openai-clip
+  title: "CLIP: Connecting text and images"
+  url: "https://openai.com/index/clip/"
+  source_type: official-project
+  reliability: High
+  notes: "Official project page; paper is arXiv:2103.00020."
+- id: neurips-ddpm
+  title: "Denoising Diffusion Probabilistic Models"
+  url: "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
+  source_type: paper
+  reliability: High
+  notes: "Official NeurIPS proceedings page."
+- id: pachet-continuator
+  title: "The Continuator: Musical Interaction With Style"
+  url: "https://www.francoispachet.fr/wp-content/uploads/2021/01/pachet-02-icmai-final.pdf"
+  source_type: paper
+  reliability: High
+  notes: "Author-hosted paper."
+- id: sony-flow-machines
+  title: "Flow Machines"
+  url: "https://www.sony.com/en/SonyInfo/design/stories/flow-machines/"
+  source_type: official-project
+  reliability: High
+  notes: "Sony project history and design account."
+- id: georgia-tech-shimon
+  title: "Shimon"
+  url: "https://gtcmt.gatech.edu/shimon"
+  source_type: institutional-project
+  reliability: High
+  notes: "Georgia Tech Center for Music Technology project page."
+- id: flucoma-about
+  title: "About Fluid Corpus Manipulation"
+  url: "https://www.flucoma.org/about"
+  source_type: official-project
+  reliability: High
+  notes: "Official project and toolkit documentation."
+- id: wayne-mcgregor-living-archive
+  title: "Living Archive"
+  url: "https://waynemcgregor.com/productions/living-archive/"
+  source_type: artist-organization-page
+  reliability: High
+  notes: "Official production archive."
+- id: rhizomatiks-discrete-figures
+  title: "discrete figures"
+  url: "https://research.rhizomatiks.com/s/works/discrete_figures"
+  source_type: artist-organization-page
+  reliability: High
+  notes: "Official work archive with media."
+- id: improbotics-official
+  title: "Improbotics"
+  url: "https://improbotics.org/"
+  source_type: official-project
+  reliability: High
+  notes: "Official theatre project page."
+- id: jbe-one-the-road
+  title: "1 the Road"
+  url: "https://www.jbe-books.com/products/1-the-road-by-an-artificial-neural"
+  source_type: publisher
+  reliability: High
+  notes: "Publisher record with process and publication metadata."
+- id: google-please-feed-the-lions
+  title: "Please Feed the Lions"
+  url: "https://artsandculture.google.com/project/please-feed-the-lions"
+  source_type: official-project
+  reliability: High
+  notes: "Official project archive and media."
+- id: svanda-theaitre
+  title: "AI: Kdyz robot pise hru"
+  url: "https://www.svandovodivadlo.cz/inscenace/673/ai-kdyz-robot-pise-hru"
+  source_type: theatre-archive
+  reliability: High
+  notes: "Official Czech-language production page."
+- id: ian-cheng-bob
+  title: "BOB (Bag of Beliefs)"
+  url: "https://bobs.ai/"
+  source_type: artist-project
+  reliability: High
+  notes: "Official project site."
+- id: serpentine-uumwelt
+  title: "Pierre Huyghe: UUmwelt"
+  url: "https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Serpentine exhibition archive."
+- id: lawrence-lek-aidol
+  title: "AIDOL"
+  url: "https://www.lawrencelek.com/works/aidol"
+  source_type: artist-page
+  reliability: High
+  notes: "Official page with synopsis, credits, stills, and trailer."
+- id: lozano-hemmer-zoom-pavilion
+  title: "Zoom Pavilion"
+  url: "https://www.lozano-hemmer.com/artworks/zoom_pavilion.php"
+  source_type: artist-page
+  reliability: High
+  notes: "Official archive with images and video."
+- id: beiguelman-botannica-tirannica
+  title: "Botannica Tirannica"
+  url: "https://www.desvirtual.com/project/botannica-tirannica/"
+  source_type: artist-page
+  reliability: High
+  notes: "Official project page in Portuguese and English."
+- id: kite-artist-archive
+  title: "Kite"
+  url: "https://www.kitekitekitekite.com/"
+  source_type: artist-page
+  reliability: High
+  notes: "Official archive for Indigenous AI art, writing, and performance."
+- id: uva-omniart
+  title: "OmniArt"
+  url: "https://isis-data.science.uva.nl/strezoski/"
+  source_type: institutional-dataset
+  reliability: High
+  notes: "Official dataset page; records unavailability since 2025."
+- id: aston-semart
+  title: "SemArt Dataset"
+  url: "https://researchdata.aston.ac.uk/id/eprint/380/"
+  source_type: institutional-dataset
+  reliability: High
+  notes: "Versioned repository record with DOI."
+- id: zenodo-artgraph
+  title: "ArtGraph Dataset"
+  url: "https://zenodo.org/records/6337958"
+  source_type: dataset-repository
+  reliability: High
+  notes: "Zenodo record with files, license, and DOI."
+- id: nightshade-official
+  title: "What is Nightshade?"
+  url: "https://nightshade.cs.uchicago.edu/whatis.html"
+  source_type: official-project
+  reliability: High
+  notes: "University research-team project page."
+- id: data-provenance-official
+  title: "Data Provenance Initiative"
+  url: "https://www.dataprovenance.org/"
+  source_type: official-project
+  reliability: High
+  notes: "Dataset audit resources and publications."
+- id: usco-ai-policy
+  title: "Copyright and Artificial Intelligence"
+  url: "https://www.copyright.gov/policy/artificial-intelligence/"
+  source_type: government
+  reliability: High
+  notes: "Official US Copyright Office report hub."
+- id: ec-training-summary-template
+  title: "Template for GPAI providers to summarise training content"
+  url: "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content"
+  source_type: government
+  reliability: High
+  notes: "Official European Commission implementation FAQ."
+- id: c2pa-spec-2-2
+  title: "C2PA Technical Specification 2.2"
+  url: "https://spec.c2pa.org/specifications/specifications/2.2/index.html"
+  source_type: standard
+  reliability: High
+  notes: "Official technical specification."
+- id: siggraph-digital-art-archive
+  title: "SIGGRAPH Digital Art Archive"
+  url: "https://digitalartarchive.siggraph.org/"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Searchable ACM SIGGRAPH art archive."
+- id: barbican-ai-more-than-human
+  title: "AI: More than Human"
+  url: "https://www.barbican.org.uk/whats-on/2019/event/ai-more-than-human"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Official exhibition page."
+- id: centre-pompidou-neurones
+  title: "Neurones, les intelligences simulees"
+  url: "https://www.centrepompidou.fr/en/ressources/media/r4Ep77X"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Official French museum resource and video documentation."
+- id: blanton-run-the-code
+  title: "Run the Code"
+  url: "https://blantonmuseum.org/exhibition/run-the-code/"
+  source_type: institutional-archive
+  reliability: High
+  notes: "Official exhibition page."
+- id: guggenheim-ccba
+  title: "Conserving Computer-Based Art Initiative"
+  url: "https://www.guggenheim.org/conservation/the-conserving-computer-based-art-initiative"
+  source_type: institutional-project
+  reliability: High
+  notes: "Official conservation research hub."

@@ -74,3 +74,63 @@
   label: "Restitution"
   label_ja: "返還・修復的正義"
   notes: "Museum and cultural-heritage debates around looted objects, colonial archives, ownership, and reparative practice."
+- id: computational-literature
+  label: "Computational literature"
+  label_ja: "計算文学"
+  notes: "Literary production involving rules, programs, sensors, language models, and computational reading or writing systems."
+- id: algorithmic-composition
+  label: "Algorithmic composition"
+  label_ja: "アルゴリズム作曲"
+  notes: "Music made with formal rules, stochastic processes, search, or learned models."
+- id: artificial-life-art
+  label: "Artificial-life art"
+  label_ja: "人工生命芸術"
+  notes: "Works organized around evolving, adaptive, autonomous, or ecosystem-like computational agents."
+- id: live-simulation
+  label: "Live simulation"
+  label_ja: "ライブ・シミュレーション"
+  notes: "Time-based systems whose state continues to change during display rather than replaying a fixed sequence."
+- id: machine-listening
+  label: "Machine listening"
+  label_ja: "機械聴取"
+  notes: "Computational analysis and organization of sound used in performance, production, archives, and creative coding."
+- id: embodied-ai
+  label: "Embodied AI"
+  label_ja: "身体化AI"
+  notes: "AI systems whose behavior depends on physical bodies, sensors, spatial relations, and performance context."
+- id: dance-archive
+  label: "Dance archive"
+  label_ja: "ダンス・アーカイブ"
+  notes: "Recorded movement and choreographic materials used for preservation, analysis, training, or new creation."
+- id: sinofuturism
+  label: "Sinofuturism"
+  label_ja: "シノフューチャリズム"
+  notes: "Critical and speculative framing of technology, geopolitics, labor, and East Asian futures."
+- id: indigenous-ai
+  label: "Indigenous AI"
+  label_ja: "先住民AI"
+  notes: "Situated approaches to AI grounded in Indigenous sovereignty, knowledge, language, kinship, and accountability."
+- id: colonial-taxonomy
+  label: "Colonial taxonomy"
+  label_ja: "植民地主義的分類"
+  notes: "Historical naming and classification systems whose power relations can persist in contemporary datasets."
+- id: data-lifecycle
+  label: "Dataset lifecycle"
+  label_ja: "データセットのライフサイクル"
+  notes: "Creation, versioning, distribution, withdrawal, maintenance, and disappearance of research datasets."
+- id: training-data-transparency
+  label: "Training-data transparency"
+  label_ja: "訓練データ透明性"
+  notes: "Documentation and disclosure of sources, licenses, composition, exclusions, and creator preferences in model training."
+- id: software-art-conservation
+  label: "Software-art conservation"
+  label_ja: "ソフトウェア・アート保存"
+  notes: "Preservation of code, dependencies, hardware, state, interfaces, documentation, and behavior."
+- id: exhibition-history
+  label: "Exhibition history"
+  label_ja: "展覧会史"
+  notes: "How curatorial frameworks, venues, catalogues, and display technologies shape what counts as AI or computer art."
+- id: art-market
+  label: "AI art market"
+  label_ja: "AIアート市場"
+  notes: "Auctions, galleries, platforms, ownership claims, pricing, and promotional narratives around AI-mediated art."

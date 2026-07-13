@@ -111,6 +111,43 @@ LAION-5Bは画像とテキストの関係を巨大規模で学ぶ基盤を提供
 
 **関連:** WikiArt、Foregrounding Artist Opinions、ArtBench
 
+## 美術データセットの追加比較
+
+| 資源 | 規模・内容 | 主な用途 | 現在の注意 |
+|---|---|---|---|
+| OmniArt | 複数コレクション、豊富な属性、数十万点規模 | マルチタスク分類、属性推定 | 公式ページは2025年に配布終了を明記 |
+| SemArt | 21,384点の絵画と解説文・属性 | 画像・テキスト検索、意味理解 | 欧州絵画中心、非商用研究条件 |
+| ArtGraph | WikiArtとDBpedia由来の知識グラフ | 文脈付き分類、関係推論 | 元データの分類と欠落を継承 |
+| The Met Open Access | 作品メタデータとパブリックドメイン画像 | 研究、教育、制作、API利用 | 公開可否と画像有無を項目ごとに確認 |
+| Rijksmuseum Data Services | 80万件超のメタデータ、画像、語彙 | Linked Open Data、検索、収穫 | API・識別子仕様が更新される |
+| Smithsonian Open Access | 21博物館等の2D/3D資料500万件超 | 研究、再利用、教育 | 機関・資料種別ごとの文脈差が大きい |
+
+### OmniArt
+
+OmniArtは15以上のオンライン美術コレクションとユーザー生成美術を集約し、素材、技法、場所、Iconclassなどのメタデータを備えた大規模資源でした。しかし公式配布ページは「2025 Update」としてデータセットが利用不能になったと明記し、代替としてThe Met、浮世絵、SemArtを案内しています。データセットの引用可能性と取得可能性を分けて記録する典型例です。[公式ページ](https://isis-data.science.uva.nl/strezoski/) ・ [論文](https://arxiv.org/abs/1708.00684)
+
+### SemArt
+
+SemArtはWeb Gallery of Artから収集した21,384点の欧州絵画に、作者、題名、ジャンル、流派、年代、解説文を結びます。画像分類だけでなくText2Art検索を扱える一方、「美術一般」を代表するデータではありません。[Aston Universityデータ記録](https://researchdata.aston.ac.uk/id/eprint/380/) ・ [論文](https://arxiv.org/abs/1810.09617)
+
+### ArtGraph
+
+ArtGraphはWikiArtとDBpediaを結ぶ知識グラフで、作品、作者、様式、媒体、時代などを関係として表現します。画像特徴だけでは扱いにくい美術史的文脈を組み込めますが、WikiArtのカテゴリとDBpediaの可視性偏向も継承します。[Zenodo](https://zenodo.org/records/6337958) ・ [関連論文](https://arxiv.org/abs/2105.15028)
+
+## 美術館オープンデータを「学習データ」と同一視しない
+
+美術館のOpen Accessは、公開画像、メタデータ、APIの再利用条件を整える制度であり、あらゆる機械学習利用への包括的同意と自動的に同じではありません。各画像の権利、撮影著作物、人物情報、文化的機微、API規約を確認します。
+
+- [The Met Collection API](https://metmuseum.github.io/)はオープンアクセスデータと対応するパブリックドメイン画像へJSONでアクセスできます。
+- [Rijksmuseum Data Services](https://data.rijksmuseum.nl/)はLinked Art、EDM、OAI-PMH、LDES、検索API、データダンプを提供します。
+- [Smithsonian Open Access](https://www.si.edu/OpenAccess)は500万件超の2D/3D資料への入口を提供します。
+- [MoMA Collection dataset](https://github.com/MuseumofModernArt/collection)は作品と作家のメタデータを公開しますが、画像データセットではありません。
+- [National Gallery of Art Open Data](https://github.com/NationalGalleryOfArt/opendata)はコレクション情報を機械可読形式で提供します。
+
+## データの寿命を監査する
+
+データセットには、公開年だけでなく最終確認日、取得方法、容量、ライセンス、利用条件、配布停止、更新履歴を記録します。研究論文から辿れるURLが消えていても「利用可能」と書かず、ミラーの合法性が確認できなければ配布先として案内しません。
+
 ## 横断して考える問い
 
 - 欠けている地域、時代、媒体、共同体を「データがない」と片づけず、収集史の結果としてどう記述するか。
@@ -120,5 +157,5 @@ LAION-5Bは画像とテキストの関係を巨大規模で学ぶ基盤を提供
 ## 次に読む
 
 - [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }}) - データが画像生成へ変換される仕組み
-- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - データの同意、保護、来歴
+- [批評、権利、来歴]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - データの同意、保護、来歴
 - [地域・文化・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }}) - 大規模データに欠ける記憶と地域表象への応答

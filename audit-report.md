@@ -6,6 +6,24 @@ permalink: /audit-report/
 
 # Audit Report
 
+最終増補監査日: 2026-07-14
+
+## 監査概要
+
+本サーベイは、初期カテゴリを固定せず、検索語の拡張、一次資料の確認、項目比較、分類の再編、日英ページ作成、構造化データ同期、公開構成検査の順で作成した。今回の増補では、画像生成に偏っていた構成を見直し、計算文学、アルゴリズム作曲、進化芸術、人工生命、ダンス、演劇、ロボット、CG映画、ライブ・シミュレーション、展覧会史、市場、ソフトウェア保存、非英語圏・先住民・ディアスポラの実践を拡張した。
+
+2026-07-14時点の構造化データ件数:
+
+- items: 122
+- sources: 81
+- people: 98
+- organizations: 99
+- venues: 20
+- datasets: 18
+- keywords: 34
+- BibTeX entries: 36
+- 日英トピック: 各11ページ
+
 ## Phase 1: Research / 調査
 
 ### 作成・更新したファイル
@@ -19,177 +37,154 @@ permalink: /audit-report/
 - `_data/keywords.yml`
 - `references.bib`
 
-### 発見したこと
+### 検索語の拡張
 
-広い検索語から、AI art、computational creativity、creative AI、neural style transfer、DeepDream、GAN、Creative Adversarial Networks、diffusion models、text-to-image、interactive machine learning、machine learning for artists and musicians、dataset politics、provenance、artist rights などの関連語が見つかった。
+広い検索語 `machine learning art`、`AI art`、`creative AI` から始め、発見した作品・研究・制度から次の語へ展開した。
 
-重要 item は、AARON、The Painting Fool、DeepDream、A Neural Algorithm of Artistic Style、GAN、CAN、ArtGAN、Latent Diffusion、DALL-E、Stable Diffusion、Wekinator、Magenta、NSynth、Learning to See、Mosaic Virus、Drawing Operations、Holly+、ImageNet、WikiArt、LAION-5B、ArtEmis、ImageNet Roulette、Glaze、C2PA、U.S. Copyright Office AI reports など。
+- computer art, cybernetic art, algorithmic composition, computational literature
+- evolutionary art, artificial life art, interactive installation, live simulation
+- neural style transfer, GAN, image-to-image translation, CLIP, diffusion, latent space
+- interactive machine learning, machine listening, robotic music, AI choreography, AI theatre
+- computational art history, museum open data, multimodal art dataset, knowledge graph
+- training data provenance, artist consent, style mimicry, data poisoning, content credentials
+- Indigenous AI, colonial taxonomy, restitution, Sinofuturism, Afropean intelligence
+- software-art conservation, AI exhibition history, auction, collection, emulation
+
+### 主な発見
+
+1. 機械学習アートは、画像生成の技術史だけでは説明できない。Love Letters、Illiac Suite、Cybernetic Serendipity、AARON、Mutator、Interactive Plant Growingは、言語、音楽、展示、進化、身体入力の別系譜を示す。
+2. 音楽・舞台では完成物よりリアルタイムの応答、遅延、俳優・演奏家・ダンサーの修復労働が重要である。
+3. AI文学・映像では「AIが書いた」という広報文言と、選択、編集、翻訳、演出、出演、撮影、出版の工程を分ける必要がある。
+4. データセットは内容だけでなく配布状態も変化する。OmniArt公式ページは2025年以降の配布停止を記録しており、論文が残っても再現資源が消える問題を示す。
+5. 権利問題は、訓練データ監査、作家のオプトアウト、防御ツール、著作権法、生成物来歴を別の段階として整理する必要がある。
+6. 地域的実践は国籍別の付録ではない。Kite、Harshit Agrawal、Giselle Beiguelman、Lawrence Lek、Minne Atairu、Linda Dounia Rebeizらは、親族関係、植民地分類、返還、地域データ、言語、制度を技術設計と結びつける。
 
 ### 不確かなこと
 
-作品の技術詳細は、作家サイト・展示解説・報道で記述粒度が異なる。Holly+、PROTO/Spawn、Memories of Passersby I、Large Nature Model/Dataland などは、技術実装の詳細が限定的または更新中である。
-
-### 次Phaseへの反映方針
-
-技術中心、作品中心、制度中心の分類を最初から固定せず、集まった item の用途、媒体、歴史、社会的争点から分類を作った。
+- 作品ページが技術実装を公開していない場合、機械学習の具体的役割は `Unknown` または Medium confidenceにとどめた。
+- Racterの生成範囲、編集、宣伝上の自律性主張には論争がある。
+- 「コンピュータが小説を書く日」は詳細な日本語インタビューを確認したが、長期保存された一次プロジェクトサイトが見つかっていない。
+- Niceaunties、Linda Dounia Rebeiz、Afropean Intelligenceなど進行中・SNS依存の実践は、安定した制度アーカイブが不足する。
+- 最新の法、訴訟、モデル利用規約、クラウド機能は更新されるため、固定的結論として扱えない。
 
 ## Phase 2: Taxonomy / 分類
 
-### 作成・更新したファイル
+### 確定した11トピック
 
-- `ja/survey-map.md`
-- `en/survey-map.md`
+1. 歴史、記号的AI、コンピュータアート
+2. ニューラル画像生成
+3. 音楽、パフォーマンス、インタラクティブ機械学習
+4. 人間・機械協働と身体的実践
+5. データセット、美術史、機械知覚
+6. 批評、権利、来歴
+7. 制作ツール、教育、プラットフォーム
+8. 地域・文化・批評的実践
+9. 言語、文学、物語生成
+10. 映像、ゲーム、空間的メディア
+11. 展覧会史、制度、市場、保存
 
-### 発見したこと
+### 分類変更の根拠
 
-自然な分類として、次の6カテゴリが安定した。
+旧版では8分類だったが、調査項目を増やすと次の三群を既存ページへ埋め込むだけでは比較しにくかったため、独立トピックにした。
 
-- 歴史、記号的AI、コンピュータアート
-- ニューラル画像生成
-- 音楽、パフォーマンス、インタラクティブ機械学習
-- 人間・機械協働と身体的実践
-- データセット、美術史、機械知覚
-- 批評、権利、来歴、制度
+- 言語・文学・物語: 出力テキスト、編集、翻訳、出版、上演の工程を画像生成と別に分析する必要がある。
+- 映像・ゲーム・空間: 時間、状態、エージェント、観客入力、展示装置を静止画像と別に扱う必要がある。
+- 展覧会・制度・市場・保存: 作品の権利問題と、分類・展示・収蔵・再演を行う機関の問題を分離する必要がある。
 
-### 不確かなこと
-
-没入型AI展示は、作品、研究デモ、企業ブランディング、文化施設運営の境界にある。商業デザインやゲームアセット生成は、本サーベイの中心に入れるか今後判断が必要。
-
-### 次Phaseへの反映方針
-
-topicファイル名は、調査で安定した分類に合わせて決定した。
+カテゴリは排他的ではない。Living Archiveはダンス、身体データ、共同制作、アーカイブ、保存にまたがり、BOBは人工生命、ゲーム的シミュレーション、展示、収蔵にまたがる。境界領域は `ja/survey-map.md` と `en/survey-map.md` に明記した。
 
 ## Phase 3: Item Notes / 個別要約
 
-### 作成・更新したファイル
+### ページ構造
 
-- `ja/topics/history-symbolic-computer-art.md`
-- `en/topics/history-symbolic-computer-art.md`
-- `ja/topics/neural-image-generation.md`
-- `en/topics/neural-image-generation.md`
-- `ja/topics/music-performance-interactive-ml.md`
-- `en/topics/music-performance-interactive-ml.md`
-- `ja/topics/human-machine-collaboration.md`
-- `en/topics/human-machine-collaboration.md`
-- `ja/topics/datasets-art-history-machine-vision.md`
-- `en/topics/datasets-art-history-machine-vision.md`
-- `ja/topics/critique-rights-provenance.md`
-- `en/topics/critique-rights-provenance.md`
+日英11トピックを、次の順序へ統一した。
 
-### 発見したこと
+1. このページの結論 / Conclusion
+2. 押さえる3点 / Three Points
+3. 比較できる見取り図 / Comparison Map
+4. 系譜または論点の流れ
+5. 代表項目
+6. 横断的な問い
+7. 作品アーカイブ・次に読む
 
-重要 item は、作品単体よりも、技術・データ・制度・観客経験の組み合わせとして理解する方が正確である。たとえば Stable Diffusion はモデルであると同時に、コミュニティ、ライセンス、UI、派生モデル、データ論争を含むエコシステムである。
+個別項目は、同じ長さのカードを縦に並べる形式をやめ、系譜と比較軸を先に示した。日本語版を主文として英語版より詳しくし、両言語でファイル名と見出しの役割を対応させた。
 
-### 不確かなこと
+### 追加した主要項目
 
-最新のDataland関連情報、モデルの現行ライセンス、各プラットフォームのC2PA対応、AI著作権訴訟は変化しやすい。今後の更新が必要。
-
-### 次Phaseへの反映方針
-
-各 topic では、事実、重要性、手法、歴史的文脈、制限を分けて記述した。
+- 歴史: Love Letters、Illiac Suite、Cybernetic Serendipity、Mutator、Interactive Plant Growing、Evolved Virtual Creatures
+- 画像: pix2pix、CycleGAN、StyleGAN、CLIP、VQGAN、DDPM、Latent Diffusion、Artbreeder、GauGAN
+- 音・身体: Continuator、DeepBach、Flow Machines、Shimon、Dadabots、FluCoMa、Living Archive、discrete figures、Improbotics、Alter3、Android Opera
+- 言語: Racter、Sunspring、1 the Road、Please Feed the Lions、コンピュータが小説を書く日、THEaiTRE
+- 映像・空間: BOB、UUmwelt、AIDOL、This is the Future、In Love With the World、Zoom Pavilion、Archive Dreaming
+- 地域: Kite、Harshit Agrawal、Botannica Tirannica、Lawrence Lek、Afropean Intelligence
+- データ: OmniArt、SemArt、ArtGraph、Met、Rijksmuseum、Smithsonian、MoMA、National Gallery of Art
+- 権利・制度: Nightshade、Have I Been Trained?、Data Provenance Initiative、米国著作権局報告、EU訓練内容サマリー、C2PA 2.2
+- 展覧会・保存: SIGGRAPH Digital Art Archive、AI: More than Human、Ars Electronica 2019、Neurones、Uncanny Valley、Run the Code、Christie's 2018 auction、Guggenheim CCBA
 
 ## Phase 4: Synthesis and Publication / 統合と公開準備
 
-### 作成・更新したファイル
+### 公開構成
 
-- `README.md`
-- `index.md`
-- `_config.yml`
-- `LICENSE`
-- `templates/item-card.md`
-- `templates/topic-page.md`
-- `assets/css/style.css`
-- `ja/index.md`
-- `en/index.md`
-- `ja/resources/datasets-and-resources.md`
-- `en/resources/datasets-and-resources.md`
-- `ja/open-questions.md`
-- `en/open-questions.md`
+- ルートに `index.md` と `_config.yml` が存在する。
+- `theme: minima` と `markdown: kramdown` を使用する。
+- `.nojekyll`、外部静的サイトジェネレータ、GitHub Pages非対応pluginは使用しない。
+- 日本語は `ja/`、英語は `en/` に分け、1行ごとの日英併記をしない。
+- すべての公開MarkdownにYAML front matterと一意のpermalinkがある。
+- 内部リンクにはJekyllの `relative_url` を使い、project siteのbase URLに対応する。
 
-### 発見したこと
+### 作品・資料へのアクセス
 
-GitHub Pagesの標準Jekyll構成では、ルートの `index.md` と `_config.yml` があれば公開入口を作れる。日本語と英語は、行単位で混在させず、ページ単位またはセクション単位で分けた。
+`ja/resources/works-archive.md` と英語対応ページを約70項目規模へ拡張した。作家、美術館、大学、劇場、フェスティバル、論文、公式コードへのURLを分け、オンライン画像・映像があるページを優先した。外部画像を本リポジトリへ無断複製せず、既存の公式画像参照と公式メディアページへのリンクを用いる。
 
-### 不確かなこと
-
-Minimaテーマで `assets/css/style.css` を自動読み込みするかはテーマバージョンに依存する。サイト本体はCSSに依存しない素朴なMarkdownとして読める。
-
-### 次Phaseへの反映方針
-
-公開不能な外部ビルドツール、未対応プラグイン、`.nojekyll` は使わない。
+`datasets-and-resources.md` は、美術画像、美術館オープンデータ、人物・身体、画像テキスト、音響、制作ツール、権利・来歴に再分類した。配布停止、商用サービス変更、画像権利、文化的機微を項目ごとに記載した。
 
 ## Phase 5: Audit / 監査
 
-### 監査結果
+### 機械検査結果
 
-- 重要 item の抜け: 初期版として主要な歴史・技術・作品・制度は含めたが、地域的偏りが残る。
-- 地域・言語・時代の偏り: 英語圏・欧米圏資料への偏りがある。日本語圏、東アジア、南アジア、アフリカ、ラテンアメリカの拡張が必要。
-- カテゴリ名: Phase 1で発見した item のまとまりに基づく。
-- タイトル、人物名、年、URL: 主要項目は一次情報または信頼できる資料で確認した。更新されやすい項目は notes に記録。
-- README、index、ja、enの矛盾: 基本構造は一致。
-- references.bib: 本文で扱う主要論文を含む。作品・標準・政策資料はBibTeX化していないものがある。
-- `_data/items.yml` と本文: 代表 item は本文に対応。
-- リンク切れ: 自動HTTP検査は未実施。URLは調査時に参照済み。
-- 推測の断定: 不確実な項目は Medium confidence または notes に記録。
-- 歴史と最新動向のバランス: AARONから2026年時点のDataland/C2PA論点まで含めた。
-- 隣接分野との境界: survey map に境界領域を記載。
-- 日英構造: 主要ページは対応するファイル名・見出し構造にした。
-- GitHub Pages構成: ルートに `index.md` と `_config.yml` が存在し、外部静的サイトジェネレータに依存しない。
-- 特殊plugin: 使用なし。
+- `_data/*.yml` の全ID重複検査: 重複2件を検出し、旧レコードを削除。修正後は全ファイルで一意。
+- `items.yml` 必須21フィールド検査: 122件すべてに存在。
+- `related_people` / `related_organizations` 参照検査: 未登録ID 0件。
+- 公開Markdown検査: 33ファイルすべてにfront matterとpermalinkが存在。
+- permalink重複: 0件。
+- `relative_url` 内部リンク: 参照先不明0件。
+- 日英トピックファイル対応: 11対11で一致。
+- 日本語作品・資料ページ外部URL: 173件をHTTP検査。139件が200/300、6件がbot対策応答、28件が初回タイムアウトまたは失敗候補。実404 2件と旧QA URL等を再調査し、CycleGAN、Zizi、Linda Dounia Rebeiz、PROTOの安定した公式URLへ置換した。
+- トピック本文固有URL: 差分28件を検査し、23件到達、3件bot対策、2件タイムアウト。Goldsmithsはブラウザ取得で確認し、到達しないThe Painting Fool公式サイトはICCCの機関保存論文へ置換した。
+- 埋め込み外部画像: 8件すべてHTTP 200を確認した。
+- YAML/Jekyll実ビルド: ローカルにRuby/Jekyllがないため、GitHub Pages Actionsで最終検証する。
 
-### 2026-07-12 増補監査
+### 15項目監査
 
-ユーザー指摘を受け、READMEの日本語セクションを英語側と同等の構造へ増補し、GitHub Pagesで壊れやすい `.md` 内部リンクと `_data/` 直リンクを修正した。さらに、制作ツール、教育、プラットフォーム、地域・文化・批評的実践、作品アーカイブページを追加した。
+1. **重要項目の抜け:** 初期版の画像偏重を大きく改善した。完全網羅ではなく、残課題を下記に記録する。
+2. **地域・言語・時代の偏り:** 日本語・英語に加え、チェコ語、フランス語、ポルトガル語の公式資料を含めた。中東・アフリカ諸言語は不足する。
+3. **カテゴリ根拠:** 122 itemの媒体、方法、時間性、制度文脈の比較から11分類へ更新した。
+4. **タイトル・人物・年・URL:** 主要項目は一次資料または研究論文で確認。不確かなものはMedium confidenceまたはnotesへ記録した。
+5. **README・index・日英整合:** 11分類へ同期した。
+6. **BibTeX対応:** 主要技術論文、調査論文、政策資料を36件収録。作品・展覧会の一次ページは主にsources.ymlへ収録した。
+7. **itemsと本文対応:** 代表事例と新規トピックの中心項目をitems.ymlへ追加した。
+8. **リンク:** 内部リンク検査は合格。外部URLは調査時に閲覧したが、将来の永続性は保証できない。
+9. **事実と推測:** 技術非公開、生成範囲に論争、進行中の事例を明示した。
+10. **歴史と最新動向:** 1952年のLove Lettersから2026年時点の公開制度・保存課題まで含む。
+11. **隣接分野:** 人工生命、HCI、計算文学、音楽情報検索、ゲームAI、博物館情報、保存科学との境界を説明した。
+12. **日英構造:** ファイル名と主要見出しの役割を対応。日本語優先のため日本語本文は英語版より詳しい。
+13. **Jekyll構成:** 標準GitHub Pages構成を維持。
+14. **indexとconfig:** 両方存在。
+15. **特殊依存:** なし。
 
-追加した主な item:
+## 修正できない問題・残課題
 
-- Galápagos
-- Electric Sheep
-- Very Nervous System
-- Agent Ruby
-- Not the Only One
-- Conversations with Bina48
-- LAUREN
-- The Zizi Project
-- Miao Ying / Surplus Intelligence
-- Naoko Tosa and collaborators' AI art-style study
-- Nao Tokui's VAE rhythm generator
-- ml5.js
-- Teachable Machine
-- ml4a
-- Runway
-- ArtBench-10
-- BAM
-- Machine Dreams: Rainforest / DATALAND
-- Sofia Crespo / Neural Zoo / Artificial Natural History
-- Minne Atairu / Reimagining Benin Bronzes
-- Linda Dounia Rebeiz / Once Upon a Flower
-- Niceaunties / Auntieverse
-- The Eye of Mexico / El Ojo de México
+- 中東、北アフリカ、中央アジア、太平洋地域、アフリカ諸言語の一次資料と地域内展示アーカイブが不足する。
+- ゲーム制作はライブ・シミュレーションと空間メディアから入口を作ったが、商用ゲームの制作工程、mod、プレイヤー共同制作、ゲーム保存は十分でない。
+- ファッション、建築、工芸、障害のある作家によるアクセシビリティ実践は独立した比較が不足する。
+- SNSのみで公開される作品、上演のみの舞台、閉鎖済みサイトは証拠の永続性が弱い。
+- 外部画像は公式サイトの変更、ホットリンク制限、利用規約変更で表示されなくなる可能性がある。
+- 法、訴訟、モデルライセンス、サービス機能、データセット公開状態は継続更新が必要である。
 
-### 修正できない問題・残課題
+## 次回監査候補
 
-- 非英語圏の作品・資料は増補したが、中東、南アジア、東南アジアの制度的アーカイブ、スペイン語圏ラテンアメリカ資料、アフリカ大陸内のローカル展示記録はまだ不足している。
-- AI映画、ダンス、舞台芸術、ファッション、建築、ゲーム制作の item は入口を作ったが、体系化は未完了。
-- 作品の技術実装が非公開の場合、詳細は Unknown または Medium confidence にとどめた。
-- 最新の訴訟、政策、モデルライセンス、データセット公開状況は継続監視が必要。
-- 外部画像は公式サイトURLを参照しているため、外部サイトの変更で表示されなくなる可能性がある。
-- The Eye of Mexico、Niceaunties、Linda Dounia Rebeizの一部項目は、安定した一次作品ページの確認が不十分なため Medium confidence とした。
-
-### 今後追加すべき item 候補
-
-- Japanese and East Asian AI/media art exhibitions and artists, especially ICC, YCAM, IAMAS, Miraikan, Tokyo University of the Arts, and independent artist-run archives
-- Middle Eastern and North African AI art practices with stable artist or institution archives
-- South Asian AI art, design, music, and public festival projects
-- Spanish- and Portuguese-language Latin American AI art sources beyond English summaries
-- African continent-based AI art exhibitions, local collectives, and non-U.S./non-European institutional records
-- Dance/performance projects using pose estimation or generative models
-- AI film and animation production pipelines
-- Nightshade and other artist-protection tools
-- EU AI Act and non-U.S. copyright/policy developments
-
-### 2026-07-13 文章構造監査
-
-主要トピックの日英16ページについて、個別 item カードを同じ重さで縦に並べる構造を廃止した。各ページを「結論」「押さえる3点」「比較できる見取り図」「発展または論点の流れ」「代表事例」「横断的な問い」「次に読む」の順へ統一した。個別事例は6つの反復見出しを、要点、内容・読みどころ、注意、資料・関連項目へ圧縮した。
-
-最長だった `global-critical-practices` は、声と身体、地域的ネット文化、自然史・アーカイブ・返還、都市データと公共空間の4章へ分割した。カテゴリ名も、地理的な一括りに見えやすい「非英語圏・批評的実践」から「地域・文化・批評的実践」へ変更し、地域を固定的属性ではなく制作文脈として扱う境界説明を追加した。日英の見出し階層、内部リンク、front matter、共通テンプレートを対応させた。
+- 日本のICC、YCAM、IAMAS、NTT ICC、文化庁メディア芸術祭のAI関連作品を年次・展覧会単位で再調査する。
+- スペイン語、アラビア語、韓国語、中国語、アフリカ諸言語の現地語検索と制作者への聞き取りを行う。
+- ゲーム、建築、ファッション、工芸、アクセシビリティを横断する独立セクションの必要性を再評価する。
+- 外部URL、データセット配布状態、作品実行環境、法政策を定期検査する。
+- 作品画像を追加する場合、安定したIIIF、Wikimedia Commons、明示的ライセンス付き機関画像を優先する。

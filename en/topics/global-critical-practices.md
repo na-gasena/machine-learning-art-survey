@@ -78,7 +78,7 @@ These works approach AI through family voices, domestic service, and norms of fa
 
 **Caution.** Individual works and the larger project use different technical arrangements; artist and institutional archives should be read together.
 
-**Sources:** [Jake Elwes](https://www.jakeelwes.com/) · [Ars Electronica](https://ars.electronica.art/prix/en/winners/jake-elwes/)
+**Sources:** [Jake Elwes](https://www.jakeelwes.com/) · [Ars Electronica](https://calls.ars.electronica.art/2022/prix/winners/9213/)
 
 **Related:** ImageNet Roulette, FFHQ, Glaze
 
@@ -170,7 +170,7 @@ These practices treat generation as an archival method for life classification, 
 
 **Caution.** No stable primary work page has yet been confirmed, so the year remains Unknown and artist or exhibition records require follow-up.
 
-**Source:** [TIME profile](https://qa.time.com/6309451/linda-dounia-rebeiz/)
+**Source:** [TIME profile](https://time.com/collection_hub_item/linda-dounia-rebeiz/)
 
 **Related:** ImageNet, LAION-5B, Not the Only One, ArtEmis
 
@@ -193,6 +193,22 @@ These practices treat generation as an archival method for life classification, 
 ## Boundary of This Category
 
 This page is not a container for "artists outside the West." Stephanie Dinkins and Lauren Lee McCarthy work in Anglophone contexts, while Sofia Crespo's practice crosses borders. Region is used here as context for data, language, institutions, memory, and exhibition, not as an essential identity. As coverage improves, these practices should also be integrated across technical and medium-specific topics rather than remaining in a separate global category.
+
+## Additional Survey: Relations Rather Than Regions
+
+Lakota artist and researcher Kite uses machine-learning hair-braid interfaces, sound, video, and performance to investigate kinship, responsibility, and reciprocity with nonhuman systems. [Artist site](https://www.kitekitekitekite.com/)
+
+Indian artist Harshit Agrawal has worked with AI and creative expression for more than a decade. *Emergent Patterns* uses a self-constructed dataset of cropped flower paintings, while *Latent Landscapes* animates images learned from landscape paintings. [Artist archive](https://harshitagrawal.com/) · [Emergent Patterns](https://harshitagrawal.com/emergent-patterns/)
+
+Brazilian artist Giselle Beiguelman's *Botannica Tirannica* combines plant species carrying discriminatory names to critique classical botany, colonial imagination, and the classification of nature. [Official project](https://www.desvirtual.com/project/botannica-tirannica/)
+
+Rafael Lozano-Hemmer and Krzysztof Wodiczko's *Zoom Pavilion* uses face recognition and robotic cameras to track and magnify visitors, connecting public-space practice, surveillance, and participatory media architecture. [Artist archive](https://www.lozano-hemmer.com/artworks/zoom_pavilion.php)
+
+Lawrence Lek's Sinofuturist world links China and its diaspora to AI, labor, manufacturing, gaming, and corporate governance. *AIDOL* (2019) makes an AI songwriter a central character in a feature-length CGI musical. [Artist site](https://www.lawrencelek.com/) · [AIDOL](https://www.lawrencelek.com/works/aidol)
+
+S+T+ARTS Afropean Intelligence connects eleven African and European cultural organizations and residencies in five African countries. Chinedum Muotto's developing *Mobility as Memory* proposes a living map trained from stories, songs, and sounds in Kinshasa. Ongoing projects must be distinguished from completed works. [AfricaMuseum](https://www.africamuseum.be/en/get_involved/artists/STARTS2025)
+
+Records should retain production and exhibition locations, collaborators, funding, languages, data geography, infrastructure providers, restitution and censorship contexts, and differences between English summaries and local primary sources.
 
 ## Questions Across the Topic
 

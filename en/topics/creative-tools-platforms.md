@@ -110,6 +110,26 @@ Runway moved from a general model-running interface toward generative video and 
 
 **Related:** Stable Diffusion, DALL-E, AI Film Festival, C2PA
 
+## Comparing Tools by Production Stage
+
+| Stage | Tools | Strength | Caution |
+|---|---|---|---|
+| Learning from gestures | Wekinator | Small data and immediate feedback | Users must understand features and errors |
+| Browser education | Teachable Machine, ml5.js | Accessible and shareable | UI can hide model limits |
+| Sound analysis | FluCoMa | Artist-owned corpora; Max/Pd/SC | Requires analytical design |
+| Music co-production | Flow Machines | Candidate generation in DAWs | Cloud, region, and terms |
+| Latent exploration | Artbreeder | Mixing, derivation, sharing | Provenance of public derivatives |
+| Generative media | Runway | Integrated video workflows | Model changes, pricing, cloud dependence |
+| Local image pipelines | Stable Diffusion interfaces | Reproducible graphs and extensions | GPU, licenses, security |
+
+[FluCoMa](https://www.flucoma.org/about) offers segmentation, description, reduction, clustering, classification, and retrieval for Max, Pure Data, and SuperCollider. It supports artist-collected sound corpora rather than only general-purpose generation.
+
+[Flow Machines](https://www.sony.com/en/SonyInfo/design/stories/flow-machines/) proposes melodies and related material through Style Palettes for editing in DAWs. Official availability has varied by region.
+
+[Artbreeder](https://www.artbreeder.com/about) developed from Ganbreeder and used BigGAN and StyleGAN to turn latent mixing and public derivation into an interface.
+
+Cloud tools change models, defaults, filters, prices, and output sizes. Records should include access date, product version, model, input, seed, settings, and editing. Education should cover data authorship, measurable features, errors, local versus server processing, licenses, deletion, and preservation after a service ends.
+
 ## Questions Across the Topic
 
 - How much should beginner tools explain model limitations and data provenance?

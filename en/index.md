@@ -16,7 +16,7 @@ The survey includes papers, books, artworks, exhibitions, datasets, software, pr
 
 ## Field Map
 
-The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The major categories are history and symbolic AI, neural image generation, music and performance, human-machine collaboration, datasets and machine vision, critique and rights, creative tools, and regional, cultural, and critical practices.
+The [Survey Map]({{ '/en/survey-map/' | relative_url }}) now has eleven research-derived categories: history and symbolic AI; neural image generation; music and performance; human-machine collaboration; datasets and machine vision; critique, rights, and provenance; creative tools; global critical practice; language and narrative; moving-image and spatial systems; and exhibitions, markets, and preservation.
 
 ## Key Topics
 
@@ -28,22 +28,26 @@ The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The 
 - [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }})
 - [Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }})
 - [Regional, Cultural, and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})
+- [Language, Literature, and Narrative Generation]({{ '/en/topics/language-literature-narrative/' | relative_url }})
+- [Moving Image, Games, and Spatial Media]({{ '/en/topics/moving-image-games-spatial-media/' | relative_url }})
+- [Exhibitions, Institutions, Markets, and Preservation]({{ '/en/topics/exhibitions-institutions-preservation/' | relative_url }})
 
 ## Key Items
 
-Key items include AARON, Galápagos, DeepDream, neural style transfer, GANs, CAN, Stable Diffusion, DALL-E, Wekinator, Magenta, NSynth, Learning to See, Mosaic Virus, Drawing Operations, Holly+, Not the Only One, LAUREN, ImageNet Roulette, Glaze, C2PA, Sofia Crespo's Neural Zoo / Artificial Natural History, Minne Atairu's Benin Bronzes practice, Linda Dounia Rebeiz, Niceaunties, and The Eye of Mexico. The full item list is recorded in [`_data/items.yml` on GitHub](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/items.yml).
+Key items include Love Letters, Cybernetic Serendipity, AARON, Mutator, Interactive Plant Growing, DeepDream, pix2pix, StyleGAN, CLIP, Stable Diffusion, Continuator, Wekinator, Living Archive, Improbotics, Holly+, BOB, UUmwelt, AIDOL, Botannica Tirannica, ImageNet Roulette, Glaze, Nightshade, and C2PA. The full list is recorded in [`_data/items.yml` on GitHub](https://github.com/na-gasena/machine-learning-art-survey/blob/main/_data/items.yml).
 
 ## Timeline
 
-- Late 1960s: Harold Cohen begins developing AARON.
+- 1952-1957: Love Letters and the ILLIAC Suite demonstrate rule-based language and composition.
+- 1968: Cybernetic Serendipity opens; Harold Cohen begins developing AARON.
 - 2009: Early Wekinator; ImageNet paper.
 - 2014: GAN paper.
 - 2015: DeepDream and neural style transfer become widely visible.
 - 2016: Magenta begins; ML-as-musical-interface arguments gain visibility.
 - 2017: CAN, ArtGAN, NSynth.
-- 2018-2019: Mosaic Virus, Edmond de Belamy, AI: More than Human, ImageNet Roulette.
+- 2018-2020: BOB, Mosaic Virus, Edmond de Belamy, AIDOL, AI: More than Human, Neurones, and ImageNet Roulette.
 - 2021-2022: DALL-E, LAION-5B, Stable Diffusion, Holly+, Unsupervised.
-- 2023-2026: Glaze, broader C2PA adoption, Large Nature Model/Dataland, and heightened debates over rights and provenance.
+- 2023-2026: Glaze, Nightshade, C2PA, EU training summaries, Large Nature Model/DATALAND, and heightened work on rights, exhibition, and preservation.
 
 ## People and Organizations
 
@@ -51,7 +55,7 @@ People are listed in [people.yml](https://github.com/na-gasena/machine-learning-
 
 ## Datasets, Tools, and Resources
 
-See [Datasets, Tools, and Resources]({{ '/en/resources/datasets-and-resources/' | relative_url }}) and [Works Archive and Media Links]({{ '/en/resources/works-archive/' | relative_url }}). Key datasets include ImageNet, WikiArt, LAION-5B, NSynth, ArtEmis, ArtBench, and BAM.
+See [Datasets, Tools, and Resources]({{ '/en/resources/datasets-and-resources/' | relative_url }}) and [Works Archive and Media Links]({{ '/en/resources/works-archive/' | relative_url }}). The survey also records OmniArt, SemArt, ArtGraph, and museum open data, including withdrawal and access conditions.
 
 ## Open Questions
 
