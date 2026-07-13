@@ -2,117 +2,123 @@
 layout: default
 title: データセット、美術史、機械知覚
 permalink: /ja/topics/datasets-art-history-machine-vision/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [データセットと資料]({{ '/ja/resources/datasets-and-resources/' | relative_url }})
 
 # データセット、美術史、機械知覚
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-機械学習アートでは、データセットは単なる素材ではありません。分類体系、収集方法、権利、労働、偏り、歴史観を含む制度です。
+機械学習アートのデータセットは、画像を入れておく中立的な倉庫ではありません。何を作品とみなすか、誰の作品を集めるか、様式や感情をどう名づけるか、画像をどの権利条件で使うかを組み込んだ制度です。モデルの出力を読むには、データの規模だけでなく、収集経路、分類語彙、注釈者、欠落を確認する必要があります。
+</div>
 
-## Item Notes
+## まず押さえる3点
 
-## ImageNet
+- **分類は世界観を作ります。** ImageNetのカテゴリやWikiArtの様式ラベルは、モデルが区別できる対象と関係をあらかじめ方向づけます。
+- **規模と専門性は別の軸です。** LAION-5Bのようなウェブ規模の画像テキスト対と、ArtEmisやArtBenchのような美術特化データでは目的も問題も異なります。
+- **データセットには履歴があります。** 配布停止、カテゴリ修正、画像URLの消失、ライセンス変更を含め、名称だけでなく版と時点を記録する必要があります。
 
-- Type: dataset
-- Creator / Author: Jia Deng et al.; Li Fei-Fei and collaborators
-- Year: 2009
-- Context / Venue: Large-scale visual recognition
-- Links: https://www.image-net.org/
-- Category: データセット、美術史、機械知覚
-- Importance: Foundational
-- Confidence: High
+## 見取り図
 
-### Why It Matters
+| データセット／資源 | 主な対象 | 典型的な用途 | 読むべき論点 |
+|---|---|---|---|
+| ImageNet | 一般物体・人物カテゴリ | 画像認識、特徴表現 | WordNet由来分類、人物カテゴリ、画像URL |
+| WikiArt | 美術作品と様式・ジャンル | 様式分類、美術画像生成 | 地域・時代の偏り、権利、メタデータ |
+| BAM / ArtBench | 美術的属性／ジャンル別画像 | 視覚属性学習、生成モデル評価 | ラベル設計、ベンチマーク化 |
+| LAION-5B | ウェブ由来画像テキスト対 | 大規模マルチモーダル学習 | 同意、プライバシー、有害内容、版 |
+| ArtEmis | 作品への感情と説明文 | 感情理解、言語生成 | 注釈者文化、感情分類、作品権利 |
 
-ImageNetは深層学習による視覚認識の発展に大きく寄与しました。同時に、分類語彙、人物カテゴリ、偏りをめぐる批評的作品の対象にもなりました。
+## データの流れを読む
 
-### Description
+### 1. 一般画像認識が、創作の視覚基盤になる
 
-多数の画像URLとカテゴリラベルを持つ大規模データセットで、ImageNet Large Scale Visual Recognition Challengeを通じて画像認識研究を加速しました。
+ImageNetは大規模画像認識を加速し、その上で訓練されたネットワークはDeepDreamやスタイル変換にも使われました。同時に、分類語彙と人物ラベルはImageNet Rouletteなどの批評対象になりました。
 
-### Method / Medium / Approach
+### 2. 美術史が機械可読なラベルへ変換される
 
-画像収集、クラウドソーシング、WordNet由来カテゴリ、分類ベンチマーク。
+WikiArt、BAM、ArtBenchなどは、作家名、様式、ジャンル、視覚属性を学習対象へ変えます。これにより比較実験が可能になる一方、美術史上の不一致や地域差が固定ラベルへ圧縮されます。
 
-### Historical or Research Context
+### 3. ウェブ規模と鑑賞者の言葉を扱う
 
-AlexNet以降の深層学習ブームと、ImageNet Rouletteなどのデータセット批評の両方に関係します。
+LAION-5Bは画像とテキストの関係を巨大規模で学ぶ基盤を提供しました。ArtEmisは反対に、美術作品へ向けられた感情と言語説明を収集します。前者は規模、後者は注釈の意味と文化差が中心課題です。
 
-### Limitations / Open Questions
+## 主要データセット
 
-人物カテゴリやラベルの問題は後に見直しが進みました。時期を区別して記述する必要があります。
+### ImageNet
 
-### Related Items
+<p class="item-meta">2009 ・ データセット ・ 基礎的 ・ 確信度: 高</p>
 
-ImageNet Roulette、DeepDream、LAION-5B。
+> **要点:** 深層学習による視覚認識を大きく進展させると同時に、分類語彙と偏りをめぐる批評的作品の対象になりました。
 
-## WikiArt
+**内容。** Jia Deng、Li Fei-Feiらによる大規模画像資源で、多数の画像URLをWordNet由来カテゴリへ結び、ImageNet Large Scale Visual Recognition Challengeを通じて研究を加速しました。
 
-- Type: dataset / online art encyclopedia
-- Creator / Author: WikiArt community
-- Year: 2010-
-- Context / Venue: Art-image data source for ML research
-- Links: https://www.wikiart.org/
-- Category: データセット、美術史、機械知覚
-- Importance: Important
-- Confidence: High
+**読みどころ。** AlexNet以降の認識研究と、DeepDream、ImageNet Rouletteを同じデータ基盤から読むと、技術的影響と社会的分類の力が表裏一体であることが分かります。
 
-### Why It Matters
+**注意。** 人物カテゴリやラベルは後に見直されています。初期版、批評が集中した時期、現在の公開状態を区別する必要があります。
 
-WikiArtは、美術様式分類、CAN、ArtGAN、GAN肖像生成など、多くの研究・作品で実質的な訓練データ源になりました。
+**資料:** [ImageNet公式サイト](https://www.image-net.org/)
 
-### Description
+**関連:** ImageNet Roulette、DeepDream、LAION-5B
 
-美術作品画像とメタデータを集めたオンライン百科事典で、研究者はそこから派生データセットを作ることがあります。
+### WikiArt
 
-### Method / Medium / Approach
+<p class="item-meta">2010- ・ オンライン美術百科事典／データ源 ・ 重要 ・ 確信度: 高</p>
 
-作品画像、作家名、様式、ジャンル、時代のメタデータ。
+> **要点:** 様式分類、CAN、ArtGANなどで広く使われ、美術史上の分類を機械学習へ接続した代表的データ源です。
 
-### Historical or Research Context
+**内容。** 作品画像と作家名、様式、ジャンル、時代などのメタデータを提供し、研究者がそこから派生データセットを作る場合があります。
 
-機械による美術史理解と美術画像生成の基盤として使われています。
+**読みどころ。** 「美術様式」を予測・生成できるラベルへ変えるとき、誰の美術史が標準になるのかを検討できます。
 
-### Limitations / Open Questions
+**注意。** 画像の権利、メタデータ品質、重複、地域・時代の偏りは、派生データセットごとに確認が必要です。
 
-作品画像の権利、メタデータ品質、地域・時代の偏りを確認する必要があります。
+**資料:** [WikiArt](https://www.wikiart.org/)
 
-### Related Items
+**関連:** CAN、ArtGAN、Edmond de Belamy
 
-CAN、ArtGAN、Edmond de Belamy。
+### LAION-5B
 
-## LAION-5B and ArtEmis
+<p class="item-meta">2022 ・ データセット ・ 基礎的 ・ 確信度: 高</p>
 
-- Type: datasets
-- Creator / Author: LAION; Panos Achlioptas et al.
-- Year: 2021-2022
-- Context / Venue: Image-text scale and affective art-language dataset
-- Links: https://arxiv.org/abs/2210.08402 / https://www.artemisdataset.org/
-- Category: データセット、美術史、機械知覚
-- Importance: Foundational / Contextual
-- Confidence: High
+> **要点:** 大規模画像テキスト生成モデルを支えた一方、同意、プライバシー、有害コンテンツ、データ来歴の論争を集約した事例です。
 
-### Why It Matters
+**内容。** ウェブ由来の画像テキスト対をCLIPでフィルタリングした大規模データセット群で、Stable Diffusionを含む生成モデルの文脈と関係します。
 
-LAION-5Bは大規模画像テキスト生成モデルの基盤として重要ですが、同意、プライバシー、有害コンテンツの論争を伴います。ArtEmisは、美術鑑賞における感情と言語説明を扱う別種のデータセットです。
+**読みどころ。** 画像を直接集めた単一アーカイブというより、URL、テキスト、類似度、フィルタリングからなるインフラとして理解することが重要です。
 
-### Description
+**注意。** 公開状況、版、削除対応は変化します。データセット名だけで現在の状態や個別モデルの訓練内容を断定できません。
 
-LAION-5BはCLIPでフィルタされた大規模画像テキストペア群です。ArtEmisは作品に対する感情ラベルと説明文を結びつけます。
+**資料:** [LAION-5B論文](https://arxiv.org/abs/2210.08402)
 
-### Method / Medium / Approach
+**関連:** Stable Diffusion、Glaze、C2PA
 
-ウェブスケールデータ収集、マルチモーダル学習、感情アノテーション。
+### ArtEmis
 
-### Historical or Research Context
+<p class="item-meta">2021 ・ データセット ・ 文脈的 ・ 確信度: 高</p>
 
-2020年代の生成AIと、鑑賞・感性理解の機械学習研究の両方を示します。
+> **要点:** 美術作品と鑑賞者の感情ラベル・言語説明を結び、画像分類とは異なる「鑑賞のデータ化」を示します。
 
-### Limitations / Open Questions
+**内容。** 作品画像への感情反応と、その理由を説明する文章を収集し、感情予測や説明生成に利用できるようにしています。
 
-LAION-5Bはデータ倫理の中心的事例です。ArtEmisもアノテーション文化や作品権利の問題を検討する必要があります。
+**読みどころ。** 画像に何が写っているかだけでなく、人がどう感じ、どう語るかを学習対象へ変える点が特徴です。
 
-### Related Items
+**注意。** 感情カテゴリと説明は注釈者の言語・文化・状況に依存します。普遍的な美的反応として扱うべきではありません。
 
-Stable Diffusion、Foregrounding Artist Opinions、C2PA。
+**資料:** [ArtEmis公式サイト](https://www.artemisdataset.org/)
+
+**関連:** WikiArt、Foregrounding Artist Opinions、ArtBench
+
+## 横断して考える問い
+
+- 欠けている地域、時代、媒体、共同体を「データがない」と片づけず、収集史の結果としてどう記述するか。
+- 美術史の曖昧な概念を固定ラベルへ変えることで、何が比較可能になり、何が失われるか。
+- 削除要求やライセンス変更を、公開後のデータセットへどう反映し、追跡可能にするか。
+
+## 次に読む
+
+- [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }}) - データが画像生成へ変換される仕組み
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - データの同意、保護、来歴
+- [地域・文化・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }}) - 大規模データに欠ける記憶と地域表象への応答

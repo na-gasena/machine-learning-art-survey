@@ -1,363 +1,207 @@
 ---
 layout: default
-title: 非英語圏・批評的実践
+title: 地域・文化・批評的実践
 permalink: /ja/topics/global-critical-practices/
+lang: ja
 ---
 
-# 非英語圏・批評的実践
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }})
 
-## 位置づけ
+# 地域・文化・批評的実践
 
-AIアート史を英語圏の生成画像モデル中心に書くと、重要な批評的実践が抜け落ちます。このページでは、日本、中国、アフリカ系ディアスポラ、クィアAI、スマートホーム批評など、データセットやモデルの権力関係を作品の中心に置く実践を扱います。
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-## Item Notes
+AIアートを英語圏のモデル開発史や生成画像の様式史だけで語ると、家族の記憶、地域的データ、植民地アーカイブ、ジェンダー、ケア、検閲、都市空間を扱う実践が周縁化されます。このページでは、地域を固定的な作家属性として分類するのではなく、作品がどの文化的語彙、政治的条件、共同体、展示環境と関係しているかを軸に読みます。
+</div>
 
-## Not the Only One
+## まず押さえる3点
 
-- Type: artwork
-- Creator / Author: Stephanie Dinkins
-- Year: 2018-
-- Context / Venue: Voice-interactive AI memoir
-- Links: https://www.stephaniedinkins.com/ntoo.html
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: High
+- **小さなデータは不足ではなく方法になりえます。** 家族史や地域資料を自ら編むことが、大規模モデルの欠落に対する批評になります。
+- **AIを使わないAI批評も含まれます。** LAURENのように人間がAIサービスを演じる作品は、自動化の背後にある労働と親密性を明らかにします。
+- **「非英語圏」を一つの様式にしないことが重要です。** 中国のプラットフォーム文化、ベニン・ブロンズの返還、東南アジアの親族語彙、日本の研究制作は、それぞれ異なる歴史を持ちます。
 
-### Why It Matters
+## 事例の見取り図
 
-Not the Only Oneは、大規模データを前提にしたAI観に対して、家族史、口承、黒人女性の記憶、小さなデータ、データ主権を前面に出します。
+| 文脈 | 代表事例 | 中心的な問い | 主な媒体・方法 |
+|---|---|---|---|
+| 黒人女性の家族史 | Not the Only One | 誰の記憶がAIに含まれるか | オーラルヒストリー、音声対話 |
+| スマートホーム | LAUREN | 自動化は誰の労働を隠すか | パフォーマンス、監視機器 |
+| クィア／ドラァグ | The Zizi Project | 顔データの規範をどうずらすか | GAN、ディープフェイク、映像 |
+| 中国のネット文化 | Surplus Intelligence | 検閲・統治・資本主義をどう風刺するか | GPT-3、ゲームエンジン |
+| 日本の研究制作 | Naoko Tosa / Nao Tokui | 様式評価と音楽実務をどう接続するか | GAN、VAE、心理実験、DAW |
+| 東南アジアの親族文化 | Auntieverse | 老い、ケア、家事労働をどう再想像するか | 生成画像・動画、SNS、展示 |
+| 人工的な自然史 | Sofia Crespo | 生命と分類をどう想像し直すか | 生成画像、標本的視覚言語 |
+| 植民地収奪と返還 | Minne Atairu | 欠損した文化財アーカイブをどう扱うか | GAN、3D、教育、博物館研究 |
+| セネガルの地域資料 | Linda Dounia Rebeiz | 不在を自ら収集することでどう応答するか | 小規模データ、GAN、アーカイブ |
+| メキシコシティの公共空間 | The Eye of Mexico | 都市データを誰の空間に表示するか | 都市データ、LED、公共彫刻 |
 
-### Description
+## 1. 声、身体、親密なインフラ
 
-Dinkinsの家族三世代の女性のオーラルヒストリーをもとに、音声対話するAI的存在を作る継続プロジェクトです。作品は、AIの流暢さではなく、不完全さや失敗を通じて、誰の知識がAIに含まれるのかを問います。
+このグループでは、AIを抽象的な知能ではなく、家族の声、家庭内サービス、顔とジェンダー規範に埋め込まれた関係として捉えます。
 
-### Method / Medium / Approach
+### Not the Only One
 
-自然言語処理、音声対話、オーラルヒストリー、ローカルなデータ管理。
+<p class="item-meta">2018- ・ 作品 ・ 重要 ・ 確信度: 高</p>
 
-### Historical or Research Context
+> **要点:** 家族三世代の女性のオーラルヒストリーから音声対話する存在を作り、小さなデータ、黒人女性の記憶、データ主権を前面に出します。
 
-AIの公平性や代表性を、制度批評だけでなく、親密な家族アーカイブとして扱います。
+**内容と読みどころ。** Stephanie Dinkinsの継続プロジェクトで、AIの流暢さより不完全さや失敗を通じ、「誰の知識がAIに含まれるのか」を問います。公平性を制度批評だけでなく親密な家族アーカイブとして扱う点が重要です。
 
-### Limitations / Open Questions
+**注意。** 作品全体は展示と対話の時間に依存し、オンライン資料だけでは体験を再現できません。
 
-公開デモで作品全体を体験することは難しく、展示や対話の文脈に依存します。
+**資料:** [作家公式ページ](https://www.stephaniedinkins.com/ntoo.html)
 
-### Related Items
+**関連:** Conversations with Bina48、LAUREN、Foregrounding Artist Opinions
 
-Conversations with Bina48、LAUREN、Foregrounding Artist Opinions。
+### LAUREN
 
-## LAUREN
+<p class="item-meta">2017- ・ 作品／パフォーマンス ・ 重要 ・ 確信度: 高</p>
 
-- Type: artwork / performance
-- Creator / Author: Lauren Lee McCarthy
-- Year: 2017-
-- Context / Venue: Smart-home AI assistant critique
-- Links: https://get-lauren.net/LAUREN
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: High
+> **要点:** 作家自身が「人間のAlexa」を演じ、スマートホームの快適さが隠す労働、監視、親密性、依存を可視化します。
 
-### Why It Matters
+**内容と読みどころ。** Lauren Lee McCarthyは、参加者宅に設置されたカメラ、マイク、スピーカー、家電制御を通じてAIアシスタントの役割を演じます。自動化を技術の性質ではなく、人が担うサービス関係として読み替えます。
 
-LAURENは、AIアシスタントの背後にある人間労働、監視、親密性、依存を演じることで、スマートホームの快適さがどのような社会関係を隠しているかを示します。
+**注意。** 技術的には機械学習を中心に使う作品ではなく、AI的サービスを人間が演じる境界事例です。
 
-### Description
+**資料:** [LAUREN公式サイト](https://get-lauren.net/LAUREN)
 
-作家自身が参加者の家に設置されたカメラ、マイク、スピーカー、家電制御を通じて「人間のAlexa」として振る舞います。
+**関連:** Agent Ruby、スマートホーム、AI labor
 
-### Method / Medium / Approach
+### The Zizi Project
 
-パフォーマンス、スマートデバイス、ネットワークカメラ、音声応答、家庭空間。
+<p class="item-meta">2019- ・ 作品／プロジェクト ・ 重要 ・ 確信度: 中</p>
 
-### Historical or Research Context
+> **要点:** 顔認識やGANのデータが前提にする顔・ジェンダーの規範を、ドラァグとクィア実践によってずらします。
 
-AIシステムを「自動化」ではなく、人間が演じる役割と労働の問題として読み替えます。
+**内容と読みどころ。** Jake Elwesはドラァグ・パフォーマーのデータを用い、GANやディープフェイクをクィアな身体、顔、演技のために転用します。バイアスを指摘するだけでなく、コミュニティの表象を作り直す実践です。
 
-### Limitations / Open Questions
+**注意。** 個別作品とプロジェクト全体の技術構成を区別し、公式ページと美術館・フェスティバルの記録を併読する必要があります。
 
-技術的にはAIを使うというより、AI的サービスを人間が演じる批評であり、分類上は境界的です。
+**資料:** [Jake Elwes公式サイト](https://www.jakeelwes.com/) ・ [Ars Electronica](https://ars.electronica.art/prix/en/winners/jake-elwes/)
 
-### Related Items
+**関連:** ImageNet Roulette、FFHQ、Glaze
 
-Agent Ruby、C2PA、AI labor。
+## 2. 地域的なネット文化と制作環境
 
-## The Zizi Project
+ここでは、モデルを普遍的な道具として扱わず、中国のオンライン文化、日本の研究・音楽制作、東南アジアの親族語彙の中へ置き直します。
 
-- Type: artwork
-- Creator / Author: Jake Elwes
-- Year: 2019-
-- Context / Venue: Deepfake drag and queer AI
-- Links: https://www.jakeelwes.com/ / https://ars.electronica.art/prix/en/winners/jake-elwes/
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: Medium
+### Miao Ying: Surplus Intelligence
 
-### Why It Matters
+<p class="item-meta">2021-2022 ・ 映像／シミュレーション作品 ・ 重要 ・ 確信度: 高</p>
 
-The Zizi Projectは、顔認識やGANの顔データが前提にする規範的な顔・ジェンダー・表象を、ドラァグとクィア実践によってずらします。
+> **要点:** AIを中国のインターネット文化、検閲、行動スコア、資本主義、オンライン小説の様式から捉えます。
 
-### Description
+**内容と読みどころ。** Miao YingはGPT-3で書かれた映画をゲームエンジンでシミュレートし、架空世界Walden XIIの統治、宗教的権威、行動管理を風刺します。英語圏のAIアート史だけでは読めないプラットフォーム文化と政治的想像力が中心です。
 
-ドラァグ・パフォーマーのデータを用いて、深層生成モデルやディープフェイクをクィアな身体・顔・演技のために転用します。
+**注意。** 作品体験は展示・映像環境に依存します。中国語圏の批評資料はさらに拡充が必要です。
 
-### Method / Medium / Approach
+**資料:** [Miao Ying Studio](https://www.miaoyingstudio.com/)
 
-GAN、ディープフェイク、データセット介入、映像、パフォーマンス。
+**関連:** Runway、DALL-E、AI governance
 
-### Historical or Research Context
+### 日本の事例: Naoko Tosa / Nao Tokui
 
-ImageNet RouletteやGlazeとは異なる形で、データセットとバイアスを批評しつつ、コミュニティの表象を作り直します。
+<p class="item-meta">2020- ・ 研究／ソフトウェア／制作実践 ・ 文脈的 ・ 確信度: 高</p>
 
-### Limitations / Open Questions
+> **要点:** 日本語圏におけるAIアートを、メディアアート、心理実験、音楽制作、教育の交点から見る入口です。
 
-公式ページの構造が変わりやすいため、Ars ElectronicaやV&Aなどのアーカイブと併読する必要があります。
+**内容と読みどころ。** 土佐尚子らはGANによる美術様式変換と心理実験評価を結びつけ、徳井直生はVAEによるリズム生成をDAWプラグインとして実制作へ接続しました。画像生成中心の整理を、評価研究と音楽制作へ広げます。
 
-### Related Items
+**注意。** 二人の独立した実践を「日本の様式」として一般化しません。ICC、YCAM、IAMAS、東京藝術大学などを含む日本語資料の体系的収集は継続課題です。
 
-ImageNet Roulette、FFHQ、Glaze。
+**資料:** [土佐ほか: arXiv](https://arxiv.org/abs/2005.02220) ・ [徳井: arXiv](https://arxiv.org/abs/2004.01525)
 
-## Miao Ying: Surplus Intelligence
+**関連:** Wekinator、Magenta、NSynth、ml5.js
 
-- Type: artwork
-- Creator / Author: Miao Ying
-- Year: 2021-2022
-- Context / Venue: AI-written film / game-engine simulation
-- Links: https://www.miaoyingstudio.com/
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: High
+### Niceaunties: Auntieverse
 
-### Why It Matters
+<p class="item-meta">2023- ・ オンライン作品／プロジェクト ・ 新興 ・ 確信度: 中</p>
 
-Miao Yingの作品は、AIを普遍的な創造技術としてではなく、中国インターネット文化、検閲、行動スコア、資本主義、オンライン小説様式のなかで扱います。
+> **要点:** 東南アジア・東アジアの「auntie」という親族語彙から、老い、家事労働、ケア、ジェンダー規範を生成AIの奇妙な世界へ変換します。
 
-### Description
+**内容と読みどころ。** Tupperware、ラーメン、月の料理学校、海洋プラスチックなどのモチーフを使い、ユーモアの奥に孤独、老い、環境破壊、女性の不可視労働を置きます。生成技術より、地域語彙と家族関係が世界設定の中心です。
 
-Surplus Intelligenceは、GPT-3で書かれた映画をゲームエンジンでシミュレートする作品です。Walden XIIという架空世界で、AI的な統治、宗教的権威、行動管理が風刺されます。
+**注意。** 公式アーカイブが主にSNSで長期保存性に乏しいため、美術館・展覧会側の安定した記録が必要です。
 
-### Method / Medium / Approach
+**資料:** [Instagram](https://www.instagram.com/niceaunties/) ・ [The Guardianによる紹介](https://www.theguardian.com/world/article/2024/jul/19/auntieverse-art-niceaunties-surreal-fantasy-older-women)
 
-GPT-3、ゲームエンジン、映像、シミュレーション、オンライン文化批評。
+**関連:** Miao Ying、LAUREN、Runway、The Zizi Project
 
-### Historical or Research Context
+## 3. 自然史、地域アーカイブ、返還
 
-英語圏のAIアート文脈だけでなく、中国語圏のプラットフォーム文化と政治的想像力を読む必要があります。
+このグループでは、生成画像を未来の視覚効果ではなく、生命分類、植民地収奪、地域的な不在を扱うアーカイブ実践として読みます。
 
-### Limitations / Open Questions
+### Sofia Crespo: Neural Zoo / Artificial Natural History
 
-作品の体験は展示・映像環境に依存します。中国語圏の批評資料の追加調査が必要です。
+<p class="item-meta">2018-2025 ・ 作品シリーズ ・ 重要 ・ 確信度: 高</p>
 
-### Related Items
+> **要点:** 生成画像を人工的な自然史、架空の生物分類、進化の想像力として扱います。
 
-Runway、DALL-E、AI governance。
+**内容と読みどころ。** Sofia Crespoの*Neural Zoo*、*Artificial Natural History*、*Critically Extant*などは、存在しない生物、標本、形態、環境を生成し、自然科学の視覚言語と機械生成画像の境界を揺さぶります。Galápagosなどの進化的芸術と現代の写実的生成画像をつなぐ視点を与えます。
 
-## 日本の事例: Naoko Tosa / Nao Tokui
+**注意。** 利用モデル、データセット、制作工程、展示履歴は作品ごとに追加確認が必要です。
 
-- Type: paper / software / creative practice
-- Creator / Author: Naoko Tosa, Nao Tokui and collaborators
-- Year: 2020-
-- Context / Venue: AI style learning, AI music production tools
-- Links: https://arxiv.org/abs/2005.02220 / https://arxiv.org/abs/2004.01525
-- Category: 非英語圏・批評的実践
-- Importance: Contextual
-- Confidence: High
+**資料:** [Sofia Crespo公式サイト](https://sofiacrespo.com/)
 
-### Why It Matters
+**関連:** Galápagos、Electric Sheep、Machine Dreams: Rainforest、ArtBench
 
-日本語圏では、AIアートの議論がNFTや生成画像だけでなく、メディアアート、音楽制作、心理実験、文化表象、教育と結びついています。
+### Minne Atairu: Reimagining Benin Bronzes
 
-### Description
+<p class="item-meta">2024 ・ 論文／制作実践 ・ 重要 ・ 確信度: 高</p>
 
-土佐尚子らの研究は、GANによる美術様式変換と心理実験評価を結びつけています。徳井直生のVAEリズム生成ツールは、機械学習モデルをDAWプラグインとして実制作へ接続します。
+> **要点:** 生成AIを復元の便利な道具としてではなく、植民地的収奪、返還、欠損したアーカイブ、黒人史を可視化する方法として扱います。
 
-### Method / Medium / Approach
+**内容と読みどころ。** Minne AtairuはBenin material cultureに関わるAI、3D、データワーク、教育実践を展開しています。GANによる再構成を文化的記憶と返還の文脈へ置き、AIと美術館の関係を所蔵史から問い直します。
 
-GAN、VAE、DAW、心理実験、メディアアート、音楽制作。
+**注意。** 個別プロジェクトの展示記録、制作工程、論文の書誌情報を今後も補完する必要があります。
 
-### Historical or Research Context
+**資料:** [Minne Atairu公式サイト](https://minneatairu.com/)
 
-欧米中心のAIアート史を補正し、制作現場・研究室・教育の交点として日本の事例を見るための入口です。
+**関連:** ImageNet Roulette、WikiArt、C2PA、Glaze
 
-### Limitations / Open Questions
+### Linda Dounia Rebeiz: Once Upon a Flower
 
-日本語圏の作家、研究、展示の体系的収集はまだ不足しています。ICC、YCAM、NTT ICC、Miraikan、IAMAS、東京藝術大学周辺の調査が必要です。
+<p class="item-meta">年: Unknown ・ 作品 ・ 新興 ・ 確信度: 中</p>
 
-### Related Items
+> **要点:** 大規模モデルに欠ける地域表象へ、セネガルの花や建築を作家自身が収集して小さなデータセットを編むことで応答します。
 
-Wekinator、Magenta、NSynth、ml5.js。
+**内容と読みどころ。** TIMEの記事では、Linda Dounia Rebeizがセネガルの花、歴史的建築、アーカイブを収集し、GANによる制作へ使う実践が紹介されています。*Once Upon a Flower*は花、気候変動、記憶、データセットの偏りを接続します。
 
-## Sofia Crespo: Neural Zoo / Artificial Natural History
+**注意。** 現時点で安定した一次作品ページを確認できていないため、年をUnknownとし、作家本人や展示主催者の記録を追加確認する必要があります。
 
-- Type: artwork
-- Creator / Author: Sofia Crespo
-- Year: 2018-2025
-- Context / Venue: speculative biology and generative image series
-- Links: https://sofiacrespo.com/
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: High
+**資料:** [TIMEによる作家紹介](https://qa.time.com/6309451/linda-dounia-rebeiz/)
 
-### Why It Matters
+**関連:** ImageNet、LAION-5B、Not the Only One、ArtEmis
 
-アルゼンチン出身のSofia Crespoは、AI画像生成を単なる絵柄の模倣ではなく、人工的な自然史、架空の生物分類、進化の想像力として扱う。ラテンアメリカ出身の作家が国際的なAIアート言説に接続している点でも、英語圏中心の整理を補正する重要な入口になる。
+## 4. 都市データと公共空間
 
-### Description
+### The Eye of Mexico
 
-公式サイトには、Neural Zoo、Artificial Natural History、Critically Extant、Structures of Beingなどの作品が掲載されている。これらは、存在しない生物、標本、形態、環境を生成し、自然科学のイメージと機械生成画像の境界を揺さぶる。
+<p class="item-meta">2022 ・ 公共メディア彫刻 ・ 文脈的 ・ 確信度: 中</p>
 
-### Method / Medium / Approach
+> **要点:** AIアートをギャラリー内の画像生成から、都市データ、メディア建築、都市開発、公共空間へ広げる事例です。
 
-生成画像、ニューラルネットワーク、人工生命的想像力、標本・自然史の視覚言語、インスタレーションやスクリーンベースの作品。
+**内容と読みどころ。** Ferdi Alici / Ouchhh Studioによる大型LED作品で、MASSIVartの記録ではメキシコシティの都市・環境データを映像へ変換する公共彫刻として紹介されています。データ表現だけでなく、誰の都市空間へ誰が設置するかを問えます。
 
-### Historical or Research Context
+**注意。** 具体的なアルゴリズム、データ取得、同意、更新方法、公式ページの長期安定性は追加確認が必要です。
 
-GalápagosやElectric Sheepのような進化的生成芸術と、拡散モデル以降の写実的生成画像との間に位置づけられる。単に「AIが自然らしい画像を作る」のではなく、分類と生命観そのものを問う点が重要である。
+**資料:** [MASSIVartプロジェクトページ](https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/)
 
-### Limitations / Open Questions
+**関連:** Machine Dreams: Rainforest、Unsupervised、Large Nature Model
 
-個別作品ごとの制作プロセス、利用モデル、データセット、展示履歴は作品別にさらに確認する必要がある。
+## この分類の境界
 
-### Related Items
+このページは「欧米以外の作家」を一つの箱へ集めるためのものではありません。Stephanie DinkinsやLauren Lee McCarthyの実践は英語圏でも展開され、Sofia Crespoの活動も国境を越えています。ここでの地域は本質的属性ではなく、データ、言語、制度、記憶、展示環境を読むための文脈です。今後、資料が増えた段階で「地域・文化」を独立カテゴリではなく各技術・媒体ページへ横断的に組み込む再分類も必要です。
 
-Galápagos、Electric Sheep、Machine Dreams: Rainforest、ArtBench。
+## 横断して考える問い
 
-## Minne Atairu: Reimagining Benin Bronzes
+- 大規模モデルに欠ける表象を、追加データだけで補えるのか。それとも収集・所有の仕組み自体を変える必要があるか。
+- 地域的な語彙を国際展示向けに説明するとき、翻訳で何が単純化されるか。
+- SNS、展示、口承、家族資料のような不安定なアーカイブを、誰がどの権利条件で保存するか。
 
-- Type: paper / creative practice
-- Creator / Author: Minne Atairu
-- Year: 2024
-- Context / Venue: AI & Society / museum and restitution discourse
-- Links: https://minneatairu.com/
-- Category: 非英語圏・批評的実践
-- Importance: Important
-- Confidence: High
+## 次に読む
 
-### Why It Matters
-
-Minne Atairuの実践は、生成AIを「失われたものを復元する便利な道具」としてではなく、植民地的収奪、返還、欠損したアーカイブ、黒人史、ミュージアム教育の問題を可視化する方法として扱う。AIアートの議論を、画像生成の美学から文化財・所有・歴史的不正義へ広げる。
-
-### Description
-
-公式サイトでは、Benin material cultureに関わるAI、3D、データワーク、教育実践が複数記録されている。2024年の論文「Reimagining Benin Bronzes using generative adversarial networks」は、GANを使った再構成を返還と文化的記憶の文脈で考える重要資料である。
-
-### Method / Medium / Approach
-
-GAN、生成AI、3D制作、AIエージェント、ミュージアム研究、教育実践、植民地アーカイブ批評。
-
-### Historical or Research Context
-
-ImageNet RouletteやGlazeがデータセットと権利を批評するのに対し、Atairuの実践は文化財、収奪、返還、黒人アーカイブの空白に焦点を置く。AIと美術館の関係を考えるうえで、欧米中心の所蔵史そのものを問い直す。
-
-### Limitations / Open Questions
-
-出版社側のDOI、引用状況、個別プロジェクトの展示記録をさらに整理する必要がある。
-
-### Related Items
-
-ImageNet Roulette、WikiArt、C2PA、Glaze。
-
-## Linda Dounia Rebeiz: Once Upon a Flower
-
-- Type: artwork
-- Creator / Author: Linda Dounia Rebeiz
-- Year: Unknown
-- Context / Venue: Senegalese artist practice with local datasets and GANs
-- Links: https://qa.time.com/6309451/linda-dounia-rebeiz/
-- Category: 非英語圏・批評的実践
-- Importance: Emerging
-- Confidence: Medium
-
-### Why It Matters
-
-Linda Dounia Rebeizの実践は、大規模生成モデルがグローバルサウスを偏ったイメージで表象する問題に対して、地域的で小さなデータセットを作家自身が編むという応答を示す。これは「モデルをどう使うか」だけでなく、「何をデータとして残すか」という問いである。
-
-### Description
-
-TIMEの記事によれば、Rebeizはセネガルの花や歴史的建築の写真・アーカイブを収集し、GANを用いて制作している。Once Upon a Flowerは、花、気候変動、記憶、データセットの偏りを接続する作品として紹介されている。
-
-### Method / Medium / Approach
-
-GAN、小規模・地域的データセット、アーカイブ化、生成画像、気候危機と文化的表象の批評。
-
-### Historical or Research Context
-
-LAION-5BやImageNetのような大規模データセットが「世界」を表象するとき、そこには地域的な不在やステレオタイプが生じる。Rebeizの実践は、データセット政治をグローバルサウス側から捉え直す事例である。
-
-### Limitations / Open Questions
-
-現時点では安定した一次作品ページを確認できていないため、作家本人のアーカイブやFeral Fileなどの展示記録を追加確認する必要がある。
-
-### Related Items
-
-ImageNet、LAION-5B、Not the Only One、ArtEmis。
-
-## Niceaunties: Auntieverse
-
-- Type: project
-- Creator / Author: Niceaunties
-- Year: 2023-
-- Context / Venue: online AI image/video project and exhibitions
-- Links: https://www.instagram.com/niceaunties/ / https://www.theguardian.com/world/article/2024/jul/19/auntieverse-art-niceaunties-surreal-fantasy-older-women
-- Category: 非英語圏・批評的実践
-- Importance: Emerging
-- Confidence: Medium
-
-### Why It Matters
-
-Niceauntiesは、東南アジア・東アジアの「auntie」という親族呼称、老い、家事労働、ケア、ジェンダー規範を、生成AIの奇妙な映像世界に変換する。AIアートを、欧米的な個人作家・未来技術の物語ではなく、家族、世代、地域語彙、日常的労働の問題として読むための重要な事例である。
-
-### Description
-
-Guardianのプロフィールは、Auntieverseを、Tupperware、ラーメン、月の料理学校、海洋プラスチックなどのモチーフを通じて「auntie culture」を再想像するプロジェクトとして紹介している。ユーモアと奇妙さの奥に、孤独、老い、環境破壊、女性の不可視労働がある。
-
-### Method / Medium / Approach
-
-テキストからの画像・動画生成、オンライン流通、展示、東南アジアの言語・家族文化、ジェンダー批評。
-
-### Historical or Research Context
-
-生成AIはしばしばグローバルなスタイル生成技術として語られるが、Niceauntiesの作品は地域的語彙や家族関係をプロンプトと世界設定の中心に置く。
-
-### Limitations / Open Questions
-
-公式アーカイブは主にSNSであり、長期保存性が弱い。美術館・展覧会側の安定した記録を今後追加する必要がある。
-
-### Related Items
-
-Miao Ying、LAUREN、Runway、The Zizi Project。
-
-## The Eye of Mexico
-
-- Type: artwork
-- Creator / Author: Ferdi Alici / Ouchhh Studio
-- Year: 2022
-- Context / Venue: public AI sculpture, Mexico City
-- Links: https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/
-- Category: 非英語圏・批評的実践
-- Importance: Contextual
-- Confidence: Medium
-
-### Why It Matters
-
-The Eye of Mexicoは、AIアートをギャラリー内の画像生成だけでなく、都市データ、公共彫刻、メディア建築、都市開発の文脈で考えるための事例である。ラテンアメリカにおける公共空間のAI作品として参照される。
-
-### Description
-
-MASSIVartのプロジェクトURLと二次資料では、メキシコシティの都市・環境データを用い、映像へ変換する大型の公共メディア彫刻として紹介されている。
-
-### Method / Medium / Approach
-
-AIアルゴリズム、都市データ、環境データ、LEDメディア、公共空間、メディア建築。
-
-### Historical or Research Context
-
-Refik Anadolの大規模データ彫刻や都市・自然データを用いた没入型展示と隣接するが、こちらは都市開発と公共空間の文脈が強い。
-
-### Limitations / Open Questions
-
-公式ページの長期安定性、具体的なアルゴリズム、データの取得・同意・更新方法については追加確認が必要である。
-
-### Related Items
-
-Machine Dreams: Rainforest、Unsupervised、Large Nature Model。
+- [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }}) - 何がデータに含まれ、欠けるのか
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 同意、労働、返還、来歴の制度
+- [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }}) - オンラインで確認できる作品画像と記録

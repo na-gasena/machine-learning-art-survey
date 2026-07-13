@@ -2,117 +2,105 @@
 layout: default
 title: Music, Performance, and Interactive Machine Learning
 permalink: /en/topics/music-performance-interactive-ml/
+lang: en
 ---
+
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }})
 
 # Music, Performance, and Interactive Machine Learning
 
-## Position
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-In music and performance, machine learning is not only an output generator. It can be a responsive instrument, a mapping between bodily gesture and sound, and a creative environment where training itself is part of practice.
+In music and performance, machine learning is more than a device for automatically generating finished work. It can function as an instrument trained through demonstration, a live mapping between body, sound, and image, or an environment for exploring new timbres. The key is to treat training and iteration as part of the creative process rather than judging only the output.
+</div>
 
-## Item Notes
+## Three Points to Keep in Mind
 
-## Wekinator
+- **Building a model can become performance.** Data collection, demonstration, and correction are embodied creative actions in interactive machine learning.
+- **Music AI works at different time scales.** Live gesture response, timbre generation, and long-form musical structure are distinct problems.
+- **Automatic composition is only one branch.** NIME and HCI research emphasizes relationships that performers can understand, adjust, and play.
 
-- Type: software
-- Creator / Author: Rebecca Fiebrink
-- Year: 2009
-- Context / Venue: Real-time interactive machine learning for artists and musicians
-- Links: https://doc.gold.ac.uk/~mas01rf/Wekinator/
-- Category: Music, Performance, and Interactive ML
-- Importance: Important
-- Confidence: High
+## At a Glance
 
-### Why It Matters
+| Creative layer | Role of machine learning | Key item | Main criterion |
+|---|---|---|---|
+| Body and control | Learn mappings between gesture, sound, and image | Wekinator | Responsiveness, teachability, playability |
+| Timbre and material | Learn sound features and support timbre exploration | NSynth / Magenta | Diversity and controllability |
+| Design philosophy | Treat algorithms as interactive interfaces | Fiebrink & Caramiaux | Interpretability, iteration, discovery |
 
-Wekinator matters because it lets artists train ML systems through demonstration rather than code. It supports flexible mappings between music, bodies, sensors, games, and visuals.
+## How the Field Developed
 
-### Description
+### 1. Teaching through demonstration
 
-Users provide input-output examples, and the system learns the relationship. Through OSC, it can connect with Processing, openFrameworks, Unity, Ableton, and other creative tools.
+Wekinator lets a user present input examples and desired outputs, then train a model in place. Rather than specifying every mapping in code, artists shape behavior through bodily and sonic examples.
 
-### Method / Medium / Approach
+### 2. Exploring timbre as a data space
 
-Interactive machine learning, supervised learning, real-time input and output, creative tooling.
+Magenta released research, code, and demonstrations for creative use. NSynth learned features from individual notes, connecting machine learning to instrument and sound-material design rather than only complete composition.
 
-### Historical or Research Context
+### 3. Evaluating the quality of interaction
 
-It connects to NIME, HCI, music information retrieval, and creative coding.
+Creative tools are not valuable only when they maximize accuracy. Artists also need to understand a model's tendencies, correct it through short iterations, and turn unexpected responses into discoveries.
 
-### Limitations / Open Questions
+## Key Cases
 
-Model performance is only one issue; ease of training, iteration, and performer understanding are equally important.
+### Wekinator
 
-### Related Items
+<p class="item-meta">2009- · software · Important · Confidence: High</p>
 
-The Machine Learning Algorithm as Creative Musical Tool, NIME.
+> **Key point:** A creative tool for training models through demonstration and designing real-time relationships among body, sound, and image.
 
-## Magenta and NSynth
+**What it did.** Developed by Rebecca Fiebrink, Wekinator learns from input-output examples and connects through OSC to environments including Processing, openFrameworks, Unity, and Ableton.
 
-- Type: project / dataset / software
-- Creator / Author: Google Magenta, Google Brain, DeepMind
-- Year: 2016-2017
-- Context / Venue: Creative ML for music and art
-- Links: https://magenta.tensorflow.org/ / https://magenta.tensorflow.org/nsynth
-- Category: Music, Performance, and Interactive ML
-- Importance: Important
-- Confidence: High
+**How to read it.** Training data becomes material made by the performer in the moment. The project connects NIME, HCI, music information research, and creative coding.
 
-### Why It Matters
+**Caution.** Evaluation should include teachability, iteration speed, and intelligibility of errors, not only predictive accuracy.
 
-Magenta made machine learning available as an experimental tool for music creation. NSynth linked instrument design to learned timbre spaces.
+**Source:** [Wekinator](https://doc.gold.ac.uk/~mas01rf/Wekinator/)
 
-### Description
+**Related:** *The Machine Learning Algorithm as Creative Musical Tool*, NIME
 
-NSynth uses roughly 300,000 annotated musical notes and a WaveNet-style autoencoder to learn instrumental sound features.
+### Magenta / NSynth
 
-### Method / Medium / Approach
+<p class="item-meta">2016-2017 onward · project/dataset/software · Important · Confidence: High</p>
 
-Neural audio synthesis, datasets, latent representations, DAW plugins, open-source tools.
+> **Key point:** An open research and production environment that connected machine learning, musical experimentation, and latent representations of timbre.
 
-### Historical or Research Context
+**What it did.** Magenta released models, code, demos, and creative tools. NSynth used roughly 300,000 annotated single-note samples and a WaveNet-related approach to learn and explore instrumental timbre.
 
-It is a key entry point for music generation, timbre synthesis, and ML-assisted composition.
+**How to read it.** Dataset, model, DAW integration, and open-source distribution combine into a creative ecosystem.
 
-### Limitations / Open Questions
+**Caution.** A single-note dataset cannot fully represent polyphony, long-term musical structure, or performance context.
 
-Single-note datasets do not fully address polyphony, long-term musical form, or performance context.
+**Sources:** [Magenta](https://magenta.tensorflow.org/) · [NSynth](https://magenta.tensorflow.org/nsynth)
 
-### Related Items
+**Related:** Wekinator, Holly+, PROTO / Spawn
 
-Wekinator, Holly+, PROTO/Spawn.
+### The Machine Learning Algorithm as Creative Musical Tool
 
-## The Machine Learning Algorithm as Creative Musical Tool
+<p class="item-meta">2016 · paper/theoretical synthesis · Important · Confidence: High</p>
 
-- Type: paper
-- Creator / Author: Rebecca Fiebrink, Baptiste Caramiaux
-- Year: 2016
-- Context / Venue: Music, ML, HCI
-- Links: https://arxiv.org/abs/1611.00379
-- Category: Music, Performance, and Interactive ML
-- Importance: Important
-- Confidence: High
+> **Key point:** The paper treats machine-learning algorithms as interfaces between human and computer rather than as autonomous composers.
 
-### Why It Matters
+**What it did.** Rebecca Fiebrink and Baptiste Caramiaux describe musicians teaching systems with personal examples and exceptions, then exploring possibilities through model response.
 
-The chapter frames machine learning algorithms as human-computer interfaces rather than automatic composers.
+**How to read it.** It explains Wekinator as part of a broader design philosophy centered on training, iteration, and embodied knowledge.
 
-### Description
+**Caution.** Recent large music models, voice cloning, and their rights questions require separate follow-up.
 
-It presents a human-centered view in which musicians teach systems idiosyncratic styles, break rules, and explore model behavior creatively.
+**Source:** [arXiv](https://arxiv.org/abs/1611.00379)
 
-### Method / Medium / Approach
+**Related:** Wekinator, Magenta, NIME
 
-HCI, musical expression, and interactive machine learning theory.
+## Questions Across the Topic
 
-### Historical or Research Context
+- Does a performer understand a model by knowing its internals, or by being able to play it bodily?
+- How can live data collection and training be documented and re-performed?
+- How should consent and cultural attribution work when models learn timbre, voice, or performance style?
 
-It is essential context for understanding Wekinator and related creative ML tools.
+## Read Next
 
-### Limitations / Open Questions
-
-Recent large-scale generative music systems require additional study.
-
-### Related Items
-
-Wekinator, Magenta, NIME.
+- [Human-Machine Collaboration]({{ '/en/topics/human-machine-collaboration/' | relative_url }}) - co-performance through voice, robots, and bodies
+- [Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }}) - access to creative machine-learning tools
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - consent and rights in voice and style

@@ -2,117 +2,105 @@
 layout: default
 title: 歴史、記号的AI、コンピュータアート
 permalink: /ja/topics/history-symbolic-computer-art/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }})
 
 # 歴史、記号的AI、コンピュータアート
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-現在の機械学習アートは、突然現れたものではありません。自動機械、コンピュータアート、アルゴリズム芸術、人工知能、計算論的創造性の長い系譜の上にあります。このページでは、深層学習以前の重要な前史を扱います。
+機械学習アートは、2010年代の深層学習から始まった分野ではありません。その前には、作家の知識を規則として記述する試み、描画機械、アルゴリズム芸術、そして「機械に創造性を帰属できるか」を検討する計算論的創造性研究がありました。現在との重要な違いは、外部の巨大データから様式を学ぶのではなく、作者が規則・知識・評価基準を比較的明示的に設計していた点です。
+</div>
 
-## Item Notes
+## まず押さえる3点
 
-## AARON
+- **技術の連続性より、問いの連続性が重要です。** AARONは現在の意味での機械学習ではありませんが、作者性、自律性、身体性という今日の論点を先取りしました。
+- **「生成できること」と「創造的であること」は別です。** The Painting Foolは、意図、評価、文脈、自己批評を創造性の条件として扱いました。
+- **歴史を一本の進歩物語にしないことが必要です。** 記号的AI、進化的芸術、ニューラル生成は置き換え関係ではなく、異なる設計思想として併存しています。
 
-- Type: artwork / software system
-- Creator / Author: Harold Cohen
-- Year: 1968-2016
-- Context / Venue: AI drawing and painting system; Whitney Museum exhibition context in 2024
-- Links: http://aaronshome.com/ / https://whitney.org/exhibitions/harold-cohen-aaron
-- Category: 歴史、記号的AI、コンピュータアート
-- Importance: Foundational
-- Confidence: High
+## 見取り図
 
-### Why It Matters
+| 時期 | 中心的な考え方 | 作者が設計するもの | 代表項目 |
+|---|---|---|---|
+| 1960年代後半以降 | 芸術知識を規則として記述する | 構図、線、対象知識、描画手順 | AARON |
+| 2000年代以降 | システムを創造的主体として評価する | 生成・評価・文脈化の仕組み | The Painting Fool |
+| 2010年代以降 | 複数のAI技術と創造性理論を統合する | モデル、データ、評価方法 | *Creativity and Machine Learning: A Survey* |
 
-AARONは、機械が自律的に画像を作るとは何かを、作品と研究の両方として長期的に問うた事例です。現在の機械学習ではありませんが、「AIアート」を語るときの作者性、自律性、ルール、身体性の前史になります。
+## 発展の流れ
 
-### Description
+### 1. 規則を書くことが、絵を描くことになる
 
-Harold Cohenは、自身の描画知識をプログラムに落とし込み、AARONに線画や彩色作品を生成させました。AARONは外部画像を学習して新しい様式を獲得するモデルではなく、Cohenが設計した知識と規則の体系として発展しました。
+初期のコンピュータアートでは、作家は完成画像だけでなく、画像を生み出す手続きそのものを制作しました。AARONではHarold Cohenの描画知識が長年にわたりプログラムへ組み込まれ、プロッタ、描画機械、プリンタなど出力装置も変化しました。ここでは「学習済みモデルに指示する」よりも、「どの知識を機械が使える形にするか」が中心課題です。
 
-### Method / Medium / Approach
+### 2. 生成能力から、創造性の条件へ
 
-記号的AI、ルール、プロッタや描画機械、後期にはプリンタやデジタル彩色が関わります。
+The Painting Foolに代表される計算論的創造性研究は、画像の見栄えだけでなく、システムが意図を持つように見えるか、結果を評価できるか、文脈に応答できるかを問います。この視点は、生成モデルの性能比較だけでは捉えにくい芸術的主体性を検討する枠組みを与えます。
 
-### Historical or Research Context
+### 3. 深層学習後も残る問い
 
-GOFAI、コンピュータアート、ロボット絵画、SIGGRAPH系のデジタルアート史に接続します。
+大規模モデルは規則の手書きを減らしましたが、作者性や評価の問題を解消したわけではありません。むしろ、規則がデータセット、損失関数、モデル設計、プラットフォーム規約へ分散したことで、誰が何を決めているのかは見えにくくなりました。
 
-### Limitations / Open Questions
+## 代表事例
 
-現在の意味での機械学習ではないため、機械学習アートの直接の技術祖先と断定するのは避けるべきです。しかし、問題設定の祖先としては重要です。
+### AARON
 
-### Related Items
+<p class="item-meta">1968-2016 ・ 作品／ソフトウェア ・ 基礎的 ・ 確信度: 高</p>
 
-The Painting Fool、SIGGRAPH、computational creativity。
+> **要点:** 機械が自律的に画像を作るとは何かを、約半世紀にわたり作品と研究の両方として問い続けたシステムです。
 
-## The Painting Fool
+**内容。** Harold Cohenは、自身の描画知識をプログラムに落とし込み、AARONに線画や彩色作品を生成させました。AARONは外部画像から新しい様式を学ぶモデルではなく、Cohenが設計した知識と規則の体系として発展しました。
 
-- Type: software / research project
-- Creator / Author: Simon Colton
-- Year: 2001-
-- Context / Venue: Computational creativity research
-- Links: https://www.thepaintingfool.com/
-- Category: 歴史、記号的AI、コンピュータアート
-- Importance: Important
-- Confidence: Medium
+**読みどころ。** 記号的AI、プロッタや描画機械、後期のプリンタやデジタル彩色が一つの制作実践に結びついています。作者を「絵を直接描く人」から「描画知識と生成条件を設計する人」へ広げた点が重要です。
 
-### Why It Matters
+**注意。** 現在の意味での機械学習ではないため、生成AIの直接の技術祖先と断定すべきではありません。問題設定と制作思想の前史として位置づけます。
 
-The Painting Foolは、絵を作るソフトウェアを「道具」としてだけでなく、創造的主体として見なせるかを問いました。評価、意図、自己批評、感情、文脈の問題を可視化します。
+**資料:** [AARON公式アーカイブ](http://aaronshome.com/) ・ [Whitney Museum: Harold Cohen - AARON](https://whitney.org/exhibitions/harold-cohen-aaron)
 
-### Description
+**関連:** The Painting Fool、SIGGRAPH、computational creativity
 
-このプロジェクトは、画像生成そのものよりも、創造性をどのような条件で帰属できるかを研究対象にします。
+### The Painting Fool
 
-### Method / Medium / Approach
+<p class="item-meta">2001- ・ ソフトウェア／研究プロジェクト ・ 重要 ・ 確信度: 中</p>
 
-ルール、生成、外部情報、評価機構など、複数のAI手法を組み合わせる computational creativity の系譜です。
+> **要点:** 絵を作るソフトウェアを道具としてだけでなく、創造的主体として見なせる条件を研究するプロジェクトです。
 
-### Historical or Research Context
+**内容。** Simon Coltonが主導し、生成、外部情報の利用、評価機構など複数のAI手法を組み合わせてきました。焦点は画像生成の性能だけでなく、意図、自己批評、感情、文脈をシステムにどう持たせるかにあります。
 
-ICCCなどの計算論的創造性コミュニティと接続します。
+**読みどころ。** ICCCなどの計算論的創造性コミュニティが、創造性を作品の外観ではなく制作過程と評価の関係として研究してきたことが分かります。
 
-### Limitations / Open Questions
+**注意。** 現代の大規模生成モデルとの比較では、視覚的性能より概念的・評価論的な意義を中心に読む必要があります。
 
-現代の大規模生成モデルと比べると視覚的な性能ではなく、概念的・評価論的な意義が中心です。
+**資料:** [The Painting Fool公式サイト](https://www.thepaintingfool.com/)
 
-### Related Items
+**関連:** AARON、ICCC、計算論的創造性
 
-AARON、Creativity and Machine Learning: A Survey。
+### Creativity and Machine Learning: A Survey
 
-## Creativity and Machine Learning: A Survey
+<p class="item-meta">2021 ・ 論文／文献レビュー ・ 重要 ・ 確信度: 高</p>
 
-- Type: paper
-- Creator / Author: Giorgio Franceschelli, Mirco Musolesi
-- Year: 2021
-- Context / Venue: arXiv survey
-- Links: https://arxiv.org/abs/2104.02726
-- Category: 歴史、理論、評価
-- Importance: Important
-- Confidence: High
+> **要点:** 創造性理論、機械学習技術、評価手法を横断し、作品調査だけでは見落としやすい研究側の地図を与えるサーベイです。
 
-### Why It Matters
+**内容。** Giorgio FranceschelliとMirco Musolesiが、計算論的創造性の理論、生成深層学習、評価方法、未解決課題を整理しています。
 
-創造性研究、機械学習技術、評価手法を横断的に整理しており、作品調査だけでは見落としやすい研究側の背景を与えます。
+**読みどころ。** AIアートを一時的なメディア現象ではなく、創造性研究の長期的な問題として位置づけるための入口になります。
 
-### Description
+**注意。** アート制度、市場、作家労働、地域差は主題の中心ではないため、権利・制度やグローバルな実践を扱うページと組み合わせて読む必要があります。
 
-計算論的創造性の理論、生成深層学習、評価方法、未解決課題を扱うサーベイです。
+**資料:** [arXiv](https://arxiv.org/abs/2104.02726)
 
-### Method / Medium / Approach
+**関連:** The Painting Fool、Foregrounding Artist Opinions
 
-研究文献レビューです。
+## 横断して考える問い
 
-### Historical or Research Context
+- 明示的な規則と、データから獲得された統計的パターンは、作者の責任をどう変えるか。
+- 自律性は技術的性質なのか、それとも展示・言説・観客によって帰属される性質なのか。
+- 見栄え、意外性、意図、過程、社会的影響のうち、何を創造性評価の中心に置くべきか。
 
-AIアートを、単なるメディア現象ではなく創造性研究の一部として位置づける助けになります。
+## 次に読む
 
-### Limitations / Open Questions
-
-アートの制度・市場・作家労働の議論は別資料と組み合わせる必要があります。
-
-### Related Items
-
-The Painting Fool、Foregrounding Artist Opinions。
+- [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }}) - 規則中心の生成から学習中心の生成への変化
+- [人間・機械協働と身体的実践]({{ '/ja/topics/human-machine-collaboration/' | relative_url }}) - 自律した作者ではなく共演者としての機械
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 作者性を法・労働・流通から捉え直す

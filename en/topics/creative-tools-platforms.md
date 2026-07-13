@@ -2,160 +2,122 @@
 layout: default
 title: Creative Tools, Education, and Platforms
 permalink: /en/topics/creative-tools-platforms/
+lang: en
 ---
+
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Datasets and Resources]({{ '/en/resources/datasets-and-resources/' | relative_url }})
 
 # Creative Tools, Education, and Platforms
 
-## Position
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-Machine learning and creative practice cannot be explained only through papers and museum works. Many artists encounter ML through libraries, educational tools, commercial platforms, DAW plugins, and browser-based experimentation.
+The relationship between machine learning and creative practice cannot be explained through papers and museum works alone. Libraries, no-code teaching tools, public courses, and commercial services determine who can make what. They can widen access while hiding model and data internals or making production dependent on company pricing, policy, and interfaces.
+</div>
 
-## Key Currents
+## Three Points to Keep in Mind
 
-Wekinator opened a path for training systems by demonstration. ml5.js and Teachable Machine lowered barriers for education and workshops. Magenta and NSynth provided experimental music-making environments. Runway connected generative video to production workflows.
+- **Ease of use is a technical and cultural design choice.** APIs, examples, supported languages, and browser execution change who can participate.
+- **Teaching tools and production systems form a continuum.** A classifier trained in Teachable Machine can become part of work made with browser code or external tools.
+- **Commercial platforms are creative institutions.** Services such as Runway shape pricing, storage, distribution, and evaluation as well as model access.
 
-## Item Notes
+## At a Glance
 
-## ml5.js
+| Entry point | Required skill | Main use | Key item |
+|---|---|---|---|
+| No-code | Browser interaction | Classification, teaching, prototyping | Teachable Machine |
+| Creative coding | JavaScript / p5.js | Interactive work and workshops | ml5.js |
+| Self-directed archive | Code and course materials | Learning creative deep learning | Machine Learning for Artists |
+| Commercial production | Web interface / API | Generative video, editing, production | Runway |
 
-- Type: software
-- Creator / Author: NYU ITP/IMA, NYU Shanghai IMA, ml5.js community
-- Year: 2018-
-- Context / Venue: Browser-based creative machine learning library
-- Links: https://ml5js.org/
-- Category: Creative Tools, Education, and Platforms
-- Importance: Important
-- Confidence: High
+## How the Creative Environment Changed
 
-### Why It Matters
+### 1. Making "teaching the machine" accessible
 
-ml5.js helps move ML from expert-only model development toward material that artists can use in the browser. It fits naturally with p5.js, creative coding, workshops, and interactive artworks.
+Teachable Machine lets users collect image, sound, or pose examples and see classification training in the browser. Like Wekinator, it makes selection and example building part of the activity.
 
-### Description
+### 2. Integrating machine learning with creative coding
 
-Built on TensorFlow.js, ml5.js offers approachable APIs for body pose, hand pose, face mesh, image classification, sound classification, and trainable neural networks.
+ml5.js connects TensorFlow.js capabilities to p5.js culture. Machine Learning for Artists records how artists learned and applied the technologies surrounding DeepDream, style transfer, and GANs.
 
-### Method / Medium / Approach
+### 3. Turning production into a service
 
-JavaScript in the browser, TensorFlow.js, pretrained models, trainable neural networks.
+Runway moved from a general model-running interface toward generative video and editing. AI now enters production stages, occupations, distribution, and institutions such as AI film festivals.
 
-### Historical or Research Context
+## Key Tools
 
-It connects to Processing, p5.js, creative coding, and AI literacy education.
+### ml5.js
 
-### Limitations / Open Questions
+<p class="item-meta">2018- · software · Important · Confidence: High</p>
 
-Ease of use must be paired with explanations of model bias, dataset limitations, misclassification, privacy, and accessibility.
+> **Key point:** A library that brought machine learning closer to browser-based creative coding rather than specialist model development.
 
-### Related Items
+**What it did.** Developed through NYU ITP/IMA and its community, ml5.js exposes approachable JavaScript APIs for pose, hand, face, image and sound classification, and trainable neural networks.
 
-Teachable Machine, Wekinator, ml4a.
+**How to read it.** It connects machine learning with p5.js, Processing, education, and workshop practice.
 
-## Teachable Machine
+**Caution.** Simple APIs still carry pretrained-data bias, misrecognition, camera and microphone privacy, and accessibility concerns.
 
-- Type: software
-- Creator / Author: Google
-- Year: 2017-
-- Context / Venue: No-code ML training/prototyping tool
-- Links: https://teachablemachine.withgoogle.com/
-- Category: Creative Tools, Education, and Platforms
-- Importance: Important
-- Confidence: High
+**Source:** [ml5.js](https://ml5js.org/)
 
-### Why It Matters
+**Related:** Teachable Machine, Wekinator, ml4a
 
-Teachable Machine lets users train image, audio, and pose classifiers without code, making it widely useful in education, workshops, prototyping, and art experiments.
+### Teachable Machine
 
-### Description
+<p class="item-meta">2017- · software/educational tool · Important · Confidence: High</p>
 
-Users collect examples, define classes, train simple models, and export them to the web or other tools.
+> **Key point:** A no-code route to image, sound, and pose classifiers that opened machine teaching to classrooms and prototypes.
 
-### Method / Medium / Approach
+**What it did.** Users gather examples, define classes, train a model in the browser, and export it to web or external tools.
 
-No-code learning, image/audio/pose classification, browser-based interface.
+**How to read it.** AI literacy becomes an experience of collection, misclassification, and retraining rather than explanation alone.
 
-### Historical or Research Context
+**Caution.** Not every creative problem should be forced into classes, and users need to ask whom their examples represent.
 
-It generalizes the experience of teaching machines and connects AI literacy to creative activity.
+**Source:** [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
-### Limitations / Open Questions
+**Related:** ml5.js, Wekinator, machine teaching
 
-Users still need to understand why models fail, whom training data represents, and which creative problems cannot be reduced to classification.
+### Machine Learning for Artists
 
-### Related Items
+<p class="item-meta">2016- · educational project/archive · Important · Confidence: High</p>
 
-ml5.js, Wekinator, Machine Teaching.
+> **Key point:** A major public learning resource from the period when deep learning first entered artists' workflows.
 
-## Machine Learning for Artists
+**What it did.** Gene Kogan and contributors assembled an online book, guides, interactive demos, code, and lecture videos; the site now remains as an archive.
 
-- Type: project / educational archive
-- Creator / Author: Gene Kogan and contributors
-- Year: 2016-
-- Context / Venue: Free educational resources
-- Links: https://ml4a.github.io/
-- Category: Creative Tools, Education, and Platforms
-- Importance: Important
-- Confidence: High
+**How to read it.** It records what and how artists learned during the DeepDream, style-transfer, and GAN period.
 
-### Why It Matters
+**Caution.** Some technical material is outdated and should be read beside current software, licensing, and ethical guidance.
 
-ml4a was an important gateway for artists learning machine learning during the rise of DeepDream, neural style transfer, and GANs.
+**Source:** [Machine Learning for Artists](https://ml4a.github.io/)
 
-### Description
+**Related:** ml5.js, Magenta, Runway
 
-It includes an online book, guides, demos, code, and video lectures. The original site remains online as an archive.
+### Runway
 
-### Method / Medium / Approach
+<p class="item-meta">2018- · commercial software/platform · Important · Confidence: High</p>
 
-Educational resources, sample code, demos, community learning.
+> **Key point:** A representative platform connecting machine learning to video production, advertising, film, and post-production.
 
-### Historical or Research Context
+**What it did.** Initially known as a model-running environment for non-engineers, Runway developed into a service for generative video, image and video editing, and APIs.
 
-It helped form the creative ML learning culture of the mid-2010s.
+**How to read it.** Its relationship to Stable Diffusion and the AI Film Festival shows technical, commercial, and evaluative institutions forming together.
 
-### Limitations / Open Questions
+**Caution.** Training data, licensing, pricing, storage, model updates, and effects on production labor can be difficult to inspect in a commercial service.
 
-Some technical material is now dated and should be paired with current model, license, and ethics discussions.
+**Source:** [Runway](https://runwayml.com/)
 
-### Related Items
+**Related:** Stable Diffusion, DALL-E, AI Film Festival, C2PA
 
-ml5.js, Magenta, Runway.
+## Questions Across the Topic
 
-## Runway
+- How much should beginner tools explain model limitations and data provenance?
+- How can obsolete code and web demos be preserved as technical-history sources and made executable again?
+- What exactly should be preserved when a platform update breaks an artwork's workflow?
 
-- Type: software / platform
-- Creator / Author: Runway AI, Inc.
-- Year: 2018-
-- Context / Venue: Generative video and creative AI production platform
-- Links: https://runwayml.com/
-- Category: Creative Tools, Education, and Platforms
-- Importance: Important
-- Confidence: High
+## Read Next
 
-### Why It Matters
-
-Runway is a major platform connecting machine learning to video production, advertising, film, and post-production. It shows how AI art moves into industrial workflows.
-
-### Description
-
-Runway first became known as an accessible ML model environment for non-engineers and later shifted toward generative video and world-model systems.
-
-### Method / Medium / Approach
-
-Generative video, image/video editing, APIs, creative production workflows.
-
-### Historical or Research Context
-
-It connects to Stable Diffusion's development context and to institutions such as AI Film Festival.
-
-### Limitations / Open Questions
-
-Commercial platforms often leave training data, licenses, labor effects, and production accountability opaque.
-
-### Related Items
-
-Stable Diffusion, DALL-E, AI Film Festival, C2PA.
-
-## Boundary Areas
-
-Creative tools can support artists, but they can also automate labor, flatten styles, and reuse rights-unclear material. Tool evaluation should ask who can use the system, whose data powers it, and who benefits.
+- [Music, Performance, and Interactive Machine Learning]({{ '/en/topics/music-performance-interactive-ml/' | relative_url }}) - training tools through demonstration
+- [Neural Image Generation]({{ '/en/topics/neural-image-generation/' | relative_url }}) - the model lineages wrapped by tools
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - terms, labor, and transparency

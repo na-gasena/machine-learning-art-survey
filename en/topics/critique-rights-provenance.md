@@ -1,153 +1,124 @@
 ---
 layout: default
-title: Critique, Rights, Provenance
+title: Critique, Rights, Provenance, and Institutions
 permalink: /en/topics/critique-rights-provenance/
+lang: en
 ---
 
-# Critique, Rights, Provenance
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Open Questions]({{ '/en/open-questions/' | relative_url }})
 
-## Position
+# Critique, Rights, Provenance, and Institutions
 
-In machine-learning creative practice, what is technically possible is not the same as what is socially acceptable. Dataset consent, artist labor, style mimicry, copyright, provenance, and platform circulation are conditions of the artwork itself.
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-## Item Notes
+What is technically possible in machine-learning creation is not necessarily socially acceptable. Consent to training data, artistic labor, style imitation, copyright, and provenance are conditions of production, not footnotes outside the artwork. Critical projects, artist studies, defensive tools, technical standards, and law address different stages, so no one intervention should be presented as a complete solution.
+</div>
 
-## ImageNet Roulette
+## Three Points to Keep in Mind
 
-- Type: artwork / critical project
-- Creator / Author: Trevor Paglen, Kate Crawford
-- Year: 2019
-- Context / Venue: Dataset critique; Training Humans / Excavating AI context
-- Links: https://excavating.ai/
-- Category: Critique, Rights, Provenance
-- Importance: Important
-- Confidence: Medium
+- **The problem is not only whether an output is AI-generated.** Collection, training, selection, editing, publication, and reuse carry distinct rights and responsibilities.
+- **Technical and institutional responses complement one another.** Glaze resists style mimicry and C2PA records provenance, but neither alone guarantees consent or compensation.
+- **Jurisdiction and date must be explicit.** Copyright decisions, regulation, standards, and platform terms change and differ across regions.
 
-### Why It Matters
+## Map of Problems and Responses
 
-ImageNet Roulette made the social and political force of dataset classification visible to a broad public.
+| Problem | Core question | Response | Limitation |
+|---|---|---|---|
+| Classification and bias | How do labels represent people? | Dataset-critical work such as ImageNet Roulette | Critique itself still requires factual and consent review |
+| Artistic voice and labor | What do artists find useful or threatening? | Foregrounding Artist Opinions | Regional and occupational sampling limits |
+| Unauthorized style learning | How can published work be protected? | Defensive tools such as Glaze | Continuing adaptation between defenses and models |
+| Origin and edit history | How can generation and modification be traced? | C2PA | Metadata removal, adoption, confusion with truth |
+| Copyright | How is human creative contribution judged? | Copyright offices, courts, policy | Jurisdiction, individual facts, continuing change |
 
-### Description
+## How the Problem Was Framed
 
-The project applied a classifier to uploaded images and displayed person labels derived from ImageNet categories, exposing the harms that machine-vision labels can carry.
+### 1. Making dataset classification visible
 
-### Method / Medium / Approach
+ImageNet Roulette showed a broad public that a classifier's labels are political acts that position people, not neutral descriptions. Critical exhibitions, however, also require scrutiny of image use, consent, and historical claims.
 
-Image upload, classifier, dataset critique, exhibition and web experience.
+### 2. Treating artists as participants in the debate
 
-### Historical or Research Context
+Artists are often represented as a uniform pro- or anti-AI group. Foregrounding Artist Opinions instead records varied positions on transparency, ownership, compensation, usefulness, and threat.
 
-It connects to critical AI research, surveillance studies, and dataset studies around the AI Now Institute.
+### 3. Separating protection, provenance, and copyright
 
-### Limitations / Open Questions
+Glaze aims to resist style learning; C2PA records media history; copyright evaluates human creative contribution. They operate at different stages and cannot be collapsed into a general certificate of "ethical AI art."
 
-The project and essay have been criticized by Michael J. Lyons over factual framing and consent. Its critical impact and its own controversies should be discussed together.
+## Key Cases and Institutions
 
-### Related Items
+### ImageNet Roulette
 
-ImageNet, LAION-5B, C2PA.
+<p class="item-meta">2019 · artwork/critical project · Important · Confidence: Medium</p>
 
-## Foregrounding Artist Opinions
+> **Key point:** A web and exhibition project that made the social and political force of machine-learning taxonomies visible.
 
-- Type: paper
-- Creator / Author: Juniper Lovato et al.
-- Year: 2024
-- Context / Venue: Survey of artists and generative AI
-- Links: https://arxiv.org/abs/2401.15497
-- Category: Critique, Rights, Provenance
-- Importance: Important
-- Confidence: High
+**What it did.** Trevor Paglen and Kate Crawford applied a classifier with person categories derived from ImageNet, connected to the *Training Humans* and *Excavating AI* contexts.
 
-### Why It Matters
+**How to read it.** Labeling appears as a cultural act that determines how people are seen rather than as a neutral preprocessing step.
 
-This paper systematically foregrounds artists' own views, hopes, fears, and demands around generative AI.
+**Caution.** Criticism by Michael J. Lyons and others disputes aspects of image consent and historical framing. The project's critical contribution and critiques of it should be recorded together.
 
-### Description
+**Source:** [Excavating AI](https://excavating.ai/)
 
-It surveys 459 artists on transparency, ownership, compensation, usefulness, and threats of generative AI tools.
+**Related:** ImageNet, LAION-5B, dataset critique
 
-### Method / Medium / Approach
+### Foregrounding Artist Opinions
 
-Survey research, artist studies, ethics and policy.
+<p class="item-meta">2024 · paper/artist survey · Important · Confidence: High</p>
 
-### Historical or Research Context
+> **Key point:** A study of artists as people with their own expectations, fears, and demands rather than objects of an AI debate.
 
-It connects to post-Stable-Diffusion dataset controversies, artist labor, and fairness debates.
+**What it did.** Juniper Lovato and colleagues surveyed 459 artists about transparency, ownership, compensation, and the usefulness and threat of generative AI.
 
-### Limitations / Open Questions
+**How to read it.** It grounds arguments about post-Stable Diffusion labor, datasets, and fairness in reported responses.
 
-Respondent demographics, regional differences, and professional differences need careful interpretation.
+**Caution.** Recruitment, region, occupation, and medium shape the respondent pool; it is not a universal artistic consensus.
 
-### Related Items
+**Source:** [arXiv](https://arxiv.org/abs/2401.15497)
 
-Glaze, LAION-5B, Copyright and AI.
+**Related:** Glaze, LAION-5B, Copyright and AI
 
-## Glaze
+### Glaze
 
-- Type: software / paper
-- Creator / Author: Shawn Shan et al.
-- Year: 2023
-- Context / Venue: Artist protection against style mimicry
-- Links: https://glaze.cs.uchicago.edu/ / https://arxiv.org/abs/2302.04222
-- Category: Critique, Rights, Provenance
-- Importance: Emerging
-- Confidence: High
+<p class="item-meta">2023 · software/paper · Emerging · Confidence: High</p>
 
-### Why It Matters
+> **Key point:** A practical attempt to let artists publish images while resisting unauthorized style mimicry.
 
-Glaze gives artists a technical way to resist unauthorized style mimicry while still publishing work online.
+**What it did.** Shawn Shan and colleagues add visually subtle perturbations intended to misdirect style representations learned by text-to-image systems.
 
-### Description
+**How to read it.** It is significant as a rights response implemented as a tool artists can use directly, not only as policy advocacy.
 
-It adds subtle perturbations to images intended to mislead text-to-image models that try to learn an artist's style.
+**Caution.** Effectiveness depends on target models and evolving circumvention. Glaze is not permanent protection and should be evaluated beside consent, compensation, and regulation.
 
-### Method / Medium / Approach
+**Sources:** [Glaze](https://glaze.cs.uchicago.edu/) · [paper](https://arxiv.org/abs/2302.04222)
 
-Adversarial perturbation, style protection, user studies, tool deployment.
+**Related:** Foregrounding Artist Opinions, LAION-5B, Stable Diffusion
 
-### Historical or Research Context
+### C2PA / Copyright and Artificial Intelligence
 
-After commercial generative AI became widespread, countermeasures for artist protection became a major part of the field.
+<p class="item-meta">2021-2025 · standard/policy · Important/Emerging · Confidence: High</p>
 
-### Limitations / Open Questions
+> **Key point:** C2PA records media origin and edit history, while copyright policy examines human creative contribution in AI-assisted work.
 
-Adversarial tools are affected by model changes and adaptive countermeasures. They are not a permanent substitute for institutional governance.
+**What it did.** C2PA specifies cryptographically signed provenance metadata. The U.S. Copyright Office's AI reports address digital replicas, copyrightability, and training in separate stages.
 
-### Related Items
+**How to read it.** A circulation standard and legal evaluation of individual human contribution are different mechanisms; neither is a universal detector of AI generation.
 
-Foregrounding Artist Opinions, LAION-5B, Stable Diffusion.
+**Caution.** C2PA depends on retained metadata and widespread verification. Copyright outcomes vary by jurisdiction and facts, and require current checking.
 
-## C2PA and Copyrightability Reports
+**Sources:** [C2PA](https://c2pa.org/) · [U.S. Copyright Office: Copyright and Artificial Intelligence](https://www.copyright.gov/ai/)
 
-- Type: standard / policy
-- Creator / Author: C2PA; U.S. Copyright Office
-- Year: 2021-2025
-- Context / Venue: Provenance standard and AI copyright policy
-- Links: https://c2pa.org/ / https://www.copyright.gov/ai/
-- Category: Critique, Rights, Provenance
-- Importance: Important / Emerging
-- Confidence: High
+**Related:** DALL-E, Stable Diffusion, Glaze, Foregrounding Artist Opinions
 
-### Why It Matters
+## Questions Across the Topic
 
-As generative AI spreads, the origin, edit history, AI-generated status, and human creative contribution of media become institutional questions.
+- Is consent a one-time act at collection, or an ongoing relationship that can be withdrawn or revised?
+- How should interests in style, voice, face, and bodily motion be protected when copyright fits poorly?
+- How can provenance information be clearly distinguished from claims that a work is fair, authentic, or true?
 
-### Description
+## Read Next
 
-C2PA is a provenance metadata standard. The U.S. Copyright Office reports clarify that copyrightability of AI-assisted works depends on sufficient human creative contribution.
-
-### Method / Medium / Approach
-
-Cryptographically signed metadata, provenance standards, copyright policy.
-
-### Historical or Research Context
-
-These issues affect circulation of AI-generated media, news authenticity, platform labeling, and trust in art markets.
-
-### Limitations / Open Questions
-
-C2PA depends on metadata preservation. Copyright rules differ by jurisdiction.
-
-### Related Items
-
-DALL-E, Stable Diffusion, Glaze, Foregrounding Artist Opinions.
+- [Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }}) - the infrastructure where these issues enter
+- [Regional, Cultural, and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }}) - works about rights, representation, and memory
+- [Open Questions]({{ '/en/open-questions/' | relative_url }}) - remaining legal, preservation, evaluation, and geographic gaps

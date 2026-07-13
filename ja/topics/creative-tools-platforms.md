@@ -2,160 +2,122 @@
 layout: default
 title: 制作ツール、教育、プラットフォーム
 permalink: /ja/topics/creative-tools-platforms/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [データセットと資料]({{ '/ja/resources/datasets-and-resources/' | relative_url }})
 
 # 制作ツール、教育、プラットフォーム
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-機械学習と創作活動の関係は、論文や美術館作品だけでは説明できません。多くの作家は、公開ライブラリ、教育用ツール、商用プラットフォーム、DAWプラグイン、ブラウザ上の実験環境を通じて機械学習に触れています。このカテゴリでは、制作の入口を作ったツールと、それが創作コミュニティをどう変えたかを扱います。
+機械学習と創作の関係は、論文や美術館作品だけでは説明できません。ライブラリ、ノーコード教材、公開講座、商用制作サービスが、誰に何を作れるようにするかを決めています。ツールはアクセスを広げる一方、モデルやデータの内部を見えにくくし、制作を特定企業の料金・規約・インターフェースへ依存させることもあります。
+</div>
 
-## 主要な流れ
+## まず押さえる3点
 
-Wekinatorのようなインタラクティブ機械学習は、作家が例示によってモデルを訓練する方法を開きました。ml5.jsやTeachable Machineは、コードや数学の障壁を下げ、教育やワークショップでAIを扱いやすくしました。MagentaやNSynthは音楽制作の実験環境を作り、Runwayは生成動画とプロダクションワークフローをつなぎました。
+- **「使いやすさ」は技術的・文化的な設計です。** API、サンプル、対応言語、ブラウザ実行が参加できる人を変えます。
+- **教育ツールと制作基盤は連続しています。** Teachable Machineで学ぶ分類の考え方は、ml5.jsや外部アプリへ接続できます。
+- **商用プラットフォームは制作制度でもあります。** Runwayのようなサービスはモデルだけでなく、料金、保存、配布、映画祭などの環境を作ります。
 
-## Item Notes
+## 見取り図
 
-## ml5.js
+| 入口 | 必要な技術 | 主な用途 | 代表項目 |
+|---|---|---|---|
+| ノーコード | ブラウザ操作 | 分類体験、授業、試作 | Teachable Machine |
+| クリエイティブコーディング | JavaScript / p5.js | インタラクティブ作品、ワークショップ | ml5.js |
+| 自学用アーカイブ | コードと講義資料 | 深層学習の制作応用を学ぶ | Machine Learning for Artists |
+| 商用制作環境 | ウェブUI／API | 生成動画、編集、プロダクション | Runway |
 
-- Type: software
-- Creator / Author: NYU ITP/IMA, NYU Shanghai IMA, ml5.js community
-- Year: 2018-
-- Context / Venue: Browser-based creative machine learning library
-- Links: https://ml5js.org/
-- Category: 制作ツール、教育、プラットフォーム
-- Importance: Important
-- Confidence: High
+## 制作環境の変化
 
-### Why It Matters
+### 1. 機械へ教える体験を一般化する
 
-ml5.jsは、機械学習を「専門家だけのモデル開発」から「ブラウザ上で試せる創作素材」へ近づけました。p5.jsやクリエイティブコーディングの文化と相性がよく、授業、ワークショップ、インタラクティブ作品で使われます。
+Teachable Machineは画像、音声、ポーズの例をブラウザで集め、分類器を作る過程を可視化します。Wekinatorと同様に「既製モデルを使う」だけでなく、利用者が例を選ぶ行為を創作・教育へ戻します。
 
-### Description
+### 2. クリエイティブコーディングへ組み込む
 
-ml5.jsはTensorFlow.jsの上に構築され、身体姿勢、手、顔、画像分類、音分類、ニューラルネットワーク訓練などの機能を扱いやすいAPIで提供します。
+ml5.jsはTensorFlow.js上の機能をp5.js文化へ接続し、モデル利用とインタラクション設計の距離を縮めました。Machine Learning for Artistsは、その前後の技術と作品例を学ぶための公開アーカイブです。
 
-### Method / Medium / Approach
+### 3. プロダクション全体をサービス化する
 
-ブラウザ上のJavaScript、TensorFlow.js、事前学習モデル、学習可能なニューラルネットワーク。
+Runwayは初期のモデル実行環境から生成動画・編集プラットフォームへ展開しました。ここではAIが単一の効果ではなく、映像制作の工程、職能、配布、評価制度へ入り込みます。
 
-### Historical or Research Context
+## 代表ツール
 
-Processing、p5.js、creative coding、教育用AIリテラシーの流れに接続します。
+### ml5.js
 
-### Limitations / Open Questions
+<p class="item-meta">2018- ・ ソフトウェア ・ 重要 ・ 確信度: 高</p>
 
-簡単に使えることは重要ですが、モデルやデータセットの偏り、誤認識、プライバシー、アクセシビリティの説明も必要です。
+> **要点:** 機械学習を専門家のモデル開発から、ブラウザ上で試せるクリエイティブコーディングの素材へ近づけました。
 
-### Related Items
+**内容。** NYU ITP / IMAなどのコミュニティが開発し、身体姿勢、手、顔、画像・音分類、ニューラルネットワーク訓練を扱いやすいJavaScript APIで提供します。
 
-Teachable Machine、Wekinator、ml4a。
+**読みどころ。** p5.js、Processing、教育、ワークショップの文化と機械学習が接続する過程を見られます。
 
-## Teachable Machine
+**注意。** 使いやすいAPIの背後にも、事前学習データの偏り、誤認識、カメラ・音声のプライバシー、アクセシビリティの問題があります。
 
-- Type: software
-- Creator / Author: Google
-- Year: 2017-
-- Context / Venue: No-code ML training/prototyping tool
-- Links: https://teachablemachine.withgoogle.com/
-- Category: 制作ツール、教育、プラットフォーム
-- Importance: Important
-- Confidence: High
+**資料:** [ml5.js公式サイト](https://ml5js.org/)
 
-### Why It Matters
+**関連:** Teachable Machine、Wekinator、ml4a
 
-Teachable Machineは、画像、音声、ポーズの分類器をコードなしで作れるため、学校教育、ワークショップ、プロトタイピング、アート実験に広く使われます。
+### Teachable Machine
 
-### Description
+<p class="item-meta">2017- ・ ソフトウェア／教育ツール ・ 重要 ・ 確信度: 高</p>
 
-ブラウザ上でサンプルを集め、クラスを定義し、簡易モデルを訓練して、Webや外部ツールへ組み込めます。
+> **要点:** 画像、音声、ポーズの分類器をコードなしで作り、「機械に教える」体験を授業や試作へ開きました。
 
-### Method / Medium / Approach
+**内容。** ブラウザ上でサンプルを集め、クラスを定義し、簡易モデルを訓練してウェブや外部ツールへ組み込めます。
 
-ノーコード学習、画像/音声/ポーズ分類、ブラウザベースのインターフェース。
+**読みどころ。** AIリテラシーを説明だけでなく、データ収集、誤分類、再訓練の反復として経験できます。
 
-### Historical or Research Context
+**注意。** 分類できない創作的問題を無理にクラスへ分けないこと、収集データが誰を代表するかを検討することが必要です。
 
-「機械に教える」体験を一般化し、AIリテラシーを創作活動に接続します。
+**資料:** [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
-### Limitations / Open Questions
+**関連:** ml5.js、Wekinator、Machine Teaching
 
-モデルがなぜ間違うのか、学習データが誰を代表しているのか、分類タスクにできない創作的問題をどう扱うかが課題です。
+### Machine Learning for Artists
 
-### Related Items
+<p class="item-meta">2016- ・ 教育プロジェクト／アーカイブ ・ 重要 ・ 確信度: 高</p>
 
-ml5.js、Wekinator、Machine Teaching。
+> **要点:** 深層学習が制作へ入り始めた時期に、コード、講義、デモ、概念説明をまとめた重要な公開教育資源です。
 
-## Machine Learning for Artists
+**内容。** Gene Koganらによるオンラインブック、ガイド、インタラクティブデモ、講義動画からなるリソース集で、現在はアーカイブとして残されています。
 
-- Type: project / educational archive
-- Creator / Author: Gene Kogan and contributors
-- Year: 2016-
-- Context / Venue: Free educational resources
-- Links: https://ml4a.github.io/
-- Category: 制作ツール、教育、プラットフォーム
-- Importance: Important
-- Confidence: High
+**読みどころ。** DeepDream、スタイル変換、GANの時代に、作家がどの技術をどの順序で学んだかをたどれます。
 
-### Why It Matters
+**注意。** 一部の技術情報は古いため、現行モデル、ソフトウェア環境、ライセンス、倫理的論点と照合して読む必要があります。
 
-ml4aは、深層学習がアーティストの制作に入り始めた時期に、コード、講義、デモ、概念説明をまとめた重要な教育資源でした。
+**資料:** [Machine Learning for Artists](https://ml4a.github.io/)
 
-### Description
+**関連:** ml5.js、Magenta、Runway
 
-オンラインブック、ガイド、インタラクティブデモ、講義動画などからなるリソース集です。現在のサイトはアーカイブとして残されています。
+### Runway
 
-### Method / Medium / Approach
+<p class="item-meta">2018- ・ 商用ソフトウェア／プラットフォーム ・ 重要 ・ 確信度: 高</p>
 
-教育資料、サンプルコード、デモ、コミュニティ学習。
+> **要点:** 機械学習を映像制作、広告、映画、ポストプロダクションの実務へ接続した代表的プラットフォームです。
 
-### Historical or Research Context
+**内容。** 初期には非エンジニア向けのモデル実行環境として注目され、その後は生成動画、画像・動画編集、APIを含む制作サービスへ展開しました。
 
-DeepDream、スタイル変換、GANの時代に、作家が機械学習を学ぶための入口になりました。
+**読みどころ。** Stable Diffusionの共同開発文脈やAI Film Festivalなど、技術、商用制作、評価制度が同時に形成される過程を確認できます。
 
-### Limitations / Open Questions
+**注意。** 商用サービスでは、訓練データ、ライセンス、価格、保存、モデル更新、映像産業の労働への影響が見えにくくなりやすいです。
 
-一部の技術情報は古くなっているため、現行モデルやライセンス、倫理的論点と組み合わせて読む必要があります。
+**資料:** [Runway公式サイト](https://runwayml.com/)
 
-### Related Items
+**関連:** Stable Diffusion、DALL-E、AI Film Festival、C2PA
 
-ml5.js、Magenta、Runway。
+## 横断して考える問い
 
-## Runway
+- 初心者向けツールは、どこまでモデルの限界やデータの由来を説明すべきか。
+- 古いコードやウェブデモを、技術史資料としてどう保存し、再実行可能にするか。
+- 商用プラットフォームの更新で制作手順が失われるとき、作品を何として保存するか。
 
-- Type: software / platform
-- Creator / Author: Runway AI, Inc.
-- Year: 2018-
-- Context / Venue: Generative video and creative AI production platform
-- Links: https://runwayml.com/
-- Category: 制作ツール、教育、プラットフォーム
-- Importance: Important
-- Confidence: High
+## 次に読む
 
-### Why It Matters
-
-Runwayは、機械学習を映像制作、広告、映画、ポストプロダクションの実務へ接続した代表的プラットフォームです。AIアートが作品展示だけでなく、産業的ワークフローへ組み込まれる過程を示します。
-
-### Description
-
-初期には非エンジニア向けの機械学習モデル実行環境として注目され、その後は生成動画やワールドモデルを中心に展開しています。
-
-### Method / Medium / Approach
-
-生成動画、画像/動画編集、モデルAPI、クリエイティブ制作ワークフロー。
-
-### Historical or Research Context
-
-Stable Diffusionの共同開発文脈や、AI Film Festivalなどの制度形成とも関係します。
-
-### Limitations / Open Questions
-
-商用プラットフォームでは、訓練データ、ライセンス、制作労働、映像産業への影響が不透明になりやすいです。
-
-### Related Items
-
-Stable Diffusion、DALL-E、AI Film Festival、C2PA。
-
-## 境界領域
-
-制作ツールは、作家を支援する一方で、商業制作の自動化、労働代替、出力の均質化、権利不明な素材の再利用にもつながります。ツールの評価では、生成品質だけでなく、誰が使えるのか、誰のデータで動くのか、誰が利益を得るのかを問う必要があります。
+- [音楽、パフォーマンス、インタラクティブ機械学習]({{ '/ja/topics/music-performance-interactive-ml/' | relative_url }}) - 道具を実演で訓練する方法
+- [ニューラル画像生成]({{ '/ja/topics/neural-image-generation/' | relative_url }}) - ツールが包み込むモデルの系譜
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 利用規約、労働、透明性

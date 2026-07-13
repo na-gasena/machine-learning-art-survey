@@ -2,117 +2,123 @@
 layout: default
 title: Datasets, Art History, and Machine Vision
 permalink: /en/topics/datasets-art-history-machine-vision/
+lang: en
 ---
+
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Datasets and Resources]({{ '/en/resources/datasets-and-resources/' | relative_url }})
 
 # Datasets, Art History, and Machine Vision
 
-## Position
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-In machine learning art, datasets are not neutral material. They are institutions of classification, collection, rights, labor, bias, and historical imagination.
+A dataset for machine-learning art is not a neutral storehouse of images. It embeds decisions about what counts as art, whose work is collected, how style and emotion are named, and under which rights images are used. Reading a model's outputs therefore requires attention to collection paths, taxonomies, annotators, omissions, and versions, not only scale.
+</div>
 
-## Item Notes
+## Three Points to Keep in Mind
 
-## ImageNet
+- **Classification builds a worldview.** ImageNet categories and WikiArt style labels shape what a model is able to distinguish.
+- **Scale and specialization are different axes.** Web-scale image-text pairs and art-specific datasets serve different purposes and create different risks.
+- **Datasets have histories.** Distribution can stop, labels can change, image URLs can vanish, and licenses can be revised.
 
-- Type: dataset
-- Creator / Author: Jia Deng et al.; Li Fei-Fei and collaborators
-- Year: 2009
-- Context / Venue: Large-scale visual recognition
-- Links: https://www.image-net.org/
-- Category: Datasets, Art History, and Machine Vision
-- Importance: Foundational
-- Confidence: High
+## At a Glance
 
-### Why It Matters
+| Dataset/resource | Main content | Typical use | Critical issue |
+|---|---|---|---|
+| ImageNet | General objects and people categories | Recognition and feature learning | WordNet taxonomy, person labels, image URLs |
+| WikiArt | Artworks with style and genre metadata | Style classification and art generation | Geographic and period bias, rights, metadata |
+| BAM / ArtBench | Artistic attributes and genre classes | Attribute learning and model evaluation | Label design and benchmark effects |
+| LAION-5B | Web-derived image-text pairs | Large multimodal training | Consent, privacy, harmful content, versions |
+| ArtEmis | Emotions and explanations attached to artworks | Affect modeling and language generation | Annotation culture and artwork rights |
 
-ImageNet helped drive the rise of deep learning for visual recognition. It also became a target of critical artworks about classification vocabularies, person categories, and bias.
+## Reading the Data Pipeline
 
-### Description
+### 1. General-purpose recognition becomes an artistic substrate
 
-ImageNet is a large dataset of image URLs and labels that accelerated image-recognition research through the ImageNet Large Scale Visual Recognition Challenge.
+ImageNet accelerated visual recognition, and its learned representations were reused in DeepDream and style transfer. Its taxonomy and person labels also became subjects of works such as ImageNet Roulette.
 
-### Method / Medium / Approach
+### 2. Art history becomes machine-readable labels
 
-Image collection, crowdsourcing, WordNet-derived categories, classification benchmarks.
+WikiArt, BAM, and ArtBench turn artist, style, genre, and visual attributes into learning targets. They support comparison while compressing disagreement and regional difference into fixed classes.
 
-### Historical or Research Context
+### 3. Web scale meets the language of viewers
 
-It connects both to the post-AlexNet deep learning boom and to dataset critique such as ImageNet Roulette.
+LAION-5B supports large-scale learning of image-text relations. ArtEmis instead records emotional responses and explanations attached to art. Scale is the central issue for one; the meaning and cultural specificity of annotation for the other.
 
-### Limitations / Open Questions
+## Key Datasets
 
-Issues around person categories and labels changed over time. Historical claims need date-specific framing.
+### ImageNet
 
-### Related Items
+<p class="item-meta">2009 · dataset · Foundational · Confidence: High</p>
 
-ImageNet Roulette, DeepDream, LAION-5B.
+> **Key point:** ImageNet helped transform visual recognition while also becoming a central case for criticism of classification and bias.
 
-## WikiArt
+**What it contains.** Created by Jia Deng, Li Fei-Fei, and collaborators, it links large numbers of image URLs to WordNet-derived categories and supported the ImageNet Large Scale Visual Recognition Challenge.
 
-- Type: dataset / online art encyclopedia
-- Creator / Author: WikiArt community
-- Year: 2010-
-- Context / Venue: Art-image data source for ML research
-- Links: https://www.wikiart.org/
-- Category: Datasets, Art History, and Machine Vision
-- Importance: Important
-- Confidence: High
+**How to read it.** Reading AlexNet-era recognition, DeepDream, and ImageNet Roulette from the same data infrastructure shows that technical impact and social classification are intertwined.
 
-### Why It Matters
+**Caution.** Person categories and labels were later reviewed. Initial releases, the period of criticism, and current access should be distinguished.
 
-WikiArt has served as a practical data source for style classification, CAN, ArtGAN, GAN portraits, and many art-image studies.
+**Source:** [ImageNet](https://www.image-net.org/)
 
-### Description
+**Related:** ImageNet Roulette, DeepDream, LAION-5B
 
-It is an online encyclopedia of artwork images and metadata; researchers often create derived datasets from it.
+### WikiArt
 
-### Method / Medium / Approach
+<p class="item-meta">2010- · online art encyclopedia/data source · Important · Confidence: High</p>
 
-Artwork images and metadata about artists, styles, genres, and periods.
+> **Key point:** A widely used source for style classification, CAN, ArtGAN, and related research that connects art-historical categories to machine learning.
 
-### Historical or Research Context
+**What it contains.** Artwork images and metadata such as artist, style, genre, and period; researchers often construct derivative datasets from it.
 
-It supports both machine art-history analysis and artwork generation.
+**How to read it.** WikiArt makes it possible to ask whose art history becomes the standard when style is converted into a prediction or generation label.
 
-### Limitations / Open Questions
+**Caution.** Rights, metadata quality, duplication, and geographic or period bias must be checked for each derivative dataset.
 
-Image rights, metadata quality, and regional/period bias require careful checking.
+**Source:** [WikiArt](https://www.wikiart.org/)
 
-### Related Items
+**Related:** CAN, ArtGAN, Edmond de Belamy
 
-CAN, ArtGAN, Edmond de Belamy.
+### LAION-5B
 
-## LAION-5B and ArtEmis
+<p class="item-meta">2022 · dataset · Foundational · Confidence: High</p>
 
-- Type: datasets
-- Creator / Author: LAION; Panos Achlioptas et al.
-- Year: 2021-2022
-- Context / Venue: Image-text scale and affective art-language dataset
-- Links: https://arxiv.org/abs/2210.08402 / https://www.artemisdataset.org/
-- Category: Datasets, Art History, and Machine Vision
-- Importance: Foundational / Contextual
-- Confidence: High
+> **Key point:** A major infrastructure for image-text models and a focal point for debates over consent, privacy, harmful content, and provenance.
 
-### Why It Matters
+**What it contains.** Web-derived image-text pairs filtered with CLIP similarity, associated with the training context of models including Stable Diffusion.
 
-LAION-5B is important for large-scale image-text generation, but it is also central to debates over consent, privacy, and harmful content. ArtEmis shows a different dataset logic: affective response and language around artworks.
+**How to read it.** It is better understood as an infrastructure of URLs, text, similarity, and filtering than as a single curated image archive.
 
-### Description
+**Caution.** Access, versions, and removal processes change. The dataset name alone does not establish the present contents or the training set of a specific model.
 
-LAION-5B consists of CLIP-filtered image-text pairs at web scale. ArtEmis links artworks to emotion labels and explanatory language.
+**Source:** [LAION-5B paper](https://arxiv.org/abs/2210.08402)
 
-### Method / Medium / Approach
+**Related:** Stable Diffusion, Glaze, C2PA
 
-Web-scale data collection, multimodal learning, affective annotation.
+### ArtEmis
 
-### Historical or Research Context
+<p class="item-meta">2021 · dataset · Contextual · Confidence: High</p>
 
-Together they show both the 2020s generative AI data regime and ML research on art perception.
+> **Key point:** A dataset that joins artworks to viewer emotion labels and explanations, turning reception rather than only visual content into data.
 
-### Limitations / Open Questions
+**What it contains.** Emotional responses to artworks and written explanations used for affect prediction and explanatory language generation.
 
-LAION-5B remains a central data-ethics case. ArtEmis also requires attention to annotation culture and artwork rights.
+**How to read it.** It models how people feel and speak about art, not simply what an image depicts.
 
-### Related Items
+**Caution.** Emotions and explanations depend on annotators' languages, cultures, and situations; they should not be treated as universal aesthetic responses.
 
-Stable Diffusion, Foregrounding Artist Opinions, C2PA.
+**Source:** [ArtEmis](https://www.artemisdataset.org/)
+
+**Related:** WikiArt, Foregrounding Artist Opinions, ArtBench
+
+## Questions Across the Topic
+
+- How can missing regions, periods, media, and communities be described as outcomes of collecting history rather than as simple absences?
+- What becomes comparable, and what disappears, when contested art-historical concepts become fixed labels?
+- How should deletion requests and license changes propagate through datasets after release?
+
+## Read Next
+
+- [Neural Image Generation]({{ '/en/topics/neural-image-generation/' | relative_url }}) - how data becomes generated imagery
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - consent, protection, and provenance
+- [Regional, Cultural, and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }}) - responses to missing memories and regional representation

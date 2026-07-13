@@ -54,7 +54,7 @@ This category includes Wekinator, ml5.js, Teachable Machine, ml4a, Magenta, and 
 
 Representative items: Wekinator, ml5.js, Teachable Machine, ml4a, Magenta, Runway.
 
-### 8. Global and Critical Practices
+### 8. Regional, Cultural, and Critical Practices
 
 This category covers practices easily missed by an Anglophone image-generation history. Stephanie Dinkins, Miao Ying, Naoko Tosa, Nao Tokui, Jake Elwes, Lauren Lee McCarthy, Sofia Crespo, Minne Atairu, Linda Dounia Rebeiz, Niceaunties, and Ouchhh Studio treat AI as a question of community, language, gender, family history, platform culture, public space, colonial archives, and performance.
 
@@ -62,7 +62,7 @@ Representative items: Not the Only One, Conversations with Bina48, LAUREN, The Z
 
 ## Relations Between Categories
 
-Historical AI art is a prehistory of the current question of whether machines create. Neural image generation expands artistic production, but it depends on datasets and compute. Music and performance practices often treat models as live interfaces rather than output engines. Creative tools turn research into environments that artists and students can use. Global and critical practices challenge universalist stories of AI by foregrounding region, language, community, and bodies. Critique, rights, and provenance cut across every category as conditions of practice.
+Historical AI art is a prehistory of the current question of whether machines create. Neural image generation expands artistic production, but it depends on datasets and compute. Music and performance practices often treat models as live interfaces rather than output engines. Creative tools turn research into environments that artists and students can use. Regional, cultural, and critical practices challenge universalist stories of AI by foregrounding region, language, community, and bodies. Critique, rights, and provenance cut across every category as conditions of practice.
 
 ## Boundary Areas
 

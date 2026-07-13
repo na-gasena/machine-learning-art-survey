@@ -50,5 +50,5 @@ The survey separates facts from interpretation and avoids treating weakly verifi
 - [English: Critique, Rights, Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }})
 - [日本語: 制作ツール、教育、プラットフォーム]({{ '/ja/topics/creative-tools-platforms/' | relative_url }})
 - [English: Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }})
-- [日本語: 非英語圏・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
-- [English: Global and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})
+- [日本語: 地域・文化・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
+- [English: Regional, Cultural, and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})

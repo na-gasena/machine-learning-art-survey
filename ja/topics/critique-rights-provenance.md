@@ -2,152 +2,123 @@
 layout: default
 title: 批評、権利、来歴、制度
 permalink: /ja/topics/critique-rights-provenance/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [未解決問題]({{ '/ja/open-questions/' | relative_url }})
 
 # 批評、権利、来歴、制度
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-機械学習を使う創作では、技術的に可能なことと、社会的に許容されることは一致しません。データセットの同意、作家の労働、スタイル模倣、著作権、生成物の来歴表示、プラットフォーム流通は、作品内容と同じくらい重要な条件です。
+機械学習を使う創作では、技術的に可能なことと社会的に許容されることは一致しません。訓練データの同意、作家の労働、スタイル模倣、著作権、生成物の来歴表示は、完成作品の外側にある付記ではなく制作条件そのものです。ただし、批評作品、作家調査、防御ツール、技術標準、法律は異なる問題を扱うため、一つの解決策にまとめないことが重要です。
+</div>
 
-## Item Notes
+## まず押さえる3点
 
-## ImageNet Roulette
+- **問題は「AI生成か否か」だけではありません。** データの取得、モデル訓練、出力の選択・編集、公開、再利用の各段階に別の権利と責任があります。
+- **技術的対策と制度的対策は補完関係です。** Glazeはスタイル模倣への抵抗、C2PAは来歴記録を試みますが、同意や補償を単独で保証しません。
+- **法域と時点を明記する必要があります。** 著作権判断、規制、標準、サービス規約は変化し、国や地域によって異なります。
 
-- Type: artwork / critical project
-- Creator / Author: Trevor Paglen, Kate Crawford
-- Year: 2019
-- Context / Venue: Dataset critique; Training Humans / Excavating AI context
-- Links: https://excavating.ai/
-- Category: 批評、権利、来歴、制度
-- Importance: Important
-- Confidence: Medium
+## 論点と対応の地図
 
-### Why It Matters
+| 問題 | 問い | 主な応答 | 限界 |
+|---|---|---|---|
+| 分類と偏り | ラベルは誰をどう表象するか | ImageNet Rouletteなどの批評 | 批評自体の同意・事実関係も検証が必要 |
+| 作家の声と労働 | 何を有用・脅威と感じるか | Foregrounding Artist Opinions | 回答者の地域・職能の偏り |
+| 無断のスタイル学習 | 公開作品をどう保護するか | Glazeなどの対抗技術 | モデル更新や回避手法との競争 |
+| 出自と編集履歴 | 生成・編集をどう追跡するか | C2PA | メタデータ削除、導入率、真正性との混同 |
+| 著作権 | 人間の創作的寄与をどう判断するか | 著作権局・裁判所・政策 | 法域差、個別判断、継続的変化 |
 
-ImageNet Rouletteは、機械学習データセットの分類語彙が社会的・政治的な力を持つことを、一般の観客に強く示しました。
+## 問題設定の流れ
 
-### Description
+### 1. データセットの分類を可視化する
 
-人物画像を分類器にかけ、ImageNet由来の人物カテゴリを表示することで、機械視覚のラベル付けがいかに問題を含みうるかを示しました。
+ImageNet Rouletteは、画像分類のラベルが中立的な説明ではなく、人を位置づける政治的な装置であることを一般の観客へ示しました。同時に、批評的展示も使用画像、同意、歴史説明について検証されなければなりません。
 
-### Method / Medium / Approach
+### 2. 作家を議論の対象ではなく主体として扱う
 
-顔画像アップロード、分類器、データセット批評、展示とウェブ体験。
+生成AIをめぐる議論では、作家が一枚岩の賛成・反対集団として描かれがちです。Foregrounding Artist Opinionsは、透明性、所有、補償、ツールの有用性と脅威に関する回答を体系的に収集しました。
 
-### Historical or Research Context
+### 3. 保護、来歴、著作権を分けて考える
 
-AI Now Institute周辺の批判的AI研究、監視研究、データセット研究と接続します。
+Glazeは訓練時のスタイル模倣へ技術的に抵抗します。C2PAはメディアの来歴を記録します。著作権制度は人間の創作的寄与を評価します。対象とする段階が違うため、どれか一つを包括的な「AI作品の証明」とみなすことはできません。
 
-### Limitations / Open Questions
+## 代表事例と制度
 
-Michael J. Lyonsによる批判など、展示・論文の事実関係や同意をめぐる論争があります。したがって、批評的意義と批判点を併記する必要があります。
+### ImageNet Roulette
 
-### Related Items
+<p class="item-meta">2019 ・ 作品／批評プロジェクト ・ 重要 ・ 確信度: 中</p>
 
-ImageNet、LAION-5B、C2PA。
+> **要点:** 機械学習データセットの分類語彙が社会的・政治的な力を持つことを、ウェブ体験と展示を通じて可視化しました。
 
-## Foregrounding Artist Opinions
+**内容。** Trevor PaglenとKate Crawfordによるプロジェクトで、人物画像を分類器にかけ、ImageNet由来の人物カテゴリを表示しました。*Training Humans*、*Excavating AI*の文脈と関係します。
 
-- Type: paper
-- Creator / Author: Juniper Lovato et al.
-- Year: 2024
-- Context / Venue: Survey of artists and generative AI
-- Links: https://arxiv.org/abs/2401.15497
-- Category: 批評、権利、来歴、制度
-- Importance: Important
-- Confidence: High
+**読みどころ。** データセットのラベル付けを技術的前処理ではなく、誰がどう見られるかを決める文化的行為として扱います。
 
-### Why It Matters
+**注意。** Michael J. Lyonsによる批判など、展示・論文の事実関係や画像利用の同意をめぐる論争があります。批評的意義と批判点を併記します。
 
-生成AIをめぐる議論で、作家自身の意見、恐れ、期待、要求を体系的に扱う資料です。
+**資料:** [Excavating AI](https://excavating.ai/)
 
-### Description
+**関連:** ImageNet、LAION-5B、データセット批評
 
-459人の作家を対象に、透明性、所有、補償、AIツールの有用性と脅威について調査しています。
+### Foregrounding Artist Opinions
 
-### Method / Medium / Approach
+<p class="item-meta">2024 ・ 論文／作家調査 ・ 重要 ・ 確信度: 高</p>
 
-サーベイ調査、アーティスト・スタディ、倫理・政策論。
+> **要点:** 生成AIについて語られる作家ではなく、意見、恐れ、期待、要求を持つ当事者として作家を調査した資料です。
 
-### Historical or Research Context
+**内容。** Juniper Lovatoらが459人の作家を対象に、透明性、所有、補償、AIツールの有用性と脅威について調査しました。
 
-Stable Diffusion以後のデータセット論争、作家労働、フェアネス議論と接続します。
+**読みどころ。** Stable Diffusion以後のデータセット論争、作家労働、フェアネスを、具体的な回答分布から検討できます。
 
-### Limitations / Open Questions
+**注意。** 回答者集団の募集経路、地域、職能、制作媒体の偏りを考慮し、全作家の総意として扱わないことが必要です。
 
-回答者集団の偏り、地域差、職能差を考慮する必要があります。
+**資料:** [arXiv](https://arxiv.org/abs/2401.15497)
 
-### Related Items
+**関連:** Glaze、LAION-5B、Copyright and AI
 
-Glaze、LAION-5B、Copyright and AI。
+### Glaze
 
-## Glaze
+<p class="item-meta">2023 ・ ソフトウェア／論文 ・ 新興 ・ 確信度: 高</p>
 
-- Type: software / paper
-- Creator / Author: Shawn Shan et al.
-- Year: 2023
-- Context / Venue: Artist protection against style mimicry
-- Links: https://glaze.cs.uchicago.edu/ / https://arxiv.org/abs/2302.04222
-- Category: 批評、権利、来歴、制度
-- Importance: Emerging
-- Confidence: High
+> **要点:** 作家がオンラインで作品を公開しながら、無断のスタイル模倣に抵抗する技術的手段を提示しました。
 
-### Why It Matters
+**内容。** Shawn Shanらは、人間には目立ちにくい摂動を画像へ加え、テキスト画像生成モデルが学ぶスタイル表現を誤誘導することを目指しました。
 
-Glazeは、作家がオンラインで作品を公開しながら、無断のスタイル模倣に抵抗するための技術的手段を提示しました。
+**読みどころ。** 権利問題への応答が政策運動だけでなく、作家が直接使う防御ツールとして実装された点が重要です。
 
-### Description
+**注意。** 防御効果は対象モデルと攻撃・回避手法の変化に左右されます。恒久的解決ではなく、同意・補償・規制と併せて評価すべきです。
 
-人間には目立ちにくい摂動を画像に加え、テキスト画像生成モデルのスタイル学習を誤誘導することを目指します。
+**資料:** [Glaze公式サイト](https://glaze.cs.uchicago.edu/) ・ [論文](https://arxiv.org/abs/2302.04222)
 
-### Method / Medium / Approach
+**関連:** Foregrounding Artist Opinions、LAION-5B、Stable Diffusion
 
-敵対的摂動、スタイル保護、ユーザー調査、ツール配布。
+### C2PA / Copyright and Artificial Intelligence
 
-### Historical or Research Context
+<p class="item-meta">2021-2025 ・ 標準／政策資料 ・ 重要／新興 ・ 確信度: 高</p>
 
-生成AIの商用化後、作家保護を目的にした対抗技術が重要になりました。
+> **要点:** C2PAはメディアの出自と編集履歴を記録し、著作権政策はAI支援作品における人間の創作的寄与を検討します。
 
-### Limitations / Open Questions
+**内容。** C2PAは暗号署名付きメタデータで来歴を記録する技術標準です。米国著作権局のAI関連報告は、AI支援・生成物の著作権、デジタルレプリカ、訓練などを段階的に整理しています。
 
-敵対的技術は、モデルや防御回避の変化に影響されます。恒久的解決ではなく、制度的対応と併用されるべきです。
+**読みどころ。** 生成物を一律に判定する仕組みではなく、流通時の情報を保持する標準と、個別の人間的寄与を評価する法制度の違いが分かります。
 
-### Related Items
+**注意。** C2PAはメタデータが保持され、検証環境が普及して初めて機能します。著作権判断は法域と事案によって異なり、最新情報の確認が必要です。
 
-Foregrounding Artist Opinions、LAION-5B、Stable Diffusion。
+**資料:** [C2PA](https://c2pa.org/) ・ [U.S. Copyright Office: Copyright and Artificial Intelligence](https://www.copyright.gov/ai/)
 
-## C2PA and Copyrightability Reports
+**関連:** DALL-E、Stable Diffusion、Glaze、Foregrounding Artist Opinions
 
-- Type: standard / policy
-- Creator / Author: C2PA; U.S. Copyright Office
-- Year: 2021-2025
-- Context / Venue: Provenance standard and AI copyright policy
-- Links: https://c2pa.org/ / https://www.copyright.gov/ai/
-- Category: 批評、権利、来歴、制度
-- Importance: Important / Emerging
-- Confidence: High
+## 横断して考える問い
 
-### Why It Matters
+- 同意は収集時の一度の許可か、後から撤回・変更できる継続的関係か。
+- スタイル、声、顔、身体動作のうち、既存の著作権が扱いにくい利益をどう保護するか。
+- 来歴情報があることと、その制作が公正・真正であることをどう区別して伝えるか。
 
-生成AIが普及すると、画像や音声の出自、編集履歴、AI生成表示、人間の創作的寄与をどう扱うかが制度的課題になります。
+## 次に読む
 
-### Description
-
-C2PAはメディアの来歴をメタデータとして記録する標準です。米国著作権局の報告は、AI支援作品の著作権保護に人間の創作的寄与が重要であることを整理します。
-
-### Method / Medium / Approach
-
-暗号署名付きメタデータ、来歴標準、著作権政策。
-
-### Historical or Research Context
-
-AI生成物の流通、ニュース真正性、プラットフォーム表示、アート市場の信頼に関係します。
-
-### Limitations / Open Questions
-
-C2PAはメタデータが保持されなければ機能しません。著作権判断は法域ごとに異なります。
-
-### Related Items
-
-DALL-E、Stable Diffusion、Glaze、Foregrounding Artist Opinions。
+- [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }}) - 問題が組み込まれるデータ基盤
+- [地域・文化・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }}) - 権利・表象・記憶を作品として扱う実践
+- [未解決問題]({{ '/ja/open-questions/' | relative_url }}) - 法、保存、評価、地域偏りの残課題

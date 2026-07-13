@@ -2,152 +2,121 @@
 layout: default
 title: ニューラル画像生成
 permalink: /ja/topics/neural-image-generation/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }})
 
 # ニューラル画像生成
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-2010年代以降、深層学習は画像生成を大きく変えました。DeepDream、ニューラルスタイル変換、GAN、CAN、ArtGAN、拡散モデル、DALL-E、Stable Diffusionは、研究成果であると同時に創作のインターフェース、流通環境、論争の焦点でもあります。
+ニューラル画像生成の歴史は、単純な「画質向上」の物語ではありません。2015年前後には認識ネットワークの内部表現を画像変換へ転用し、2010年代後半にはGANがデータ分布を学ぶ生成を普及させ、2020年代にはテキストと画像を結ぶ拡散モデルが制作インターフェースと流通環境を変えました。各段階で、作品の見た目だけでなく、作者の役割、データセット、アクセス方法、権利問題も変化しています。
+</div>
 
-## Item Notes
+## まず押さえる3点
 
-## DeepDream / Inceptionism
+- **研究手法が、そのまま視覚文化になりました。** DeepDreamやスタイル変換は、可視化・画像処理研究からミーム、アプリ、作品へ広がりました。
+- **生成の仕組みごとに、美学と制約が異なります。** GANの潜在空間、スタイル分類を利用するCAN、言語で操作する拡散モデルを同じ「AI画像」として一括りにしないことが重要です。
+- **2020年代の転換はインターフェースと規模にもあります。** テキスト入力、ウェブサービス、オープンウェイト、巨大画像テキストデータが利用者と論争の範囲を拡大しました。
 
-- Type: software / method
-- Creator / Author: Alexander Mordvintsev, Christopher Olah, Mike Tyka, Google Research
-- Year: 2015
-- Context / Venue: Google Research
-- Links: https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
-- Category: ニューラル画像生成
-- Importance: Foundational
-- Confidence: High
+## 見取り図
 
-### Why It Matters
+| 時期 | 主な操作 | 典型的な入力 | 代表項目 |
+|---|---|---|---|
+| 2015年前後 | 認識ネットワークの特徴を増幅・再結合 | 既存画像、参照様式 | DeepDream、ニューラルスタイル変換 |
+| 2014-2019 | 画像分布や潜在空間を敵対的に学習 | 画像データセット、潜在ベクトル | GAN、CAN、ArtGAN |
+| 2021以降 | 言語と画像を結び、反復的に生成 | テキスト、画像、マスク | DALL-E、Stable Diffusion |
 
-DeepDreamは、ニューラルネットワークの内部表現を可視化する手法が、そのまま新しい視覚文化として流通しうることを示しました。
+## 発展の流れ
 
-### Description
+### 1. 「見る」ネットワークを画像制作へ転用する
 
-画像認識ネットワークが検出した特徴を増幅することで、動物や建築のような形が反復的に浮かび上がる幻視的画像を生みます。
+DeepDreamは分類ネットワークが反応する特徴を増幅し、ネットワークの内部表現を幻視的な画像として可視化しました。ニューラルスタイル変換は、CNNの中間表現を使って「内容」と「様式」を分けて最適化しました。どちらも本来の認識機能を反転させ、機械の見方を創作操作へ変えた事例です。
 
-### Method / Medium / Approach
+### 2. データ分布から新しい画像を作る
 
-CNNの特徴可視化、勾配上昇、画像変換。
+GANは生成器と識別器の競合によって訓練データの分布を学びます。CANは既存の芸術様式に属しながら分類しにくい出力を目指し、ArtGANは美術画像の条件付き生成を扱いました。ここでデータセットの選択と「創造性」の評価方法が制作の中心へ入ります。
 
-### Historical or Research Context
+### 3. 言葉が制作インターフェースになる
 
-解釈可能性研究とAIアートの境界をまたぐ事例です。
+DALL-EやStable Diffusionでは、テキストプロンプトが画像生成への一般的な入口になりました。生成画像の利用は美術から広告、ゲーム、教育、SNSへ広がる一方、訓練データの同意、スタイル模倣、著作権、プラットフォーム依存が前景化しました。
 
-### Limitations / Open Questions
+## 代表事例
 
-作品としての評価は、技術デモ、インターネット文化、作家による使用の区別が必要です。
+### DeepDream / Inceptionism
 
-### Related Items
+<p class="item-meta">2015 ・ 手法／ソフトウェア ・ 基礎的 ・ 確信度: 高</p>
 
-ニューラルスタイル変換、DALL-E、Stable Diffusion。
+> **要点:** ニューラルネットワークの内部表現を可視化する研究手法が、新しい画像表現とインターネット文化へ転じた事例です。
 
-## A Neural Algorithm of Artistic Style
+**内容。** Alexander Mordvintsev、Christopher Olah、Mike Tykaらは、CNNが検出した特徴を勾配上昇で増幅し、動物や建築のような形が反復的に浮かぶ画像を生成しました。
 
-- Type: paper
-- Creator / Author: Leon A. Gatys, Alexander S. Ecker, Matthias Bethge
-- Year: 2015
-- Context / Venue: arXiv / CVPR-era neural style transfer research
-- Links: https://arxiv.org/abs/1508.06576
-- Category: ニューラル画像生成
-- Importance: Foundational
-- Confidence: High
+**読みどころ。** 解釈可能性研究、技術デモ、作家による利用、オンライン上のミームが連続しており、研究成果がどの時点で作品や様式になるのかを考えられます。
 
-### Why It Matters
+**注意。** DeepDreamそのものと、それを利用した個々の作品は区別して評価する必要があります。
 
-画像の「内容」と「様式」をニューラル表現として分離・再結合する考え方を広く普及させました。
+**資料:** [Google Research: Inceptionism](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
 
-### Description
+**関連:** ニューラルスタイル変換、ImageNet、Learning to See
 
-VGG系CNNの中間特徴とGram行列を使い、写真と絵画様式を合成する画像を生成します。
+### A Neural Algorithm of Artistic Style
 
-### Method / Medium / Approach
+<p class="item-meta">2015 ・ 論文／手法 ・ 基礎的 ・ 確信度: 高</p>
 
-畳み込みニューラルネットワーク、特徴表現、最適化。
+> **要点:** 画像の「内容」と「様式」をニューラル表現として分離・再結合する考え方を広く普及させました。
 
-### Historical or Research Context
+**内容。** Leon A. Gatys、Alexander S. Ecker、Matthias Bethgeは、VGG系CNNの中間特徴とGram行列を使い、写真の構成と絵画の統計的特徴を組み合わせる最適化手法を提示しました。
 
-スマートフォンアプリやウェブサービスを通じて、AI画像処理が一般ユーザーに拡散する契機になりました。
+**読みどころ。** スマートフォンアプリやウェブサービスを通じ、AI画像処理が一般利用者へ広がる契機になりました。同時に、美術史上の様式を計算可能な特徴へ還元することの意味を問います。
 
-### Limitations / Open Questions
+**注意。** 統計的な「様式表現」は、文化的・歴史的に形成された美術様式そのものと同一ではありません。
 
-「様式」を統計的特徴として扱うことが、美術史的・文化的な様式理解と同じではない点に注意が必要です。
+**資料:** [arXiv](https://arxiv.org/abs/1508.06576)
 
-### Related Items
+**関連:** DeepDream、WikiArt、CAN
 
-DeepDream、WikiArt、CAN。
+### GAN / CAN / ArtGAN
 
-## GAN / CAN / ArtGAN
+<p class="item-meta">2014-2017 ・ 論文／手法群 ・ 基礎的／重要 ・ 確信度: 高</p>
 
-- Type: papers / methods
-- Creator / Author: Ian Goodfellow et al.; Ahmed Elgammal et al.; Wei Ren Tan et al.
-- Year: 2014-2017
-- Context / Venue: Generative model research and artwork synthesis
-- Links: https://arxiv.org/abs/1406.2661 / https://arxiv.org/abs/1706.07068 / https://arxiv.org/abs/1702.03410
-- Category: ニューラル画像生成
-- Importance: Foundational / Important
-- Confidence: High
+> **要点:** 2010年代後半のAIアートを支えた生成技術と、「既存様式からの逸脱」を計算的創造性へ結びつけた研究群です。
 
-### Why It Matters
+**内容。** GANは生成器と識別器の競合で画像分布を学びます。CANは芸術分布に留まりつつ既存様式へ分類されにくい出力を目指し、ArtGANは美術画像の条件付き生成を扱いました。
 
-GANは、2010年代後半のAIアートを視覚的にも言説的にも支えました。CANは、既存様式からの逸脱を創造性の条件として組み込み、ArtGANは美術画像生成に特化しました。
+**読みどころ。** 技術論文と、Anna Ridler、Mario Klingemann、Obviousなどの作品・市場現象を接続して読むと、モデル、データ、作家の介入、展示制度の役割を分けて考えられます。
 
-### Description
+**注意。** 「創造性」の実験的主張は、データセット、評価者、比較条件に依存します。GAN作品すべてがCANやArtGANを使っているわけでもありません。
 
-GANは生成器と識別器の競合でデータ分布を学習します。CANは芸術分布に留まりつつ既存様式から逸脱するよう設計され、ArtGANは美術画像の条件付き生成を扱いました。
+**資料:** [GAN](https://arxiv.org/abs/1406.2661) ・ [CAN](https://arxiv.org/abs/1706.07068) ・ [ArtGAN](https://arxiv.org/abs/1702.03410)
 
-### Method / Medium / Approach
+**関連:** Mosaic Virus、Edmond de Belamy、Memories of Passersby I
 
-敵対的学習、様式分類、WikiArt系データ、画像生成。
+### DALL-E / Stable Diffusion
 
-### Historical or Research Context
+<p class="item-meta">2021-2022以降 ・ モデル群／ソフトウェア ・ 基礎的 ・ 確信度: 高</p>
 
-Edmond de Belamy、Mario Klingemann、Anna Ridlerなどの実践と接続します。
+> **要点:** テキストを創作インターフェースにし、画像生成を大規模な一般利用と産業的ワークフローへ移したモデル群です。
 
-### Limitations / Open Questions
+**内容。** DALL-Eは自然言語から多様な画像を生成する能力を示しました。Stable Diffusionは潜在拡散と公開モデルを核に、多数の派生ツール、追加学習、ローカル実行を含むエコシステムを形成しました。
 
-人間評価や「創造性」の主張は、実験設定、データセット、評価者の背景に依存します。
+**読みどころ。** 作品だけでなく、プロンプト、モデル提供者、UI、コミュニティ拡張、計算資源、配布ライセンスが制作環境を構成しています。
 
-### Related Items
+**注意。** モデルの版、訓練データ、利用規約、出力の権利は変化します。特定時点の情報とモデル群全体を混同しない確認が必要です。
 
-Mosaic Virus、Edmond de Belamy、Memories of Passersby I。
+**資料:** [OpenAI: DALL-E](https://openai.com/index/dall-e/) ・ [CompVis: Stable Diffusion](https://github.com/CompVis/stable-diffusion)
 
-## DALL-E and Stable Diffusion
+**関連:** LAION-5B、Glaze、C2PA、Foregrounding Artist Opinions
 
-- Type: software / model families
-- Creator / Author: OpenAI; Stability AI, CompVis, Runway
-- Year: 2021-2022
-- Context / Venue: Text-to-image generation
-- Links: https://openai.com/index/dall-e/ / https://github.com/CompVis/stable-diffusion
-- Category: ニューラル画像生成
-- Importance: Foundational
-- Confidence: High
+## 横断して考える問い
 
-### Why It Matters
+- 「様式」を特徴量やプロンプトで扱うとき、美術史的文脈の何が失われるか。
+- モデル、データ、プロンプト、選択・編集のどこに作者性を認めるか。
+- 公開モデルと商用サービスでは、透明性、アクセス、再現性、責任はどう異なるか。
 
-テキストプロンプトを創作インターフェースにし、専門家以外にも画像生成AIを広く開きました。同時に、著作権、同意、スタイル模倣、訓練データの問題を前景化しました。
+## 次に読む
 
-### Description
-
-DALL-Eは自然言語から画像を生成する能力を示し、Stable Diffusionはオープンウェイト系のエコシステムを通じて創作実験を急拡大させました。
-
-### Method / Medium / Approach
-
-Transformer、CLIP、拡散モデル、潜在拡散、プロンプト、コミュニティツール。
-
-### Historical or Research Context
-
-2020年代の生成AIブームの中心にあり、美術、デザイン、広告、ゲーム、教育、SNSに波及しました。
-
-### Limitations / Open Questions
-
-モデルバージョン、訓練データ、ライセンス、出力権利は変化するため、個別に確認が必要です。
-
-### Related Items
-
-LAION-5B、Glaze、C2PA、Foregrounding Artist Opinions。
+- [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }}) - 生成を支える画像収集と分類体系
+- [制作ツール、教育、プラットフォーム]({{ '/ja/topics/creative-tools-platforms/' | relative_url }}) - モデルが制作環境へ組み込まれる過程
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 同意、模倣、著作権、来歴表示

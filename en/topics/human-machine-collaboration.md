@@ -1,118 +1,106 @@
 ---
 layout: default
-title: Human-Machine Collaboration
+title: Human-Machine Collaboration and Embodied Practice
 permalink: /en/topics/human-machine-collaboration/
+lang: en
 ---
 
-# Human-Machine Collaboration
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }})
 
-## Position
+# Human-Machine Collaboration and Embodied Practice
 
-This category treats AI not as a fully autonomous output generator but as collaborator, instrument, voice, bodily extension, or robotic partner.
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-## Item Notes
+In collaborative work, AI appears not as a replacement author but as an apparatus that changes perception, a partner moving in the same space, or a voice held in common. The useful question is not simply "human or AI?" but how data collection, training, bodily action, selection, and governance are distributed.
+</div>
 
-## Learning to See
+## Three Points to Keep in Mind
 
-- Type: artwork / paper
-- Creator / Author: Memo Akten; paper with Rebecca Fiebrink and Mick Grierson
-- Year: 2017 / 2020
-- Context / Venue: Interactive visual instrument
-- Links: https://arxiv.org/abs/2003.00902
-- Category: Human-Machine Collaboration
-- Importance: Important
-- Confidence: High
+- **Collaboration takes distinct forms.** Real-time transformation, shared drawing with a robot, and collective governance of a voice model are not the same relation.
+- **The body does not disappear.** Cameras, sensors, drawn marks, biosignals, and singing embed machine learning in embodied production.
+- **Ownership and consent can become part of the work.** Models of voice or gesture require decisions about authorization, benefit, and responsibility.
 
-### Why It Matters
+## At a Glance
 
-Learning to See turns the abstract fact that machine vision depends on training data into an embodied experience with objects and real-time visual feedback.
+| Mode of collaboration | Human role | Machine role | Key case |
+|---|---|---|---|
+| Perceptual feedback | Manipulate objects and interpret output | Transform camera input through learned representations | Learning to See |
+| Embodied co-performance | Contribute lines, rhythm, and biosignals | Move and draw in the same space | Drawing Operations / D.O.U.G. |
+| Shared voice and identity | Provide a voice and define conditions of use | Transform and reconstitute that voice | Holly+ / PROTO / Spawn |
 
-### Description
+## How the Field Developed
 
-Camera input is transformed through neural representations in real time, showing that machine understanding of the world is built from data.
+### 1. Returning machine perception to the viewer's hands
 
-### Method / Medium / Approach
+Learning to See transforms ordinary camera input into learned visual worlds in real time. Viewers encounter dependence on training data through manipulation rather than explanation alone.
 
-Real-time video, deep learning, interactive visual instrument.
+### 2. Drawing in the same time and space
 
-### Historical or Research Context
+In Sougwen Chung's D.O.U.G. series, human and robot make marks together. The technical composition changes across generations, but the machine remains a partner sharing rhythm rather than a substitute artist.
 
-Like DeepDream and style transfer, it visualizes machine perception, but it centers audience manipulation and training data.
+### 3. Building rights and governance into a voice model
 
-### Limitations / Open Questions
+Spawn, *PROTO*, and Holly+ do not reduce AI voice to imitation. Choral training, digital identity, and authorization of model use enter the structure of the work.
 
-The artwork and paper versions should be read with attention to their specific technical contexts.
+## Key Cases
 
-### Related Items
+### Learning to See
 
-Wekinator, DeepDream, ImageNet.
+<p class="item-meta">2017/2020 · artwork/paper · Important · Confidence: High</p>
 
-## Drawing Operations / D.O.U.G.
+> **Key point:** An interactive work that lets viewers experience how a machine's visual world depends on training data.
 
-- Type: artwork / performance
-- Creator / Author: Sougwen Chung
-- Year: 2015-
-- Context / Venue: Human-robot drawing performance series
-- Links: https://sougwen.com/
-- Category: Human-Machine Collaboration
-- Importance: Important
-- Confidence: High
+**What it did.** Memo Akten's work transforms camera input in real time through learned visual representations. A paper with Rebecca Fiebrink and Mick Grierson discusses it as an interactive visual instrument.
 
-### Why It Matters
+**How to read it.** Like DeepDream and style transfer, it makes machine perception visible, but places viewer action and the relationship to training data at the center.
 
-Chung's work presents AI and robotics not as replacements for the artist but as co-performers sharing bodily rhythm and mark-making.
+**Caution.** The exhibited artwork and research-paper implementation should be distinguished.
 
-### Description
+**Source:** [paper on arXiv](https://arxiv.org/abs/2003.00902)
 
-The D.O.U.G. series connects the artist's drawing data, robotic movement, and sometimes biofeedback so that human and machine draw together in the same space.
+**Related:** Wekinator, DeepDream, ImageNet
 
-### Method / Medium / Approach
+### Drawing Operations / D.O.U.G.
 
-Robotic arms, RNNs, drawing data, performance, biofeedback.
+<p class="item-meta">2015- · artwork/performance · Important · Confidence: High</p>
 
-### Historical or Research Context
+> **Key point:** A continuing series that presents AI and robotics as partners sharing bodily rhythm rather than replacing the artist.
 
-It crosses robotic painting, computer art, bodily performance, and AI collaboration.
+**What it did.** Sougwen Chung combines drawing data, robotic motion, and in some generations biosignals so that human and machine draw in the same space.
 
-### Limitations / Open Questions
+**How to read it.** Robotic painting, computer art, bodily performance, and AI collaboration converge. The timing and motion of response matter as much as the final image.
 
-Each generation has different technical details, so the D.O.U.G. series should not be flattened into one system.
+**Caution.** Each D.O.U.G. generation has a different technical setup; the series should not be described as one fixed system.
 
-### Related Items
+**Source:** [Sougwen Chung](https://sougwen.com/)
 
-AARON, Wekinator, Holly+.
+**Related:** AARON, Wekinator, Holly+
 
-## Holly+ and PROTO / Spawn
+### Holly+ / PROTO / Spawn
 
-- Type: project / music artwork
-- Creator / Author: Holly Herndon, Mat Dryhurst, Jules LaPlace
-- Year: 2019 / 2021
-- Context / Venue: AI voice, album, identity/governance project
-- Links: https://holly.plus/ / https://ars.electronica.art/starts-prize/en/holly/
-- Category: Human-Machine Collaboration
-- Importance: Important
-- Confidence: Medium to High
+<p class="item-meta">2019/2021 onward · music artwork/project · Important · Confidence: Medium-High</p>
 
-### Why It Matters
+> **Key point:** AI voice becomes a problem of ownership, consent, collective governance, and choral training rather than mere mimicry.
 
-Holly+ and Spawn frame AI voice not only as imitation or deepfake but as a question of voice ownership, consent, collective governance, and choral training.
+**What it did.** Spawn joined human voices in the production and performance of *PROTO*. Holly+ models Holly Herndon's voice while making approval and use part of the project.
 
-### Description
+**How to read it.** Voice models, choirs, digital identity, and governance meet around the question of whose voice is heard and under what conditions.
 
-PROTO integrated Spawn into the production and performance process with human voices. Holly+ models Herndon's voice while making usage and approval mechanisms part of the artwork.
+**Caution.** Public documentation does not expose every technical implementation detail, so this survey emphasizes artistic and institutional aspects.
 
-### Method / Medium / Approach
+**Sources:** [Holly+](https://holly.plus/) · [Ars Electronica: Holly+](https://ars.electronica.art/starts-prize/en/holly/)
 
-Voice models, choir, training ceremonies, digital identity, governance.
+**Related:** Magenta, NSynth, Spawning, Foregrounding Artist Opinions
 
-### Historical or Research Context
+## Questions Across the Topic
 
-These works sit at the intersection of music AI, vocal processing, deepfakes, and artist rights.
+- Is unpredictability enough for collaboration, or does collaboration require reciprocal adjustment?
+- Is consent to model a body or voice a one-time permission or an ongoing, revisable relationship?
+- How should data preparation, engineering, and maintenance labor behind visible co-performance be documented?
 
-### Limitations / Open Questions
+## Read Next
 
-Public technical detail is limited, so the survey emphasizes artistic and institutional aspects.
-
-### Related Items
-
-Magenta, NSynth, Spawning, Foregrounding Artist Opinions.
+- [Music, Performance, and Interactive Machine Learning]({{ '/en/topics/music-performance-interactive-ml/' | relative_url }}) - moving between training and performance
+- [History, Symbolic AI, and Computer Art]({{ '/en/topics/history-symbolic-computer-art/' | relative_url }}) - early questions of autonomy and machine drawing
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - consent and governance for voice, body, and style

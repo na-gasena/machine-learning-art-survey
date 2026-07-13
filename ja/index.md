@@ -16,7 +16,7 @@ permalink: /ja/
 
 ## 分野地図
 
-全体像は [分野地図]({{ '/ja/survey-map/' | relative_url }}) にまとめています。主要な分類は、歴史・記号的AI、ニューラル画像生成、音楽とパフォーマンス、人間・機械協働、データセットと機械知覚、批評・権利・来歴です。
+全体像は [分野地図]({{ '/ja/survey-map/' | relative_url }}) にまとめています。主要な分類は、歴史・記号的AI、ニューラル画像生成、音楽とパフォーマンス、人間・機械協働、データセットと機械知覚、批評・権利・来歴、制作ツール、地域・文化・批評的実践です。
 
 ## 主要トピック
 
@@ -27,7 +27,7 @@ permalink: /ja/
 - [データセット、美術史、機械知覚]({{ '/ja/topics/datasets-art-history-machine-vision/' | relative_url }})
 - [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }})
 - [制作ツール、教育、プラットフォーム]({{ '/ja/topics/creative-tools-platforms/' | relative_url }})
-- [非英語圏・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
+- [地域・文化・批評的実践]({{ '/ja/topics/global-critical-practices/' | relative_url }})
 
 ## 主要項目
 

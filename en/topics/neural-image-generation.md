@@ -2,152 +2,121 @@
 layout: default
 title: Neural Image Generation
 permalink: /en/topics/neural-image-generation/
+lang: en
 ---
+
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }})
 
 # Neural Image Generation
 
-## Position
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-Since the 2010s, deep learning has transformed image generation. DeepDream, neural style transfer, GANs, CAN, ArtGAN, diffusion models, DALL-E, and Stable Diffusion are not only research outputs; they are creative interfaces, distribution environments, and sites of dispute.
+The history of neural image generation is not simply a story of improving image quality. Around 2015, artists and researchers repurposed internal representations from recognition networks; later GANs learned image distributions; and in the 2020s diffusion models connected language to image making. Each transition changed not only visual results but also the role of the artist, the importance of datasets, access to tools, and disputes over rights.
+</div>
 
-## Item Notes
+## Three Points to Keep in Mind
 
-## DeepDream / Inceptionism
+- **Research methods became visual culture.** DeepDream and neural style transfer moved from visualization and image-processing research into memes, apps, and artworks.
+- **Different architectures produce different aesthetics and constraints.** GAN latent spaces, CAN's style objective, and language-driven diffusion should not be collapsed into one category of "AI images."
+- **The 2020s transition is also about scale and interface.** Text prompts, web services, open weights, and immense image-text corpora widened both participation and controversy.
 
-- Type: software / method
-- Creator / Author: Alexander Mordvintsev, Christopher Olah, Mike Tyka, Google Research
-- Year: 2015
-- Context / Venue: Google Research
-- Links: https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
-- Category: Neural Image Generation
-- Importance: Foundational
-- Confidence: High
+## At a Glance
 
-### Why It Matters
+| Period | Main operation | Typical input | Key items |
+|---|---|---|---|
+| Around 2015 | Amplify or recombine features in recognition networks | Existing images, reference style | DeepDream, neural style transfer |
+| 2014-2019 | Learn image distributions and latent spaces adversarially | Image datasets, latent vectors | GAN, CAN, ArtGAN |
+| 2021 onward | Connect language and image through iterative generation | Text, images, masks | DALL-E, Stable Diffusion |
 
-DeepDream showed that a neural network visualization method could circulate as a new visual culture.
+## How the Field Developed
 
-### Description
+### 1. Repurposing networks that "see"
 
-It amplifies features detected by image-recognition networks, producing hallucinatory images where animals, textures, and architectural forms recur.
+DeepDream amplified features detected by a classifier, turning internal representations into hallucinatory images. Neural style transfer used intermediate CNN representations to optimize "content" and "style" separately. Both inverted recognition systems into creative operations.
 
-### Method / Medium / Approach
+### 2. Generating from a data distribution
 
-CNN feature visualization, gradient ascent, image transformation.
+GANs trained a generator against a discriminator. CAN pursued outputs that remained within an art distribution while resisting established style categories, and ArtGAN focused on conditional art-image synthesis. Dataset choice and definitions of creativity became central.
 
-### Historical or Research Context
+### 3. Language becomes an interface
 
-It crosses the boundary between interpretability research and AI art.
+DALL-E and Stable Diffusion made text prompting a common entry point. Their use spread across art, advertising, games, education, and social media while foregrounding consent, style imitation, copyright, and platform dependence.
 
-### Limitations / Open Questions
+## Key Cases
 
-It is important to distinguish technical demo, internet culture, and artist-led use.
+### DeepDream / Inceptionism
 
-### Related Items
+<p class="item-meta">2015 · method/software · Foundational · Confidence: High</p>
 
-Neural style transfer, DALL-E, Stable Diffusion.
+> **Key point:** A network-visualization method that became both a new visual idiom and a widely circulated internet phenomenon.
 
-## A Neural Algorithm of Artistic Style
+**What it did.** Alexander Mordvintsev, Christopher Olah, Mike Tyka, and colleagues used gradient ascent to amplify features detected by a CNN, producing repeated animal- and architecture-like forms.
 
-- Type: paper
-- Creator / Author: Leon A. Gatys, Alexander S. Ecker, Matthias Bethge
-- Year: 2015
-- Context / Venue: arXiv / CVPR-era neural style transfer research
-- Links: https://arxiv.org/abs/1508.06576
-- Category: Neural Image Generation
-- Importance: Foundational
-- Confidence: High
+**How to read it.** Interpretability research, technical demonstration, artistic reuse, and meme culture form a continuum. This makes DeepDream useful for asking when a method becomes a medium or style.
 
-### Why It Matters
+**Caution.** The original method and individual artworks made with it require separate evaluation.
 
-It popularized the idea that image content and style could be separated and recombined as neural representations.
+**Source:** [Google Research: Inceptionism](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
 
-### Description
+**Related:** neural style transfer, ImageNet, Learning to See
 
-The method uses intermediate CNN features and Gram matrices to synthesize images that combine photographic content with painterly style.
+### A Neural Algorithm of Artistic Style
 
-### Method / Medium / Approach
+<p class="item-meta">2015 · paper/method · Foundational · Confidence: High</p>
 
-Convolutional neural networks, feature representations, optimization.
+> **Key point:** The paper popularized the idea that image "content" and "style" could be separated and recombined as neural representations.
 
-### Historical or Research Context
+**What it did.** Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge used intermediate features and Gram matrices from a VGG-type CNN to optimize an image combining photographic structure with statistical features of a painting.
 
-It helped bring AI image processing to broad public use through apps and web services.
+**How to read it.** Its spread through mobile apps and web services helped bring AI image processing to a general audience while turning art-historical style into a computational object.
 
-### Limitations / Open Questions
+**Caution.** A statistical style representation is not identical to a culturally and historically formed artistic style.
 
-Statistical "style" is not the same thing as art-historical or cultural style.
+**Source:** [arXiv](https://arxiv.org/abs/1508.06576)
 
-### Related Items
+**Related:** DeepDream, WikiArt, CAN
 
-DeepDream, WikiArt, CAN.
+### GAN / CAN / ArtGAN
 
-## GAN / CAN / ArtGAN
+<p class="item-meta">2014-2017 · papers/methods · Foundational/Important · Confidence: High</p>
 
-- Type: papers / methods
-- Creator / Author: Ian Goodfellow et al.; Ahmed Elgammal et al.; Wei Ren Tan et al.
-- Year: 2014-2017
-- Context / Venue: Generative model research and artwork synthesis
-- Links: https://arxiv.org/abs/1406.2661 / https://arxiv.org/abs/1706.07068 / https://arxiv.org/abs/1702.03410
-- Category: Neural Image Generation
-- Importance: Foundational / Important
-- Confidence: High
+> **Key point:** A group of methods that supported late-2010s AI art and linked deviation from existing styles to computational accounts of creativity.
 
-### Why It Matters
+**What it did.** GAN learns through competition between generator and discriminator. CAN encourages work that fits an art distribution yet resists style classification; ArtGAN addresses conditional synthesis of art images.
 
-GANs visually and discursively shaped much AI art in the late 2010s. CAN framed deviation from existing styles as a condition of creativity, and ArtGAN focused on artwork synthesis.
+**How to read it.** Reading the papers beside work by Anna Ridler, Mario Klingemann, Obvious, and others helps separate model behavior, data selection, artistic intervention, and exhibition context.
 
-### Description
+**Caution.** Claims about creativity depend on datasets, evaluators, and experimental conditions. Not every GAN artwork uses CAN or ArtGAN.
 
-GANs learn through competition between generator and discriminator. CAN encourages outputs that remain within an art distribution while deviating from known styles. ArtGAN addresses conditional generation of artwork images.
+**Sources:** [GAN](https://arxiv.org/abs/1406.2661) · [CAN](https://arxiv.org/abs/1706.07068) · [ArtGAN](https://arxiv.org/abs/1702.03410)
 
-### Method / Medium / Approach
+**Related:** Mosaic Virus, Edmond de Belamy, Memories of Passersby I
 
-Adversarial learning, style classification, WikiArt-derived data, image generation.
+### DALL-E / Stable Diffusion
 
-### Historical or Research Context
+<p class="item-meta">2021-2022 onward · model families/software · Foundational · Confidence: High</p>
 
-These methods connect to Edmond de Belamy, Mario Klingemann, Anna Ridler, and many GAN-era art practices.
+> **Key point:** Model families that made text a creative interface and moved image generation into mass use and production workflows.
 
-### Limitations / Open Questions
+**What it did.** DALL-E demonstrated broad text-to-image generation. Stable Diffusion combined latent diffusion with a comparatively open ecosystem of local execution, fine-tuning, and community tools.
 
-Claims about human evaluation and creativity depend on experimental setup, datasets, and evaluator background.
+**How to read it.** Prompts, providers, interfaces, community extensions, compute, and licenses all shape the creative environment; the model alone is not the whole medium.
 
-### Related Items
+**Caution.** Versions, training data, terms, and output rights change. Claims must be tied to a specific model and date.
 
-Mosaic Virus, Edmond de Belamy, Memories of Passersby I.
+**Sources:** [OpenAI: DALL-E](https://openai.com/index/dall-e/) · [CompVis: Stable Diffusion](https://github.com/CompVis/stable-diffusion)
 
-## DALL-E and Stable Diffusion
+**Related:** LAION-5B, Glaze, C2PA, Foregrounding Artist Opinions
 
-- Type: software / model families
-- Creator / Author: OpenAI; Stability AI, CompVis, Runway
-- Year: 2021-2022
-- Context / Venue: Text-to-image generation
-- Links: https://openai.com/index/dall-e/ / https://github.com/CompVis/stable-diffusion
-- Category: Neural Image Generation
-- Importance: Foundational
-- Confidence: High
+## Questions Across the Topic
 
-### Why It Matters
+- What art-historical context is lost when style becomes a feature representation or prompt?
+- Where should authorship be located among model, data, prompting, selection, and editing?
+- How do open models and commercial services differ in transparency, access, reproducibility, and responsibility?
 
-They made text prompts a broad creative interface and opened image generation to non-specialists. They also foregrounded copyright, consent, style mimicry, and training-data disputes.
+## Read Next
 
-### Description
-
-DALL-E demonstrated natural-language image generation, while Stable Diffusion expanded creative experimentation through open-weight model ecosystems and community tools.
-
-### Method / Medium / Approach
-
-Transformers, CLIP, diffusion models, latent diffusion, prompts, community tooling.
-
-### Historical or Research Context
-
-They sit at the center of the 2020s generative AI boom and affect art, design, advertising, games, education, and social media.
-
-### Limitations / Open Questions
-
-Model versions, training data, licenses, and output rights change and require version-specific verification.
-
-### Related Items
-
-LAION-5B, Glaze, C2PA, Foregrounding Artist Opinions.
+- [Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }}) - collecting and classifying the images behind generation
+- [Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }}) - how models become working environments
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - consent, imitation, copyright, and provenance

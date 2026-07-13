@@ -2,117 +2,105 @@
 layout: default
 title: 人間・機械協働と身体的実践
 permalink: /ja/topics/human-machine-collaboration/
+lang: ja
 ---
+
+[← 分野地図]({{ '/ja/survey-map/' | relative_url }}) ・ [作品・アーカイブ]({{ '/ja/resources/works-archive/' | relative_url }})
 
 # 人間・機械協働と身体的実践
 
-## 位置づけ
+<div class="topic-lead" markdown="1">
+## このページの結論
 
-このカテゴリでは、AIを完全自律的な生成器としてではなく、共同制作者、楽器、声、身体の拡張、ロボットの相手として扱う作品を見ます。
+人間・機械協働を扱う作品では、AIは作者を置き換える自律生成器ではなく、見方を変える装置、同じ場で動く相手、共有される声として現れます。重要なのは「人間かAIか」という二者択一ではなく、データ収集、訓練、身体操作、選択、統治が誰にどう分配されているかを見ることです。
+</div>
 
-## Item Notes
+## まず押さえる3点
 
-## Learning to See
+- **協働には複数の形があります。** 観客とのリアルタイム変換、ロボットとの共同描画、声モデルの共同管理は同じ関係ではありません。
+- **身体は消えません。** センサー、カメラ、描線、生体信号、歌唱などを通して、機械学習は身体的な制作へ組み込まれます。
+- **所有と同意も作品の一部になります。** 声や身振りを学ぶモデルでは、誰が使用を認め、利益や責任を分けるかが表現内容と切り離せません。
 
-- Type: artwork / paper
-- Creator / Author: Memo Akten; paper with Rebecca Fiebrink and Mick Grierson
-- Year: 2017 / 2020
-- Context / Venue: Interactive visual instrument
-- Links: https://arxiv.org/abs/2003.00902
-- Category: 人間・機械協働と身体的実践
-- Importance: Important
-- Confidence: High
+## 見取り図
 
-### Why It Matters
+| 協働の型 | 人間の役割 | 機械の役割 | 代表事例 |
+|---|---|---|---|
+| 知覚の往復 | 物体を動かし、出力を読み替える | カメラ入力を学習表現へ変換する | Learning to See |
+| 身体的な共演 | 線、リズム、生体信号を与える | 同じ場で動き、描線を返す | Drawing Operations / D.O.U.G. |
+| 声と人格の共有 | 声を提供し、使用条件を設計する | 声を変換・再構成する | Holly+ / PROTO / Spawn |
 
-Learning to Seeは、機械が「見る」ことが訓練データに依存しているという抽象的な事実を、観客が手元の物体を通じて体験できる作品にしました。
+## 発展の流れ
 
-### Description
+### 1. 機械の知覚を観客の手元へ戻す
 
-カメラ入力をニューラルネットワークが学習した表象へリアルタイム変換し、世界理解がデータから作られることを示します。
+Learning to Seeは、カメラに映る日用品を学習済み表現へリアルタイム変換します。観客は、機械の「世界」が訓練データに依存することを、説明ではなく操作を通じて経験します。
 
-### Method / Medium / Approach
+### 2. 同じ時間と空間で描く
 
-リアルタイム映像、深層学習、インタラクティブインストゥルメント。
+Sougwen ChungのD.O.U.G.シリーズでは、人間とロボットが同じ場で線を引きます。世代ごとに描線データ、機械学習、生体信号などの構成は変わりますが、機械を作家の代替ではなくリズムを共有する相手として扱う点が一貫しています。
 
-### Historical or Research Context
+### 3. 声のモデルを、権利と統治まで含めて作る
 
-DeepDreamやスタイル変換と同じく機械知覚を可視化しますが、観客の操作と訓練データの関係が中心です。
+Holly HerndonらのSpawn、PROTO、Holly+は、AI音声を技術的な模倣に閉じません。合唱的な訓練、デジタルアイデンティティ、モデル利用の承認を作品の構造へ含めます。
 
-### Limitations / Open Questions
+## 代表事例
 
-技術詳細は作品版と論文版で分けて読む必要があります。
+### Learning to See
 
-### Related Items
+<p class="item-meta">2017／2020 ・ 作品／論文 ・ 重要 ・ 確信度: 高</p>
 
-Wekinator、DeepDream、ImageNet。
+> **要点:** 機械の見方が訓練データによって作られることを、観客が手元の物体で体験できるインタラクティブ作品です。
 
-## Drawing Operations / D.O.U.G.
+**内容。** Memo Aktenの作品では、カメラ入力をニューラルネットワークがリアルタイムに別の視覚表現へ変換します。Rebecca Fiebrink、Mick Griersonとの論文は、この仕組みをインタラクティブな視覚楽器として論じます。
 
-- Type: artwork / performance
-- Creator / Author: Sougwen Chung
-- Year: 2015-
-- Context / Venue: Human-robot drawing performance series
-- Links: https://sougwen.com/
-- Category: 人間・機械協働と身体的実践
-- Importance: Important
-- Confidence: High
+**読みどころ。** DeepDreamやスタイル変換と同じく機械知覚を可視化しますが、観客の操作と訓練データの関係を中心に据えます。
 
-### Why It Matters
+**注意。** 展示された作品版と研究論文の実装・主張を区別して確認する必要があります。
 
-Chungの作品は、AIとロボットを作家の代替ではなく、身体とリズムを共有する共演者として提示します。
+**資料:** [論文: arXiv](https://arxiv.org/abs/2003.00902)
 
-### Description
+**関連:** Wekinator、DeepDream、ImageNet
 
-D.O.U.G.シリーズでは、作家の描線データ、機械の動き、時に生体信号が結びつき、人間と機械が同じ場で線を引きます。
+### Drawing Operations / D.O.U.G.
 
-### Method / Medium / Approach
+<p class="item-meta">2015- ・ 作品／パフォーマンス ・ 重要 ・ 確信度: 高</p>
 
-ロボットアーム、RNN、描画データ、パフォーマンス、バイオフィードバック。
+> **要点:** AIとロボットを作家の代替ではなく、身体とリズムを共有する共演者として提示する継続的シリーズです。
 
-### Historical or Research Context
+**内容。** Sougwen Chungは、作家の描線データ、ロボットアームの動き、世代によっては生体信号を結び、人間と機械が同じ場で線を引くパフォーマンスを展開しています。
 
-ロボット絵画、コンピュータアート、身体パフォーマンス、AI協働論を横断します。
+**読みどころ。** ロボット絵画、コンピュータアート、身体パフォーマンス、AI協働論が一つの制作過程で交差します。最終画像より、応答する時間と動作の関係が重要です。
 
-### Limitations / Open Questions
+**注意。** D.O.U.G.は世代ごとに技術構成が異なります。シリーズ全体を単一のモデルや方式として説明しすぎないことが必要です。
 
-世代ごとに技術構成が異なるため、D.O.U.G.全体を単一システムとして説明しすぎない方がよいです。
+**資料:** [Sougwen Chung公式サイト](https://sougwen.com/)
 
-### Related Items
+**関連:** AARON、Wekinator、Holly+
 
-AARON、Wekinator、Holly+。
+### Holly+ / PROTO / Spawn
 
-## Holly+ and PROTO / Spawn
+<p class="item-meta">2019／2021以降 ・ 音楽作品／プロジェクト ・ 重要 ・ 確信度: 中-高</p>
 
-- Type: project / music artwork
-- Creator / Author: Holly Herndon, Mat Dryhurst, Jules LaPlace
-- Year: 2019 / 2021
-- Context / Venue: AI voice, album, identity/governance project
-- Links: https://holly.plus/ / https://ars.electronica.art/starts-prize/en/holly/
-- Category: 人間・機械協働と身体的実践
-- Importance: Important
-- Confidence: Medium to High
+> **要点:** AI音声を模倣技術ではなく、声の所有、同意、共同統治、合唱的訓練の問題として提示します。
 
-### Why It Matters
+**内容。** *PROTO*ではSpawnが人間の声とともに制作・演奏へ組み込まれました。Holly+ではHolly Herndonの声をモデル化し、その使用や承認の仕組みもプロジェクトの一部にしています。
 
-Holly+とSpawnは、AI音声を単なる模倣やディープフェイクではなく、声の所有、同意、共同統治、合唱的な訓練の問題として提示します。
+**読みどころ。** 音声モデル、合唱、デジタルアイデンティティ、ガバナンスが結びつきます。「誰の声か」という問いを、音の類似だけでなく使用条件から考えられます。
 
-### Description
+**注意。** 公開情報では技術実装の全詳細を確認できないため、芸術的・制度的側面を中心に扱います。
 
-PROTOではSpawnが人間の声とともに制作・演奏のプロセスに組み込まれました。Holly+ではHerndonの声をAIモデル化し、その使用や承認の仕組みも作品の一部になります。
+**資料:** [Holly+](https://holly.plus/) ・ [Ars Electronica: Holly+](https://ars.electronica.art/starts-prize/en/holly/)
 
-### Method / Medium / Approach
+**関連:** Magenta、NSynth、Spawning、Foregrounding Artist Opinions
 
-音声モデル、合唱、訓練儀式、デジタルアイデンティティ、ガバナンス。
+## 横断して考える問い
 
-### Historical or Research Context
+- 協働と呼ぶためには、機械が予測不能であるだけで十分か。それとも相互調整が必要か。
+- 身体データや声をモデル化するとき、同意は一度の許諾か、継続的に変更できる関係か。
+- 展示で見える共演の背後にある、データ整備、エンジニアリング、保守の労働をどう記述するか。
 
-音楽AI、ボーカル処理、ディープフェイク、アーティスト権利の交差点です。
+## 次に読む
 
-### Limitations / Open Questions
-
-技術実装の詳細は公開情報だけでは限られるため、芸術的・制度的側面を中心に扱います。
-
-### Related Items
-
-Magenta、NSynth、Spawning、Foregrounding Artist Opinions。
+- [音楽、パフォーマンス、インタラクティブ機械学習]({{ '/ja/topics/music-performance-interactive-ml/' | relative_url }}) - 訓練と演奏を往復する制作
+- [歴史、記号的AI、コンピュータアート]({{ '/ja/topics/history-symbolic-computer-art/' | relative_url }}) - 自律性と機械的描画の前史
+- [批評、権利、来歴、制度]({{ '/ja/topics/critique-rights-provenance/' | relative_url }}) - 声、身体、スタイルの同意と統治

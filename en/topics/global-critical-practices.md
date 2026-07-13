@@ -1,363 +1,207 @@
 ---
 layout: default
-title: Global and Critical Practices
+title: Regional, Cultural, and Critical Practices
 permalink: /en/topics/global-critical-practices/
+lang: en
 ---
 
-# Global and Critical Practices
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }})
 
-## Position
+# Regional, Cultural, and Critical Practices
 
-Writing AI art history only through Anglophone image-generation models misses many critical practices. This page covers works from Japan, China, African-diasporic AI practice, queer AI, and smart-home critique.
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-## Item Notes
+An AI-art history centered on Anglophone model development and image-generation styles pushes aside practices concerned with family memory, regional data, colonial archives, gender, care, censorship, and urban space. This page does not treat region as a fixed identity category. It asks how each work engages cultural vocabularies, political conditions, communities, and exhibition environments.
+</div>
 
-## Not the Only One
+## Three Points to Keep in Mind
 
-- Type: artwork
-- Creator / Author: Stephanie Dinkins
-- Year: 2018-
-- Context / Venue: Voice-interactive AI memoir
-- Links: https://www.stephaniedinkins.com/ntoo.html
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: High
+- **Small data can be a method, not a deficiency.** Building a family or regional archive can critically respond to omissions in large models.
+- **AI critique does not always use AI.** A work such as LAUREN uses human performance to expose the labor and intimacy hidden by automated services.
+- **The "non-Anglophone world" is not one style.** Chinese platform culture, Benin restitution, Southeast Asian kinship language, and Japanese research practices have distinct histories.
 
-### Why It Matters
+## At a Glance
 
-Not the Only One challenges big-data assumptions by centering family history, oral history, Black women's memory, small data, and data sovereignty.
+| Context | Key case | Central question | Medium/method |
+|---|---|---|---|
+| Black women's family history | Not the Only One | Whose memory enters AI? | Oral history, voice interaction |
+| Smart homes | LAUREN | Whose labor does automation hide? | Performance, surveillance devices |
+| Queer and drag culture | The Zizi Project | How can normative face data be displaced? | GAN, deepfake, video |
+| Chinese internet culture | Surplus Intelligence | How can censorship, governance, and capital be satirized? | GPT-3, game engine |
+| Japanese research and production | Naoko Tosa / Nao Tokui | How do style evaluation and music production connect? | GAN, VAE, psychology, DAW |
+| Southeast Asian kinship culture | Auntieverse | How can aging, care, and domestic work be reimagined? | Generated image/video, social media |
+| Artificial natural history | Sofia Crespo | How can life and classification be reimagined? | Generated imagery, specimen aesthetics |
+| Colonial extraction and restitution | Minne Atairu | How should damaged cultural archives be addressed? | GAN, 3D, education, museum research |
+| Local Senegalese material | Linda Dounia Rebeiz | How can artists collect what large data omits? | Small datasets, GAN, archive |
+| Public space in Mexico City | The Eye of Mexico | Whose space displays urban data? | Urban data, LED, public sculpture |
 
-### Description
+## 1. Voice, Body, and Intimate Infrastructure
 
-The ongoing project builds a voice-interactive AI entity from oral histories of three generations of women in Dinkins' family. Its value lies not only in fluency but in the limits and failures that reveal whose knowledge AI contains.
+These works approach AI through family voices, domestic service, and norms of face and gender rather than through abstract intelligence.
 
-### Method / Medium / Approach
+### Not the Only One
 
-Natural language processing, voice interaction, oral history, local data governance.
+<p class="item-meta">2018- · artwork · Important · Confidence: High</p>
 
-### Historical or Research Context
+> **Key point:** A voice-interactive entity built from three generations of family oral history that foregrounds small data, Black women's memory, and data sovereignty.
 
-It turns AI fairness and representation into an intimate family archive and community practice.
+**What it does and why it matters.** Stephanie Dinkins uses incompleteness and failure, rather than seamless fluency, to ask whose knowledge enters AI. Fairness becomes an intimate family archive rather than only an institutional critique.
 
-### Limitations / Open Questions
+**Caution.** The complete work depends on exhibition and sustained interaction and cannot be reproduced by online documentation alone.
 
-The work depends strongly on exhibition and conversation context; online documentation cannot fully reproduce it.
+**Source:** [artist page](https://www.stephaniedinkins.com/ntoo.html)
 
-### Related Items
+**Related:** Conversations with Bina48, LAUREN, Foregrounding Artist Opinions
 
-Conversations with Bina48, LAUREN, Foregrounding Artist Opinions.
+### LAUREN
 
-## LAUREN
+<p class="item-meta">2017- · artwork/performance · Important · Confidence: High</p>
 
-- Type: artwork / performance
-- Creator / Author: Lauren Lee McCarthy
-- Year: 2017-
-- Context / Venue: Smart-home AI assistant critique
-- Links: https://get-lauren.net/LAUREN
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: High
+> **Key point:** The artist performs as a "human Alexa," exposing labor, surveillance, intimacy, and dependence concealed by smart-home convenience.
 
-### Why It Matters
+**What it does and why it matters.** Lauren Lee McCarthy uses cameras, microphones, speakers, and home controls in participants' houses to perform an assistant service. Automation is reframed as a role and social relation carried by a person.
 
-LAUREN exposes the human labor, surveillance, intimacy, and dependency hidden behind smart-home convenience.
+**Caution.** It is a boundary case: the work performs an AI-like service rather than centrally using machine learning.
 
-### Description
+**Source:** [LAUREN](https://get-lauren.net/LAUREN)
 
-McCarthy performs as a "human Alexa" through cameras, microphones, speakers, and household controls installed in participants' homes.
+**Related:** Agent Ruby, smart homes, AI labor
 
-### Method / Medium / Approach
+### The Zizi Project
 
-Performance, smart devices, network cameras, voice response, domestic space.
+<p class="item-meta">2019- · artwork/project · Important · Confidence: Medium</p>
 
-### Historical or Research Context
+> **Key point:** Drag and queer practice are used to unsettle normative assumptions about faces and gender in face data and GANs.
 
-The work reframes AI automation as a question of performed service, labor, and social relation.
+**What it does and why it matters.** Jake Elwes works with data from drag performers and repurposes GAN and deepfake techniques for queer faces, bodies, and performance. It not only identifies bias but creates representation with a community.
 
-### Limitations / Open Questions
+**Caution.** Individual works and the larger project use different technical arrangements; artist and institutional archives should be read together.
 
-It is a boundary case because it critiques AI-like services partly by replacing automation with human performance.
+**Sources:** [Jake Elwes](https://www.jakeelwes.com/) · [Ars Electronica](https://ars.electronica.art/prix/en/winners/jake-elwes/)
 
-### Related Items
+**Related:** ImageNet Roulette, FFHQ, Glaze
 
-Agent Ruby, C2PA, AI labor.
+## 2. Regional Internet Cultures and Production Environments
 
-## The Zizi Project
+These cases place models within Chinese online culture, Japanese research and music production, and Southeast Asian kinship language rather than treating them as universal tools.
 
-- Type: artwork
-- Creator / Author: Jake Elwes
-- Year: 2019-
-- Context / Venue: Deepfake drag and queer AI
-- Links: https://www.jakeelwes.com/ / https://ars.electronica.art/prix/en/winners/jake-elwes/
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: Medium
+### Miao Ying: Surplus Intelligence
 
-### Why It Matters
+<p class="item-meta">2021-2022 · film/simulation artwork · Important · Confidence: High</p>
 
-The Zizi Project queers normative assumptions about faces, gender, and representation embedded in face datasets and GAN/deepfake systems.
+> **Key point:** AI is read through Chinese internet culture, censorship, behavior scoring, capitalism, and online-fiction genres.
 
-### Description
+**What it does and why it matters.** Miao Ying used GPT-3 to write a film simulated in a game engine. Its fictional Walden XII satirizes algorithmic governance, religious authority, and behavioral control.
 
-Elwes uses drag-performance data to repurpose deep generative models and deepfakes for queer bodies, faces, and performance.
+**Caution.** The work depends on its exhibition and moving-image environment. More Chinese-language criticism remains to be added.
 
-### Method / Medium / Approach
+**Source:** [Miao Ying Studio](https://www.miaoyingstudio.com/)
 
-GANs, deepfakes, dataset intervention, video, performance.
+**Related:** Runway, DALL-E, AI governance
 
-### Historical or Research Context
+### Japanese Cases: Naoko Tosa / Nao Tokui
 
-Unlike ImageNet Roulette or Glaze, it critiques datasets while also making new forms of community representation.
+<p class="item-meta">2020- · research/software/creative practice · Contextual · Confidence: High</p>
 
-### Limitations / Open Questions
+> **Key point:** Two entry points into Japanese AI-art discourse through media art, psychological evaluation, music production, and education.
 
-Artist-site structures change; institutional archives such as Ars Electronica and V&A should be checked alongside the artist site.
+**What it does and why it matters.** Naoko Tosa and collaborators connect GAN style transformation to psychological studies, while Nao Tokui connects VAE rhythm generation to production through a DAW plugin. Together they widen the survey beyond image synthesis.
 
-### Related Items
+**Caution.** These independent practices should not be generalized into a Japanese style. Systematic Japanese-language research across ICC, YCAM, IAMAS, and art universities remains incomplete.
 
-ImageNet Roulette, FFHQ, Glaze.
+**Sources:** [Tosa et al.](https://arxiv.org/abs/2005.02220) · [Tokui](https://arxiv.org/abs/2004.01525)
 
-## Miao Ying: Surplus Intelligence
+**Related:** Wekinator, Magenta, NSynth, ml5.js
 
-- Type: artwork
-- Creator / Author: Miao Ying
-- Year: 2021-2022
-- Context / Venue: AI-written film / game-engine simulation
-- Links: https://www.miaoyingstudio.com/
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: High
+### Niceaunties: Auntieverse
 
-### Why It Matters
+<p class="item-meta">2023- · online artwork/project · Emerging · Confidence: Medium</p>
 
-Miao Ying's work situates AI within Chinese internet culture, censorship, behavioral scoring, capitalism, and online fiction rather than treating it as universal creative technology.
+> **Key point:** The Southeast and East Asian kinship term "auntie" anchors generated worlds about aging, domestic labor, care, and gender norms.
 
-### Description
+**What it does and why it matters.** Motifs including Tupperware, noodles, lunar cooking schools, and ocean plastic combine humor with loneliness, aging, environmental damage, and invisible women's labor. Regional vocabulary and family relations, not a model brand, drive the world-building.
 
-Surplus Intelligence is a GPT-3-written film simulated on a game engine. Its fictional Walden XII world satirizes AI governance, religious authority, and behavioral control.
+**Caution.** The primary archive is social media and is fragile; stable museum and exhibition records are still needed.
 
-### Method / Medium / Approach
+**Sources:** [Instagram](https://www.instagram.com/niceaunties/) · [The Guardian profile](https://www.theguardian.com/world/article/2024/jul/19/auntieverse-art-niceaunties-surreal-fantasy-older-women)
 
-GPT-3, game engine, film, simulation, internet-culture critique.
+**Related:** Miao Ying, LAUREN, Runway, The Zizi Project
 
-### Historical or Research Context
+## 3. Natural History, Regional Archives, and Restitution
 
-It requires reading AI art through Chinese platform culture and political imagination as well as Anglophone AI art discourse.
+These practices treat generation as an archival method for life classification, colonial extraction, and regional absence rather than simply as a futuristic visual effect.
 
-### Limitations / Open Questions
+### Sofia Crespo: Neural Zoo / Artificial Natural History
 
-The work depends on exhibition/video context. More Chinese-language criticism should be added.
+<p class="item-meta">2018-2025 · artwork series · Important · Confidence: High</p>
 
-### Related Items
+> **Key point:** Generated images become an artificial natural history of speculative organisms, classification, and evolution.
 
-Runway, DALL-E, AI governance.
+**What it does and why it matters.** *Neural Zoo*, *Artificial Natural History*, *Critically Extant*, and related series generate organisms, specimens, morphologies, and environments that trouble the boundary between scientific imagery and machine synthesis. They connect evolutionary art such as Galápagos with contemporary photorealistic generation.
 
-## Japanese Cases: Naoko Tosa / Nao Tokui
+**Caution.** Models, datasets, production details, and exhibition histories require work-by-work confirmation.
 
-- Type: paper / software / creative practice
-- Creator / Author: Naoko Tosa, Nao Tokui and collaborators
-- Year: 2020-
-- Context / Venue: AI style learning, AI music production tools
-- Links: https://arxiv.org/abs/2005.02220 / https://arxiv.org/abs/2004.01525
-- Category: Global and Critical Practices
-- Importance: Contextual
-- Confidence: High
+**Source:** [Sofia Crespo](https://sofiacrespo.com/)
 
-### Why It Matters
+**Related:** Galápagos, Electric Sheep, Machine Dreams: Rainforest, ArtBench
 
-Japanese-language contexts connect AI art not only to NFTs and generated images but also to media art, music production, psychological experiments, cultural representation, and education.
+### Minne Atairu: Reimagining Benin Bronzes
 
-### Description
+<p class="item-meta">2024 · paper/creative practice · Important · Confidence: High</p>
 
-Naoko Tosa and collaborators connect GAN-based art-style transformation with psychological evaluation. Nao Tokui's VAE rhythm-generation tool connects ML models to practical DAW production.
+> **Key point:** Generative AI is used to expose colonial extraction, restitution, damaged archives, and Black history rather than as a convenient restoration tool.
 
-### Method / Medium / Approach
+**What it does and why it matters.** Minne Atairu combines AI, 3D, data practice, education, and Benin material culture. GAN reconstruction is placed within cultural memory and restitution, shifting discussion of AI and museums toward the history of ownership.
 
-GANs, VAEs, DAWs, psychological experiments, media art, music production.
+**Caution.** Exhibition records, production processes, and bibliographic details for individual projects need continued documentation.
 
-### Historical or Research Context
+**Source:** [Minne Atairu](https://minneatairu.com/)
 
-These cases help correct Euro-American bias by reading Japanese AI art through production, research, and education.
+**Related:** ImageNet Roulette, WikiArt, C2PA, Glaze
 
-### Limitations / Open Questions
+### Linda Dounia Rebeiz: Once Upon a Flower
 
-More systematic research is needed around ICC, YCAM, NTT ICC, Miraikan, IAMAS, Tokyo University of the Arts, and Japanese-language artist communities.
+<p class="item-meta">Year: Unknown · artwork · Emerging · Confidence: Medium</p>
 
-### Related Items
+> **Key point:** The artist responds to missing regional representation by collecting Senegalese flowers and architecture into a small, locally grounded dataset.
 
-Wekinator, Magenta, NSynth, ml5.js.
+**What it does and why it matters.** A TIME profile describes Linda Dounia Rebeiz collecting local photographs and archives for GAN-based work. *Once Upon a Flower* connects flowers, climate change, memory, and dataset bias.
 
-## Sofia Crespo: Neural Zoo / Artificial Natural History
+**Caution.** No stable primary work page has yet been confirmed, so the year remains Unknown and artist or exhibition records require follow-up.
 
-- Type: artwork
-- Creator / Author: Sofia Crespo
-- Year: 2018-2025
-- Context / Venue: speculative biology and generative image series
-- Links: https://sofiacrespo.com/
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: High
+**Source:** [TIME profile](https://qa.time.com/6309451/linda-dounia-rebeiz/)
 
-### Why It Matters
+**Related:** ImageNet, LAION-5B, Not the Only One, ArtEmis
 
-Argentina-born artist Sofia Crespo treats AI image generation not only as style imitation but as artificial natural history, speculative taxonomy, and evolutionary imagination. Her work is also a useful correction to Anglophone-centered AI-art histories.
+## 4. Urban Data and Public Space
 
-### Description
+### The Eye of Mexico
 
-The artist site lists Neural Zoo, Artificial Natural History, Critically Extant, Structures of Being, and related projects. These works generate organisms, specimens, morphologies, and environments that blur machine imagery and the visual language of natural science.
+<p class="item-meta">2022 · public media sculpture · Contextual · Confidence: Medium</p>
 
-### Method / Medium / Approach
+> **Key point:** A case that moves AI art from gallery image generation into urban data, media architecture, real-estate development, and public space.
 
-Generative images, neural networks, artificial-life imagination, specimen and natural-history aesthetics, installation, and screen-based work.
+**What it does and why it matters.** The large LED work by Ferdi Alici / Ouchhh Studio is described by MASSIVart as transforming urban and environmental data in Mexico City. It raises questions not only about data display but about who installs work in whose urban space.
 
-### Historical or Research Context
+**Caution.** The algorithm, data acquisition, consent, updating process, and long-term stability of the official record need further verification.
 
-The work sits between evolutionary generative art such as Galápagos or Electric Sheep and later photorealistic generative imagery. It asks not only how AI makes nature-like pictures, but how classification and ideas of life are constructed.
+**Source:** [MASSIVart project page](https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/)
 
-### Limitations / Open Questions
+**Related:** Machine Dreams: Rainforest, Unsupervised, Large Nature Model
 
-Project-specific production processes, model choices, datasets, and exhibition histories require further item-level verification.
+## Boundary of This Category
 
-### Related Items
+This page is not a container for "artists outside the West." Stephanie Dinkins and Lauren Lee McCarthy work in Anglophone contexts, while Sofia Crespo's practice crosses borders. Region is used here as context for data, language, institutions, memory, and exhibition, not as an essential identity. As coverage improves, these practices should also be integrated across technical and medium-specific topics rather than remaining in a separate global category.
 
-Galápagos, Electric Sheep, Machine Dreams: Rainforest, ArtBench.
+## Questions Across the Topic
 
-## Minne Atairu: Reimagining Benin Bronzes
+- Can missing representation be repaired by adding data, or must collection and ownership systems also change?
+- What is simplified when regional vocabularies are translated for international exhibitions?
+- Who should preserve fragile archives based on social media, exhibitions, oral history, and family materials, and under what rights?
 
-- Type: paper / creative practice
-- Creator / Author: Minne Atairu
-- Year: 2024
-- Context / Venue: AI & Society / museum and restitution discourse
-- Links: https://minneatairu.com/
-- Category: Global and Critical Practices
-- Importance: Important
-- Confidence: High
+## Read Next
 
-### Why It Matters
-
-Minne Atairu frames generative AI not as a convenient tool for restoring what has been lost, but as a way to examine colonial extraction, restitution, archival absence, Black histories, and museum education. The work broadens AI-art discourse from image aesthetics to cultural property and historical injustice.
-
-### Description
-
-Atairu's official site documents multiple AI, 3D, data-work, and education projects involving Benin material culture. The 2024 paper "Reimagining Benin Bronzes using generative adversarial networks" is an important reference for thinking about GAN-based reconstruction in relation to restitution and cultural memory.
-
-### Method / Medium / Approach
-
-GANs, generative AI, 3D production, AI agents, museum studies, education, and colonial archive critique.
-
-### Historical or Research Context
-
-Where ImageNet Roulette and Glaze critique datasets and rights, Atairu's practice foregrounds cultural property, extraction, restitution, and gaps in Black archives.
-
-### Limitations / Open Questions
-
-Publisher DOI, citation history, and detailed exhibition records should be added in a later pass.
-
-### Related Items
-
-ImageNet Roulette, WikiArt, C2PA, Glaze.
-
-## Linda Dounia Rebeiz: Once Upon a Flower
-
-- Type: artwork
-- Creator / Author: Linda Dounia Rebeiz
-- Year: Unknown
-- Context / Venue: Senegalese artist practice with local datasets and GANs
-- Links: https://qa.time.com/6309451/linda-dounia-rebeiz/
-- Category: Global and Critical Practices
-- Importance: Emerging
-- Confidence: Medium
-
-### Why It Matters
-
-Linda Dounia Rebeiz responds to the biased representations of the Global South in large generative models by assembling local datasets herself. The question becomes not only how to use a model, but what should be collected as data and by whom.
-
-### Description
-
-TIME reports that Rebeiz collects photographs and archival material of Senegalese flowers and historical buildings, then works with GANs. Once Upon a Flower is presented as a work connecting flowers, climate change, memory, and dataset bias.
-
-### Method / Medium / Approach
-
-GANs, small local datasets, archival work, generative images, climate crisis, and critique of cultural representation.
-
-### Historical or Research Context
-
-Large datasets such as LAION-5B and ImageNet often claim broad coverage of the world while reproducing absences or stereotypes. Rebeiz's practice reframes dataset politics from a Global South perspective.
-
-### Limitations / Open Questions
-
-A stable primary project page has not yet been confirmed. Artist archives and Feral File exhibition records should be checked further.
-
-### Related Items
-
-ImageNet, LAION-5B, Not the Only One, ArtEmis.
-
-## Niceaunties: Auntieverse
-
-- Type: project
-- Creator / Author: Niceaunties
-- Year: 2023-
-- Context / Venue: online AI image/video project and exhibitions
-- Links: https://www.instagram.com/niceaunties/ / https://www.theguardian.com/world/article/2024/jul/19/auntieverse-art-niceaunties-surreal-fantasy-older-women
-- Category: Global and Critical Practices
-- Importance: Emerging
-- Confidence: Medium
-
-### Why It Matters
-
-Niceaunties turns Southeast and East Asian auntie culture, aging, domestic labor, care, and gender norms into a strange generative-AI world. It helps read AI art through family, generations, regional language, and everyday labor rather than only through Western narratives of individual authorship and future technology.
-
-### Description
-
-The Guardian profile describes Auntieverse as a project that reimagines auntie culture through motifs such as Tupperware, ramen, lunar cooking schools, and ocean plastics. Beneath the humor and strangeness are questions of loneliness, aging, environmental damage, and invisible women's labor.
-
-### Method / Medium / Approach
-
-Text-to-image and text-to-video generation, online circulation, exhibitions, Southeast Asian language and family culture, and gender critique.
-
-### Historical or Research Context
-
-Generative AI is often discussed as a global style engine. Niceaunties instead places regional language and family relations at the center of the prompt-world.
-
-### Limitations / Open Questions
-
-The public archive is largely social-media based, so long-term preservation is weak. Stable institutional records should be added.
-
-### Related Items
-
-Miao Ying, LAUREN, Runway, The Zizi Project.
-
-## The Eye of Mexico
-
-- Type: artwork
-- Creator / Author: Ferdi Alici / Ouchhh Studio
-- Year: 2022
-- Context / Venue: public AI sculpture, Mexico City
-- Links: https://massivart.com/project/public-art-creative-placemaking-neuchatel-mixed-use-development/
-- Category: Global and Critical Practices
-- Importance: Contextual
-- Confidence: Medium
-
-### Why It Matters
-
-The Eye of Mexico is a useful case for thinking about AI art beyond gallery-based image generation: as urban data, public sculpture, media architecture, and urban development.
-
-### Description
-
-MASSIVart's project URL and secondary references describe a large public media sculpture in Mexico City that uses urban and environmental data and transforms it into visual media.
-
-### Method / Medium / Approach
-
-AI algorithms, urban data, environmental data, LED media, public space, and media architecture.
-
-### Historical or Research Context
-
-The work is adjacent to large-scale data sculptures and immersive nature-data exhibitions such as Refik Anadol's projects, but its public urban-development context is especially important.
-
-### Limitations / Open Questions
-
-The long-term stability of the official page, concrete algorithms, data acquisition, consent, and update methods need further verification.
-
-### Related Items
-
-Machine Dreams: Rainforest, Unsupervised, Large Nature Model.
+- [Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }}) - what enters data and what remains absent
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - institutions of consent, labor, restitution, and provenance
+- [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }}) - online images and records for the works

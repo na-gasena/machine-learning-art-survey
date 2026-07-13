@@ -2,117 +2,105 @@
 layout: default
 title: History, Symbolic AI, and Computer Art
 permalink: /en/topics/history-symbolic-computer-art/
+lang: en
 ---
+
+[← Field Map]({{ '/en/survey-map/' | relative_url }}) · [Works and Archives]({{ '/en/resources/works-archive/' | relative_url }})
 
 # History, Symbolic AI, and Computer Art
 
-## Position
+<div class="topic-lead" markdown="1">
+## Conclusion
 
-Machine-learning art did not appear from nowhere. It sits on longer histories of automata, computer art, algorithmic art, artificial intelligence, and computational creativity. This page covers important pre-deep-learning contexts.
+Machine-learning art did not begin with deep learning in the 2010s. It follows earlier work in drawing machines, algorithmic art, symbolic AI, and computational creativity. The crucial difference is that many earlier systems made an artist's rules, knowledge, and evaluation criteria comparatively explicit rather than learning a style from a vast external dataset.
+</div>
 
-## Item Notes
+## Three Points to Keep in Mind
 
-## AARON
+- **The continuity lies in the questions more than in the technology.** AARON is not machine learning in today's sense, but it anticipates debates about authorship, autonomy, and embodiment.
+- **Generating an image is not the same as being creative.** The Painting Fool asks how intention, evaluation, context, and self-criticism affect attributions of creativity.
+- **This is not one linear story of progress.** Symbolic AI, evolutionary art, and neural generation remain different, sometimes coexisting design philosophies.
 
-- Type: artwork / software system
-- Creator / Author: Harold Cohen
-- Year: 1968-2016
-- Context / Venue: AI drawing and painting system; Whitney Museum exhibition context in 2024
-- Links: http://aaronshome.com/ / https://whitney.org/exhibitions/harold-cohen-aaron
-- Category: History, Symbolic AI, and Computer Art
-- Importance: Foundational
-- Confidence: High
+## At a Glance
 
-### Why It Matters
+| Period | Central idea | What the artist designs | Key item |
+|---|---|---|---|
+| Late 1960s onward | Encode artistic knowledge as rules | Composition, lines, object knowledge, drawing procedures | AARON |
+| 2000s onward | Evaluate a system as a creative agent | Generation, evaluation, and contextualization | The Painting Fool |
+| 2010s onward | Connect AI methods with creativity theory | Models, data, and evaluation methods | *Creativity and Machine Learning: A Survey* |
 
-AARON is a long-running case of asking what it means for a machine to make images autonomously. It is not contemporary machine learning, but it prepared questions of authorship, autonomy, rules, and embodiment that still shape AI art debates.
+## How the Field Developed
 
-### Description
+### 1. Writing rules becomes a way of drawing
 
-Harold Cohen encoded aspects of his drawing knowledge into a program that produced drawings and paintings. AARON did not learn new styles from external image datasets; it developed through Cohen's hand-coded knowledge and rules.
+Early computer artists produced not only images but procedures for making images. Harold Cohen developed AARON's drawing knowledge over decades while its physical outputs moved through plotters, drawing machines, printers, and digital color. The central task was deciding which artistic knowledge could be made operational.
 
-### Method / Medium / Approach
+### 2. From generation to the conditions of creativity
 
-The work involved symbolic AI, rules, plotters, drawing machines, and later printing and digital color workflows.
+Computational-creativity projects such as The Painting Fool shifted attention from visual polish toward intention, evaluation, and contextual response. They provide a framework for asking about agency without reducing the question to model performance.
 
-### Historical or Research Context
+### 3. Questions that survive deep learning
 
-It connects to GOFAI, computer art, robotic painting, and SIGGRAPH-related digital art histories.
+Large models reduce the need to hand-code rules, but do not settle authorship or evaluation. Decisions are now distributed across datasets, objectives, model design, interfaces, and platform policy, which can make responsibility harder to see.
 
-### Limitations / Open Questions
+## Key Cases
 
-It should not be described as machine learning in the modern statistical sense. Its importance is as a conceptual and historical anchor.
+### AARON
 
-### Related Items
+<p class="item-meta">1968-2016 · artwork/software · Foundational · Confidence: High</p>
 
-The Painting Fool, SIGGRAPH, computational creativity.
+> **Key point:** A system that investigated machine-made images as both artistic practice and research for nearly half a century.
 
-## The Painting Fool
+**What it did.** Harold Cohen encoded drawing knowledge so that AARON could produce line drawings and later colored images. It did not learn new styles from an external image corpus; it developed as a body of knowledge and rules designed by Cohen.
 
-- Type: software / research project
-- Creator / Author: Simon Colton
-- Year: 2001-
-- Context / Venue: Computational creativity research
-- Links: https://www.thepaintingfool.com/
-- Category: History, Symbolic AI, and Computer Art
-- Importance: Important
-- Confidence: Medium
+**How to read it.** Symbolic AI, drawing machines, and changing output devices reposition the artist from direct image maker toward designer of generative knowledge and conditions.
 
-### Why It Matters
+**Caution.** AARON should not be described as a direct technical ancestor of today's machine-learning models. Its importance here is conceptual and historical.
 
-The Painting Fool asks whether image-making software can be treated as a creative actor rather than only as a tool. It foregrounds evaluation, intention, self-assessment, affect, and context.
+**Sources:** [AARON archive](http://aaronshome.com/) · [Whitney Museum: Harold Cohen - AARON](https://whitney.org/exhibitions/harold-cohen-aaron)
 
-### Description
+**Related:** The Painting Fool, SIGGRAPH, computational creativity
 
-The project is less about photorealistic output than about conditions under which creativity might be attributed to software.
+### The Painting Fool
 
-### Method / Medium / Approach
+<p class="item-meta">2001- · software/research project · Important · Confidence: Medium</p>
 
-It belongs to computational creativity and combines rules, generation, external information, and evaluative components.
+> **Key point:** A project that asks under what conditions painting software might be treated as a creative agent rather than only as a tool.
 
-### Historical or Research Context
+**What it did.** Led by Simon Colton, the project combines generation, external information, and evaluative mechanisms. Its research foregrounds intention, self-criticism, emotion, and context.
 
-It connects to communities such as ICCC and to broader debates about machine creativity.
+**How to read it.** It shows how the ICCC and computational-creativity communities evaluate creativity through processes and judgments, not only through the appearance of outputs.
 
-### Limitations / Open Questions
+**Caution.** Its main relevance beside contemporary large models is conceptual and evaluative rather than visual performance.
 
-Compared with contemporary large generative models, its importance is more conceptual and evaluative than visual-performance-based.
+**Source:** [The Painting Fool](https://www.thepaintingfool.com/)
 
-### Related Items
+**Related:** AARON, ICCC, computational creativity
 
-AARON, Creativity and Machine Learning: A Survey.
+### Creativity and Machine Learning: A Survey
 
-## Creativity and Machine Learning: A Survey
+<p class="item-meta">2021 · paper/literature review · Important · Confidence: High</p>
 
-- Type: paper
-- Creator / Author: Giorgio Franceschelli, Mirco Musolesi
-- Year: 2021
-- Context / Venue: arXiv survey
-- Links: https://arxiv.org/abs/2104.02726
-- Category: History, theory, evaluation
-- Importance: Important
-- Confidence: High
+> **Key point:** A cross-disciplinary map of creativity theory, machine-learning techniques, evaluation, and unresolved research questions.
 
-### Why It Matters
+**What it did.** Giorgio Franceschelli and Mirco Musolesi review computational creativity, generative deep learning, and evaluation methods.
 
-The survey connects creativity theory, machine learning techniques, and evaluation methods, giving research context that artwork-centered surveys can miss.
+**How to read it.** It helps position AI art within a longer research problem rather than treating it only as a recent media phenomenon.
 
-### Description
+**Caution.** Art institutions, markets, artistic labor, and regional differences require complementary sources.
 
-It reviews computational creativity theories, generative deep learning, evaluation approaches, challenges, and opportunities.
+**Source:** [arXiv](https://arxiv.org/abs/2104.02726)
 
-### Method / Medium / Approach
+**Related:** The Painting Fool, Foregrounding Artist Opinions
 
-Research literature review.
+## Questions Across the Topic
 
-### Historical or Research Context
+- How do explicit rules and statistically learned patterns change an artist's responsibility?
+- Is autonomy a property of a system, or something attributed through exhibition, discourse, and reception?
+- Which should matter most in evaluating creativity: appearance, surprise, intention, process, or social consequence?
 
-It helps position AI art within creativity research rather than only media culture.
+## Read Next
 
-### Limitations / Open Questions
-
-It should be paired with sources on artistic labor, institutions, markets, and rights.
-
-### Related Items
-
-The Painting Fool, Foregrounding Artist Opinions.
+- [Neural Image Generation]({{ '/en/topics/neural-image-generation/' | relative_url }}) - the shift from rule-based to learning-based generation
+- [Human-Machine Collaboration]({{ '/en/topics/human-machine-collaboration/' | relative_url }}) - machines as partners rather than autonomous authors
+- [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }}) - authorship through law, labor, and circulation

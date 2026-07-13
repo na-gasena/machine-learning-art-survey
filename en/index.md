@@ -16,7 +16,7 @@ The survey includes papers, books, artworks, exhibitions, datasets, software, pr
 
 ## Field Map
 
-The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The major categories are history and symbolic AI, neural image generation, music and performance, human-machine collaboration, datasets and machine vision, and critique, rights, and provenance.
+The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The major categories are history and symbolic AI, neural image generation, music and performance, human-machine collaboration, datasets and machine vision, critique and rights, creative tools, and regional, cultural, and critical practices.
 
 ## Key Topics
 
@@ -27,7 +27,7 @@ The overall map is in [Survey Map]({{ '/en/survey-map/' | relative_url }}). The 
 - [Datasets, Art History, and Machine Vision]({{ '/en/topics/datasets-art-history-machine-vision/' | relative_url }})
 - [Critique, Rights, and Provenance]({{ '/en/topics/critique-rights-provenance/' | relative_url }})
 - [Creative Tools, Education, and Platforms]({{ '/en/topics/creative-tools-platforms/' | relative_url }})
-- [Global and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})
+- [Regional, Cultural, and Critical Practices]({{ '/en/topics/global-critical-practices/' | relative_url }})
 
 ## Key Items
 
