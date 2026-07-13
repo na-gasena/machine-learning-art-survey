@@ -152,6 +152,7 @@ permalink: /audit-report/
 - 日本語作品・資料ページ外部URL: 173件をHTTP検査。139件が200/300、6件がbot対策応答、28件が初回タイムアウトまたは失敗候補。実404 2件と旧QA URL等を再調査し、CycleGAN、Zizi、Linda Dounia Rebeiz、PROTOの安定した公式URLへ置換した。
 - トピック本文固有URL: 差分28件を検査し、23件到達、3件bot対策、2件タイムアウト。Goldsmithsはブラウザ取得で確認し、到達しないThe Painting Fool公式サイトはICCCの機関保存論文へ置換した。
 - 埋め込み外部画像: 8件すべてHTTP 200を確認した。
+- 初回本番DOM監査で、Kramdownが作品・資料ページの裸URLを自動リンク化していないことを検出。日英4ページの348行を明示的なMarkdown自動リンクへ変換し、長いURLへ `overflow-wrap: anywhere` を適用した。
 - YAML/Jekyll実ビルド: ローカルにRuby/Jekyllがないため、GitHub Pages Actionsで最終検証する。
 
 ### 15項目監査
